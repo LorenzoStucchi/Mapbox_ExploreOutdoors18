@@ -1,0 +1,1608 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DialogViewController"
+provides-nominal:
+- "16MapboxNavigation20DialogViewControllerC"
+- "16MapboxNavigation20DialogViewControllerC9ConstantsO"
+provides-member:
+- ["16MapboxNavigation20DialogViewControllerC", ""]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", ""]
+provides-dynamic-lookup:
+- "dismissAnimated"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGSize"
+- "DialogViewController"
+- !private "NSLayoutConstraint"
+- "NSLocalizedString"
+- !private "NSObject"
+- "StringLiteralType"
+- "UIColor"
+- "UIFont"
+- "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UIStackView"
+- "UITapGestureRecognizer"
+- "UIView"
+- "UIViewController"
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "addArrangedSubviews"]
+- !private ["16MapboxNavigation10AnchorableP", "addGestureRecognizer"]
+- !private ["16MapboxNavigation10AnchorableP", "addSubview"]
+- !private ["16MapboxNavigation10AnchorableP", "backgroundColor"]
+- !private ["16MapboxNavigation10AnchorableP", "centerXAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "centerYAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "font"]
+- !private ["16MapboxNavigation10AnchorableP", "forAutoLayout"]
+- !private ["16MapboxNavigation10AnchorableP", "heightAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "image"]
+- ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "layer"]
+- !private ["16MapboxNavigation10AnchorableP", "text"]
+- !private ["16MapboxNavigation10AnchorableP", "textColor"]
+- !private ["16MapboxNavigation10AnchorableP", "tintColor"]
+- !private ["16MapboxNavigation10AnchorableP", "widthAnchor"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So6BundleC", "mapboxNavigation"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "addArrangedSubviews"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "centerXAnchor"]
+- !private ["So15CALayerDelegateP", "centerYAnchor"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "forAutoLayout"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["So15CALayerDelegateP", "widthAnchor"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- ["12CoreGraphics7CGFloatV", "init"]
+- ["SC6CGSizeV", "deinit"]
+- !private ["SC6CGSizeV", "height"]
+- ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", "CGSize"]
+- ["s7CVarArgP", "Constants"]
+- ["s7CVarArgP", "DialogViewController"]
+- !private ["s7CVarArgP", "NSLayoutConstraint"]
+- ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "NSObject"]
+- ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", "UIStackView"]
+- ["s7CVarArgP", "UITapGestureRecognizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "activate"]
+- !private ["s7CVarArgP", "addArrangedSubviews"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "cancelPreviousPerformRequests"]
+- !private ["s7CVarArgP", "centerXAnchor"]
+- !private ["s7CVarArgP", "centerYAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "dialogView"]
+- !private ["s7CVarArgP", "dismiss"]
+- ["s7CVarArgP", "dismissAnimated"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "forAutoLayout"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageView"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "mapboxNavigation"]
+- !private ["s7CVarArgP", "modalPresentationStyle"]
+- !private ["s7CVarArgP", "modalTransitionStyle"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "setupConstraints"]
+- !private ["s7CVarArgP", "setupViews"]
+- !private ["s7CVarArgP", "stackView"]
+- ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "tapRecognizer"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidAppear"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s7CVarArgP", "widthAnchor"]
+- ["s7CVarArgP", "withAlphaComponent"]
+- ["s7CVarArgP", "withRenderingMode"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "CGFloat"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "CGSize"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "NSLocalizedString"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "UIColor"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "UIFont"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "UIImage"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "checkmark"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "cornerRadius"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "dialogColor"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "dialogSize"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "labelFont"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "labelText"]
+- ["16MapboxNavigation20DialogViewControllerC9ConstantsO", "stackSpacing"]
+- ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "CGSize"]
+- ["s28CustomDebugStringConvertibleP", "Constants"]
+- ["s28CustomDebugStringConvertibleP", "DialogViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSObject"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", "UIStackView"]
+- ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- !private ["s28CustomDebugStringConvertibleP", "addArrangedSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelPreviousPerformRequests"]
+- ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "centerXAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "dialogView"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- ["s28CustomDebugStringConvertibleP", "dismissAnimated"]
+- ["s28CustomDebugStringConvertibleP", "equalSpacing"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "forAutoLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- ["s28CustomDebugStringConvertibleP", "mapboxNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "modalTransitionStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "setupConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "setupViews"]
+- !private ["s28CustomDebugStringConvertibleP", "stackView"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "tapRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
+- ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "center"]
+- ["s17CustomReflectableP", "equalSpacing"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "mapboxNavigation"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "CGSize"]
+- ["s23CustomStringConvertibleP", "Constants"]
+- ["s23CustomStringConvertibleP", "DialogViewController"]
+- !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "NSObject"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", "UIStackView"]
+- ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "addArrangedSubviews"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "cancelPreviousPerformRequests"]
+- !private ["s23CustomStringConvertibleP", "centerXAnchor"]
+- !private ["s23CustomStringConvertibleP", "centerYAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "dialogView"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- ["s23CustomStringConvertibleP", "dismissAnimated"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "forAutoLayout"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "modalTransitionStyle"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "setupConstraints"]
+- !private ["s23CustomStringConvertibleP", "setupViews"]
+- !private ["s23CustomStringConvertibleP", "stackView"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "tapRecognizer"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidAppear"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["s23CustomStringConvertibleP", "widthAnchor"]
+- ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- ["s23CustomStringConvertibleP", "withRenderingMode"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "center"]
+- ["s9DecodableP", "equalSpacing"]
+- !private ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "mapboxNavigation"]
+- !private ["s9DecodableP", "width"]
+- ["16MapboxNavigation20DialogViewControllerC", "Bool"]
+- ["16MapboxNavigation20DialogViewControllerC", "CGFloat"]
+- ["16MapboxNavigation20DialogViewControllerC", "CGSize"]
+- ["16MapboxNavigation20DialogViewControllerC", "Constants"]
+- ["16MapboxNavigation20DialogViewControllerC", "DialogViewController"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "NSLayoutConstraint"]
+- ["16MapboxNavigation20DialogViewControllerC", "NSLocalizedString"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "NSObject"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIColor"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIFont"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIImage"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIImageView"]
+- ["16MapboxNavigation20DialogViewControllerC", "UILabel"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIStackView"]
+- ["16MapboxNavigation20DialogViewControllerC", "UITapGestureRecognizer"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIView"]
+- ["16MapboxNavigation20DialogViewControllerC", "UIViewController"]
+- ["16MapboxNavigation20DialogViewControllerC", "deinit"]
+- ["16MapboxNavigation20DialogViewControllerC", "dialogView"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "dialogView.storage"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "dismiss"]
+- ["16MapboxNavigation20DialogViewControllerC", "dismissAnimated"]
+- ["16MapboxNavigation20DialogViewControllerC", "imageView"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "imageView.storage"]
+- ["16MapboxNavigation20DialogViewControllerC", "init"]
+- ["16MapboxNavigation20DialogViewControllerC", "label"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "label.storage"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "modalPresentationStyle"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "modalTransitionStyle"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "perform"]
+- ["16MapboxNavigation20DialogViewControllerC", "present"]
+- ["16MapboxNavigation20DialogViewControllerC", "setupConstraints"]
+- ["16MapboxNavigation20DialogViewControllerC", "setupViews"]
+- ["16MapboxNavigation20DialogViewControllerC", "stackView"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "stackView.storage"]
+- ["16MapboxNavigation20DialogViewControllerC", "tapRecognizer"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "tapRecognizer.storage"]
+- !private ["16MapboxNavigation20DialogViewControllerC", "view"]
+- ["16MapboxNavigation20DialogViewControllerC", "viewDidAppear"]
+- ["16MapboxNavigation20DialogViewControllerC", "viewDidLoad"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "center"]
+- ["s9EncodableP", "equalSpacing"]
+- !private ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "mapboxNavigation"]
+- !private ["s9EncodableP", "width"]
+- ["s9EquatableP", "CGFloat"]
+- ["s9EquatableP", "CGSize"]
+- ["s9EquatableP", "Constants"]
+- ["s9EquatableP", "DialogViewController"]
+- !private ["s9EquatableP", "NSLayoutConstraint"]
+- ["s9EquatableP", "NSLocalizedString"]
+- !private ["s9EquatableP", "NSObject"]
+- ["s9EquatableP", "UIColor"]
+- ["s9EquatableP", "UIFont"]
+- ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", "UIStackView"]
+- ["s9EquatableP", "UITapGestureRecognizer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "activate"]
+- !private ["s9EquatableP", "addArrangedSubviews"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "addSubview"]
+- ["s9EquatableP", "alwaysTemplate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "cancelPreviousPerformRequests"]
+- ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "centerXAnchor"]
+- !private ["s9EquatableP", "centerYAnchor"]
+- !private ["s9EquatableP", "constraint"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "crossDissolve"]
+- !private ["s9EquatableP", "dialogView"]
+- !private ["s9EquatableP", "dismiss"]
+- ["s9EquatableP", "dismissAnimated"]
+- ["s9EquatableP", "equalSpacing"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "forAutoLayout"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "heightAnchor"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imageView"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "label"]
+- !private ["s9EquatableP", "layer"]
+- ["s9EquatableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "modalPresentationStyle"]
+- !private ["s9EquatableP", "modalTransitionStyle"]
+- !private ["s9EquatableP", "overFullScreen"]
+- !private ["s9EquatableP", "perform"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "setupConstraints"]
+- !private ["s9EquatableP", "setupViews"]
+- !private ["s9EquatableP", "stackView"]
+- ["s9EquatableP", "systemFont"]
+- !private ["s9EquatableP", "tapRecognizer"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textColor"]
+- !private ["s9EquatableP", "tintColor"]
+- ["s9EquatableP", "vertical"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidAppear"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "white"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "widthAnchor"]
+- ["s9EquatableP", "withAlphaComponent"]
+- ["s9EquatableP", "withRenderingMode"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "height"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "width"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "center"]
+- ["s23ExpressibleByNilLiteralP", "equalSpacing"]
+- ["s23ExpressibleByNilLiteralP", "mapboxNavigation"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s13FloatingPointP", "init"]
+- ["s8HashableP", "CGFloat"]
+- ["s8HashableP", "CGSize"]
+- ["s8HashableP", "Constants"]
+- ["s8HashableP", "DialogViewController"]
+- !private ["s8HashableP", "NSLayoutConstraint"]
+- ["s8HashableP", "NSLocalizedString"]
+- !private ["s8HashableP", "NSObject"]
+- ["s8HashableP", "UIColor"]
+- ["s8HashableP", "UIFont"]
+- ["s8HashableP", "UIImage"]
+- ["s8HashableP", "UIStackView"]
+- ["s8HashableP", "UITapGestureRecognizer"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "activate"]
+- !private ["s8HashableP", "addArrangedSubviews"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "addSubview"]
+- ["s8HashableP", "alwaysTemplate"]
+- !private ["s8HashableP", "backgroundColor"]
+- ["s8HashableP", "black"]
+- !private ["s8HashableP", "cancelPreviousPerformRequests"]
+- ["s8HashableP", "center"]
+- !private ["s8HashableP", "centerXAnchor"]
+- !private ["s8HashableP", "centerYAnchor"]
+- !private ["s8HashableP", "constraint"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "crossDissolve"]
+- !private ["s8HashableP", "dialogView"]
+- !private ["s8HashableP", "dismiss"]
+- ["s8HashableP", "dismissAnimated"]
+- ["s8HashableP", "equalSpacing"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "forAutoLayout"]
+- !private ["s8HashableP", "heightAnchor"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imageView"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "label"]
+- !private ["s8HashableP", "layer"]
+- ["s8HashableP", "mapboxNavigation"]
+- !private ["s8HashableP", "modalPresentationStyle"]
+- !private ["s8HashableP", "modalTransitionStyle"]
+- !private ["s8HashableP", "overFullScreen"]
+- !private ["s8HashableP", "perform"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "setupConstraints"]
+- !private ["s8HashableP", "setupViews"]
+- !private ["s8HashableP", "stackView"]
+- ["s8HashableP", "systemFont"]
+- !private ["s8HashableP", "tapRecognizer"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textColor"]
+- !private ["s8HashableP", "tintColor"]
+- ["s8HashableP", "vertical"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidAppear"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "white"]
+- !private ["s8HashableP", "widthAnchor"]
+- ["s8HashableP", "withAlphaComponent"]
+- ["s8HashableP", "withRenderingMode"]
+- !private ["SQ", "white"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", "CGSize"]
+- ["So8NSCodingP", "Constants"]
+- ["So8NSCodingP", "DialogViewController"]
+- !private ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "NSLocalizedString"]
+- !private ["So8NSCodingP", "NSObject"]
+- ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", "UIStackView"]
+- ["So8NSCodingP", "UITapGestureRecognizer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addArrangedSubviews"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "centerXAnchor"]
+- !private ["So8NSCodingP", "centerYAnchor"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "dialogView"]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "dismissAnimated"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "forAutoLayout"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageView"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "label"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "modalPresentationStyle"]
+- !private ["So8NSCodingP", "modalTransitionStyle"]
+- !private ["So8NSCodingP", "perform"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "setupConstraints"]
+- !private ["So8NSCodingP", "setupViews"]
+- !private ["So8NSCodingP", "stackView"]
+- !private ["So8NSCodingP", "tapRecognizer"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidAppear"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So8NSCodingP", "widthAnchor"]
+- ["So8NSCodingP", "withAlphaComponent"]
+- ["So8NSCodingP", "withRenderingMode"]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "white"]
+- ["So9NSCopyingP", "withAlphaComponent"]
+- ["So26NSExtensionRequestHandlingP", "CGFloat"]
+- ["So26NSExtensionRequestHandlingP", "CGSize"]
+- ["So26NSExtensionRequestHandlingP", "Constants"]
+- ["So26NSExtensionRequestHandlingP", "DialogViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
+- ["So26NSExtensionRequestHandlingP", "NSLocalizedString"]
+- !private ["So26NSExtensionRequestHandlingP", "NSObject"]
+- ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", "UIFont"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", "UIStackView"]
+- ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "dialogView"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "dismissAnimated"]
+- !private ["So26NSExtensionRequestHandlingP", "imageView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "label"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "modalTransitionStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "perform"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "setupConstraints"]
+- !private ["So26NSExtensionRequestHandlingP", "setupViews"]
+- !private ["So26NSExtensionRequestHandlingP", "stackView"]
+- !private ["So26NSExtensionRequestHandlingP", "tapRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- ["So21NSItemProviderReadingP", "withRenderingMode"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- ["So21NSItemProviderWritingP", "withRenderingMode"]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "activate"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "Constants"]
+- ["So8NSObjectC", "DialogViewController"]
+- !private ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "NSLocalizedString"]
+- !private ["So8NSObjectC", "NSObject"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIStackView"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "addArrangedSubviews"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "cancelPreviousPerformRequests"]
+- !private ["So8NSObjectC", "centerXAnchor"]
+- !private ["So8NSObjectC", "centerYAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "dialogView"]
+- ["So8NSObjectC", "dialogView.storage"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "dismissAnimated"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "forAutoLayout"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "imageView.storage"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "label"]
+- ["So8NSObjectC", "label.storage"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "mapboxNavigation"]
+- !private ["So8NSObjectC", "modalPresentationStyle"]
+- !private ["So8NSObjectC", "modalTransitionStyle"]
+- !private ["So8NSObjectC", "perform"]
+- ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "setupConstraints"]
+- ["So8NSObjectC", "setupViews"]
+- ["So8NSObjectC", "stackView"]
+- ["So8NSObjectC", "stackView.storage"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "tapRecognizer"]
+- ["So8NSObjectC", "tapRecognizer.storage"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectC", "widthAnchor"]
+- ["So8NSObjectC", "withAlphaComponent"]
+- ["So8NSObjectC", "withRenderingMode"]
+- ["So16NSObjectProtocolP", "CGFloat"]
+- ["So16NSObjectProtocolP", "CGSize"]
+- ["So16NSObjectProtocolP", "Constants"]
+- ["So16NSObjectProtocolP", "DialogViewController"]
+- !private ["So16NSObjectProtocolP", "NSLayoutConstraint"]
+- ["So16NSObjectProtocolP", "NSLocalizedString"]
+- !private ["So16NSObjectProtocolP", "NSObject"]
+- ["So16NSObjectProtocolP", "UIColor"]
+- ["So16NSObjectProtocolP", "UIFont"]
+- ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", "UIStackView"]
+- ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "activate"]
+- !private ["So16NSObjectProtocolP", "addArrangedSubviews"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "cancelPreviousPerformRequests"]
+- !private ["So16NSObjectProtocolP", "centerXAnchor"]
+- !private ["So16NSObjectProtocolP", "centerYAnchor"]
+- !private ["So16NSObjectProtocolP", "constraint"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "dialogView"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- ["So16NSObjectProtocolP", "dismissAnimated"]
+- !private ["So16NSObjectProtocolP", "font"]
+- !private ["So16NSObjectProtocolP", "forAutoLayout"]
+- !private ["So16NSObjectProtocolP", "heightAnchor"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "label"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- ["So16NSObjectProtocolP", "mapboxNavigation"]
+- !private ["So16NSObjectProtocolP", "modalPresentationStyle"]
+- !private ["So16NSObjectProtocolP", "modalTransitionStyle"]
+- !private ["So16NSObjectProtocolP", "perform"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "setupConstraints"]
+- !private ["So16NSObjectProtocolP", "setupViews"]
+- !private ["So16NSObjectProtocolP", "stackView"]
+- ["So16NSObjectProtocolP", "systemFont"]
+- !private ["So16NSObjectProtocolP", "tapRecognizer"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textColor"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidAppear"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "white"]
+- !private ["So16NSObjectProtocolP", "widthAnchor"]
+- ["So16NSObjectProtocolP", "withAlphaComponent"]
+- ["So16NSObjectProtocolP", "withRenderingMode"]
+- ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- ["So14NSSecureCodingP", "withAlphaComponent"]
+- ["So14NSSecureCodingP", "withRenderingMode"]
+- ["s7NumericP", "init"]
+- ["Sq", "center"]
+- ["Sq", "equalSpacing"]
+- ["Sq", "mapboxNavigation"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "alwaysTemplate"]
+- ["s16RawRepresentableP", "center"]
+- !private ["s16RawRepresentableP", "crossDissolve"]
+- ["s16RawRepresentableP", "equalSpacing"]
+- !private ["s16RawRepresentableP", "overFullScreen"]
+- ["s16RawRepresentableP", "vertical"]
+- ["s8SequenceP", "init"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "forAutoLayout"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "addArrangedSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerXAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "forAutoLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
+- !private ["So12UIAppearanceP", "addArrangedSubviews"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "centerXAnchor"]
+- !private ["So12UIAppearanceP", "centerYAnchor"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "forAutoLayout"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- !private ["So12UIAppearanceP", "image"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "widthAnchor"]
+- ["So21UIAppearanceContainerP", "CGFloat"]
+- ["So21UIAppearanceContainerP", "CGSize"]
+- ["So21UIAppearanceContainerP", "Constants"]
+- ["So21UIAppearanceContainerP", "DialogViewController"]
+- !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- ["So21UIAppearanceContainerP", "NSLocalizedString"]
+- !private ["So21UIAppearanceContainerP", "NSObject"]
+- ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", "UIStackView"]
+- ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addArrangedSubviews"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "centerXAnchor"]
+- !private ["So21UIAppearanceContainerP", "centerYAnchor"]
+- !private ["So21UIAppearanceContainerP", "dialogView"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "dismissAnimated"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "forAutoLayout"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "label"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "modalTransitionStyle"]
+- !private ["So21UIAppearanceContainerP", "perform"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "setupConstraints"]
+- !private ["So21UIAppearanceContainerP", "setupViews"]
+- !private ["So21UIAppearanceContainerP", "stackView"]
+- !private ["So21UIAppearanceContainerP", "tapRecognizer"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidAppear"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "widthAnchor"]
+- ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "white"]
+- ["So7UIColorC", "withAlphaComponent"]
+- ["So18UIContentContainerP", "CGFloat"]
+- ["So18UIContentContainerP", "CGSize"]
+- ["So18UIContentContainerP", "Constants"]
+- ["So18UIContentContainerP", "DialogViewController"]
+- !private ["So18UIContentContainerP", "NSLayoutConstraint"]
+- ["So18UIContentContainerP", "NSLocalizedString"]
+- !private ["So18UIContentContainerP", "NSObject"]
+- ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", "UIFont"]
+- ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", "UIStackView"]
+- ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "dialogView"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "dismissAnimated"]
+- !private ["So18UIContentContainerP", "imageView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "label"]
+- !private ["So18UIContentContainerP", "modalPresentationStyle"]
+- !private ["So18UIContentContainerP", "modalTransitionStyle"]
+- !private ["So18UIContentContainerP", "perform"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "setupConstraints"]
+- !private ["So18UIContentContainerP", "setupViews"]
+- !private ["So18UIContentContainerP", "stackView"]
+- !private ["So18UIContentContainerP", "tapRecognizer"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidAppear"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "forAutoLayout"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "addArrangedSubviews"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "centerXAnchor"]
+- !private ["So17UICoordinateSpaceP", "centerYAnchor"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "forAutoLayout"]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- !private ["So13UIDynamicItemP", "addArrangedSubviews"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "centerXAnchor"]
+- !private ["So13UIDynamicItemP", "centerYAnchor"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "forAutoLayout"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So13UIDynamicItemP", "widthAnchor"]
+- ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", "CGSize"]
+- ["So18UIFocusEnvironmentP", "Constants"]
+- ["So18UIFocusEnvironmentP", "DialogViewController"]
+- !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- ["So18UIFocusEnvironmentP", "NSLocalizedString"]
+- !private ["So18UIFocusEnvironmentP", "NSObject"]
+- ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", "UIStackView"]
+- ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addArrangedSubviews"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "centerXAnchor"]
+- !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
+- !private ["So18UIFocusEnvironmentP", "dialogView"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "dismissAnimated"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "forAutoLayout"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "label"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "modalTransitionStyle"]
+- !private ["So18UIFocusEnvironmentP", "perform"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "setupConstraints"]
+- !private ["So18UIFocusEnvironmentP", "setupViews"]
+- !private ["So18UIFocusEnvironmentP", "stackView"]
+- !private ["So18UIFocusEnvironmentP", "tapRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- !private ["So11UIFocusItemP", "addArrangedSubviews"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "centerXAnchor"]
+- !private ["So11UIFocusItemP", "centerYAnchor"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "forAutoLayout"]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- !private ["So11UIFocusItemP", "image"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So11UIFocusItemP", "widthAnchor"]
+- ["So6UIFontC", "systemFont"]
+- ["So19UIGestureRecognizerC", "init"]
+- ["So7UIImageC", "init"]
+- ["So7UIImageC", "withRenderingMode"]
+- ["SC20UIImageRenderingModeO", "alwaysTemplate"]
+- !private ["So11UIImageViewC", "forAutoLayout"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "tintColor"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "withRenderingMode"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "forAutoLayout"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textColor"]
+- ["SC22UILayoutConstraintAxisO", "vertical"]
+- !private ["SC24UIModalPresentationStyleO", "overFullScreen"]
+- !private ["SC22UIModalTransitionStyleO", "crossDissolve"]
+- ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- ["So30UIPasteConfigurationSupportingP", "Constants"]
+- ["So30UIPasteConfigurationSupportingP", "DialogViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "NSLocalizedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSObject"]
+- ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", "UIStackView"]
+- ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addArrangedSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerXAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "dialogView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- ["So30UIPasteConfigurationSupportingP", "dismissAnimated"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "forAutoLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "label"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalTransitionStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "perform"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "stackView"]
+- !private ["So30UIPasteConfigurationSupportingP", "tapRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "Constants"]
+- ["So11UIResponderC", "DialogViewController"]
+- !private ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "NSLocalizedString"]
+- !private ["So11UIResponderC", "NSObject"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIStackView"]
+- ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "addArrangedSubviews"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "centerXAnchor"]
+- !private ["So11UIResponderC", "centerYAnchor"]
+- ["So11UIResponderC", "dialogView"]
+- ["So11UIResponderC", "dialogView.storage"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "dismissAnimated"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "forAutoLayout"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "imageView.storage"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "label"]
+- ["So11UIResponderC", "label.storage"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "modalPresentationStyle"]
+- !private ["So11UIResponderC", "modalTransitionStyle"]
+- !private ["So11UIResponderC", "perform"]
+- ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "setupConstraints"]
+- ["So11UIResponderC", "setupViews"]
+- ["So11UIResponderC", "stackView"]
+- ["So11UIResponderC", "stackView.storage"]
+- ["So11UIResponderC", "tapRecognizer"]
+- ["So11UIResponderC", "tapRecognizer.storage"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "widthAnchor"]
+- ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- ["So30UIResponderStandardEditActionsP", "CGSize"]
+- ["So30UIResponderStandardEditActionsP", "Constants"]
+- ["So30UIResponderStandardEditActionsP", "DialogViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- ["So30UIResponderStandardEditActionsP", "NSLocalizedString"]
+- !private ["So30UIResponderStandardEditActionsP", "NSObject"]
+- ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", "UIStackView"]
+- ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addArrangedSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "centerXAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "dialogView"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- ["So30UIResponderStandardEditActionsP", "dismissAnimated"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "forAutoLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "label"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "modalTransitionStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "perform"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "setupConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "setupViews"]
+- !private ["So30UIResponderStandardEditActionsP", "stackView"]
+- !private ["So30UIResponderStandardEditActionsP", "tapRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
+- !private ["So11UIStackViewC", "addArrangedSubviews"]
+- !private ["So11UIStackViewC", "centerXAnchor"]
+- !private ["So11UIStackViewC", "centerYAnchor"]
+- ["So11UIStackViewC", "init"]
+- ["SC20UIStackViewAlignmentO", "center"]
+- ["SC23UIStackViewDistributionO", "equalSpacing"]
+- ["So16UIStateRestoringP", "CGFloat"]
+- ["So16UIStateRestoringP", "CGSize"]
+- ["So16UIStateRestoringP", "Constants"]
+- ["So16UIStateRestoringP", "DialogViewController"]
+- !private ["So16UIStateRestoringP", "NSLayoutConstraint"]
+- ["So16UIStateRestoringP", "NSLocalizedString"]
+- !private ["So16UIStateRestoringP", "NSObject"]
+- ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", "UIFont"]
+- ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", "UIStackView"]
+- ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "dialogView"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "dismissAnimated"]
+- !private ["So16UIStateRestoringP", "imageView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "label"]
+- !private ["So16UIStateRestoringP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "modalTransitionStyle"]
+- !private ["So16UIStateRestoringP", "perform"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "setupConstraints"]
+- !private ["So16UIStateRestoringP", "setupViews"]
+- !private ["So16UIStateRestoringP", "stackView"]
+- !private ["So16UIStateRestoringP", "tapRecognizer"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidAppear"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So22UITapGestureRecognizerC", "init"]
+- ["So18UITraitEnvironmentP", "CGFloat"]
+- ["So18UITraitEnvironmentP", "CGSize"]
+- ["So18UITraitEnvironmentP", "Constants"]
+- ["So18UITraitEnvironmentP", "DialogViewController"]
+- !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- ["So18UITraitEnvironmentP", "NSLocalizedString"]
+- !private ["So18UITraitEnvironmentP", "NSObject"]
+- ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", "UIStackView"]
+- ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addArrangedSubviews"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "centerXAnchor"]
+- !private ["So18UITraitEnvironmentP", "centerYAnchor"]
+- !private ["So18UITraitEnvironmentP", "dialogView"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "dismissAnimated"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "forAutoLayout"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "label"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "modalTransitionStyle"]
+- !private ["So18UITraitEnvironmentP", "perform"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "setupConstraints"]
+- !private ["So18UITraitEnvironmentP", "setupViews"]
+- !private ["So18UITraitEnvironmentP", "stackView"]
+- !private ["So18UITraitEnvironmentP", "tapRecognizer"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidAppear"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "widthAnchor"]
+- !private ["So6UIViewC", "addArrangedSubviews"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "centerXAnchor"]
+- !private ["So6UIViewC", "centerYAnchor"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "forAutoLayout"]
+- !private ["So6UIViewC", "heightAnchor"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So6UIViewC", "widthAnchor"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CGFloat"]
+- ["So16UIViewControllerC", "CGSize"]
+- ["So16UIViewControllerC", "Constants"]
+- ["So16UIViewControllerC", "DialogViewController"]
+- !private ["So16UIViewControllerC", "NSLayoutConstraint"]
+- ["So16UIViewControllerC", "NSLocalizedString"]
+- !private ["So16UIViewControllerC", "NSObject"]
+- ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIFont"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIStackView"]
+- ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "dialogView"]
+- ["So16UIViewControllerC", "dialogView.storage"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "dismissAnimated"]
+- ["So16UIViewControllerC", "imageView"]
+- ["So16UIViewControllerC", "imageView.storage"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "label"]
+- ["So16UIViewControllerC", "label.storage"]
+- !private ["So16UIViewControllerC", "modalPresentationStyle"]
+- !private ["So16UIViewControllerC", "modalTransitionStyle"]
+- !private ["So16UIViewControllerC", "perform"]
+- ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "setupConstraints"]
+- ["So16UIViewControllerC", "setupViews"]
+- ["So16UIViewControllerC", "stackView"]
+- ["So16UIViewControllerC", "stackView.storage"]
+- ["So16UIViewControllerC", "tapRecognizer"]
+- ["So16UIViewControllerC", "tapRecognizer.storage"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addArrangedSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerXAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "forAutoLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DialogViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIStackView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addArrangedSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelPreviousPerformRequests"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerXAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dialogView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dismissAnimated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forAutoLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapboxNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalTransitionStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stackView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "center"]
+- ["s21_ObjectiveCBridgeableP", "equalSpacing"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "mapboxNavigation"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "16MapboxNavigation10AnchorableP"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- !private "Sb"
+- "So6BundleC"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "12CoreGraphics7CGFloatV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "16MapboxNavigation20DialogViewControllerC9ConstantsO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "16MapboxNavigation20DialogViewControllerC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- !private "SQ"
+- "4Turf8JSONTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "s7NumericP"
+- "Sq"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So6UIFontC"
+- "So19UIGestureRecognizerC"
+- "So7UIImageC"
+- "SC20UIImageRenderingModeO"
+- !private "So11UIImageViewC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- "SC22UILayoutConstraintAxisO"
+- !private "SC24UIModalPresentationStyleO"
+- !private "SC22UIModalTransitionStyleO"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So11UIStackViewC"
+- "SC20UIStackViewAlignmentO"
+- "SC23UIStackViewDistributionO"
+- "So16UIStateRestoringP"
+- "So22UITapGestureRecognizerC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "e8e73300572a62024c0dd81df959ca29"

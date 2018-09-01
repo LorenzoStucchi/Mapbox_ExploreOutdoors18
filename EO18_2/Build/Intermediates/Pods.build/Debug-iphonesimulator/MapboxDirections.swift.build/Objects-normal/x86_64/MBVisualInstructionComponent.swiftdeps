@@ -1,0 +1,453 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VisualInstructionComponent"
+provides-nominal:
+- "16MapboxDirections26VisualInstructionComponentC"
+provides-member:
+- ["16MapboxDirections26VisualInstructionComponentC", ""]
+provides-dynamic-lookup:
+- "abbreviation"
+- "abbreviationPriority"
+- "encode"
+- "imageURL"
+- "supportsSecureCoding"
+- "text"
+- "type"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CGFloat"
+- "CastingPrecedence"
+- "ComponentRepresentable"
+- "Int"
+- "NSCoder"
+- "NSNotFound"
+- "NSObject"
+- !private "NSString"
+- !private "NSURL"
+- "String"
+- !private "StringLiteralType"
+- !private "UIScreen"
+- "URL"
+- !private "UnicodeScalarType"
+- "VisualInstructionComponent"
+- "VisualInstructionComponentType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "NSNotFound"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "VisualInstructionComponentType"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "abbreviation"]
+- !private ["s7CVarArgP", "abbreviationPriority"]
+- !private ["s7CVarArgP", "decodeInteger"]
+- !private ["s7CVarArgP", "decodeObject"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "imageURL"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "supportsSecureCoding"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "Int"]
+- ["16MapboxDirections22ComponentRepresentableP", "NSNotFound"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "NSString"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "NSURL"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "UIScreen"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "URL"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "VisualInstructionComponentType"]
+- ["16MapboxDirections22ComponentRepresentableP", ""]
+- !private ["16MapboxDirections22ComponentRepresentableP", "abbreviation"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "abbreviationPriority"]
+- ["16MapboxDirections22ComponentRepresentableP", "encode"]
+- ["16MapboxDirections22ComponentRepresentableP", "encodeWithCoder"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "imageURL"]
+- ["16MapboxDirections22ComponentRepresentableP", "init"]
+- ["16MapboxDirections22ComponentRepresentableP", "supportsSecureCoding"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "text"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "NSNotFound"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "VisualInstructionComponentType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abbreviation"]
+- !private ["s28CustomDebugStringConvertibleP", "abbreviationPriority"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeInteger"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "imageURL"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "supportsSecureCoding"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "NSNotFound"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "VisualInstructionComponentType"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "abbreviation"]
+- !private ["s23CustomStringConvertibleP", "abbreviationPriority"]
+- !private ["s23CustomStringConvertibleP", "decodeInteger"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "imageURL"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "supportsSecureCoding"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "text"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "text"]
+- !private ["s9EquatableP", "Int"]
+- ["s9EquatableP", "NSNotFound"]
+- !private ["s9EquatableP", "NSString"]
+- !private ["s9EquatableP", "NSURL"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "VisualInstructionComponentType"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "abbreviation"]
+- !private ["s9EquatableP", "abbreviationPriority"]
+- !private ["s9EquatableP", "decodeInteger"]
+- !private ["s9EquatableP", "decodeObject"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- !private ["s9EquatableP", "imageURL"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "supportsSecureCoding"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "type"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Int"]
+- ["s8HashableP", "NSNotFound"]
+- !private ["s8HashableP", "NSString"]
+- !private ["s8HashableP", "NSURL"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "VisualInstructionComponentType"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "abbreviation"]
+- !private ["s8HashableP", "abbreviationPriority"]
+- !private ["s8HashableP", "decodeInteger"]
+- !private ["s8HashableP", "decodeObject"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "imageURL"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "scale"]
+- ["s8HashableP", "supportsSecureCoding"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "type"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeInteger"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "Int"]
+- ["So8NSCodingP", "NSNotFound"]
+- !private ["So8NSCodingP", "NSString"]
+- !private ["So8NSCodingP", "NSURL"]
+- !private ["So8NSCodingP", "UIScreen"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "VisualInstructionComponentType"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "abbreviation"]
+- !private ["So8NSCodingP", "abbreviationPriority"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "imageURL"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "supportsSecureCoding"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "type"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSNotFound"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "VisualInstructionComponentType"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "abbreviation"]
+- ["So8NSObjectC", "abbreviationPriority"]
+- !private ["So8NSObjectC", "decodeInteger"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "imageURL"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "scale"]
+- ["So8NSObjectC", "supportsSecureCoding"]
+- ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "type"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- ["So16NSObjectProtocolP", "NSNotFound"]
+- !private ["So16NSObjectProtocolP", "NSString"]
+- !private ["So16NSObjectProtocolP", "NSURL"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "VisualInstructionComponentType"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "abbreviation"]
+- !private ["So16NSObjectProtocolP", "abbreviationPriority"]
+- !private ["So16NSObjectProtocolP", "decodeInteger"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "imageURL"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "scale"]
+- ["So16NSObjectProtocolP", "supportsSecureCoding"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "type"]
+- !private ["So14NSSecureCodingP", "Int"]
+- ["So14NSSecureCodingP", "NSNotFound"]
+- !private ["So14NSSecureCodingP", "NSString"]
+- !private ["So14NSSecureCodingP", "NSURL"]
+- !private ["So14NSSecureCodingP", "UIScreen"]
+- !private ["So14NSSecureCodingP", "URL"]
+- !private ["So14NSSecureCodingP", "VisualInstructionComponentType"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "abbreviation"]
+- !private ["So14NSSecureCodingP", "abbreviationPriority"]
+- ["So14NSSecureCodingP", "encode"]
+- ["So14NSSecureCodingP", "encodeWithCoder"]
+- !private ["So14NSSecureCodingP", "imageURL"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "supportsSecureCoding"]
+- !private ["So14NSSecureCodingP", "text"]
+- !private ["So14NSSecureCodingP", "type"]
+- !private ["s7NumericP", "init"]
+- !private ["Sq", "text"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So8UIScreenC", "scale"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "scale"]
+- !private ["10Foundation3URLV", "init"]
+- ["16MapboxDirections26VisualInstructionComponentC", "Bool"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "CGFloat"]
+- ["16MapboxDirections26VisualInstructionComponentC", "Int"]
+- ["16MapboxDirections26VisualInstructionComponentC", "NSCoder"]
+- ["16MapboxDirections26VisualInstructionComponentC", "NSNotFound"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "NSString"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "NSURL"]
+- ["16MapboxDirections26VisualInstructionComponentC", "String"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "UIScreen"]
+- ["16MapboxDirections26VisualInstructionComponentC", "URL"]
+- ["16MapboxDirections26VisualInstructionComponentC", "VisualInstructionComponentType"]
+- ["16MapboxDirections26VisualInstructionComponentC", "abbreviation"]
+- ["16MapboxDirections26VisualInstructionComponentC", "abbreviationPriority"]
+- ["16MapboxDirections26VisualInstructionComponentC", "deinit"]
+- ["16MapboxDirections26VisualInstructionComponentC", "encode"]
+- ["16MapboxDirections26VisualInstructionComponentC", "encodeWithCoder"]
+- ["16MapboxDirections26VisualInstructionComponentC", "imageURL"]
+- ["16MapboxDirections26VisualInstructionComponentC", "init"]
+- ["16MapboxDirections26VisualInstructionComponentC", "supportsSecureCoding"]
+- ["16MapboxDirections26VisualInstructionComponentC", "text"]
+- ["16MapboxDirections26VisualInstructionComponentC", "type"]
+- !private ["16MapboxDirections30VisualInstructionComponentTypeO", "deinit"]
+- !private ["16MapboxDirections30VisualInstructionComponentTypeO", "init"]
+- !private ["16MapboxDirections30VisualInstructionComponentTypeO", "text"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSNotFound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VisualInstructionComponentType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abbreviation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abbreviationPriority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeInteger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "supportsSecureCoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "16MapboxDirections22ComponentRepresentableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So8UIScreenC"
+- !private "So18UITraitEnvironmentP"
+- !private "10Foundation3URLV"
+- "16MapboxDirections26VisualInstructionComponentC"
+- !private "16MapboxDirections30VisualInstructionComponentTypeO"
+- !private "s18_BitwiseOperationsP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e93cc09f25201d2082fb9bcc06479b0b"

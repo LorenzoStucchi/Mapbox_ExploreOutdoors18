@@ -1,0 +1,1041 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SS", ""]
+- ["SS", "ISO8601Date"]
+- ["SS", "nonEmptyString"]
+- ["SS", "wholeRange"]
+- ["SS", "Replacement"]
+- ["SS", "byReplacing"]
+- ["SS", "addingXMLEscapes"]
+- ["SS", "asSSMLAddress"]
+- ["SS", "asSSMLCharacters"]
+- ["SS", "withSSMLPhoneme"]
+- ["SS", "isUppercased"]
+- ["SS", "containsDecimalDigit"]
+- ["SS", "minimumEditDistance"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "..."
+- !private "..<"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CharacterSet"
+- "Date"
+- "Int"
+- "Range"
+- "String"
+- !private "StringLiteralType"
+- !private "Swift"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s23BidirectionalCollectionP", "CharacterSet"]
+- !private ["s23BidirectionalCollectionP", "Date"]
+- ["s23BidirectionalCollectionP", "Index"]
+- !private ["s23BidirectionalCollectionP", "Int"]
+- !private ["s23BidirectionalCollectionP", "Swift"]
+- !private ["s23BidirectionalCollectionP", "addingXMLEscapes"]
+- !private ["s23BidirectionalCollectionP", "byReplacing"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "endIndex"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "rangeOfCharacter"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["s23BidirectionalCollectionP", "startIndex"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "uppercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "CharacterSet"]
+- !private ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "Swift"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addingXMLEscapes"]
+- !private ["s7CVarArgP", "byReplacing"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "rangeOfCharacter"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uppercased"]
+- !private ["10Foundation12CharacterSetV", "decimalDigits"]
+- !private ["s10CollectionP", "CharacterSet"]
+- !private ["s10CollectionP", "Date"]
+- ["s10CollectionP", "Index"]
+- !private ["s10CollectionP", "Int"]
+- !private ["s10CollectionP", "Swift"]
+- !private ["s10CollectionP", "addingXMLEscapes"]
+- !private ["s10CollectionP", "byReplacing"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "rangeOfCharacter"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10CollectionP", "startIndex"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "uppercased"]
+- !private ["s10ComparableP", "CharacterSet"]
+- !private ["s10ComparableP", "Date"]
+- !private ["s10ComparableP", "ISO8601Formatter"]
+- ["s10ComparableP", "Index"]
+- !private ["s10ComparableP", "Int"]
+- !private ["s10ComparableP", "Swift"]
+- !private ["s10ComparableP", "addingXMLEscapes"]
+- !private ["s10ComparableP", "byReplacing"]
+- !private ["s10ComparableP", "count"]
+- !private ["s10ComparableP", "endIndex"]
+- !private ["s10ComparableP", "enumerated"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s10ComparableP", "rangeOfCharacter"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s10ComparableP", "startIndex"]
+- !private ["s10ComparableP", "uppercased"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601Formatter"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "Swift"]
+- !private ["s28CustomDebugStringConvertibleP", "addingXMLEscapes"]
+- !private ["s28CustomDebugStringConvertibleP", "byReplacing"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "decimalDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "rangeOfCharacter"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uppercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CharacterSet"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Date"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ISO8601Formatter"]
+- ["s29CustomPlaygroundQuickLookableP", "Index"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Swift"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingXMLEscapes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "byReplacing"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- !private ["s29CustomPlaygroundQuickLookableP", "endIndex"]
+- !private ["s29CustomPlaygroundQuickLookableP", "enumerated"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "rangeOfCharacter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s29CustomPlaygroundQuickLookableP", "startIndex"]
+- !private ["s29CustomPlaygroundQuickLookableP", "uppercased"]
+- !private ["s17CustomReflectableP", "CharacterSet"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "ISO8601Formatter"]
+- ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "Swift"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingXMLEscapes"]
+- !private ["s17CustomReflectableP", "byReplacing"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "rangeOfCharacter"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uppercased"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "ISO8601Formatter"]
+- ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingXMLEscapes"]
+- !private ["s23CustomStringConvertibleP", "byReplacing"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "decimalDigits"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "rangeOfCharacter"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uppercased"]
+- !private ["10Foundation4DateV", "ISO8601Formatter"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["s9DecodableP", "CharacterSet"]
+- !private ["s9DecodableP", "Date"]
+- !private ["s9DecodableP", "ISO8601Formatter"]
+- ["s9DecodableP", "Index"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "Swift"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingXMLEscapes"]
+- !private ["s9DecodableP", "byReplacing"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "decimalDigits"]
+- !private ["s9DecodableP", "endIndex"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "rangeOfCharacter"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9DecodableP", "startIndex"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "uppercased"]
+- !private ["s9EncodableP", "CharacterSet"]
+- !private ["s9EncodableP", "Date"]
+- !private ["s9EncodableP", "ISO8601Formatter"]
+- ["s9EncodableP", "Index"]
+- !private ["s9EncodableP", "Int"]
+- !private ["s9EncodableP", "Swift"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingXMLEscapes"]
+- !private ["s9EncodableP", "byReplacing"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "decimalDigits"]
+- !private ["s9EncodableP", "endIndex"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "rangeOfCharacter"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "startIndex"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "uppercased"]
+- !private ["s9EquatableP", "CharacterSet"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "ISO8601Formatter"]
+- ["s9EquatableP", "Index"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "Swift"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addingXMLEscapes"]
+- !private ["s9EquatableP", "byReplacing"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "decimalDigits"]
+- !private ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "lowercased"]
+- !private ["s9EquatableP", "rangeOfCharacter"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "startIndex"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "uppercased"]
+- !private ["s25ExpressibleByArrayLiteralP", "decimalDigits"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Date"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Swift"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingXMLEscapes"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "byReplacing"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "endIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "enumerated"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s26ExpressibleByStringLiteralP", "CharacterSet"]
+- !private ["s26ExpressibleByStringLiteralP", "Date"]
+- ["s26ExpressibleByStringLiteralP", "Index"]
+- !private ["s26ExpressibleByStringLiteralP", "Int"]
+- !private ["s26ExpressibleByStringLiteralP", "Swift"]
+- !private ["s26ExpressibleByStringLiteralP", "addingXMLEscapes"]
+- !private ["s26ExpressibleByStringLiteralP", "byReplacing"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "endIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "enumerated"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "rangeOfCharacter"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "startIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "uppercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Date"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Swift"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingXMLEscapes"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "byReplacing"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "endIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "enumerated"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "startIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
+- !private ["So9FormatterC", "date"]
+- !private ["s8HashableP", "CharacterSet"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "ISO8601Formatter"]
+- ["s8HashableP", "Index"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "Swift"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addingXMLEscapes"]
+- !private ["s8HashableP", "byReplacing"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "decimalDigits"]
+- !private ["s8HashableP", "endIndex"]
+- !private ["s8HashableP", "enumerated"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "lowercased"]
+- !private ["s8HashableP", "rangeOfCharacter"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "startIndex"]
+- !private ["s8HashableP", "uppercased"]
+- !private ["4Turf8JSONTypeP", "CharacterSet"]
+- !private ["4Turf8JSONTypeP", "Date"]
+- ["4Turf8JSONTypeP", "Index"]
+- !private ["4Turf8JSONTypeP", "Int"]
+- !private ["4Turf8JSONTypeP", "Swift"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "addingXMLEscapes"]
+- !private ["4Turf8JSONTypeP", "byReplacing"]
+- !private ["4Turf8JSONTypeP", "count"]
+- !private ["4Turf8JSONTypeP", "endIndex"]
+- !private ["4Turf8JSONTypeP", "enumerated"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf8JSONTypeP", "isEmpty"]
+- !private ["4Turf8JSONTypeP", "lowercased"]
+- !private ["4Turf8JSONTypeP", "rangeOfCharacter"]
+- !private ["4Turf8JSONTypeP", "replacingOccurrences"]
+- !private ["4Turf8JSONTypeP", "startIndex"]
+- !private ["4Turf8JSONTypeP", "uppercased"]
+- !private ["s22LazyCollectionProtocolP", "subscript"]
+- !private ["s20LazySequenceProtocolP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "CharacterSet"]
+- !private ["s25LosslessStringConvertibleP", "Date"]
+- ["s25LosslessStringConvertibleP", "Index"]
+- !private ["s25LosslessStringConvertibleP", "Int"]
+- !private ["s25LosslessStringConvertibleP", "Swift"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingXMLEscapes"]
+- !private ["s25LosslessStringConvertibleP", "byReplacing"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "endIndex"]
+- !private ["s25LosslessStringConvertibleP", "enumerated"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "rangeOfCharacter"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "startIndex"]
+- !private ["s25LosslessStringConvertibleP", "uppercased"]
+- !private ["s10MirrorPathP", "CharacterSet"]
+- !private ["s10MirrorPathP", "Date"]
+- ["s10MirrorPathP", "Index"]
+- !private ["s10MirrorPathP", "Int"]
+- !private ["s10MirrorPathP", "Swift"]
+- !private ["s10MirrorPathP", "addingXMLEscapes"]
+- !private ["s10MirrorPathP", "byReplacing"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "endIndex"]
+- !private ["s10MirrorPathP", "enumerated"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "rangeOfCharacter"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "startIndex"]
+- !private ["s10MirrorPathP", "uppercased"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "addingXMLEscapes"]
+- !private ["So8NSCodingP", "byReplacing"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "endIndex"]
+- !private ["So8NSCodingP", "enumerated"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "rangeOfCharacter"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "startIndex"]
+- !private ["So8NSCodingP", "uppercased"]
+- !private ["So9NSCopyingP", "addingXMLEscapes"]
+- !private ["So9NSCopyingP", "byReplacing"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "endIndex"]
+- !private ["So9NSCopyingP", "enumerated"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "rangeOfCharacter"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "startIndex"]
+- !private ["So9NSCopyingP", "uppercased"]
+- !private ["So21NSItemProviderReadingP", "addingXMLEscapes"]
+- !private ["So21NSItemProviderReadingP", "byReplacing"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "endIndex"]
+- !private ["So21NSItemProviderReadingP", "enumerated"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "rangeOfCharacter"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "startIndex"]
+- !private ["So21NSItemProviderReadingP", "uppercased"]
+- !private ["So21NSItemProviderWritingP", "addingXMLEscapes"]
+- !private ["So21NSItemProviderWritingP", "byReplacing"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "endIndex"]
+- !private ["So21NSItemProviderWritingP", "enumerated"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "rangeOfCharacter"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "startIndex"]
+- !private ["So21NSItemProviderWritingP", "uppercased"]
+- !private ["So16NSMutableCopyingP", "addingXMLEscapes"]
+- !private ["So16NSMutableCopyingP", "byReplacing"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "endIndex"]
+- !private ["So16NSMutableCopyingP", "enumerated"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "rangeOfCharacter"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "startIndex"]
+- !private ["So16NSMutableCopyingP", "uppercased"]
+- !private ["So8NSObjectC", "addingXMLEscapes"]
+- !private ["So8NSObjectC", "byReplacing"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "endIndex"]
+- !private ["So8NSObjectC", "enumerated"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "rangeOfCharacter"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "startIndex"]
+- !private ["So8NSObjectC", "uppercased"]
+- !private ["So16NSObjectProtocolP", "addingXMLEscapes"]
+- !private ["So16NSObjectProtocolP", "byReplacing"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "endIndex"]
+- !private ["So16NSObjectProtocolP", "enumerated"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So16NSObjectProtocolP", "rangeOfCharacter"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "startIndex"]
+- !private ["So16NSObjectProtocolP", "uppercased"]
+- !private ["So14NSSecureCodingP", "addingXMLEscapes"]
+- !private ["So14NSSecureCodingP", "byReplacing"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "endIndex"]
+- !private ["So14NSSecureCodingP", "enumerated"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "rangeOfCharacter"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "startIndex"]
+- !private ["So14NSSecureCodingP", "uppercased"]
+- !private ["So8NSStringC", "addingXMLEscapes"]
+- !private ["So8NSStringC", "byReplacing"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "endIndex"]
+- !private ["So8NSStringC", "enumerated"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "rangeOfCharacter"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "startIndex"]
+- !private ["So8NSStringC", "uppercased"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "CharacterSet"]
+- !private ["s26RangeReplaceableCollectionP", "Date"]
+- ["s26RangeReplaceableCollectionP", "Index"]
+- !private ["s26RangeReplaceableCollectionP", "Int"]
+- !private ["s26RangeReplaceableCollectionP", "Swift"]
+- !private ["s26RangeReplaceableCollectionP", "addingXMLEscapes"]
+- !private ["s26RangeReplaceableCollectionP", "byReplacing"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "endIndex"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "rangeOfCharacter"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s26RangeReplaceableCollectionP", "startIndex"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "uppercased"]
+- !private ["10Foundation20ReferenceConvertibleP", "ISO8601Formatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "decimalDigits"]
+- !private ["s8SequenceP", "CharacterSet"]
+- !private ["s8SequenceP", "Date"]
+- ["s8SequenceP", "Index"]
+- !private ["s8SequenceP", "Int"]
+- !private ["s8SequenceP", "Swift"]
+- !private ["s8SequenceP", "addingXMLEscapes"]
+- !private ["s8SequenceP", "byReplacing"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "rangeOfCharacter"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["s8SequenceP", "startIndex"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "uppercased"]
+- !private ["s10SetAlgebraP", "decimalDigits"]
+- !private ["s5SliceV", "subscript"]
+- ["SS", "Bool"]
+- !private ["SS", "CharacterSet"]
+- ["SS", "Date"]
+- ["SS", "ISO8601Date"]
+- ["SS", "Index"]
+- ["SS", "Int"]
+- ["SS", "Range"]
+- ["SS", "Replacement"]
+- ["SS", "String"]
+- !private ["SS", "Swift"]
+- ["SS", "addingXMLEscapes"]
+- ["SS", "asSSMLAddress"]
+- ["SS", "asSSMLCharacters"]
+- ["SS", "byReplacing"]
+- ["SS", "containsDecimalDigit"]
+- !private ["SS", "count"]
+- !private ["SS", "endIndex"]
+- !private ["SS", "enumerated"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["SS", "isUppercased"]
+- !private ["SS", "lowercased"]
+- ["SS", "minimumEditDistance"]
+- ["SS", "nonEmptyString"]
+- !private ["SS", "rangeOfCharacter"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "uppercased"]
+- ["SS", "wholeRange"]
+- ["SS", "withSSMLPhoneme"]
+- !private ["s14StringProtocolP", "CharacterSet"]
+- !private ["s14StringProtocolP", "Date"]
+- ["s14StringProtocolP", "Index"]
+- !private ["s14StringProtocolP", "Int"]
+- !private ["s14StringProtocolP", "Swift"]
+- !private ["s14StringProtocolP", "addingXMLEscapes"]
+- !private ["s14StringProtocolP", "byReplacing"]
+- !private ["s14StringProtocolP", "count"]
+- !private ["s14StringProtocolP", "endIndex"]
+- !private ["s14StringProtocolP", "enumerated"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s14StringProtocolP", "rangeOfCharacter"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "startIndex"]
+- !private ["s14StringProtocolP", "uppercased"]
+- !private ["s16TextOutputStreamP", "CharacterSet"]
+- !private ["s16TextOutputStreamP", "Date"]
+- ["s16TextOutputStreamP", "Index"]
+- !private ["s16TextOutputStreamP", "Int"]
+- !private ["s16TextOutputStreamP", "Swift"]
+- !private ["s16TextOutputStreamP", "addingXMLEscapes"]
+- !private ["s16TextOutputStreamP", "byReplacing"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "endIndex"]
+- !private ["s16TextOutputStreamP", "enumerated"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "rangeOfCharacter"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "startIndex"]
+- !private ["s16TextOutputStreamP", "uppercased"]
+- !private ["s20TextOutputStreamableP", "CharacterSet"]
+- !private ["s20TextOutputStreamableP", "Date"]
+- ["s20TextOutputStreamableP", "Index"]
+- !private ["s20TextOutputStreamableP", "Int"]
+- !private ["s20TextOutputStreamableP", "Swift"]
+- !private ["s20TextOutputStreamableP", "addingXMLEscapes"]
+- !private ["s20TextOutputStreamableP", "byReplacing"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "endIndex"]
+- !private ["s20TextOutputStreamableP", "enumerated"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "rangeOfCharacter"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "startIndex"]
+- !private ["s20TextOutputStreamableP", "uppercased"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "CharacterSet"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Date"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Int"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Swift"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingXMLEscapes"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "byReplacing"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "endIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "enumerated"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "startIndex"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "CharacterSet"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Date"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Int"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Swift"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingXMLEscapes"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "byReplacing"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "endIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "enumerated"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "rangeOfCharacter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "startIndex"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uppercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "CharacterSet"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Date"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Index"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Int"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Swift"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingXMLEscapes"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "byReplacing"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "count"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "endIndex"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "enumerated"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "rangeOfCharacter"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "startIndex"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "uppercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "CharacterSet"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Date"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Int"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Swift"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingXMLEscapes"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "byReplacing"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "endIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "enumerated"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "startIndex"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uppercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "CharacterSet"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Date"]
+- ["s33_ExpressibleByStringInterpolationP", "Index"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Int"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Swift"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingXMLEscapes"]
+- !private ["s33_ExpressibleByStringInterpolationP", "byReplacing"]
+- !private ["s33_ExpressibleByStringInterpolationP", "count"]
+- !private ["s33_ExpressibleByStringInterpolationP", "endIndex"]
+- !private ["s33_ExpressibleByStringInterpolationP", "enumerated"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "rangeOfCharacter"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByStringInterpolationP", "startIndex"]
+- !private ["s33_ExpressibleByStringInterpolationP", "uppercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingXMLEscapes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "byReplacing"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rangeOfCharacter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uppercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingXMLEscapes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "byReplacing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rangeOfCharacter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uppercased"]
+- !private ["s21_ObjectiveCBridgeableP", "CharacterSet"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "ISO8601Formatter"]
+- ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "Swift"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingXMLEscapes"]
+- !private ["s21_ObjectiveCBridgeableP", "byReplacing"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "decimalDigits"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "rangeOfCharacter"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uppercased"]
+- !private ["s16_SwiftStringViewP", "CharacterSet"]
+- !private ["s16_SwiftStringViewP", "Date"]
+- ["s16_SwiftStringViewP", "Index"]
+- !private ["s16_SwiftStringViewP", "Int"]
+- !private ["s16_SwiftStringViewP", "Swift"]
+- !private ["s16_SwiftStringViewP", "addingXMLEscapes"]
+- !private ["s16_SwiftStringViewP", "byReplacing"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "endIndex"]
+- !private ["s16_SwiftStringViewP", "enumerated"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "rangeOfCharacter"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "startIndex"]
+- !private ["s16_SwiftStringViewP", "uppercased"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- "4Turf8JSONTypeP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s5SliceV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "36bb8a06b78de4bbf74774d208376048"

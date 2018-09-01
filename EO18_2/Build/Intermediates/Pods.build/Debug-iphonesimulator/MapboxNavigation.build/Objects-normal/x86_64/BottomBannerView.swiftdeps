@@ -1,0 +1,1750 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BottomBannerViewDelegate"
+- "BottomBannerView"
+provides-nominal:
+- "16MapboxNavigation24BottomBannerViewDelegateP"
+- "16MapboxNavigation16BottomBannerViewC"
+provides-member:
+- ["16MapboxNavigation24BottomBannerViewDelegateP", ""]
+- ["16MapboxNavigation16BottomBannerViewC", ""]
+provides-dynamic-lookup:
+- "cancel"
+- "prepareForInterfaceBuilder"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "<"
+- !private "<="
+- !private ">="
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "ArrivalTimeLabel"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "BottomBannerView"
+- "BottomBannerViewDelegate"
+- "CGRect"
+- "CancelButton"
+- "CongestionLevel"
+- !private "Date"
+- "DateComponentsFormatter"
+- "DateFormatter"
+- "DistanceFormatter"
+- "DistanceRemainingLabel"
+- !private "Double"
+- !private "Int"
+- !private "NSCalendar"
+- "NSCoder"
+- "NSLayoutConstraint"
+- !private "NSLocalizedString"
+- "RouteController"
+- "RouteProgress"
+- "SeparatorView"
+- !private "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "TimeInterval"
+- "TimeRemainingLabel"
+- "UIView"
+- !private "floor"
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "BottomBannerView"]
+- !private ["16MapboxNavigation10AnchorableP", "Date"]
+- ["16MapboxNavigation10AnchorableP", "DateComponentsFormatter"]
+- ["16MapboxNavigation10AnchorableP", "DateFormatter"]
+- ["16MapboxNavigation10AnchorableP", "DistanceFormatter"]
+- !private ["16MapboxNavigation10AnchorableP", "Double"]
+- !private ["16MapboxNavigation10AnchorableP", "Int"]
+- !private ["16MapboxNavigation10AnchorableP", "NSCalendar"]
+- ["16MapboxNavigation10AnchorableP", "NSLayoutConstraint"]
+- !private ["16MapboxNavigation10AnchorableP", "NSLocalizedString"]
+- !private ["16MapboxNavigation10AnchorableP", "String"]
+- ["16MapboxNavigation10AnchorableP", ""]
+- !private ["16MapboxNavigation10AnchorableP", "addTarget"]
+- !private ["16MapboxNavigation10AnchorableP", "arrivalTimeLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "cancel"]
+- !private ["16MapboxNavigation10AnchorableP", "cancelButton"]
+- !private ["16MapboxNavigation10AnchorableP", "commonInit"]
+- !private ["16MapboxNavigation10AnchorableP", "congestionLevel"]
+- !private ["16MapboxNavigation10AnchorableP", "dateComponentsFormatter"]
+- !private ["16MapboxNavigation10AnchorableP", "dateFormatter"]
+- !private ["16MapboxNavigation10AnchorableP", "delegate"]
+- !private ["16MapboxNavigation10AnchorableP", "distanceFormatter"]
+- !private ["16MapboxNavigation10AnchorableP", "distanceRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "floor"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "prepareForInterfaceBuilder"]
+- !private ["16MapboxNavigation10AnchorableP", "setupViews"]
+- !private ["16MapboxNavigation10AnchorableP", "text"]
+- !private ["16MapboxNavigation10AnchorableP", "textColor"]
+- !private ["16MapboxNavigation10AnchorableP", "timeRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "trafficHeavyColor"]
+- !private ["16MapboxNavigation10AnchorableP", "trafficLowColor"]
+- !private ["16MapboxNavigation10AnchorableP", "trafficModerateColor"]
+- !private ["16MapboxNavigation10AnchorableP", "trafficSevereColor"]
+- !private ["16MapboxNavigation10AnchorableP", "trafficUnknownColor"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "suffix"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s10ArraySliceV", "suffix"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "text"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "localizedStringWithFormat"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["16MapboxNavigation16BottomBannerViewC", "ArrivalTimeLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "BottomBannerView"]
+- ["16MapboxNavigation16BottomBannerViewC", "BottomBannerViewDelegate"]
+- ["16MapboxNavigation16BottomBannerViewC", "CGRect"]
+- ["16MapboxNavigation16BottomBannerViewC", "CancelButton"]
+- ["16MapboxNavigation16BottomBannerViewC", "CongestionLevel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "Date"]
+- ["16MapboxNavigation16BottomBannerViewC", "DateComponentsFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "DateFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "DistanceFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "DistanceRemainingLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "Double"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "Int"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "NSCalendar"]
+- ["16MapboxNavigation16BottomBannerViewC", "NSCoder"]
+- ["16MapboxNavigation16BottomBannerViewC", "NSLayoutConstraint"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "NSLocalizedString"]
+- ["16MapboxNavigation16BottomBannerViewC", "RouteController"]
+- ["16MapboxNavigation16BottomBannerViewC", "RouteProgress"]
+- ["16MapboxNavigation16BottomBannerViewC", "SeparatorView"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "String"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "TimeInterval"]
+- ["16MapboxNavigation16BottomBannerViewC", "TimeRemainingLabel"]
+- ["16MapboxNavigation16BottomBannerViewC", "arrivalTimeLabel"]
+- ["16MapboxNavigation16BottomBannerViewC", "cancel"]
+- ["16MapboxNavigation16BottomBannerViewC", "cancelButton"]
+- ["16MapboxNavigation16BottomBannerViewC", "commonInit"]
+- ["16MapboxNavigation16BottomBannerViewC", "congestionLevel"]
+- ["16MapboxNavigation16BottomBannerViewC", "dateComponentsFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "dateFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "deinit"]
+- ["16MapboxNavigation16BottomBannerViewC", "delegate"]
+- ["16MapboxNavigation16BottomBannerViewC", "distanceFormatter"]
+- ["16MapboxNavigation16BottomBannerViewC", "distanceRemainingLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "floor"]
+- ["16MapboxNavigation16BottomBannerViewC", "horizontalDividerView"]
+- ["16MapboxNavigation16BottomBannerViewC", "init"]
+- ["16MapboxNavigation16BottomBannerViewC", "prepareForInterfaceBuilder"]
+- ["16MapboxNavigation16BottomBannerViewC", "routeController"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "setupViews"]
+- ["16MapboxNavigation16BottomBannerViewC", "timeRemainingLabel"]
+- ["16MapboxNavigation16BottomBannerViewC", "updateETA"]
+- ["16MapboxNavigation16BottomBannerViewC", "verticalCompactConstraints"]
+- ["16MapboxNavigation16BottomBannerViewC", "verticalDividerView"]
+- ["16MapboxNavigation16BottomBannerViewC", "verticalRegularConstraints"]
+- ["16MapboxNavigation24BottomBannerViewDelegateP", "didCancel"]
+- !private ["So6BundleC", "mapboxNavigation"]
+- !private ["16MapboxNavigation6ButtonC", "addTarget"]
+- !private ["So15CALayerDelegateP", "BottomBannerView"]
+- !private ["So15CALayerDelegateP", "Date"]
+- ["So15CALayerDelegateP", "DateComponentsFormatter"]
+- ["So15CALayerDelegateP", "DateFormatter"]
+- ["So15CALayerDelegateP", "DistanceFormatter"]
+- !private ["So15CALayerDelegateP", "Double"]
+- !private ["So15CALayerDelegateP", "Int"]
+- !private ["So15CALayerDelegateP", "NSCalendar"]
+- ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- !private ["So15CALayerDelegateP", "NSLocalizedString"]
+- !private ["So15CALayerDelegateP", "String"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "arrivalTimeLabel"]
+- !private ["So15CALayerDelegateP", "cancel"]
+- !private ["So15CALayerDelegateP", "cancelButton"]
+- !private ["So15CALayerDelegateP", "commonInit"]
+- !private ["So15CALayerDelegateP", "congestionLevel"]
+- !private ["So15CALayerDelegateP", "dateComponentsFormatter"]
+- !private ["So15CALayerDelegateP", "dateFormatter"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "distanceFormatter"]
+- !private ["So15CALayerDelegateP", "distanceRemainingLabel"]
+- !private ["So15CALayerDelegateP", "floor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "prepareForInterfaceBuilder"]
+- !private ["So15CALayerDelegateP", "setupViews"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "timeRemainingLabel"]
+- !private ["So15CALayerDelegateP", "trafficHeavyColor"]
+- !private ["So15CALayerDelegateP", "trafficLowColor"]
+- !private ["So15CALayerDelegateP", "trafficModerateColor"]
+- !private ["So15CALayerDelegateP", "trafficSevereColor"]
+- !private ["So15CALayerDelegateP", "trafficUnknownColor"]
+- !private ["s7CVarArgP", "BottomBannerView"]
+- !private ["s7CVarArgP", "Date"]
+- ["s7CVarArgP", "DateComponentsFormatter"]
+- ["s7CVarArgP", "DateFormatter"]
+- ["s7CVarArgP", "DistanceFormatter"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSCalendar"]
+- ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "allowedUnits"]
+- !private ["s7CVarArgP", "arrivalTimeLabel"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "cancelButton"]
+- !private ["s7CVarArgP", "commonInit"]
+- !private ["s7CVarArgP", "congestionLevel"]
+- !private ["s7CVarArgP", "congestionTimesPerStep"]
+- !private ["s7CVarArgP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s7CVarArgP", "coordinateCount"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "currentLegProgress"]
+- !private ["s7CVarArgP", "currentStepProgress"]
+- !private ["s7CVarArgP", "dateComponentsFormatter"]
+- !private ["s7CVarArgP", "dateFormatter"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "distanceFormatter"]
+- !private ["s7CVarArgP", "distanceRemaining"]
+- !private ["s7CVarArgP", "distanceRemainingLabel"]
+- !private ["s7CVarArgP", "durationRemaining"]
+- !private ["s7CVarArgP", "floor"]
+- !private ["s7CVarArgP", "fractionTraveled"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "legIndex"]
+- !private ["s7CVarArgP", "localizedStringWithFormat"]
+- !private ["s7CVarArgP", "mapboxNavigation"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "prepareForInterfaceBuilder"]
+- !private ["s7CVarArgP", "setupViews"]
+- !private ["s7CVarArgP", "step"]
+- !private ["s7CVarArgP", "stepIndex"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "timeRemainingLabel"]
+- !private ["s7CVarArgP", "timeStyle"]
+- !private ["s7CVarArgP", "trafficHeavyColor"]
+- !private ["s7CVarArgP", "trafficLowColor"]
+- !private ["s7CVarArgP", "trafficModerateColor"]
+- !private ["s7CVarArgP", "trafficSevereColor"]
+- !private ["s7CVarArgP", "trafficUnknownColor"]
+- !private ["s7CVarArgP", "unitsStyle"]
+- !private ["10Foundation8CalendarV", "date"]
+- !private ["16MapboxNavigation12CancelButtonC", "addTarget"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "localizedStringWithFormat"]
+- !private ["s10CollectionP", "max"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "suffix"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "localizedStringWithFormat"]
+- !private ["10Foundation8CalendarV9ComponentO", "second"]
+- ["16MapboxDirections15CongestionLevelO", "heavy"]
+- ["16MapboxDirections15CongestionLevelO", "low"]
+- ["16MapboxDirections15CongestionLevelO", "moderate"]
+- ["16MapboxDirections15CongestionLevelO", "severe"]
+- ["16MapboxDirections15CongestionLevelO", "unknown"]
+- !private ["s28CustomDebugStringConvertibleP", "BottomBannerView"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", "DateComponentsFormatter"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "DistanceFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSCalendar"]
+- ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "allowedUnits"]
+- !private ["s28CustomDebugStringConvertibleP", "arrivalTimeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "commonInit"]
+- !private ["s28CustomDebugStringConvertibleP", "congestionLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "congestionTimesPerStep"]
+- !private ["s28CustomDebugStringConvertibleP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinateCount"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLegProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStepProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponentsFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "durationRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "floor"]
+- !private ["s28CustomDebugStringConvertibleP", "fractionTraveled"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "legIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedStringWithFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "mapboxNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareForInterfaceBuilder"]
+- !private ["s28CustomDebugStringConvertibleP", "setupViews"]
+- !private ["s28CustomDebugStringConvertibleP", "step"]
+- !private ["s28CustomDebugStringConvertibleP", "stepIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "timeRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "timeStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "trafficHeavyColor"]
+- !private ["s28CustomDebugStringConvertibleP", "trafficLowColor"]
+- !private ["s28CustomDebugStringConvertibleP", "trafficModerateColor"]
+- !private ["s28CustomDebugStringConvertibleP", "trafficSevereColor"]
+- !private ["s28CustomDebugStringConvertibleP", "trafficUnknownColor"]
+- !private ["s28CustomDebugStringConvertibleP", "unitsStyle"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "localizedStringWithFormat"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "date"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "localizedStringWithFormat"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "BottomBannerView"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "DateComponentsFormatter"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "DistanceFormatter"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSCalendar"]
+- ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "allowedUnits"]
+- !private ["s23CustomStringConvertibleP", "arrivalTimeLabel"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "cancelButton"]
+- !private ["s23CustomStringConvertibleP", "commonInit"]
+- !private ["s23CustomStringConvertibleP", "congestionLevel"]
+- !private ["s23CustomStringConvertibleP", "congestionTimesPerStep"]
+- !private ["s23CustomStringConvertibleP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s23CustomStringConvertibleP", "coordinateCount"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "currentLegProgress"]
+- !private ["s23CustomStringConvertibleP", "currentStepProgress"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateComponentsFormatter"]
+- !private ["s23CustomStringConvertibleP", "dateFormatter"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "distanceFormatter"]
+- !private ["s23CustomStringConvertibleP", "distanceRemaining"]
+- !private ["s23CustomStringConvertibleP", "distanceRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "durationRemaining"]
+- !private ["s23CustomStringConvertibleP", "floor"]
+- !private ["s23CustomStringConvertibleP", "fractionTraveled"]
+- ["s23CustomStringConvertibleP", "heavy"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "legIndex"]
+- !private ["s23CustomStringConvertibleP", "localizedStringWithFormat"]
+- ["s23CustomStringConvertibleP", "low"]
+- !private ["s23CustomStringConvertibleP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- ["s23CustomStringConvertibleP", "moderate"]
+- !private ["s23CustomStringConvertibleP", "prepareForInterfaceBuilder"]
+- !private ["s23CustomStringConvertibleP", "setupViews"]
+- ["s23CustomStringConvertibleP", "severe"]
+- !private ["s23CustomStringConvertibleP", "step"]
+- !private ["s23CustomStringConvertibleP", "stepIndex"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "timeRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "timeStyle"]
+- !private ["s23CustomStringConvertibleP", "trafficHeavyColor"]
+- !private ["s23CustomStringConvertibleP", "trafficLowColor"]
+- !private ["s23CustomStringConvertibleP", "trafficModerateColor"]
+- !private ["s23CustomStringConvertibleP", "trafficSevereColor"]
+- !private ["s23CustomStringConvertibleP", "trafficUnknownColor"]
+- !private ["s23CustomStringConvertibleP", "unitsStyle"]
+- ["s23CustomStringConvertibleP", "unknown"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So23DateComponentsFormatterC", "allowedUnits"]
+- ["So23DateComponentsFormatterC", "init"]
+- !private ["So23DateComponentsFormatterC", "string"]
+- !private ["So23DateComponentsFormatterC", "unitsStyle"]
+- ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["So13DateFormatterC", "timeStyle"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "date"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "localizedStringWithFormat"]
+- !private ["s9DecodableP", "max"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "suffix"]
+- !private ["s10DictionaryV", "max"]
+- !private ["s10DictionaryV", "subscript"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "init"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "string"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "text"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "date"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "localizedStringWithFormat"]
+- !private ["s9EncodableP", "max"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "suffix"]
+- !private ["s9EquatableP", "BottomBannerView"]
+- !private ["s9EquatableP", "Date"]
+- ["s9EquatableP", "DateComponentsFormatter"]
+- ["s9EquatableP", "DateFormatter"]
+- ["s9EquatableP", "DistanceFormatter"]
+- !private ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "NSCalendar"]
+- ["s9EquatableP", "NSLayoutConstraint"]
+- !private ["s9EquatableP", "NSLocalizedString"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "abbreviated"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "allowedUnits"]
+- !private ["s9EquatableP", "arrivalTimeLabel"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "cancelButton"]
+- !private ["s9EquatableP", "commonInit"]
+- !private ["s9EquatableP", "congestionLevel"]
+- !private ["s9EquatableP", "congestionTimesPerStep"]
+- !private ["s9EquatableP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s9EquatableP", "coordinateCount"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "currentLegProgress"]
+- !private ["s9EquatableP", "currentStepProgress"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateComponentsFormatter"]
+- !private ["s9EquatableP", "dateFormatter"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "distanceFormatter"]
+- !private ["s9EquatableP", "distanceRemaining"]
+- !private ["s9EquatableP", "distanceRemainingLabel"]
+- !private ["s9EquatableP", "durationRemaining"]
+- !private ["s9EquatableP", "floor"]
+- !private ["s9EquatableP", "fractionTraveled"]
+- ["s9EquatableP", "heavy"]
+- !private ["s9EquatableP", "hour"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "legIndex"]
+- !private ["s9EquatableP", "localizedStringWithFormat"]
+- ["s9EquatableP", "low"]
+- !private ["s9EquatableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "minute"]
+- ["s9EquatableP", "moderate"]
+- !private ["s9EquatableP", "prepareForInterfaceBuilder"]
+- !private ["s9EquatableP", "second"]
+- !private ["s9EquatableP", "setupViews"]
+- ["s9EquatableP", "severe"]
+- !private ["s9EquatableP", "short"]
+- !private ["s9EquatableP", "step"]
+- !private ["s9EquatableP", "stepIndex"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textColor"]
+- !private ["s9EquatableP", "timeRemainingLabel"]
+- !private ["s9EquatableP", "timeStyle"]
+- !private ["s9EquatableP", "touchUpInside"]
+- !private ["s9EquatableP", "trafficHeavyColor"]
+- !private ["s9EquatableP", "trafficLowColor"]
+- !private ["s9EquatableP", "trafficModerateColor"]
+- !private ["s9EquatableP", "trafficSevereColor"]
+- !private ["s9EquatableP", "trafficUnknownColor"]
+- !private ["s9EquatableP", "unitsStyle"]
+- ["s9EquatableP", "unknown"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "hour"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "minute"]
+- !private ["s25ExpressibleByArrayLiteralP", "second"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "max"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localizedStringWithFormat"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "localizedStringWithFormat"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localizedStringWithFormat"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["So9FormatterC", "allowedUnits"]
+- ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "string"]
+- !private ["So9FormatterC", "timeStyle"]
+- !private ["So9FormatterC", "unitsStyle"]
+- !private ["s8HashableP", "BottomBannerView"]
+- !private ["s8HashableP", "Date"]
+- ["s8HashableP", "DateComponentsFormatter"]
+- ["s8HashableP", "DateFormatter"]
+- ["s8HashableP", "DistanceFormatter"]
+- !private ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "NSCalendar"]
+- ["s8HashableP", "NSLayoutConstraint"]
+- !private ["s8HashableP", "NSLocalizedString"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "abbreviated"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "allowedUnits"]
+- !private ["s8HashableP", "arrivalTimeLabel"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "cancelButton"]
+- !private ["s8HashableP", "commonInit"]
+- !private ["s8HashableP", "congestionLevel"]
+- !private ["s8HashableP", "congestionTimesPerStep"]
+- !private ["s8HashableP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s8HashableP", "coordinateCount"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "currentLegProgress"]
+- !private ["s8HashableP", "currentStepProgress"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateComponentsFormatter"]
+- !private ["s8HashableP", "dateFormatter"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "distanceFormatter"]
+- !private ["s8HashableP", "distanceRemaining"]
+- !private ["s8HashableP", "distanceRemainingLabel"]
+- !private ["s8HashableP", "durationRemaining"]
+- !private ["s8HashableP", "floor"]
+- !private ["s8HashableP", "fractionTraveled"]
+- ["s8HashableP", "heavy"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "legIndex"]
+- !private ["s8HashableP", "localizedStringWithFormat"]
+- ["s8HashableP", "low"]
+- !private ["s8HashableP", "mapboxNavigation"]
+- ["s8HashableP", "moderate"]
+- !private ["s8HashableP", "prepareForInterfaceBuilder"]
+- !private ["s8HashableP", "second"]
+- !private ["s8HashableP", "setupViews"]
+- ["s8HashableP", "severe"]
+- !private ["s8HashableP", "short"]
+- !private ["s8HashableP", "step"]
+- !private ["s8HashableP", "stepIndex"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textColor"]
+- !private ["s8HashableP", "timeRemainingLabel"]
+- !private ["s8HashableP", "timeStyle"]
+- !private ["s8HashableP", "trafficHeavyColor"]
+- !private ["s8HashableP", "trafficLowColor"]
+- !private ["s8HashableP", "trafficModerateColor"]
+- !private ["s8HashableP", "trafficSevereColor"]
+- !private ["s8HashableP", "trafficUnknownColor"]
+- !private ["s8HashableP", "unitsStyle"]
+- ["s8HashableP", "unknown"]
+- !private ["Si", "init"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf8JSONTypeP", "localizedStringWithFormat"]
+- !private ["So15LengthFormatterC", "string"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "localizedStringWithFormat"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "localizedStringWithFormat"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "suffix"]
+- !private ["So10NSCalendarC", "current"]
+- !private ["So8NSCodingP", "BottomBannerView"]
+- !private ["So8NSCodingP", "Date"]
+- ["So8NSCodingP", "DateComponentsFormatter"]
+- ["So8NSCodingP", "DateFormatter"]
+- ["So8NSCodingP", "DistanceFormatter"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "NSCalendar"]
+- ["So8NSCodingP", "NSLayoutConstraint"]
+- !private ["So8NSCodingP", "NSLocalizedString"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "allowedUnits"]
+- !private ["So8NSCodingP", "arrivalTimeLabel"]
+- !private ["So8NSCodingP", "cancel"]
+- !private ["So8NSCodingP", "cancelButton"]
+- !private ["So8NSCodingP", "commonInit"]
+- !private ["So8NSCodingP", "congestionLevel"]
+- !private ["So8NSCodingP", "coordinateCount"]
+- !private ["So8NSCodingP", "current"]
+- !private ["So8NSCodingP", "dateComponentsFormatter"]
+- !private ["So8NSCodingP", "dateFormatter"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "distanceFormatter"]
+- !private ["So8NSCodingP", "distanceRemainingLabel"]
+- !private ["So8NSCodingP", "floor"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "prepareForInterfaceBuilder"]
+- !private ["So8NSCodingP", "setupViews"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "timeRemainingLabel"]
+- !private ["So8NSCodingP", "timeStyle"]
+- !private ["So8NSCodingP", "trafficHeavyColor"]
+- !private ["So8NSCodingP", "trafficLowColor"]
+- !private ["So8NSCodingP", "trafficModerateColor"]
+- !private ["So8NSCodingP", "trafficSevereColor"]
+- !private ["So8NSCodingP", "trafficUnknownColor"]
+- !private ["So8NSCodingP", "unitsStyle"]
+- !private ["So9NSCopyingP", "allowedUnits"]
+- !private ["So9NSCopyingP", "current"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeStyle"]
+- !private ["So9NSCopyingP", "unitsStyle"]
+- ["So8NSObjectC", "ArrivalTimeLabel"]
+- !private ["So8NSObjectC", "BottomBannerView"]
+- ["So8NSObjectC", "BottomBannerViewDelegate"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CancelButton"]
+- ["So8NSObjectC", "CongestionLevel"]
+- !private ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "DateComponentsFormatter"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "DistanceFormatter"]
+- ["So8NSObjectC", "DistanceRemainingLabel"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSCalendar"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- !private ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "RouteController"]
+- ["So8NSObjectC", "RouteProgress"]
+- ["So8NSObjectC", "SeparatorView"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "TimeRemainingLabel"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "allowedUnits"]
+- ["So8NSObjectC", "arrivalTimeLabel"]
+- ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "cancelButton"]
+- ["So8NSObjectC", "commonInit"]
+- ["So8NSObjectC", "congestionLevel"]
+- !private ["So8NSObjectC", "congestionTimesPerStep"]
+- !private ["So8NSObjectC", "congestionTravelTimesSegmentsByStep"]
+- !private ["So8NSObjectC", "coordinateCount"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "currentLegProgress"]
+- !private ["So8NSObjectC", "currentStepProgress"]
+- ["So8NSObjectC", "dateComponentsFormatter"]
+- ["So8NSObjectC", "dateFormatter"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "distanceFormatter"]
+- !private ["So8NSObjectC", "distanceRemaining"]
+- ["So8NSObjectC", "distanceRemainingLabel"]
+- !private ["So8NSObjectC", "durationRemaining"]
+- !private ["So8NSObjectC", "floor"]
+- !private ["So8NSObjectC", "fractionTraveled"]
+- ["So8NSObjectC", "horizontalDividerView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "legIndex"]
+- !private ["So8NSObjectC", "mapboxNavigation"]
+- ["So8NSObjectC", "prepareForInterfaceBuilder"]
+- ["So8NSObjectC", "routeController"]
+- !private ["So8NSObjectC", "setupViews"]
+- !private ["So8NSObjectC", "step"]
+- !private ["So8NSObjectC", "stepIndex"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textColor"]
+- ["So8NSObjectC", "timeRemainingLabel"]
+- !private ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectC", "trafficHeavyColor"]
+- !private ["So8NSObjectC", "trafficLowColor"]
+- !private ["So8NSObjectC", "trafficModerateColor"]
+- !private ["So8NSObjectC", "trafficSevereColor"]
+- !private ["So8NSObjectC", "trafficUnknownColor"]
+- !private ["So8NSObjectC", "unitsStyle"]
+- ["So8NSObjectC", "updateETA"]
+- ["So8NSObjectC", "verticalCompactConstraints"]
+- ["So8NSObjectC", "verticalDividerView"]
+- ["So8NSObjectC", "verticalRegularConstraints"]
+- !private ["So16NSObjectProtocolP", "BottomBannerView"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- ["So16NSObjectProtocolP", "DateComponentsFormatter"]
+- ["So16NSObjectProtocolP", "DateFormatter"]
+- ["So16NSObjectProtocolP", "DistanceFormatter"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "NSCalendar"]
+- ["So16NSObjectProtocolP", "NSLayoutConstraint"]
+- !private ["So16NSObjectProtocolP", "NSLocalizedString"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "allowedUnits"]
+- !private ["So16NSObjectProtocolP", "arrivalTimeLabel"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "cancelButton"]
+- !private ["So16NSObjectProtocolP", "commonInit"]
+- !private ["So16NSObjectProtocolP", "congestionLevel"]
+- !private ["So16NSObjectProtocolP", "congestionTimesPerStep"]
+- !private ["So16NSObjectProtocolP", "congestionTravelTimesSegmentsByStep"]
+- !private ["So16NSObjectProtocolP", "coordinateCount"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "currentLegProgress"]
+- !private ["So16NSObjectProtocolP", "currentStepProgress"]
+- !private ["So16NSObjectProtocolP", "dateComponentsFormatter"]
+- !private ["So16NSObjectProtocolP", "dateFormatter"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "distanceFormatter"]
+- !private ["So16NSObjectProtocolP", "distanceRemaining"]
+- !private ["So16NSObjectProtocolP", "distanceRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "durationRemaining"]
+- !private ["So16NSObjectProtocolP", "floor"]
+- !private ["So16NSObjectProtocolP", "fractionTraveled"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "legIndex"]
+- !private ["So16NSObjectProtocolP", "mapboxNavigation"]
+- !private ["So16NSObjectProtocolP", "prepareForInterfaceBuilder"]
+- !private ["So16NSObjectProtocolP", "setupViews"]
+- !private ["So16NSObjectProtocolP", "step"]
+- !private ["So16NSObjectProtocolP", "stepIndex"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textColor"]
+- !private ["So16NSObjectProtocolP", "timeRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "timeStyle"]
+- !private ["So16NSObjectProtocolP", "trafficHeavyColor"]
+- !private ["So16NSObjectProtocolP", "trafficLowColor"]
+- !private ["So16NSObjectProtocolP", "trafficModerateColor"]
+- !private ["So16NSObjectProtocolP", "trafficSevereColor"]
+- !private ["So16NSObjectProtocolP", "trafficUnknownColor"]
+- !private ["So16NSObjectProtocolP", "unitsStyle"]
+- !private ["So14NSSecureCodingP", "coordinateCount"]
+- !private ["So14NSSecureCodingP", "current"]
+- !private ["s7NumericP", "init"]
+- !private ["s9OptionSetP", "hour"]
+- !private ["s9OptionSetP", "minute"]
+- !private ["s9OptionSetP", "second"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "localizedStringWithFormat"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- !private ["s16RawRepresentableP", "abbreviated"]
+- ["s16RawRepresentableP", "heavy"]
+- !private ["s16RawRepresentableP", "hour"]
+- ["s16RawRepresentableP", "low"]
+- !private ["s16RawRepresentableP", "minute"]
+- ["s16RawRepresentableP", "moderate"]
+- !private ["s16RawRepresentableP", "second"]
+- ["s16RawRepresentableP", "severe"]
+- !private ["s16RawRepresentableP", "short"]
+- !private ["s16RawRepresentableP", "touchUpInside"]
+- ["s16RawRepresentableP", "unknown"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "currentStepProgress"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "stepIndex"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "congestionTimesPerStep"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "congestionTravelTimesSegmentsByStep"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "currentLegProgress"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "distanceRemaining"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "durationRemaining"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "legIndex"]
+- !private ["16MapboxDirections9RouteStepC", "coordinateCount"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "fractionTraveled"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "step"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "localizedStringWithFormat"]
+- !private ["s8SequenceP", "max"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "suffix"]
+- !private ["s10SetAlgebraP", "hour"]
+- !private ["s10SetAlgebraP", "minute"]
+- !private ["s10SetAlgebraP", "second"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "localizedStringWithFormat"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "localizedStringWithFormat"]
+- !private ["16MapboxNavigation14StylableButtonC", "addTarget"]
+- !private ["16MapboxNavigation13StylableLabelC", "text"]
+- !private ["16MapboxNavigation13StylableLabelC", "textColor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trafficHeavyColor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trafficLowColor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trafficModerateColor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trafficSevereColor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trafficUnknownColor"]
+- !private ["So13DateFormatterC5StyleO", "short"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "localizedStringWithFormat"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "localizedStringWithFormat"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "text"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "textColor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trafficHeavyColor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trafficLowColor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trafficModerateColor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trafficSevereColor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trafficUnknownColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "BottomBannerView"]
+- !private ["So29UIAccessibilityIdentificationP", "Date"]
+- ["So29UIAccessibilityIdentificationP", "DateComponentsFormatter"]
+- ["So29UIAccessibilityIdentificationP", "DateFormatter"]
+- ["So29UIAccessibilityIdentificationP", "DistanceFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "Double"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "NSCalendar"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "NSLocalizedString"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "arrivalTimeLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "cancel"]
+- !private ["So29UIAccessibilityIdentificationP", "cancelButton"]
+- !private ["So29UIAccessibilityIdentificationP", "commonInit"]
+- !private ["So29UIAccessibilityIdentificationP", "congestionLevel"]
+- !private ["So29UIAccessibilityIdentificationP", "dateComponentsFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "dateFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "floor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "prepareForInterfaceBuilder"]
+- !private ["So29UIAccessibilityIdentificationP", "setupViews"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "timeRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "trafficHeavyColor"]
+- !private ["So29UIAccessibilityIdentificationP", "trafficLowColor"]
+- !private ["So29UIAccessibilityIdentificationP", "trafficModerateColor"]
+- !private ["So29UIAccessibilityIdentificationP", "trafficSevereColor"]
+- !private ["So29UIAccessibilityIdentificationP", "trafficUnknownColor"]
+- !private ["So12UIAppearanceP", "BottomBannerView"]
+- !private ["So12UIAppearanceP", "Date"]
+- ["So12UIAppearanceP", "DateComponentsFormatter"]
+- ["So12UIAppearanceP", "DateFormatter"]
+- ["So12UIAppearanceP", "DistanceFormatter"]
+- !private ["So12UIAppearanceP", "Double"]
+- !private ["So12UIAppearanceP", "Int"]
+- !private ["So12UIAppearanceP", "NSCalendar"]
+- ["So12UIAppearanceP", "NSLayoutConstraint"]
+- !private ["So12UIAppearanceP", "NSLocalizedString"]
+- !private ["So12UIAppearanceP", "String"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "arrivalTimeLabel"]
+- !private ["So12UIAppearanceP", "cancel"]
+- !private ["So12UIAppearanceP", "cancelButton"]
+- !private ["So12UIAppearanceP", "commonInit"]
+- !private ["So12UIAppearanceP", "congestionLevel"]
+- !private ["So12UIAppearanceP", "dateComponentsFormatter"]
+- !private ["So12UIAppearanceP", "dateFormatter"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "distanceFormatter"]
+- !private ["So12UIAppearanceP", "distanceRemainingLabel"]
+- !private ["So12UIAppearanceP", "floor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "prepareForInterfaceBuilder"]
+- !private ["So12UIAppearanceP", "setupViews"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "timeRemainingLabel"]
+- !private ["So12UIAppearanceP", "trafficHeavyColor"]
+- !private ["So12UIAppearanceP", "trafficLowColor"]
+- !private ["So12UIAppearanceP", "trafficModerateColor"]
+- !private ["So12UIAppearanceP", "trafficSevereColor"]
+- !private ["So12UIAppearanceP", "trafficUnknownColor"]
+- !private ["So21UIAppearanceContainerP", "BottomBannerView"]
+- !private ["So21UIAppearanceContainerP", "Date"]
+- ["So21UIAppearanceContainerP", "DateComponentsFormatter"]
+- ["So21UIAppearanceContainerP", "DateFormatter"]
+- ["So21UIAppearanceContainerP", "DistanceFormatter"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "NSCalendar"]
+- ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- !private ["So21UIAppearanceContainerP", "NSLocalizedString"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "arrivalTimeLabel"]
+- !private ["So21UIAppearanceContainerP", "cancel"]
+- !private ["So21UIAppearanceContainerP", "cancelButton"]
+- !private ["So21UIAppearanceContainerP", "commonInit"]
+- !private ["So21UIAppearanceContainerP", "congestionLevel"]
+- !private ["So21UIAppearanceContainerP", "dateComponentsFormatter"]
+- !private ["So21UIAppearanceContainerP", "dateFormatter"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "distanceFormatter"]
+- !private ["So21UIAppearanceContainerP", "distanceRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "floor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "prepareForInterfaceBuilder"]
+- !private ["So21UIAppearanceContainerP", "setupViews"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "timeRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "trafficHeavyColor"]
+- !private ["So21UIAppearanceContainerP", "trafficLowColor"]
+- !private ["So21UIAppearanceContainerP", "trafficModerateColor"]
+- !private ["So21UIAppearanceContainerP", "trafficSevereColor"]
+- !private ["So21UIAppearanceContainerP", "trafficUnknownColor"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trafficHeavyColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trafficLowColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trafficModerateColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trafficSevereColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trafficUnknownColor"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["SC15UIControlEventsV", "touchUpInside"]
+- !private ["So17UICoordinateSpaceP", "BottomBannerView"]
+- !private ["So17UICoordinateSpaceP", "Date"]
+- ["So17UICoordinateSpaceP", "DateComponentsFormatter"]
+- ["So17UICoordinateSpaceP", "DateFormatter"]
+- ["So17UICoordinateSpaceP", "DistanceFormatter"]
+- !private ["So17UICoordinateSpaceP", "Double"]
+- !private ["So17UICoordinateSpaceP", "Int"]
+- !private ["So17UICoordinateSpaceP", "NSCalendar"]
+- ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- !private ["So17UICoordinateSpaceP", "NSLocalizedString"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "arrivalTimeLabel"]
+- !private ["So17UICoordinateSpaceP", "cancel"]
+- !private ["So17UICoordinateSpaceP", "cancelButton"]
+- !private ["So17UICoordinateSpaceP", "commonInit"]
+- !private ["So17UICoordinateSpaceP", "congestionLevel"]
+- !private ["So17UICoordinateSpaceP", "dateComponentsFormatter"]
+- !private ["So17UICoordinateSpaceP", "dateFormatter"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "distanceFormatter"]
+- !private ["So17UICoordinateSpaceP", "distanceRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "floor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "prepareForInterfaceBuilder"]
+- !private ["So17UICoordinateSpaceP", "setupViews"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "timeRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "trafficHeavyColor"]
+- !private ["So17UICoordinateSpaceP", "trafficLowColor"]
+- !private ["So17UICoordinateSpaceP", "trafficModerateColor"]
+- !private ["So17UICoordinateSpaceP", "trafficSevereColor"]
+- !private ["So17UICoordinateSpaceP", "trafficUnknownColor"]
+- !private ["So13UIDynamicItemP", "BottomBannerView"]
+- !private ["So13UIDynamicItemP", "Date"]
+- ["So13UIDynamicItemP", "DateComponentsFormatter"]
+- ["So13UIDynamicItemP", "DateFormatter"]
+- ["So13UIDynamicItemP", "DistanceFormatter"]
+- !private ["So13UIDynamicItemP", "Double"]
+- !private ["So13UIDynamicItemP", "Int"]
+- !private ["So13UIDynamicItemP", "NSCalendar"]
+- ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- !private ["So13UIDynamicItemP", "NSLocalizedString"]
+- !private ["So13UIDynamicItemP", "String"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "arrivalTimeLabel"]
+- !private ["So13UIDynamicItemP", "cancel"]
+- !private ["So13UIDynamicItemP", "cancelButton"]
+- !private ["So13UIDynamicItemP", "commonInit"]
+- !private ["So13UIDynamicItemP", "congestionLevel"]
+- !private ["So13UIDynamicItemP", "dateComponentsFormatter"]
+- !private ["So13UIDynamicItemP", "dateFormatter"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "distanceFormatter"]
+- !private ["So13UIDynamicItemP", "distanceRemainingLabel"]
+- !private ["So13UIDynamicItemP", "floor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "prepareForInterfaceBuilder"]
+- !private ["So13UIDynamicItemP", "setupViews"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "timeRemainingLabel"]
+- !private ["So13UIDynamicItemP", "trafficHeavyColor"]
+- !private ["So13UIDynamicItemP", "trafficLowColor"]
+- !private ["So13UIDynamicItemP", "trafficModerateColor"]
+- !private ["So13UIDynamicItemP", "trafficSevereColor"]
+- !private ["So13UIDynamicItemP", "trafficUnknownColor"]
+- !private ["So18UIFocusEnvironmentP", "BottomBannerView"]
+- !private ["So18UIFocusEnvironmentP", "Date"]
+- ["So18UIFocusEnvironmentP", "DateComponentsFormatter"]
+- ["So18UIFocusEnvironmentP", "DateFormatter"]
+- ["So18UIFocusEnvironmentP", "DistanceFormatter"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "NSCalendar"]
+- ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UIFocusEnvironmentP", "NSLocalizedString"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "arrivalTimeLabel"]
+- !private ["So18UIFocusEnvironmentP", "cancel"]
+- !private ["So18UIFocusEnvironmentP", "cancelButton"]
+- !private ["So18UIFocusEnvironmentP", "commonInit"]
+- !private ["So18UIFocusEnvironmentP", "congestionLevel"]
+- !private ["So18UIFocusEnvironmentP", "dateComponentsFormatter"]
+- !private ["So18UIFocusEnvironmentP", "dateFormatter"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "distanceFormatter"]
+- !private ["So18UIFocusEnvironmentP", "distanceRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "floor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "prepareForInterfaceBuilder"]
+- !private ["So18UIFocusEnvironmentP", "setupViews"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "timeRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "trafficHeavyColor"]
+- !private ["So18UIFocusEnvironmentP", "trafficLowColor"]
+- !private ["So18UIFocusEnvironmentP", "trafficModerateColor"]
+- !private ["So18UIFocusEnvironmentP", "trafficSevereColor"]
+- !private ["So18UIFocusEnvironmentP", "trafficUnknownColor"]
+- !private ["So11UIFocusItemP", "BottomBannerView"]
+- !private ["So11UIFocusItemP", "Date"]
+- ["So11UIFocusItemP", "DateComponentsFormatter"]
+- ["So11UIFocusItemP", "DateFormatter"]
+- ["So11UIFocusItemP", "DistanceFormatter"]
+- !private ["So11UIFocusItemP", "Double"]
+- !private ["So11UIFocusItemP", "Int"]
+- !private ["So11UIFocusItemP", "NSCalendar"]
+- ["So11UIFocusItemP", "NSLayoutConstraint"]
+- !private ["So11UIFocusItemP", "NSLocalizedString"]
+- !private ["So11UIFocusItemP", "String"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "arrivalTimeLabel"]
+- !private ["So11UIFocusItemP", "cancel"]
+- !private ["So11UIFocusItemP", "cancelButton"]
+- !private ["So11UIFocusItemP", "commonInit"]
+- !private ["So11UIFocusItemP", "congestionLevel"]
+- !private ["So11UIFocusItemP", "dateComponentsFormatter"]
+- !private ["So11UIFocusItemP", "dateFormatter"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "distanceFormatter"]
+- !private ["So11UIFocusItemP", "distanceRemainingLabel"]
+- !private ["So11UIFocusItemP", "floor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "prepareForInterfaceBuilder"]
+- !private ["So11UIFocusItemP", "setupViews"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "timeRemainingLabel"]
+- !private ["So11UIFocusItemP", "trafficHeavyColor"]
+- !private ["So11UIFocusItemP", "trafficLowColor"]
+- !private ["So11UIFocusItemP", "trafficModerateColor"]
+- !private ["So11UIFocusItemP", "trafficSevereColor"]
+- !private ["So11UIFocusItemP", "trafficUnknownColor"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So7UILabelC", "trafficHeavyColor"]
+- !private ["So7UILabelC", "trafficLowColor"]
+- !private ["So7UILabelC", "trafficModerateColor"]
+- !private ["So7UILabelC", "trafficSevereColor"]
+- !private ["So7UILabelC", "trafficUnknownColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "BottomBannerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "Date"]
+- ["So30UIPasteConfigurationSupportingP", "DateComponentsFormatter"]
+- ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
+- ["So30UIPasteConfigurationSupportingP", "DistanceFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSCalendar"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLocalizedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrivalTimeLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "cancel"]
+- !private ["So30UIPasteConfigurationSupportingP", "cancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "commonInit"]
+- !private ["So30UIPasteConfigurationSupportingP", "congestionLevel"]
+- !private ["So30UIPasteConfigurationSupportingP", "dateComponentsFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "dateFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "floor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "prepareForInterfaceBuilder"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "timeRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "trafficHeavyColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trafficLowColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trafficModerateColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trafficSevereColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trafficUnknownColor"]
+- ["So11UIResponderC", "ArrivalTimeLabel"]
+- !private ["So11UIResponderC", "BottomBannerView"]
+- ["So11UIResponderC", "BottomBannerViewDelegate"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CancelButton"]
+- ["So11UIResponderC", "CongestionLevel"]
+- !private ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "DateComponentsFormatter"]
+- ["So11UIResponderC", "DateFormatter"]
+- ["So11UIResponderC", "DistanceFormatter"]
+- ["So11UIResponderC", "DistanceRemainingLabel"]
+- !private ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "NSCalendar"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- !private ["So11UIResponderC", "NSLocalizedString"]
+- ["So11UIResponderC", "RouteController"]
+- ["So11UIResponderC", "RouteProgress"]
+- ["So11UIResponderC", "SeparatorView"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "TimeInterval"]
+- ["So11UIResponderC", "TimeRemainingLabel"]
+- !private ["So11UIResponderC", "addTarget"]
+- ["So11UIResponderC", "arrivalTimeLabel"]
+- ["So11UIResponderC", "cancel"]
+- ["So11UIResponderC", "cancelButton"]
+- ["So11UIResponderC", "commonInit"]
+- ["So11UIResponderC", "congestionLevel"]
+- ["So11UIResponderC", "dateComponentsFormatter"]
+- ["So11UIResponderC", "dateFormatter"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "distanceFormatter"]
+- ["So11UIResponderC", "distanceRemainingLabel"]
+- !private ["So11UIResponderC", "floor"]
+- ["So11UIResponderC", "horizontalDividerView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "prepareForInterfaceBuilder"]
+- ["So11UIResponderC", "routeController"]
+- !private ["So11UIResponderC", "setupViews"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textColor"]
+- ["So11UIResponderC", "timeRemainingLabel"]
+- !private ["So11UIResponderC", "trafficHeavyColor"]
+- !private ["So11UIResponderC", "trafficLowColor"]
+- !private ["So11UIResponderC", "trafficModerateColor"]
+- !private ["So11UIResponderC", "trafficSevereColor"]
+- !private ["So11UIResponderC", "trafficUnknownColor"]
+- ["So11UIResponderC", "updateETA"]
+- ["So11UIResponderC", "verticalCompactConstraints"]
+- ["So11UIResponderC", "verticalDividerView"]
+- ["So11UIResponderC", "verticalRegularConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "BottomBannerView"]
+- !private ["So30UIResponderStandardEditActionsP", "Date"]
+- ["So30UIResponderStandardEditActionsP", "DateComponentsFormatter"]
+- ["So30UIResponderStandardEditActionsP", "DateFormatter"]
+- ["So30UIResponderStandardEditActionsP", "DistanceFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "NSCalendar"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLocalizedString"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "arrivalTimeLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "cancel"]
+- !private ["So30UIResponderStandardEditActionsP", "cancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "commonInit"]
+- !private ["So30UIResponderStandardEditActionsP", "congestionLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "dateComponentsFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "dateFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "floor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "prepareForInterfaceBuilder"]
+- !private ["So30UIResponderStandardEditActionsP", "setupViews"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "timeRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "trafficHeavyColor"]
+- !private ["So30UIResponderStandardEditActionsP", "trafficLowColor"]
+- !private ["So30UIResponderStandardEditActionsP", "trafficModerateColor"]
+- !private ["So30UIResponderStandardEditActionsP", "trafficSevereColor"]
+- !private ["So30UIResponderStandardEditActionsP", "trafficUnknownColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "BottomBannerView"]
+- !private ["So18UITraitEnvironmentP", "Date"]
+- ["So18UITraitEnvironmentP", "DateComponentsFormatter"]
+- ["So18UITraitEnvironmentP", "DateFormatter"]
+- ["So18UITraitEnvironmentP", "DistanceFormatter"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "NSCalendar"]
+- ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UITraitEnvironmentP", "NSLocalizedString"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "arrivalTimeLabel"]
+- !private ["So18UITraitEnvironmentP", "cancel"]
+- !private ["So18UITraitEnvironmentP", "cancelButton"]
+- !private ["So18UITraitEnvironmentP", "commonInit"]
+- !private ["So18UITraitEnvironmentP", "congestionLevel"]
+- !private ["So18UITraitEnvironmentP", "dateComponentsFormatter"]
+- !private ["So18UITraitEnvironmentP", "dateFormatter"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "distanceFormatter"]
+- !private ["So18UITraitEnvironmentP", "distanceRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "floor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "prepareForInterfaceBuilder"]
+- !private ["So18UITraitEnvironmentP", "setupViews"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "timeRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "trafficHeavyColor"]
+- !private ["So18UITraitEnvironmentP", "trafficLowColor"]
+- !private ["So18UITraitEnvironmentP", "trafficModerateColor"]
+- !private ["So18UITraitEnvironmentP", "trafficSevereColor"]
+- !private ["So18UITraitEnvironmentP", "trafficUnknownColor"]
+- ["So6UIViewC", "ArrivalTimeLabel"]
+- !private ["So6UIViewC", "BottomBannerView"]
+- ["So6UIViewC", "BottomBannerViewDelegate"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CancelButton"]
+- ["So6UIViewC", "CongestionLevel"]
+- !private ["So6UIViewC", "Date"]
+- ["So6UIViewC", "DateComponentsFormatter"]
+- ["So6UIViewC", "DateFormatter"]
+- ["So6UIViewC", "DistanceFormatter"]
+- ["So6UIViewC", "DistanceRemainingLabel"]
+- !private ["So6UIViewC", "Double"]
+- !private ["So6UIViewC", "Int"]
+- !private ["So6UIViewC", "NSCalendar"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- !private ["So6UIViewC", "NSLocalizedString"]
+- ["So6UIViewC", "RouteController"]
+- ["So6UIViewC", "RouteProgress"]
+- ["So6UIViewC", "SeparatorView"]
+- !private ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "TimeInterval"]
+- ["So6UIViewC", "TimeRemainingLabel"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addTarget"]
+- ["So6UIViewC", "arrivalTimeLabel"]
+- ["So6UIViewC", "cancel"]
+- ["So6UIViewC", "cancelButton"]
+- ["So6UIViewC", "commonInit"]
+- ["So6UIViewC", "congestionLevel"]
+- ["So6UIViewC", "dateComponentsFormatter"]
+- ["So6UIViewC", "dateFormatter"]
+- ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "distanceFormatter"]
+- ["So6UIViewC", "distanceRemainingLabel"]
+- !private ["So6UIViewC", "floor"]
+- ["So6UIViewC", "horizontalDividerView"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "prepareForInterfaceBuilder"]
+- ["So6UIViewC", "routeController"]
+- !private ["So6UIViewC", "setupViews"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textColor"]
+- ["So6UIViewC", "timeRemainingLabel"]
+- !private ["So6UIViewC", "trafficHeavyColor"]
+- !private ["So6UIViewC", "trafficLowColor"]
+- !private ["So6UIViewC", "trafficModerateColor"]
+- !private ["So6UIViewC", "trafficSevereColor"]
+- !private ["So6UIViewC", "trafficUnknownColor"]
+- ["So6UIViewC", "updateETA"]
+- ["So6UIViewC", "verticalCompactConstraints"]
+- ["So6UIViewC", "verticalDividerView"]
+- ["So6UIViewC", "verticalRegularConstraints"]
+- !private ["So10NSCalendarC4UnitV", "hour"]
+- !private ["So10NSCalendarC4UnitV", "minute"]
+- !private ["So10NSCalendarC4UnitV", "second"]
+- !private ["So23DateComponentsFormatterC10UnitsStyleO", "abbreviated"]
+- !private ["So23DateComponentsFormatterC10UnitsStyleO", "short"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "BottomBannerView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Date"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "DateComponentsFormatter"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "DateFormatter"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "DistanceFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Double"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Int"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSCalendar"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSLocalizedString"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "String"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrivalTimeLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cancel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cancelButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "commonInit"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "congestionLevel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dateComponentsFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dateFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "floor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "prepareForInterfaceBuilder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupViews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "timeRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trafficHeavyColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trafficLowColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trafficModerateColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trafficSevereColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trafficUnknownColor"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localizedStringWithFormat"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "localizedStringWithFormat"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "localizedStringWithFormat"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localizedStringWithFormat"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "localizedStringWithFormat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BottomBannerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateComponentsFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DistanceFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSCalendar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowedUnits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrivalTimeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commonInit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "congestionLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "congestionTimesPerStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "congestionTravelTimesSegmentsByStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinateCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLegProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStepProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateComponentsFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "durationRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fractionTraveled"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "legIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapboxNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareForInterfaceBuilder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "step"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trafficHeavyColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trafficLowColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trafficModerateColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trafficSevereColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trafficUnknownColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unitsStyle"]
+- !private ["10Foundation14_MutableBoxingP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "localizedStringWithFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "localizedStringWithFormat"]
+depends-nominal:
+- "16MapboxNavigation10AnchorableP"
+- "Sa"
+- !private "s10ArraySliceV"
+- !private "16MapboxNavigation16ArrivalTimeLabelC"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "16MapboxNavigation16BottomBannerViewC"
+- "16MapboxNavigation24BottomBannerViewDelegateP"
+- !private "So6BundleC"
+- !private "16MapboxNavigation6ButtonC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "16MapboxNavigation12CancelButtonC"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "10Foundation8CalendarV9ComponentO"
+- "16MapboxDirections15CongestionLevelO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "So23DateComponentsFormatterC"
+- "So13DateFormatterC"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "20MapboxCoreNavigation17DistanceFormatterC"
+- !private "16MapboxNavigation22DistanceRemainingLabelC"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "So9FormatterC"
+- "s8HashableP"
+- !private "Si"
+- !private "4Turf8JSONTypeP"
+- !private "So15LengthFormatterC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So10NSCalendarC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "20MapboxCoreNavigation16RouteLegProgressC"
+- !private "20MapboxCoreNavigation13RouteProgressC"
+- !private "16MapboxDirections9RouteStepC"
+- !private "20MapboxCoreNavigation17RouteStepProgressC"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "16MapboxNavigation14StylableButtonC"
+- !private "16MapboxNavigation13StylableLabelC"
+- !private "So13DateFormatterC5StyleO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "16MapboxNavigation18TimeRemainingLabelC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "So10NSCalendarC4UnitV"
+- !private "So23DateComponentsFormatterC10UnitsStyleO"
+- "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "cbe4f45f5281db1ebfe114dd79da920d"

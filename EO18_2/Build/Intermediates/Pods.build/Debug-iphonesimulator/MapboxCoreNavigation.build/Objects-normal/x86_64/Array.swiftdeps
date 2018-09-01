@@ -1,0 +1,326 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sa", ""]
+- ["Sa", "locations"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<"
+- "Array"
+- "CLLocation"
+- "CastingPrecedence"
+- !private "Data"
+- !private "JSONSerialization"
+- "String"
+- !private "URL"
+depends-member:
+- ["Sa", "CLLocation"]
+- !private ["Sa", "Data"]
+- !private ["Sa", "JSONSerialization"]
+- ["Sa", "String"]
+- !private ["Sa", "URL"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- ["Sa", "locations"]
+- !private ["Sa", "sorted"]
+- !private ["s23BidirectionalCollectionP", "CLLocation"]
+- !private ["s23BidirectionalCollectionP", "Data"]
+- !private ["s23BidirectionalCollectionP", "JSONSerialization"]
+- !private ["s23BidirectionalCollectionP", "URL"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "sorted"]
+- !private ["So10CLLocationC", "init"]
+- !private ["So10CLLocationC", "timestamp"]
+- !private ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "timestamp"]
+- !private ["s10CollectionP", "CLLocation"]
+- !private ["s10CollectionP", "Data"]
+- !private ["s10CollectionP", "JSONSerialization"]
+- !private ["s10CollectionP", "URL"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "CLLocation"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "JSONSerialization"]
+- !private ["s17CustomReflectableP", "URL"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "CLLocation"]
+- !private ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "JSONSerialization"]
+- !private ["s9DecodableP", "URL"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "sorted"]
+- !private ["s9EncodableP", "CLLocation"]
+- !private ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "JSONSerialization"]
+- !private ["s9EncodableP", "URL"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "sorted"]
+- !private ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "mutableContainers"]
+- !private ["s9EquatableP", "sorted"]
+- !private ["s9EquatableP", "timestamp"]
+- !private ["s25ExpressibleByArrayLiteralP", "CLLocation"]
+- !private ["s25ExpressibleByArrayLiteralP", "Data"]
+- !private ["s25ExpressibleByArrayLiteralP", "JSONSerialization"]
+- !private ["s25ExpressibleByArrayLiteralP", "URL"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "mutableContainers"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "timestamp"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s17MutableCollectionP", "CLLocation"]
+- !private ["s17MutableCollectionP", "Data"]
+- !private ["s17MutableCollectionP", "JSONSerialization"]
+- !private ["s17MutableCollectionP", "URL"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "sorted"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "timestamp"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timestamp"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "timestamp"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "timestamp"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "timestamp"]
+- !private ["s9OptionSetP", "mutableContainers"]
+- !private ["s22RandomAccessCollectionP", "CLLocation"]
+- !private ["s22RandomAccessCollectionP", "Data"]
+- !private ["s22RandomAccessCollectionP", "JSONSerialization"]
+- !private ["s22RandomAccessCollectionP", "URL"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "sorted"]
+- !private ["s26RangeReplaceableCollectionP", "CLLocation"]
+- !private ["s26RangeReplaceableCollectionP", "Data"]
+- !private ["s26RangeReplaceableCollectionP", "JSONSerialization"]
+- !private ["s26RangeReplaceableCollectionP", "URL"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "sorted"]
+- !private ["s16RawRepresentableP", "mutableContainers"]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "mutableContainers"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "CLLocation"]
+- !private ["s8SequenceP", "Data"]
+- !private ["s8SequenceP", "JSONSerialization"]
+- !private ["s8SequenceP", "URL"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "sorted"]
+- !private ["s10SetAlgebraP", "mutableContainers"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "CLLocation"]
+- !private ["s14_ArrayProtocolP", "Data"]
+- !private ["s14_ArrayProtocolP", "JSONSerialization"]
+- !private ["s14_ArrayProtocolP", "URL"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s24_DestructorSafeContainerP", "CLLocation"]
+- !private ["s24_DestructorSafeContainerP", "Data"]
+- !private ["s24_DestructorSafeContainerP", "JSONSerialization"]
+- !private ["s24_DestructorSafeContainerP", "URL"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- !private ["s21_ObjectiveCBridgeableP", "CLLocation"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "JSONSerialization"]
+- !private ["s21_ObjectiveCBridgeableP", "URL"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+depends-nominal:
+- "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "So10CLLocationC"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s8HashableP"
+- !private "So17JSONSerializationC"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "2f3dee70cdb1c73e16c8dc04b6e7486a"

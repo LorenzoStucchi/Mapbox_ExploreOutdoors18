@@ -1,0 +1,743 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MatchOptions"
+provides-nominal:
+- "16MapboxDirections12MatchOptionsC"
+provides-member:
+- ["16MapboxDirections12MatchOptionsC", ""]
+provides-dynamic-lookup:
+- "encode"
+- "resamplesTraces"
+- "supportsSecureCoding"
+- "waypointIndices"
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CLLocation"
+- "CLLocationCoordinate2D"
+- "CastingPrecedence"
+- "DirectionsOptions"
+- !private "Double"
+- "IndexSet"
+- !private "Int"
+- "JSONDictionary"
+- "MBDirectionsProfileIdentifier"
+- "Match"
+- "MatchOptions"
+- "NSCoder"
+- !private "NSIndexSet"
+- "Route"
+- !private "RouteOptions"
+- "String"
+- !private "StringLiteralType"
+- !private "Tracepoint"
+- "URLQueryItem"
+- !private "UnicodeScalarType"
+- "Waypoint"
+- !private "kCLLocationCoordinate2DInvalid"
+- !private "zip"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "compactMap"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "insert"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "nonEmptyString"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "IndexSet"]
+- !private ["s7CVarArgP", "Match"]
+- !private ["s7CVarArgP", "NSIndexSet"]
+- !private ["s7CVarArgP", "Route"]
+- !private ["s7CVarArgP", "RouteOptions"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "Tracepoint"]
+- !private ["s7CVarArgP", "URLQueryItem"]
+- !private ["s7CVarArgP", "Waypoint"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "decodeBool"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "encode"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "nonEmptyString"]
+- !private ["s7CVarArgP", "params"]
+- !private ["s7CVarArgP", "profileIdentifier"]
+- !private ["s7CVarArgP", "resamplesTraces"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "waypointIndices"]
+- !private ["s7CVarArgP", "waypoints"]
+- !private ["s7CVarArgP", "zip"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "compactMap"]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "nonEmptyString"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "nonEmptyString"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexSet"]
+- !private ["s28CustomDebugStringConvertibleP", "Match"]
+- !private ["s28CustomDebugStringConvertibleP", "NSIndexSet"]
+- !private ["s28CustomDebugStringConvertibleP", "Route"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "Tracepoint"]
+- !private ["s28CustomDebugStringConvertibleP", "URLQueryItem"]
+- !private ["s28CustomDebugStringConvertibleP", "Waypoint"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeBool"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "nonEmptyString"]
+- !private ["s28CustomDebugStringConvertibleP", "params"]
+- !private ["s28CustomDebugStringConvertibleP", "profileIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "resamplesTraces"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "waypointIndices"]
+- !private ["s28CustomDebugStringConvertibleP", "waypoints"]
+- !private ["s28CustomDebugStringConvertibleP", "zip"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "nonEmptyString"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "name"]
+- !private ["s17CustomReflectableP", "nonEmptyString"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "IndexSet"]
+- !private ["s23CustomStringConvertibleP", "Match"]
+- !private ["s23CustomStringConvertibleP", "NSIndexSet"]
+- !private ["s23CustomStringConvertibleP", "Route"]
+- !private ["s23CustomStringConvertibleP", "RouteOptions"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Tracepoint"]
+- !private ["s23CustomStringConvertibleP", "URLQueryItem"]
+- !private ["s23CustomStringConvertibleP", "Waypoint"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "decodeBool"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "nonEmptyString"]
+- !private ["s23CustomStringConvertibleP", "params"]
+- !private ["s23CustomStringConvertibleP", "profileIdentifier"]
+- !private ["s23CustomStringConvertibleP", "resamplesTraces"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "waypointIndices"]
+- !private ["s23CustomStringConvertibleP", "waypoints"]
+- !private ["s23CustomStringConvertibleP", "zip"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "compactMap"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "nonEmptyString"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- ["16MapboxDirections0B7OptionsC", "Bool"]
+- ["16MapboxDirections0B7OptionsC", "CLLocation"]
+- ["16MapboxDirections0B7OptionsC", "CLLocationCoordinate2D"]
+- !private ["16MapboxDirections0B7OptionsC", "Double"]
+- ["16MapboxDirections0B7OptionsC", "IndexSet"]
+- !private ["16MapboxDirections0B7OptionsC", "Int"]
+- ["16MapboxDirections0B7OptionsC", "JSONDictionary"]
+- ["16MapboxDirections0B7OptionsC", "MBDirectionsProfileIdentifier"]
+- ["16MapboxDirections0B7OptionsC", "Match"]
+- ["16MapboxDirections0B7OptionsC", "NSCoder"]
+- !private ["16MapboxDirections0B7OptionsC", "NSIndexSet"]
+- ["16MapboxDirections0B7OptionsC", "Route"]
+- !private ["16MapboxDirections0B7OptionsC", "RouteOptions"]
+- ["16MapboxDirections0B7OptionsC", "String"]
+- !private ["16MapboxDirections0B7OptionsC", "Tracepoint"]
+- ["16MapboxDirections0B7OptionsC", "URLQueryItem"]
+- ["16MapboxDirections0B7OptionsC", "Waypoint"]
+- ["16MapboxDirections0B7OptionsC", ""]
+- !private ["16MapboxDirections0B7OptionsC", "deinit"]
+- ["16MapboxDirections0B7OptionsC", "encode"]
+- ["16MapboxDirections0B7OptionsC", "encodedParam"]
+- ["16MapboxDirections0B7OptionsC", "init"]
+- !private ["16MapboxDirections0B7OptionsC", "kCLLocationCoordinate2DInvalid"]
+- ["16MapboxDirections0B7OptionsC", "params"]
+- ["16MapboxDirections0B7OptionsC", "path"]
+- !private ["16MapboxDirections0B7OptionsC", "profileIdentifier"]
+- ["16MapboxDirections0B7OptionsC", "resamplesTraces"]
+- ["16MapboxDirections0B7OptionsC", "response"]
+- ["16MapboxDirections0B7OptionsC", "supportsSecureCoding"]
+- ["16MapboxDirections0B7OptionsC", "waypointIndices"]
+- !private ["16MapboxDirections0B7OptionsC", "waypoints"]
+- !private ["16MapboxDirections0B7OptionsC", "zip"]
+- !private ["16MapboxDirections0B6ResultC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "compactMap"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "nonEmptyString"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "IndexSet"]
+- !private ["s9EquatableP", "Match"]
+- !private ["s9EquatableP", "NSIndexSet"]
+- !private ["s9EquatableP", "Route"]
+- !private ["s9EquatableP", "RouteOptions"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "Tracepoint"]
+- !private ["s9EquatableP", "URLQueryItem"]
+- !private ["s9EquatableP", "Waypoint"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "compactMap"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "decodeBool"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "encode"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "insert"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "nonEmptyString"]
+- !private ["s9EquatableP", "params"]
+- !private ["s9EquatableP", "profileIdentifier"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "resamplesTraces"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "waypointIndices"]
+- !private ["s9EquatableP", "waypoints"]
+- !private ["s9EquatableP", "zip"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "nonEmptyString"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "nonEmptyString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "nonEmptyString"]
+- !private ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "IndexSet"]
+- !private ["s8HashableP", "Match"]
+- !private ["s8HashableP", "NSIndexSet"]
+- !private ["s8HashableP", "Route"]
+- !private ["s8HashableP", "RouteOptions"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "Tracepoint"]
+- !private ["s8HashableP", "URLQueryItem"]
+- !private ["s8HashableP", "Waypoint"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "contains"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "decodeBool"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "encode"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "insert"]
+- !private ["s8HashableP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s8HashableP", "map"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "nonEmptyString"]
+- !private ["s8HashableP", "params"]
+- !private ["s8HashableP", "profileIdentifier"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "resamplesTraces"]
+- !private ["s8HashableP", "value"]
+- !private ["s8HashableP", "waypointIndices"]
+- !private ["s8HashableP", "waypoints"]
+- !private ["s8HashableP", "zip"]
+- !private ["10Foundation8IndexSetV", "contains"]
+- !private ["10Foundation8IndexSetV", "init"]
+- !private ["10Foundation8IndexSetV", "insert"]
+- !private ["10Foundation8IndexSetV", "map"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "nonEmptyString"]
+- !private ["SC29MBDirectionsProfileIdentifierV", "rawValue"]
+- !private ["16MapboxDirections5MatchC", "deinit"]
+- !private ["16MapboxDirections5MatchC", "init"]
+- ["16MapboxDirections12MatchOptionsC", "Bool"]
+- ["16MapboxDirections12MatchOptionsC", "CLLocation"]
+- ["16MapboxDirections12MatchOptionsC", "CLLocationCoordinate2D"]
+- !private ["16MapboxDirections12MatchOptionsC", "Double"]
+- ["16MapboxDirections12MatchOptionsC", "IndexSet"]
+- !private ["16MapboxDirections12MatchOptionsC", "Int"]
+- ["16MapboxDirections12MatchOptionsC", "JSONDictionary"]
+- ["16MapboxDirections12MatchOptionsC", "MBDirectionsProfileIdentifier"]
+- ["16MapboxDirections12MatchOptionsC", "Match"]
+- ["16MapboxDirections12MatchOptionsC", "NSCoder"]
+- !private ["16MapboxDirections12MatchOptionsC", "NSIndexSet"]
+- ["16MapboxDirections12MatchOptionsC", "Route"]
+- !private ["16MapboxDirections12MatchOptionsC", "RouteOptions"]
+- ["16MapboxDirections12MatchOptionsC", "String"]
+- !private ["16MapboxDirections12MatchOptionsC", "Tracepoint"]
+- ["16MapboxDirections12MatchOptionsC", "URLQueryItem"]
+- ["16MapboxDirections12MatchOptionsC", "Waypoint"]
+- ["16MapboxDirections12MatchOptionsC", "deinit"]
+- ["16MapboxDirections12MatchOptionsC", "encode"]
+- ["16MapboxDirections12MatchOptionsC", "encodedParam"]
+- ["16MapboxDirections12MatchOptionsC", "init"]
+- !private ["16MapboxDirections12MatchOptionsC", "kCLLocationCoordinate2DInvalid"]
+- ["16MapboxDirections12MatchOptionsC", "params"]
+- ["16MapboxDirections12MatchOptionsC", "path"]
+- !private ["16MapboxDirections12MatchOptionsC", "profileIdentifier"]
+- ["16MapboxDirections12MatchOptionsC", "resamplesTraces"]
+- ["16MapboxDirections12MatchOptionsC", "response"]
+- ["16MapboxDirections12MatchOptionsC", "supportsSecureCoding"]
+- ["16MapboxDirections12MatchOptionsC", "waypointIndices"]
+- !private ["16MapboxDirections12MatchOptionsC", "waypoints"]
+- !private ["16MapboxDirections12MatchOptionsC", "zip"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "nonEmptyString"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "compactMap"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So7NSCoderC", "decodeBool"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "IndexSet"]
+- !private ["So8NSCodingP", "Match"]
+- !private ["So8NSCodingP", "NSIndexSet"]
+- !private ["So8NSCodingP", "Route"]
+- !private ["So8NSCodingP", "RouteOptions"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "Tracepoint"]
+- !private ["So8NSCodingP", "URLQueryItem"]
+- !private ["So8NSCodingP", "Waypoint"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "encode"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "nonEmptyString"]
+- !private ["So8NSCodingP", "params"]
+- !private ["So8NSCodingP", "profileIdentifier"]
+- !private ["So8NSCodingP", "resamplesTraces"]
+- !private ["So8NSCodingP", "waypointIndices"]
+- !private ["So8NSCodingP", "waypoints"]
+- !private ["So8NSCodingP", "zip"]
+- !private ["So9NSCopyingP", "CLLocationCoordinate2D"]
+- !private ["So9NSCopyingP", "IndexSet"]
+- !private ["So9NSCopyingP", "Match"]
+- !private ["So9NSCopyingP", "NSIndexSet"]
+- !private ["So9NSCopyingP", "Route"]
+- !private ["So9NSCopyingP", "RouteOptions"]
+- !private ["So9NSCopyingP", "String"]
+- !private ["So9NSCopyingP", "Tracepoint"]
+- !private ["So9NSCopyingP", "URLQueryItem"]
+- !private ["So9NSCopyingP", "Waypoint"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "encode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "nonEmptyString"]
+- !private ["So9NSCopyingP", "params"]
+- !private ["So9NSCopyingP", "profileIdentifier"]
+- !private ["So9NSCopyingP", "resamplesTraces"]
+- !private ["So9NSCopyingP", "waypointIndices"]
+- !private ["So9NSCopyingP", "waypoints"]
+- !private ["So9NSCopyingP", "zip"]
+- !private ["So21NSItemProviderReadingP", "nonEmptyString"]
+- !private ["So21NSItemProviderWritingP", "nonEmptyString"]
+- !private ["So16NSMutableCopyingP", "nonEmptyString"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "IndexSet"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "JSONDictionary"]
+- ["So8NSObjectC", "MBDirectionsProfileIdentifier"]
+- ["So8NSObjectC", "Match"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSIndexSet"]
+- ["So8NSObjectC", "Route"]
+- !private ["So8NSObjectC", "RouteOptions"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Tracepoint"]
+- ["So8NSObjectC", "URLQueryItem"]
+- ["So8NSObjectC", "Waypoint"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "decodeBool"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodedParam"]
+- !private ["So8NSObjectC", "kCLLocationCoordinate2DInvalid"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "nonEmptyString"]
+- ["So8NSObjectC", "params"]
+- ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "profileIdentifier"]
+- ["So8NSObjectC", "resamplesTraces"]
+- ["So8NSObjectC", "response"]
+- ["So8NSObjectC", "supportsSecureCoding"]
+- ["So8NSObjectC", "waypointIndices"]
+- !private ["So8NSObjectC", "waypoints"]
+- !private ["So8NSObjectC", "zip"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "IndexSet"]
+- !private ["So16NSObjectProtocolP", "Match"]
+- !private ["So16NSObjectProtocolP", "NSIndexSet"]
+- !private ["So16NSObjectProtocolP", "Route"]
+- !private ["So16NSObjectProtocolP", "RouteOptions"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "Tracepoint"]
+- !private ["So16NSObjectProtocolP", "URLQueryItem"]
+- !private ["So16NSObjectProtocolP", "Waypoint"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "decodeBool"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "encode"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "nonEmptyString"]
+- !private ["So16NSObjectProtocolP", "params"]
+- !private ["So16NSObjectProtocolP", "profileIdentifier"]
+- !private ["So16NSObjectProtocolP", "resamplesTraces"]
+- !private ["So16NSObjectProtocolP", "waypointIndices"]
+- !private ["So16NSObjectProtocolP", "waypoints"]
+- !private ["So16NSObjectProtocolP", "zip"]
+- !private ["So14NSSecureCodingP", "CLLocationCoordinate2D"]
+- !private ["So14NSSecureCodingP", "IndexSet"]
+- !private ["So14NSSecureCodingP", "Match"]
+- !private ["So14NSSecureCodingP", "NSIndexSet"]
+- !private ["So14NSSecureCodingP", "Route"]
+- !private ["So14NSSecureCodingP", "RouteOptions"]
+- !private ["So14NSSecureCodingP", "String"]
+- !private ["So14NSSecureCodingP", "Tracepoint"]
+- !private ["So14NSSecureCodingP", "URLQueryItem"]
+- !private ["So14NSSecureCodingP", "Waypoint"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "encode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So14NSSecureCodingP", "name"]
+- !private ["So14NSSecureCodingP", "nonEmptyString"]
+- !private ["So14NSSecureCodingP", "params"]
+- !private ["So14NSSecureCodingP", "profileIdentifier"]
+- !private ["So14NSSecureCodingP", "resamplesTraces"]
+- !private ["So14NSSecureCodingP", "waypointIndices"]
+- !private ["So14NSSecureCodingP", "waypoints"]
+- !private ["So14NSSecureCodingP", "zip"]
+- !private ["So8NSStringC", "nonEmptyString"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "compactMap"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "compactMap"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "nonEmptyString"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "contains"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "insert"]
+- !private ["10Foundation20ReferenceConvertibleP", "map"]
+- !private ["10Foundation20ReferenceConvertibleP", "name"]
+- !private ["10Foundation20ReferenceConvertibleP", "value"]
+- !private ["16MapboxDirections5RouteC", "init"]
+- !private ["16MapboxDirections12RouteOptionsC", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "compactMap"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "nonEmptyString"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "map"]
+- !private ["SS", "init"]
+- !private ["SS", "nonEmptyString"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "nonEmptyString"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "nonEmptyString"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "nonEmptyString"]
+- !private ["16MapboxDirections10TracepointC", "deinit"]
+- !private ["16MapboxDirections10TracepointC", "init"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["10Foundation12URLQueryItemV", "name"]
+- !private ["10Foundation12URLQueryItemV", "value"]
+- !private ["16MapboxDirections8WaypointC", "coordinate"]
+- !private ["16MapboxDirections8WaypointC", "deinit"]
+- !private ["16MapboxDirections8WaypointC", "init"]
+- !private ["16MapboxDirections8WaypointC", "name"]
+- !private ["s12Zip2SequenceV", "map"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "nonEmptyString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "nonEmptyString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "nonEmptyString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "nonEmptyString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "nonEmptyString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "nonEmptyString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Match"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSIndexSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Route"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Tracepoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLQueryItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Waypoint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeBool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nonEmptyString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "params"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profileIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resamplesTraces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "waypointIndices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "waypoints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zip"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "name"]
+- !private ["s21_ObjectiveCBridgeableP", "nonEmptyString"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "nonEmptyString"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "SC22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- "16MapboxDirections0B7OptionsC"
+- !private "16MapboxDirections0B6ResultC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation8IndexSetV"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC29MBDirectionsProfileIdentifierV"
+- !private "16MapboxDirections5MatchC"
+- "16MapboxDirections12MatchOptionsC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "16MapboxDirections5RouteC"
+- !private "16MapboxDirections12RouteOptionsC"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "16MapboxDirections10TracepointC"
+- !private "10Foundation12URLQueryItemV"
+- !private "16MapboxDirections8WaypointC"
+- !private "s12Zip2SequenceV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2765f55540910fed3b166332e414a2d6"

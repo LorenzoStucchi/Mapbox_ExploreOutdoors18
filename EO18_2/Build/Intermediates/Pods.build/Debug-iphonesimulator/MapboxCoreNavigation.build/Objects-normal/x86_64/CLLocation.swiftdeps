@@ -1,0 +1,945 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So10CLLocationC", ""]
+- ["So10CLLocationC", "isQualified"]
+- ["So10CLLocationC", "dictionaryRepresentation"]
+- ["So10CLLocationC", "init"]
+- ["So10CLLocationC", "isWithin"]
+- ["So10CLLocationC", "snapped"]
+- ["So10CLLocationC", "coordinates"]
+- ["So10CLLocationC", "projectedDistance"]
+- ["So10CLLocationC", "interpolatedCourse"]
+- ["So10CLLocationC", "shouldSnap"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "<"
+- !private "<="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLLocation"
+- !private "CLLocationAccuracy"
+- "CLLocationCoordinate2D"
+- !private "CLLocationDegrees"
+- "CLLocationDirection"
+- "CLLocationDistance"
+- !private "CLLocationDistanceMax"
+- !private "CLLocationSpeed"
+- "CastingPrecedence"
+- !private "Date"
+- !private "Double"
+- !private "Polyline"
+- !private "RouteControllerDeadReckoningTimeInterval"
+- !private "RouteControllerManeuverZoneRadius"
+- !private "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"
+- !private "RouteControllerMaximumSpeedForUsingCurrentStep"
+- !private "RouteControllerUserLocationSnappingDistance"
+- "RouteLegProgress"
+- !private "RouteSnappingMaxManipulatedCourseAngle"
+- !private "RouteSnappingMinimumHorizontalAccuracy"
+- !private "RouteSnappingMinimumSpeed"
+- "RouteStep"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- !private "max"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["Sa", "reversed"]
+- !private ["s23BidirectionalCollectionP", "ISO8601Date"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- !private ["s19BinaryFloatingPointP", "clockwiseDifference"]
+- !private ["s19BinaryFloatingPointP", "difference"]
+- !private ["s19BinaryFloatingPointP", "wrap"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So10CLLocationC", "Bool"]
+- ["So10CLLocationC", "CLLocation"]
+- !private ["So10CLLocationC", "CLLocationAccuracy"]
+- ["So10CLLocationC", "CLLocationCoordinate2D"]
+- !private ["So10CLLocationC", "CLLocationDegrees"]
+- ["So10CLLocationC", "CLLocationDirection"]
+- ["So10CLLocationC", "CLLocationDistance"]
+- !private ["So10CLLocationC", "CLLocationDistanceMax"]
+- !private ["So10CLLocationC", "CLLocationSpeed"]
+- !private ["So10CLLocationC", "Date"]
+- !private ["So10CLLocationC", "Double"]
+- !private ["So10CLLocationC", "Polyline"]
+- !private ["So10CLLocationC", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So10CLLocationC", "RouteControllerManeuverZoneRadius"]
+- !private ["So10CLLocationC", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So10CLLocationC", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So10CLLocationC", "RouteControllerUserLocationSnappingDistance"]
+- ["So10CLLocationC", "RouteLegProgress"]
+- !private ["So10CLLocationC", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So10CLLocationC", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So10CLLocationC", "RouteSnappingMinimumSpeed"]
+- ["So10CLLocationC", "RouteStep"]
+- ["So10CLLocationC", "String"]
+- !private ["So10CLLocationC", "TimeInterval"]
+- !private ["So10CLLocationC", "altitude"]
+- !private ["So10CLLocationC", "coordinate"]
+- ["So10CLLocationC", "coordinates"]
+- !private ["So10CLLocationC", "course"]
+- ["So10CLLocationC", "dictionaryRepresentation"]
+- !private ["So10CLLocationC", "horizontalAccuracy"]
+- ["So10CLLocationC", "init"]
+- ["So10CLLocationC", "interpolatedCourse"]
+- ["So10CLLocationC", "isQualified"]
+- ["So10CLLocationC", "isWithin"]
+- !private ["So10CLLocationC", "max"]
+- ["So10CLLocationC", "projectedDistance"]
+- ["So10CLLocationC", "shouldSnap"]
+- ["So10CLLocationC", "snapped"]
+- !private ["So10CLLocationC", "speed"]
+- !private ["So10CLLocationC", "timestamp"]
+- !private ["So10CLLocationC", "verticalAccuracy"]
+- !private ["SC22CLLocationCoordinate2DV", "direction"]
+- !private ["SC22CLLocationCoordinate2DV", "distance"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "CLLocationDistanceMax"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "ISO8601Date"]
+- !private ["s7CVarArgP", "Polyline"]
+- !private ["s7CVarArgP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["s7CVarArgP", "RouteControllerManeuverZoneRadius"]
+- !private ["s7CVarArgP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["s7CVarArgP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["s7CVarArgP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["s7CVarArgP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["s7CVarArgP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["s7CVarArgP", "RouteSnappingMinimumSpeed"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "altitude"]
+- !private ["s7CVarArgP", "clockwiseDifference"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "coordinates"]
+- !private ["s7CVarArgP", "course"]
+- !private ["s7CVarArgP", "currentStep"]
+- !private ["s7CVarArgP", "currentStepProgress"]
+- !private ["s7CVarArgP", "difference"]
+- !private ["s7CVarArgP", "distanceRemaining"]
+- !private ["s7CVarArgP", "finalHeading"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "horizontalAccuracy"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialHeading"]
+- !private ["s7CVarArgP", "interpolatedCourse"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "leg"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "nearbyCoordinates"]
+- !private ["s7CVarArgP", "projectedDistance"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "shouldSnap"]
+- !private ["s7CVarArgP", "speed"]
+- !private ["s7CVarArgP", "steps"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timestamp"]
+- !private ["s7CVarArgP", "upComingStep"]
+- !private ["s7CVarArgP", "verticalAccuracy"]
+- !private ["s7CVarArgP", "wrap"]
+- !private ["s10CollectionP", "ISO8601Date"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "reversed"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "ISO8601"]
+- !private ["s10ComparableP", "ISO8601Date"]
+- !private ["s10ComparableP", "clockwiseDifference"]
+- !private ["s10ComparableP", "difference"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "wrap"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationDistanceMax"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601"]
+- !private ["s28CustomDebugStringConvertibleP", "ISO8601Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Polyline"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerManeuverZoneRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteSnappingMinimumSpeed"]
+- !private ["s28CustomDebugStringConvertibleP", "altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "clockwiseDifference"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinates"]
+- !private ["s28CustomDebugStringConvertibleP", "course"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStep"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStepProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "difference"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "finalHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "interpolatedCourse"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "leg"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "nearbyCoordinates"]
+- !private ["s28CustomDebugStringConvertibleP", "projectedDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldSnap"]
+- !private ["s28CustomDebugStringConvertibleP", "speed"]
+- !private ["s28CustomDebugStringConvertibleP", "steps"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s28CustomDebugStringConvertibleP", "upComingStep"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "wrap"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ISO8601"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ISO8601Date"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "clockwiseDifference"]
+- !private ["s29CustomPlaygroundQuickLookableP", "difference"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "wrap"]
+- !private ["s17CustomReflectableP", "ISO8601"]
+- !private ["s17CustomReflectableP", "ISO8601Date"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "clockwiseDifference"]
+- !private ["s17CustomReflectableP", "difference"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "wrap"]
+- !private ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "CLLocationDistanceMax"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "ISO8601"]
+- !private ["s23CustomStringConvertibleP", "ISO8601Date"]
+- !private ["s23CustomStringConvertibleP", "Polyline"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerManeuverZoneRadius"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["s23CustomStringConvertibleP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["s23CustomStringConvertibleP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["s23CustomStringConvertibleP", "RouteSnappingMinimumSpeed"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "altitude"]
+- !private ["s23CustomStringConvertibleP", "clockwiseDifference"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "coordinates"]
+- !private ["s23CustomStringConvertibleP", "course"]
+- !private ["s23CustomStringConvertibleP", "currentStep"]
+- !private ["s23CustomStringConvertibleP", "currentStepProgress"]
+- !private ["s23CustomStringConvertibleP", "difference"]
+- !private ["s23CustomStringConvertibleP", "distanceRemaining"]
+- !private ["s23CustomStringConvertibleP", "finalHeading"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "horizontalAccuracy"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialHeading"]
+- !private ["s23CustomStringConvertibleP", "interpolatedCourse"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "leg"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "nearbyCoordinates"]
+- !private ["s23CustomStringConvertibleP", "projectedDistance"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "shouldSnap"]
+- !private ["s23CustomStringConvertibleP", "speed"]
+- !private ["s23CustomStringConvertibleP", "steps"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- !private ["s23CustomStringConvertibleP", "upComingStep"]
+- !private ["s23CustomStringConvertibleP", "verticalAccuracy"]
+- !private ["s23CustomStringConvertibleP", "wrap"]
+- !private ["10Foundation4DateV", "ISO8601"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["s9DecodableP", "ISO8601"]
+- !private ["s9DecodableP", "ISO8601Date"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "clockwiseDifference"]
+- !private ["s9DecodableP", "closestCoordinate"]
+- !private ["s9DecodableP", "coordinateFromStart"]
+- !private ["s9DecodableP", "difference"]
+- !private ["s9DecodableP", "direction"]
+- !private ["s9DecodableP", "distance"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "latitude"]
+- !private ["s9DecodableP", "longitude"]
+- !private ["s9DecodableP", "reversed"]
+- !private ["s9DecodableP", "sliced"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "wrap"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["Sd", "clockwiseDifference"]
+- !private ["Sd", "difference"]
+- !private ["Sd", "wrap"]
+- !private ["s9EncodableP", "ISO8601"]
+- !private ["s9EncodableP", "ISO8601Date"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "clockwiseDifference"]
+- !private ["s9EncodableP", "closestCoordinate"]
+- !private ["s9EncodableP", "coordinateFromStart"]
+- !private ["s9EncodableP", "difference"]
+- !private ["s9EncodableP", "direction"]
+- !private ["s9EncodableP", "distance"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "latitude"]
+- !private ["s9EncodableP", "longitude"]
+- !private ["s9EncodableP", "reversed"]
+- !private ["s9EncodableP", "sliced"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "wrap"]
+- !private ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "CLLocationDistanceMax"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "ISO8601"]
+- !private ["s9EquatableP", "ISO8601Date"]
+- !private ["s9EquatableP", "Polyline"]
+- !private ["s9EquatableP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["s9EquatableP", "RouteControllerManeuverZoneRadius"]
+- !private ["s9EquatableP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["s9EquatableP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["s9EquatableP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["s9EquatableP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["s9EquatableP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["s9EquatableP", "RouteSnappingMinimumSpeed"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "altitude"]
+- !private ["s9EquatableP", "clockwiseDifference"]
+- !private ["s9EquatableP", "closestCoordinate"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "coordinateFromStart"]
+- !private ["s9EquatableP", "coordinates"]
+- !private ["s9EquatableP", "course"]
+- !private ["s9EquatableP", "currentStep"]
+- !private ["s9EquatableP", "currentStepProgress"]
+- !private ["s9EquatableP", "difference"]
+- !private ["s9EquatableP", "direction"]
+- !private ["s9EquatableP", "distance"]
+- !private ["s9EquatableP", "distanceRemaining"]
+- !private ["s9EquatableP", "finalHeading"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "horizontalAccuracy"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialHeading"]
+- !private ["s9EquatableP", "interpolatedCourse"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "latitude"]
+- !private ["s9EquatableP", "leg"]
+- !private ["s9EquatableP", "longitude"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "nearbyCoordinates"]
+- !private ["s9EquatableP", "projectedDistance"]
+- !private ["s9EquatableP", "reversed"]
+- !private ["s9EquatableP", "shouldSnap"]
+- !private ["s9EquatableP", "sliced"]
+- !private ["s9EquatableP", "speed"]
+- !private ["s9EquatableP", "steps"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "timestamp"]
+- !private ["s9EquatableP", "upComingStep"]
+- !private ["s9EquatableP", "verticalAccuracy"]
+- !private ["s9EquatableP", "wrap"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ISO8601Date"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "clockwiseDifference"]
+- !private ["s25ExpressibleByFloatLiteralP", "difference"]
+- !private ["s25ExpressibleByFloatLiteralP", "wrap"]
+- !private ["s27ExpressibleByIntegerLiteralP", "clockwiseDifference"]
+- !private ["s27ExpressibleByIntegerLiteralP", "difference"]
+- !private ["s27ExpressibleByIntegerLiteralP", "wrap"]
+- !private ["s26ExpressibleByStringLiteralP", "ISO8601Date"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ISO8601Date"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "clockwiseDifference"]
+- !private ["s13FloatingPointP", "difference"]
+- !private ["s13FloatingPointP", "wrap"]
+- !private ["s8HashableP", "CLLocation"]
+- !private ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "CLLocationDistanceMax"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "ISO8601"]
+- !private ["s8HashableP", "ISO8601Date"]
+- !private ["s8HashableP", "Polyline"]
+- !private ["s8HashableP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["s8HashableP", "RouteControllerManeuverZoneRadius"]
+- !private ["s8HashableP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["s8HashableP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["s8HashableP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["s8HashableP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["s8HashableP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["s8HashableP", "RouteSnappingMinimumSpeed"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "altitude"]
+- !private ["s8HashableP", "clockwiseDifference"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "coordinates"]
+- !private ["s8HashableP", "course"]
+- !private ["s8HashableP", "currentStep"]
+- !private ["s8HashableP", "currentStepProgress"]
+- !private ["s8HashableP", "difference"]
+- !private ["s8HashableP", "distanceRemaining"]
+- !private ["s8HashableP", "finalHeading"]
+- !private ["s8HashableP", "horizontalAccuracy"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialHeading"]
+- !private ["s8HashableP", "interpolatedCourse"]
+- !private ["s8HashableP", "leg"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "nearbyCoordinates"]
+- !private ["s8HashableP", "projectedDistance"]
+- !private ["s8HashableP", "shouldSnap"]
+- !private ["s8HashableP", "speed"]
+- !private ["s8HashableP", "steps"]
+- !private ["s8HashableP", "timestamp"]
+- !private ["s8HashableP", "upComingStep"]
+- !private ["s8HashableP", "verticalAccuracy"]
+- !private ["s8HashableP", "wrap"]
+- !private ["4Turf10LineStringV17IndexedCoordinateV", "coordinate"]
+- !private ["4Turf10LineStringV17IndexedCoordinateV", "distance"]
+- !private ["4Turf8JSONTypeP", "ISO8601Date"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "clockwiseDifference"]
+- !private ["4Turf8JSONTypeP", "difference"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf8JSONTypeP", "wrap"]
+- !private ["4Turf10LineStringV", "closestCoordinate"]
+- !private ["4Turf10LineStringV", "coordinateFromStart"]
+- !private ["4Turf10LineStringV", "init"]
+- !private ["4Turf10LineStringV", "sliced"]
+- !private ["s25LosslessStringConvertibleP", "ISO8601Date"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "clockwiseDifference"]
+- !private ["s25LosslessStringConvertibleP", "difference"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "wrap"]
+- !private ["s10MirrorPathP", "ISO8601Date"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "reversed"]
+- !private ["So8NSCodingP", "CLLocation"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "CLLocationDistanceMax"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "ISO8601Date"]
+- !private ["So8NSCodingP", "Polyline"]
+- !private ["So8NSCodingP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So8NSCodingP", "RouteControllerManeuverZoneRadius"]
+- !private ["So8NSCodingP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So8NSCodingP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So8NSCodingP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["So8NSCodingP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So8NSCodingP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So8NSCodingP", "RouteSnappingMinimumSpeed"]
+- !private ["So8NSCodingP", "altitude"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "coordinates"]
+- !private ["So8NSCodingP", "course"]
+- !private ["So8NSCodingP", "finalHeading"]
+- !private ["So8NSCodingP", "horizontalAccuracy"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "initialHeading"]
+- !private ["So8NSCodingP", "interpolatedCourse"]
+- !private ["So8NSCodingP", "max"]
+- !private ["So8NSCodingP", "projectedDistance"]
+- !private ["So8NSCodingP", "shouldSnap"]
+- !private ["So8NSCodingP", "speed"]
+- !private ["So8NSCodingP", "steps"]
+- !private ["So8NSCodingP", "timestamp"]
+- !private ["So8NSCodingP", "verticalAccuracy"]
+- !private ["So9NSCopyingP", "CLLocation"]
+- !private ["So9NSCopyingP", "CLLocationCoordinate2D"]
+- !private ["So9NSCopyingP", "CLLocationDistanceMax"]
+- !private ["So9NSCopyingP", "Date"]
+- !private ["So9NSCopyingP", "ISO8601Date"]
+- !private ["So9NSCopyingP", "Polyline"]
+- !private ["So9NSCopyingP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So9NSCopyingP", "RouteControllerManeuverZoneRadius"]
+- !private ["So9NSCopyingP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So9NSCopyingP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So9NSCopyingP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["So9NSCopyingP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So9NSCopyingP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So9NSCopyingP", "RouteSnappingMinimumSpeed"]
+- !private ["So9NSCopyingP", "altitude"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "coordinates"]
+- !private ["So9NSCopyingP", "course"]
+- !private ["So9NSCopyingP", "horizontalAccuracy"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "interpolatedCourse"]
+- !private ["So9NSCopyingP", "max"]
+- !private ["So9NSCopyingP", "projectedDistance"]
+- !private ["So9NSCopyingP", "shouldSnap"]
+- !private ["So9NSCopyingP", "speed"]
+- !private ["So9NSCopyingP", "timestamp"]
+- !private ["So9NSCopyingP", "verticalAccuracy"]
+- !private ["So21NSItemProviderReadingP", "ISO8601Date"]
+- !private ["So21NSItemProviderWritingP", "ISO8601Date"]
+- !private ["So16NSMutableCopyingP", "ISO8601Date"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocation"]
+- !private ["So8NSObjectC", "CLLocationAccuracy"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "CLLocationDegrees"]
+- ["So8NSObjectC", "CLLocationDirection"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- !private ["So8NSObjectC", "CLLocationDistanceMax"]
+- !private ["So8NSObjectC", "CLLocationSpeed"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "ISO8601Date"]
+- !private ["So8NSObjectC", "Polyline"]
+- !private ["So8NSObjectC", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So8NSObjectC", "RouteControllerManeuverZoneRadius"]
+- !private ["So8NSObjectC", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So8NSObjectC", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So8NSObjectC", "RouteControllerUserLocationSnappingDistance"]
+- ["So8NSObjectC", "RouteLegProgress"]
+- !private ["So8NSObjectC", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So8NSObjectC", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So8NSObjectC", "RouteSnappingMinimumSpeed"]
+- ["So8NSObjectC", "RouteStep"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "altitude"]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "coordinates"]
+- !private ["So8NSObjectC", "course"]
+- !private ["So8NSObjectC", "currentStep"]
+- !private ["So8NSObjectC", "currentStepProgress"]
+- ["So8NSObjectC", "dictionaryRepresentation"]
+- !private ["So8NSObjectC", "distanceRemaining"]
+- !private ["So8NSObjectC", "finalHeading"]
+- !private ["So8NSObjectC", "horizontalAccuracy"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initialHeading"]
+- ["So8NSObjectC", "interpolatedCourse"]
+- ["So8NSObjectC", "isQualified"]
+- ["So8NSObjectC", "isWithin"]
+- !private ["So8NSObjectC", "leg"]
+- !private ["So8NSObjectC", "max"]
+- !private ["So8NSObjectC", "nearbyCoordinates"]
+- ["So8NSObjectC", "projectedDistance"]
+- ["So8NSObjectC", "shouldSnap"]
+- ["So8NSObjectC", "snapped"]
+- !private ["So8NSObjectC", "speed"]
+- !private ["So8NSObjectC", "steps"]
+- !private ["So8NSObjectC", "timestamp"]
+- !private ["So8NSObjectC", "upComingStep"]
+- !private ["So8NSObjectC", "verticalAccuracy"]
+- !private ["So16NSObjectProtocolP", "CLLocation"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "CLLocationDistanceMax"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "ISO8601Date"]
+- !private ["So16NSObjectProtocolP", "Polyline"]
+- !private ["So16NSObjectProtocolP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So16NSObjectProtocolP", "RouteControllerManeuverZoneRadius"]
+- !private ["So16NSObjectProtocolP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So16NSObjectProtocolP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So16NSObjectProtocolP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["So16NSObjectProtocolP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So16NSObjectProtocolP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So16NSObjectProtocolP", "RouteSnappingMinimumSpeed"]
+- !private ["So16NSObjectProtocolP", "altitude"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "coordinates"]
+- !private ["So16NSObjectProtocolP", "course"]
+- !private ["So16NSObjectProtocolP", "currentStep"]
+- !private ["So16NSObjectProtocolP", "currentStepProgress"]
+- !private ["So16NSObjectProtocolP", "distanceRemaining"]
+- !private ["So16NSObjectProtocolP", "finalHeading"]
+- !private ["So16NSObjectProtocolP", "horizontalAccuracy"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initialHeading"]
+- !private ["So16NSObjectProtocolP", "interpolatedCourse"]
+- !private ["So16NSObjectProtocolP", "leg"]
+- !private ["So16NSObjectProtocolP", "max"]
+- !private ["So16NSObjectProtocolP", "nearbyCoordinates"]
+- !private ["So16NSObjectProtocolP", "projectedDistance"]
+- !private ["So16NSObjectProtocolP", "shouldSnap"]
+- !private ["So16NSObjectProtocolP", "speed"]
+- !private ["So16NSObjectProtocolP", "steps"]
+- !private ["So16NSObjectProtocolP", "timestamp"]
+- !private ["So16NSObjectProtocolP", "upComingStep"]
+- !private ["So16NSObjectProtocolP", "verticalAccuracy"]
+- !private ["So14NSSecureCodingP", "CLLocation"]
+- !private ["So14NSSecureCodingP", "CLLocationCoordinate2D"]
+- !private ["So14NSSecureCodingP", "CLLocationDistanceMax"]
+- !private ["So14NSSecureCodingP", "Date"]
+- !private ["So14NSSecureCodingP", "ISO8601Date"]
+- !private ["So14NSSecureCodingP", "Polyline"]
+- !private ["So14NSSecureCodingP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["So14NSSecureCodingP", "RouteControllerManeuverZoneRadius"]
+- !private ["So14NSSecureCodingP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["So14NSSecureCodingP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["So14NSSecureCodingP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["So14NSSecureCodingP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["So14NSSecureCodingP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["So14NSSecureCodingP", "RouteSnappingMinimumSpeed"]
+- !private ["So14NSSecureCodingP", "altitude"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "coordinates"]
+- !private ["So14NSSecureCodingP", "course"]
+- !private ["So14NSSecureCodingP", "finalHeading"]
+- !private ["So14NSSecureCodingP", "horizontalAccuracy"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "initialHeading"]
+- !private ["So14NSSecureCodingP", "interpolatedCourse"]
+- !private ["So14NSSecureCodingP", "max"]
+- !private ["So14NSSecureCodingP", "projectedDistance"]
+- !private ["So14NSSecureCodingP", "shouldSnap"]
+- !private ["So14NSSecureCodingP", "speed"]
+- !private ["So14NSSecureCodingP", "steps"]
+- !private ["So14NSSecureCodingP", "timestamp"]
+- !private ["So14NSSecureCodingP", "verticalAccuracy"]
+- !private ["So8NSStringC", "ISO8601Date"]
+- !private ["s7NumericP", "clockwiseDifference"]
+- !private ["s7NumericP", "difference"]
+- !private ["s7NumericP", "wrap"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "ISO8601Date"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "reversed"]
+- !private ["10Foundation20ReferenceConvertibleP", "ISO8601"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s18ReversedCollectionV", "last"]
+- !private ["16MapboxDirections8RouteLegC", "steps"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "currentStep"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "currentStepProgress"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "leg"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "nearbyCoordinates"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "upComingStep"]
+- !private ["16MapboxDirections9RouteStepC", "coordinates"]
+- !private ["16MapboxDirections9RouteStepC", "finalHeading"]
+- !private ["16MapboxDirections9RouteStepC", "initialHeading"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "distanceRemaining"]
+- !private ["s8SequenceP", "ISO8601Date"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "reversed"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "clockwiseDifference"]
+- !private ["s13SignedNumericP", "difference"]
+- !private ["s13SignedNumericP", "wrap"]
+- !private ["s10StrideableP", "clockwiseDifference"]
+- !private ["s10StrideableP", "difference"]
+- !private ["s10StrideableP", "wrap"]
+- !private ["SS", "ISO8601Date"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "ISO8601Date"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "ISO8601Date"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "ISO8601Date"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s15_CVarArgAlignedP", "clockwiseDifference"]
+- !private ["s15_CVarArgAlignedP", "difference"]
+- !private ["s15_CVarArgAlignedP", "wrap"]
+- !private ["s22_CVarArgPassedAsDoubleP", "clockwiseDifference"]
+- !private ["s22_CVarArgPassedAsDoubleP", "difference"]
+- !private ["s22_CVarArgPassedAsDoubleP", "wrap"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ISO8601Date"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "clockwiseDifference"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "difference"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "wrap"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "clockwiseDifference"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "difference"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "wrap"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ISO8601Date"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ISO8601Date"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ISO8601Date"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ISO8601Date"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ISO8601Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationDistanceMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ISO8601Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Polyline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerDeadReckoningTimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerManeuverZoneRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerMaximumAllowedDegreeOffsetForTurnCompletion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerMaximumSpeedForUsingCurrentStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerUserLocationSnappingDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteSnappingMaxManipulatedCourseAngle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteSnappingMinimumHorizontalAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteSnappingMinimumSpeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "course"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStepProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interpolatedCourse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nearbyCoordinates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "projectedDistance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldSnap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "steps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "upComingStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalAccuracy"]
+- !private ["s21_ObjectiveCBridgeableP", "ISO8601"]
+- !private ["s21_ObjectiveCBridgeableP", "ISO8601Date"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "clockwiseDifference"]
+- !private ["s21_ObjectiveCBridgeableP", "difference"]
+- !private ["s21_ObjectiveCBridgeableP", "direction"]
+- !private ["s21_ObjectiveCBridgeableP", "distance"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "wrap"]
+- !private ["s16_SwiftStringViewP", "ISO8601Date"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- "So10CLLocationC"
+- !private "SC22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "4Turf10LineStringV17IndexedCoordinateV"
+- !private "4Turf8JSONTypeP"
+- !private "4Turf10LineStringV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s18ReversedCollectionV"
+- !private "16MapboxDirections8RouteLegC"
+- !private "20MapboxCoreNavigation16RouteLegProgressC"
+- !private "16MapboxDirections9RouteStepC"
+- !private "20MapboxCoreNavigation17RouteStepProgressC"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "c32b763e89e4a3f3681ac859b431b086"

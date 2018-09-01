@@ -1,0 +1,1395 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InstructionPresenterDataSource"
+- "DataSource"
+- "InstructionPresenter"
+- "ImagePresenter"
+- "ImageInstruction"
+- "ShieldAttachment"
+- "GenericShieldAttachment"
+- "ExitAttachment"
+provides-nominal:
+- "16MapboxNavigation30InstructionPresenterDataSourceP"
+- "16MapboxNavigation20InstructionPresenterC"
+- "16MapboxNavigation14ImagePresenterP"
+- "16MapboxNavigation16ImageInstructionC"
+- "16MapboxNavigation16ShieldAttachmentC"
+- "16MapboxNavigation23GenericShieldAttachmentC"
+- "16MapboxNavigation14ExitAttachmentC"
+provides-member:
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", ""]
+- ["16MapboxNavigation20InstructionPresenterC", ""]
+- ["16MapboxNavigation14ImagePresenterP", ""]
+- ["16MapboxNavigation16ImageInstructionC", ""]
+- ["16MapboxNavigation16ShieldAttachmentC", ""]
+- ["16MapboxNavigation23GenericShieldAttachmentC", ""]
+- ["16MapboxNavigation14ExitAttachmentC", ""]
+provides-dynamic-lookup:
+- "attachmentBounds"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "+"
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- "CGRect"
+- "CGSize"
+- "CastingPrecedence"
+- "DataSource"
+- !private "DispatchQueue"
+- "ExitAttachment"
+- "ExitSide"
+- !private "ExitView"
+- !private "GenericRouteShield"
+- "GenericShieldAttachment"
+- "ImageInstruction"
+- "ImagePresenter"
+- "ImageRepository"
+- !private "IndexedVisualInstructionComponent"
+- "InstructionPresenter"
+- "InstructionPresenterDataSource"
+- "Int"
+- "ManeuverDirection"
+- "NSAttributedString"
+- "NSAttributedStringKey"
+- !private "NSMutableAttributedString"
+- "NSTextAttachment"
+- "NSTextContainer"
+- "ShieldAttachment"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UIApplication"
+- "UIColor"
+- "UIFont"
+- "UIImage"
+- "UIView"
+- !private "UnicodeScalarType"
+- "VisualInstruction"
+- "VisualInstructionComponent"
+- "Void"
+- !private "assert"
+- !private "~="
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "addSubview"]
+- !private ["16MapboxNavigation10AnchorableP", "criticalHash"]
+- !private ["16MapboxNavigation10AnchorableP", "imageRepresentation"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "removeFromSuperview"]
+- ["Sa", "Element"]
+- ["Sa", "Index"]
+- ["Sa", "VisualInstructionComponent"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "component"]
+- !private ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "index"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "sorted"]
+- !private ["Sa", "subscript"]
+- ["s23BidirectionalCollectionP", "Element"]
+- ["s23BidirectionalCollectionP", "Index"]
+- ["s23BidirectionalCollectionP", "VisualInstructionComponent"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "compactMap"]
+- !private ["s23BidirectionalCollectionP", "component"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "endIndex"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "sorted"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- ["s19BinaryFloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s19BinaryFloatingPointP", "rounded"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "criticalHash"]
+- !private ["So15CALayerDelegateP", "imageRepresentation"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- ["12CoreGraphics7CGFloatV", "greatestFiniteMagnitude"]
+- !private ["12CoreGraphics7CGFloatV", "rounded"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "width"]
+- !private ["SC6CGSizeV", "+"]
+- ["SC6CGSizeV", "CGFloat"]
+- ["SC6CGSizeV", "CGSize"]
+- ["SC6CGSizeV", "deinit"]
+- !private ["SC6CGSizeV", "greatestFiniteSize"]
+- !private ["SC6CGSizeV", "height"]
+- ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["SC6CGSizeV", "zero"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "Element"]
+- ["s7CVarArgP", "Index"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "VisualInstructionComponent"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "abbreviation"]
+- !private ["s7CVarArgP", "abbreviationPriority"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "attachmentBounds"]
+- !private ["s7CVarArgP", "cacheKey"]
+- !private ["s7CVarArgP", "capHeight"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "component"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "criticalHash"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "greatestFiniteMagnitude"]
+- ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageRepresentation"]
+- !private ["s7CVarArgP", "imageURL"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "maneuverDirection"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointSize"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "rounded"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "systemFontSize"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "type"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- ["s10CollectionP", "VisualInstructionComponent"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "compactMap"]
+- !private ["s10CollectionP", "component"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "filter"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "sorted"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "greatestFiniteMagnitude"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "rounded"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "abbreviation"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "abbreviationPriority"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "cacheKey"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "imageURL"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "text"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "type"]
+- ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "CGSize"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "VisualInstructionComponent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abbreviation"]
+- !private ["s28CustomDebugStringConvertibleP", "abbreviationPriority"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "attachmentBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cacheKey"]
+- !private ["s28CustomDebugStringConvertibleP", "capHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "component"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "criticalHash"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "imageURL"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "maneuverDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointSize"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "systemFontSize"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s29CustomPlaygroundQuickLookableP", "CGFloat"]
+- ["s29CustomPlaygroundQuickLookableP", "CGSize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- ["s17CustomReflectableP", "CGFloat"]
+- ["s17CustomReflectableP", "CGSize"]
+- ["s17CustomReflectableP", "Element"]
+- ["s17CustomReflectableP", "Index"]
+- ["s17CustomReflectableP", "VisualInstructionComponent"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "component"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "rounded"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "VisualInstructionComponent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "abbreviation"]
+- !private ["s23CustomStringConvertibleP", "abbreviationPriority"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "attachmentBounds"]
+- !private ["s23CustomStringConvertibleP", "cacheKey"]
+- !private ["s23CustomStringConvertibleP", "capHeight"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "component"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "criticalHash"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "delimiter"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- ["s23CustomStringConvertibleP", "exit"]
+- ["s23CustomStringConvertibleP", "exitCode"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageRepresentation"]
+- !private ["s23CustomStringConvertibleP", "imageURL"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "left"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "maneuverDirection"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "pointSize"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "rounded"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "systemFontSize"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- ["s9DecodableP", "CGFloat"]
+- ["s9DecodableP", "CGSize"]
+- ["s9DecodableP", "Element"]
+- ["s9DecodableP", "Index"]
+- ["s9DecodableP", "VisualInstructionComponent"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "compactMap"]
+- !private ["s9DecodableP", "component"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "endIndex"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "filter"]
+- !private ["s9DecodableP", "forEach"]
+- ["s9DecodableP", "greatestFiniteMagnitude"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "index"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "rounded"]
+- !private ["s9DecodableP", "sorted"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "zero"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- ["s9EncodableP", "CGFloat"]
+- ["s9EncodableP", "CGSize"]
+- ["s9EncodableP", "Element"]
+- ["s9EncodableP", "Index"]
+- ["s9EncodableP", "VisualInstructionComponent"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "compactMap"]
+- !private ["s9EncodableP", "component"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "endIndex"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "filter"]
+- !private ["s9EncodableP", "forEach"]
+- ["s9EncodableP", "greatestFiniteMagnitude"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "index"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "rounded"]
+- !private ["s9EncodableP", "sorted"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s18EnumeratedSequenceV", "map"]
+- ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "CGRect"]
+- ["s9EquatableP", "CGSize"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "Index"]
+- ["s9EquatableP", "UIFont"]
+- ["s9EquatableP", "VisualInstructionComponent"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "abbreviation"]
+- !private ["s9EquatableP", "abbreviationPriority"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "attachmentBounds"]
+- !private ["s9EquatableP", "cacheKey"]
+- !private ["s9EquatableP", "capHeight"]
+- !private ["s9EquatableP", "compactMap"]
+- !private ["s9EquatableP", "component"]
+- !private ["s9EquatableP", "components"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "criticalHash"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "delimiter"]
+- !private ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "enumerated"]
+- ["s9EquatableP", "exit"]
+- ["s9EquatableP", "exitCode"]
+- !private ["s9EquatableP", "filter"]
+- ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "forEach"]
+- !private ["s9EquatableP", "foregroundColor"]
+- ["s9EquatableP", "greatestFiniteMagnitude"]
+- !private ["s9EquatableP", "height"]
+- ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imageRepresentation"]
+- !private ["s9EquatableP", "imageURL"]
+- !private ["s9EquatableP", "index"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "maneuverDirection"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "pointSize"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "removeFromSuperview"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "rounded"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "sorted"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "systemFont"]
+- ["s9EquatableP", "systemFontSize"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "zero"]
+- ["16MapboxNavigation14ExitAttachmentC", "deinit"]
+- !private ["16MapboxNavigation14ExitAttachmentC", "font"]
+- !private ["16MapboxNavigation14ExitAttachmentC", "image"]
+- ["16MapboxNavigation14ExitAttachmentC", "init"]
+- !private ["16MapboxNavigation8ExitSideO", "left"]
+- !private ["16MapboxNavigation8ExitSideO", "right"]
+- !private ["16MapboxNavigation8ExitViewC", "criticalHash"]
+- !private ["16MapboxNavigation8ExitViewC", "init"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "Index"]
+- ["s25ExpressibleByArrayLiteralP", "VisualInstructionComponent"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "component"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "CGFloat"]
+- ["s25ExpressibleByFloatLiteralP", "CGSize"]
+- ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "height"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "rounded"]
+- !private ["s25ExpressibleByFloatLiteralP", "width"]
+- !private ["s25ExpressibleByFloatLiteralP", "zero"]
+- ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s13FloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s13FloatingPointP", "rounded"]
+- !private ["16MapboxNavigation18GenericRouteShieldC", "criticalHash"]
+- !private ["16MapboxNavigation18GenericRouteShieldC", "init"]
+- ["16MapboxNavigation23GenericShieldAttachmentC", "deinit"]
+- !private ["16MapboxNavigation23GenericShieldAttachmentC", "font"]
+- !private ["16MapboxNavigation23GenericShieldAttachmentC", "image"]
+- ["16MapboxNavigation23GenericShieldAttachmentC", "init"]
+- !private ["s8HashableP", "CGRect"]
+- ["s8HashableP", "UIFont"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "abbreviation"]
+- !private ["s8HashableP", "abbreviationPriority"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "append"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "attachmentBounds"]
+- !private ["s8HashableP", "cacheKey"]
+- !private ["s8HashableP", "capHeight"]
+- !private ["s8HashableP", "components"]
+- !private ["s8HashableP", "criticalHash"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "delimiter"]
+- ["s8HashableP", "exit"]
+- ["s8HashableP", "exitCode"]
+- ["s8HashableP", "font"]
+- !private ["s8HashableP", "foregroundColor"]
+- ["s8HashableP", "greatestFiniteMagnitude"]
+- ["s8HashableP", "image"]
+- !private ["s8HashableP", "imageRepresentation"]
+- !private ["s8HashableP", "imageURL"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "left"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "maneuverDirection"]
+- !private ["s8HashableP", "pointSize"]
+- !private ["s8HashableP", "removeFromSuperview"]
+- !private ["s8HashableP", "right"]
+- !private ["s8HashableP", "rounded"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "size"]
+- ["s8HashableP", "systemFont"]
+- ["s8HashableP", "systemFontSize"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "type"]
+- ["16MapboxNavigation16ImageInstructionC", "CGPoint"]
+- ["16MapboxNavigation16ImageInstructionC", "CGRect"]
+- ["16MapboxNavigation16ImageInstructionC", "Int"]
+- ["16MapboxNavigation16ImageInstructionC", "NSTextContainer"]
+- ["16MapboxNavigation16ImageInstructionC", "UIFont"]
+- ["16MapboxNavigation16ImageInstructionC", ""]
+- ["16MapboxNavigation16ImageInstructionC", "attachmentBounds"]
+- ["16MapboxNavigation16ImageInstructionC", "deinit"]
+- ["16MapboxNavigation16ImageInstructionC", "font"]
+- ["16MapboxNavigation16ImageInstructionC", "image"]
+- ["16MapboxNavigation16ImageInstructionC", "init"]
+- !private ["16MapboxNavigation14ImagePresenterP", "CGRect"]
+- ["16MapboxNavigation14ImagePresenterP", "UIFont"]
+- ["16MapboxNavigation14ImagePresenterP", "UIImage"]
+- ["16MapboxNavigation14ImagePresenterP", ""]
+- ["16MapboxNavigation14ImagePresenterP", "font"]
+- ["16MapboxNavigation14ImagePresenterP", "image"]
+- !private ["16MapboxNavigation14ImagePresenterP", "init"]
+- !private ["16MapboxNavigation15ImageRepositoryC", "cachedImageForKey"]
+- !private ["16MapboxNavigation15ImageRepositoryC", "imageWithURL"]
+- !private ["16MapboxNavigation15ImageRepositoryC", "shared"]
+- !private ["16MapboxNavigation15ImageRepositoryC", "storeImage"]
+- ["16MapboxNavigation20InstructionPresenterC", "AttributedInstructionComponents"]
+- ["16MapboxNavigation20InstructionPresenterC", "Bool"]
+- ["16MapboxNavigation20InstructionPresenterC", "CGFloat"]
+- ["16MapboxNavigation20InstructionPresenterC", "DataSource"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "DispatchQueue"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "ExitAttachment"]
+- ["16MapboxNavigation20InstructionPresenterC", "ExitSide"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "ExitView"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "GenericRouteShield"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "GenericShieldAttachment"]
+- ["16MapboxNavigation20InstructionPresenterC", "ImageDownloadCompletion"]
+- ["16MapboxNavigation20InstructionPresenterC", "ImageRepository"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "IndexedVisualInstructionComponent"]
+- ["16MapboxNavigation20InstructionPresenterC", "InstructionPresenterDataSource"]
+- ["16MapboxNavigation20InstructionPresenterC", "ManeuverDirection"]
+- ["16MapboxNavigation20InstructionPresenterC", "NSAttributedString"]
+- ["16MapboxNavigation20InstructionPresenterC", "NSAttributedStringKey"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "NSMutableAttributedString"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "ShieldAttachment"]
+- ["16MapboxNavigation20InstructionPresenterC", "ShieldDownloadCompletion"]
+- ["16MapboxNavigation20InstructionPresenterC", "String"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "UIApplication"]
+- ["16MapboxNavigation20InstructionPresenterC", "UIFont"]
+- ["16MapboxNavigation20InstructionPresenterC", "UIImage"]
+- ["16MapboxNavigation20InstructionPresenterC", "UIView"]
+- ["16MapboxNavigation20InstructionPresenterC", "VisualInstruction"]
+- ["16MapboxNavigation20InstructionPresenterC", "VisualInstructionComponent"]
+- ["16MapboxNavigation20InstructionPresenterC", "Void"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "assert"]
+- ["16MapboxNavigation20InstructionPresenterC", "attributedPairs"]
+- ["16MapboxNavigation20InstructionPresenterC", "attributedString"]
+- ["16MapboxNavigation20InstructionPresenterC", "attributedText"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "attributes"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "completeShieldDownload"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "dataSource"]
+- ["16MapboxNavigation20InstructionPresenterC", "deinit"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "exitShield"]
+- ["16MapboxNavigation20InstructionPresenterC", "fittedAttributedComponents"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "genericShield"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "imageRepository"]
+- ["16MapboxNavigation20InstructionPresenterC", "init"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "instruction"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "instructionHasDownloadedAllShields"]
+- ["16MapboxNavigation20InstructionPresenterC", "onShieldDownload"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "shieldImageForComponent"]
+- !private ["16MapboxNavigation20InstructionPresenterC", "takeSnapshot"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "CGFloat"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "CGRect"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "UIColor"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "UIFont"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "availableBounds"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "font"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "shieldHeight"]
+- ["16MapboxNavigation30InstructionPresenterDataSourceP", "textColor"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["16MapboxDirections17ManeuverDirectionO", "left"]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "Element"]
+- ["s17MutableCollectionP", "Index"]
+- ["s17MutableCollectionP", "VisualInstructionComponent"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "compactMap"]
+- !private ["s17MutableCollectionP", "component"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "endIndex"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "sorted"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So18NSAttributedStringC", "append"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So18NSAttributedStringC", "size"]
+- !private ["SC21NSAttributedStringKeyV", "font"]
+- !private ["SC21NSAttributedStringKeyV", "foregroundColor"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "abbreviation"]
+- !private ["So8NSCodingP", "abbreviationPriority"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "attachmentBounds"]
+- !private ["So8NSCodingP", "cacheKey"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "criticalHash"]
+- ["So8NSCodingP", "font"]
+- ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageRepresentation"]
+- !private ["So8NSCodingP", "imageURL"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "maneuverDirection"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "type"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "capHeight"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "pointSize"]
+- !private ["So9NSCopyingP", "size"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "systemFontSize"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- !private ["So25NSMutableAttributedStringC", "append"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "size"]
+- ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSTextContainer"]
+- ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "abbreviation"]
+- !private ["So8NSObjectC", "abbreviationPriority"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "attachmentBounds"]
+- !private ["So8NSObjectC", "cacheKey"]
+- !private ["So8NSObjectC", "capHeight"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "criticalHash"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "imageRepresentation"]
+- !private ["So8NSObjectC", "imageURL"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "maneuverDirection"]
+- !private ["So8NSObjectC", "pointSize"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "size"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "systemFontSize"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- ["So16NSObjectProtocolP", "UIFont"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "abbreviation"]
+- !private ["So16NSObjectProtocolP", "abbreviationPriority"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "append"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "attachmentBounds"]
+- !private ["So16NSObjectProtocolP", "cacheKey"]
+- !private ["So16NSObjectProtocolP", "capHeight"]
+- !private ["So16NSObjectProtocolP", "components"]
+- !private ["So16NSObjectProtocolP", "criticalHash"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "font"]
+- ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imageRepresentation"]
+- !private ["So16NSObjectProtocolP", "imageURL"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "maneuverDirection"]
+- !private ["So16NSObjectProtocolP", "pointSize"]
+- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "size"]
+- ["So16NSObjectProtocolP", "systemFont"]
+- ["So16NSObjectProtocolP", "systemFontSize"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "type"]
+- !private ["So16NSObjectProtocolP", "window"]
+- !private ["So14NSSecureCodingP", "abbreviation"]
+- !private ["So14NSSecureCodingP", "abbreviationPriority"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "cacheKey"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "imageURL"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "maneuverDirection"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So14NSSecureCodingP", "text"]
+- !private ["So14NSSecureCodingP", "type"]
+- ["So16NSTextAttachmentC", "CGPoint"]
+- ["So16NSTextAttachmentC", "CGRect"]
+- ["So16NSTextAttachmentC", "Int"]
+- ["So16NSTextAttachmentC", "NSTextContainer"]
+- ["So16NSTextAttachmentC", "UIFont"]
+- ["So16NSTextAttachmentC", ""]
+- ["So16NSTextAttachmentC", "attachmentBounds"]
+- ["So16NSTextAttachmentC", "font"]
+- ["So16NSTextAttachmentC", "image"]
+- ["So16NSTextAttachmentC", "init"]
+- !private ["So25NSTextAttachmentContainerP", "CGRect"]
+- ["So25NSTextAttachmentContainerP", "UIFont"]
+- ["So25NSTextAttachmentContainerP", ""]
+- !private ["So25NSTextAttachmentContainerP", "attachmentBounds"]
+- ["So25NSTextAttachmentContainerP", "font"]
+- ["So25NSTextAttachmentContainerP", "image"]
+- !private ["So25NSTextAttachmentContainerP", "init"]
+- ["s7NumericP", "greatestFiniteMagnitude"]
+- !private ["s7NumericP", "rounded"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- ["s22RandomAccessCollectionP", "Element"]
+- ["s22RandomAccessCollectionP", "Index"]
+- ["s22RandomAccessCollectionP", "VisualInstructionComponent"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "compactMap"]
+- !private ["s22RandomAccessCollectionP", "component"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "endIndex"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "sorted"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- ["s26RangeReplaceableCollectionP", "Element"]
+- ["s26RangeReplaceableCollectionP", "Index"]
+- ["s26RangeReplaceableCollectionP", "VisualInstructionComponent"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "compactMap"]
+- !private ["s26RangeReplaceableCollectionP", "component"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "endIndex"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "sorted"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s16RawRepresentableP", "delimiter"]
+- ["s16RawRepresentableP", "exit"]
+- ["s16RawRepresentableP", "exitCode"]
+- !private ["s16RawRepresentableP", "font"]
+- !private ["s16RawRepresentableP", "foregroundColor"]
+- ["s16RawRepresentableP", "image"]
+- !private ["s16RawRepresentableP", "left"]
+- !private ["s16RawRepresentableP", "right"]
+- !private ["s16RawRepresentableP", "text"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- ["s8SequenceP", "VisualInstructionComponent"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "compactMap"]
+- !private ["s8SequenceP", "component"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "sorted"]
+- !private ["s8SequenceP", "subscript"]
+- ["16MapboxNavigation16ShieldAttachmentC", ""]
+- ["16MapboxNavigation16ShieldAttachmentC", "deinit"]
+- !private ["16MapboxNavigation16ShieldAttachmentC", "font"]
+- !private ["16MapboxNavigation16ShieldAttachmentC", "image"]
+- ["16MapboxNavigation16ShieldAttachmentC", "init"]
+- ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "rounded"]
+- !private ["s12StaticStringV", "init"]
+- ["s10StrideableP", "greatestFiniteMagnitude"]
+- !private ["s10StrideableP", "rounded"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["16MapboxNavigation12StylableViewC", "criticalHash"]
+- !private ["16MapboxNavigation12StylableViewC", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGRect"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIFont"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "attachmentBounds"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "font"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "criticalHash"]
+- !private ["So29UIAccessibilityIdentificationP", "imageRepresentation"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "criticalHash"]
+- !private ["So12UIAppearanceP", "imageRepresentation"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "criticalHash"]
+- !private ["So21UIAppearanceContainerP", "imageRepresentation"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "window"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "criticalHash"]
+- !private ["So17UICoordinateSpaceP", "imageRepresentation"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "criticalHash"]
+- !private ["So13UIDynamicItemP", "imageRepresentation"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "criticalHash"]
+- !private ["So18UIFocusEnvironmentP", "imageRepresentation"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "criticalHash"]
+- !private ["So11UIFocusItemP", "imageRepresentation"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So6UIFontC", "capHeight"]
+- !private ["So6UIFontC", "pointSize"]
+- ["So6UIFontC", "systemFont"]
+- ["So6UIFontC", "systemFontSize"]
+- !private ["So7UIImageC", "size"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "criticalHash"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageRepresentation"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "criticalHash"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "imageRepresentation"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "criticalHash"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "imageRepresentation"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "criticalHash"]
+- !private ["So18UITraitEnvironmentP", "imageRepresentation"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "criticalHash"]
+- !private ["So6UIViewC", "imageRepresentation"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So8UIWindowC", "addSubview"]
+- !private ["16MapboxDirections17VisualInstructionC", "components"]
+- !private ["16MapboxDirections17VisualInstructionC", "maneuverDirection"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "abbreviation"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "abbreviationPriority"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "cacheKey"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "imageURL"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "text"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "type"]
+- ["16MapboxDirections30VisualInstructionComponentTypeO", "delimiter"]
+- ["16MapboxDirections30VisualInstructionComponentTypeO", "exit"]
+- ["16MapboxDirections30VisualInstructionComponentTypeO", "exitCode"]
+- ["16MapboxDirections30VisualInstructionComponentTypeO", "image"]
+- !private ["16MapboxDirections30VisualInstructionComponentTypeO", "text"]
+- ["s14_ArrayProtocolP", "Element"]
+- ["s14_ArrayProtocolP", "Index"]
+- ["s14_ArrayProtocolP", "VisualInstructionComponent"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "component"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "rounded"]
+- ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "criticalHash"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageRepresentation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- ["s24_DestructorSafeContainerP", "Element"]
+- ["s24_DestructorSafeContainerP", "Index"]
+- ["s24_DestructorSafeContainerP", "VisualInstructionComponent"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "component"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abbreviation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abbreviationPriority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attachmentBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cacheKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "criticalHash"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maneuverDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pointSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFontSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- ["s21_ObjectiveCBridgeableP", "CGFloat"]
+- ["s21_ObjectiveCBridgeableP", "CGSize"]
+- ["s21_ObjectiveCBridgeableP", "Element"]
+- ["s21_ObjectiveCBridgeableP", "Index"]
+- ["s21_ObjectiveCBridgeableP", "VisualInstructionComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "component"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
+- ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "rounded"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "16MapboxNavigation10AnchorableP"
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "12CoreGraphics7CGFloatV"
+- !private "SC6CGRectV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "16MapboxDirections22ComponentRepresentableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- !private "s18EnumeratedSequenceV"
+- "s9EquatableP"
+- "16MapboxNavigation14ExitAttachmentC"
+- !private "16MapboxNavigation8ExitSideO"
+- !private "16MapboxNavigation8ExitViewC"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s13FloatingPointP"
+- !private "16MapboxNavigation18GenericRouteShieldC"
+- "16MapboxNavigation23GenericShieldAttachmentC"
+- "s8HashableP"
+- "16MapboxNavigation16ImageInstructionC"
+- "16MapboxNavigation14ImagePresenterP"
+- !private "16MapboxNavigation15ImageRepositoryC"
+- "16MapboxNavigation20InstructionPresenterC"
+- "16MapboxNavigation30InstructionPresenterDataSourceP"
+- !private "4Turf8JSONTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "16MapboxDirections17ManeuverDirectionO"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So18NSAttributedStringC"
+- !private "SC21NSAttributedStringKeyV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So16NSTextAttachmentC"
+- "So25NSTextAttachmentContainerP"
+- "s7NumericP"
+- !private "So9OS_objectC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- "16MapboxNavigation16ShieldAttachmentC"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "16MapboxNavigation12StylableViewC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So6UIFontC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So8UIWindowC"
+- !private "16MapboxDirections17VisualInstructionC"
+- !private "16MapboxDirections26VisualInstructionComponentC"
+- "16MapboxDirections30VisualInstructionComponentTypeO"
+- "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "05ae1d1c31ce3307fb0d8dc4f4770df3"

@@ -1,0 +1,297 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CLLocation+MMEMobileEvents.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEAPIClient.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMECategoryLoader.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMECommonEventData.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEConstants.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEDependencyManager.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEvent.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEventLogReportViewController.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEventLogger.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEventsConfiguration.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEventsManager.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEEventsService.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMELocationManager.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMENSDateWrapper.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMENSURLSessionWrapper.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEReachability.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMETimerManager.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMETrustKitWrapper.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMETypes.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEUIApplicationWrapper.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEUINavigation.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMEUniqueIdentifier.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapboxMobileEvents-Swift.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MapboxMobileEvents-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapboxMobileEvents-umbrella.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapboxMobileEvents.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+MMEGZIP.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKBackgroundReporter.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKLog.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPinFailureReport.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPinningValidator.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPinningValidatorCallback.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPinningValidatorResult.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPinningValidator_Private.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKPublicKeyAlgorithm.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKReportsRateLimiter.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKSPKIHashCache.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKTrustDecision.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+        },
+        {
+          'type': 'file',
+          'name': "TSKTrustKitConfig.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "TrustKit.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "configuration_utils.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+        },
+        {
+          'type': 'file',
+          'name': "parse_configuration.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+        },
+        {
+          'type': 'file',
+          'name': "reporting_utils.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+        },
+        {
+          'type': 'file',
+          'name': "ssl_pin_verifier.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+        },
+        {
+          'type': 'file',
+          'name': "vendor_identifier.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxSceneKit/MapboxSceneKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MapboxSceneKit-Swift.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxSceneKit/MapboxSceneKit.framework/Headers/MapboxSceneKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapboxSceneKit-umbrella.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxSceneKit/MapboxSceneKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/MapboxSceneKit/MapboxSceneKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSceneKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/Pods_EO18_3.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-EO18_3-umbrella.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/Pods-EO18_3/Pods-EO18_3-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_EO18_3-Swift.h",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/Pods_EO18_3.framework/Headers/Pods_EO18_3-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Products/Debug-iphonesimulator/Pods_EO18_3.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-EO18_3.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

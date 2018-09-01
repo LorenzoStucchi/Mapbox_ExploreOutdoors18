@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "877127a23f767ab876059a6b14c5dd1c"
+build_time: [1535007528, 213355000]
+inputs:
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Tile Fetching/AsyncOperation.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Extensions/CGExtensions.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Tile Fetching/HTTPRequestOperation.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Tile Fetching/ImageBuilder.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Tile Fetching/MapboxHTTPAPI.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/MapboxImageAPI.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Math.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/Extensions/SCNExtensions.swift": [1535007455, 0]
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxSceneKit/MapboxSceneKit/TerrainNode.swift": [1535007455, 0]

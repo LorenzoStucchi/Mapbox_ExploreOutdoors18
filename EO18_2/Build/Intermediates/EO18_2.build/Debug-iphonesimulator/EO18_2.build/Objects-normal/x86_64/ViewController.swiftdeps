@@ -1,0 +1,1382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "6EO18_214ViewControllerC"
+provides-member:
+- ["6EO18_214ViewControllerC", ""]
+provides-dynamic-lookup:
+- "handleMapTap"
+- "startNavigation"
+- "viewDidLoad"
+depends-top-level:
+- !private "-"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "CLLocationCoordinate2D"
+- "CastingPrecedence"
+- !private "Directions"
+- "MGLMapView"
+- !private "MGLPointAnnotation"
+- !private "NavigationRouteOptions"
+- !private "NavigationViewController"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UIColor"
+- "UITapGestureRecognizer"
+- "UIViewController"
+- !private "URL"
+- "ViewController"
+- !private "print"
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "addAnnotation"]
+- !private ["16MapboxNavigation10AnchorableP", "addGestureRecognizer"]
+- !private ["16MapboxNavigation10AnchorableP", "addSubview"]
+- !private ["16MapboxNavigation10AnchorableP", "addTarget"]
+- !private ["16MapboxNavigation10AnchorableP", "backgroundColor"]
+- !private ["16MapboxNavigation10AnchorableP", "bounds"]
+- !private ["16MapboxNavigation10AnchorableP", "convert"]
+- !private ["16MapboxNavigation10AnchorableP", "frame"]
+- !private ["16MapboxNavigation10AnchorableP", "gestureRecognizers"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "isEnabled"]
+- !private ["16MapboxNavigation10AnchorableP", "setTitle"]
+- !private ["16MapboxNavigation10AnchorableP", "setUserTrackingMode"]
+- !private ["16MapboxNavigation10AnchorableP", "showsUserLocation"]
+- !private ["16MapboxNavigation10AnchorableP", "styleURL"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addAnnotation"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "convert"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "gestureRecognizers"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isEnabled"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So15CALayerDelegateP", "setUserTrackingMode"]
+- !private ["So15CALayerDelegateP", "showsUserLocation"]
+- !private ["So15CALayerDelegateP", "styleURL"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "Directions"]
+- !private ["s7CVarArgP", "MGLMapView"]
+- !private ["s7CVarArgP", "MGLPointAnnotation"]
+- !private ["s7CVarArgP", "NavigationRouteOptions"]
+- !private ["s7CVarArgP", "NavigationViewController"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAnnotation"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "button"]
+- !private ["s7CVarArgP", "calculate"]
+- !private ["s7CVarArgP", "convert"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "gestureRecognizers"]
+- !private ["s7CVarArgP", "handleMapTap"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "points"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "profileIdentifier"]
+- !private ["s7CVarArgP", "require"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "setUserTrackingMode"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "showsUserLocation"]
+- !private ["s7CVarArgP", "startNavigation"]
+- !private ["s7CVarArgP", "styleURL"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "Directions"]
+- !private ["s28CustomDebugStringConvertibleP", "MGLMapView"]
+- !private ["s28CustomDebugStringConvertibleP", "MGLPointAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "NavigationRouteOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "NavigationViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "button"]
+- !private ["s28CustomDebugStringConvertibleP", "calculate"]
+- !private ["s28CustomDebugStringConvertibleP", "convert"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "gestureRecognizers"]
+- !private ["s28CustomDebugStringConvertibleP", "handleMapTap"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "points"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "profileIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "require"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "setUserTrackingMode"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "showsUserLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "startNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "styleURL"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "Directions"]
+- !private ["s23CustomStringConvertibleP", "MGLMapView"]
+- !private ["s23CustomStringConvertibleP", "MGLPointAnnotation"]
+- !private ["s23CustomStringConvertibleP", "NavigationRouteOptions"]
+- !private ["s23CustomStringConvertibleP", "NavigationViewController"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAnnotation"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "button"]
+- !private ["s23CustomStringConvertibleP", "calculate"]
+- !private ["s23CustomStringConvertibleP", "convert"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "gestureRecognizers"]
+- !private ["s23CustomStringConvertibleP", "handleMapTap"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "points"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "profileIdentifier"]
+- !private ["s23CustomStringConvertibleP", "require"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "setUserTrackingMode"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "showsUserLocation"]
+- !private ["s23CustomStringConvertibleP", "startNavigation"]
+- !private ["s23CustomStringConvertibleP", "styleURL"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["16MapboxDirections0B0C", "calculate"]
+- !private ["16MapboxDirections0B0C", "shared"]
+- !private ["16MapboxDirections0B7OptionsC", "init"]
+- !private ["16MapboxDirections0B7OptionsC", "profileIdentifier"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGRect"]
+- ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "Directions"]
+- !private ["s9EquatableP", "MGLMapView"]
+- !private ["s9EquatableP", "MGLPointAnnotation"]
+- !private ["s9EquatableP", "NavigationRouteOptions"]
+- !private ["s9EquatableP", "NavigationViewController"]
+- !private ["s9EquatableP", "UIButton"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- !private ["s9EquatableP", "URL"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAnnotation"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "button"]
+- !private ["s9EquatableP", "calculate"]
+- !private ["s9EquatableP", "convert"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "disabled"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "follow"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "gestureRecognizers"]
+- !private ["s9EquatableP", "handleMapTap"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEnabled"]
+- !private ["s9EquatableP", "localizedDescription"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "mapView"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "points"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "profileIdentifier"]
+- !private ["s9EquatableP", "require"]
+- !private ["s9EquatableP", "setTitle"]
+- !private ["s9EquatableP", "setUserTrackingMode"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "showsUserLocation"]
+- !private ["s9EquatableP", "startNavigation"]
+- !private ["s9EquatableP", "styleURL"]
+- !private ["s9EquatableP", "touchUpInside"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "walking"]
+- !private ["s9EquatableP", "width"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "disabled"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "Directions"]
+- !private ["s8HashableP", "MGLMapView"]
+- !private ["s8HashableP", "MGLPointAnnotation"]
+- !private ["s8HashableP", "NavigationRouteOptions"]
+- !private ["s8HashableP", "NavigationViewController"]
+- !private ["s8HashableP", "UIButton"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- !private ["s8HashableP", "URL"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAnnotation"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "button"]
+- !private ["s8HashableP", "calculate"]
+- !private ["s8HashableP", "convert"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "follow"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "gestureRecognizers"]
+- !private ["s8HashableP", "handleMapTap"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEnabled"]
+- !private ["s8HashableP", "localizedDescription"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "mapView"]
+- !private ["s8HashableP", "points"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "profileIdentifier"]
+- !private ["s8HashableP", "require"]
+- !private ["s8HashableP", "setTitle"]
+- !private ["s8HashableP", "setUserTrackingMode"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "showsUserLocation"]
+- !private ["s8HashableP", "startNavigation"]
+- !private ["s8HashableP", "styleURL"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "walking"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SC29MBDirectionsProfileIdentifierV", "walking"]
+- !private ["So13MGLAnnotationP", "coordinate"]
+- !private ["So13MGLAnnotationP", "init"]
+- !private ["So10MGLMapViewC", "addAnnotation"]
+- !private ["So10MGLMapViewC", "addGestureRecognizer"]
+- !private ["So10MGLMapViewC", "addSubview"]
+- !private ["So10MGLMapViewC", "convert"]
+- !private ["So10MGLMapViewC", "frame"]
+- !private ["So10MGLMapViewC", "gestureRecognizers"]
+- !private ["So10MGLMapViewC", "init"]
+- !private ["So10MGLMapViewC", "setUserTrackingMode"]
+- !private ["So10MGLMapViewC", "showsUserLocation"]
+- !private ["So10MGLMapViewC", "styleURL"]
+- !private ["So18MGLMapViewDelegateP", "init"]
+- !private ["So18MGLPointAnnotationC", "coordinate"]
+- !private ["So18MGLPointAnnotationC", "init"]
+- !private ["So8MGLShapeC", "coordinate"]
+- !private ["So8MGLShapeC", "init"]
+- !private ["SC19MGLUserTrackingModeO", "follow"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "Directions"]
+- !private ["So8NSCodingP", "MGLMapView"]
+- !private ["So8NSCodingP", "MGLPointAnnotation"]
+- !private ["So8NSCodingP", "NavigationRouteOptions"]
+- !private ["So8NSCodingP", "NavigationViewController"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAnnotation"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "button"]
+- !private ["So8NSCodingP", "convert"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "gestureRecognizers"]
+- !private ["So8NSCodingP", "handleMapTap"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So8NSCodingP", "mapView"]
+- !private ["So8NSCodingP", "points"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "profileIdentifier"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "setUserTrackingMode"]
+- !private ["So8NSCodingP", "showsUserLocation"]
+- !private ["So8NSCodingP", "startNavigation"]
+- !private ["So8NSCodingP", "styleURL"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "profileIdentifier"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2D"]
+- !private ["So26NSExtensionRequestHandlingP", "Directions"]
+- !private ["So26NSExtensionRequestHandlingP", "MGLMapView"]
+- !private ["So26NSExtensionRequestHandlingP", "MGLPointAnnotation"]
+- !private ["So26NSExtensionRequestHandlingP", "NavigationRouteOptions"]
+- !private ["So26NSExtensionRequestHandlingP", "NavigationViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "button"]
+- !private ["So26NSExtensionRequestHandlingP", "handleMapTap"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "mapView"]
+- !private ["So26NSExtensionRequestHandlingP", "points"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "startNavigation"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "Directions"]
+- ["So8NSObjectC", "MGLMapView"]
+- !private ["So8NSObjectC", "MGLPointAnnotation"]
+- !private ["So8NSObjectC", "NavigationRouteOptions"]
+- !private ["So8NSObjectC", "NavigationViewController"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "addAnnotation"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "button"]
+- !private ["So8NSObjectC", "calculate"]
+- !private ["So8NSObjectC", "convert"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "gestureRecognizers"]
+- ["So8NSObjectC", "handleMapTap"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "mapView"]
+- ["So8NSObjectC", "points"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "profileIdentifier"]
+- !private ["So8NSObjectC", "require"]
+- !private ["So8NSObjectC", "setTitle"]
+- !private ["So8NSObjectC", "setUserTrackingMode"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "showsUserLocation"]
+- ["So8NSObjectC", "startNavigation"]
+- !private ["So8NSObjectC", "styleURL"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "Directions"]
+- !private ["So16NSObjectProtocolP", "MGLMapView"]
+- !private ["So16NSObjectProtocolP", "MGLPointAnnotation"]
+- !private ["So16NSObjectProtocolP", "NavigationRouteOptions"]
+- !private ["So16NSObjectProtocolP", "NavigationViewController"]
+- !private ["So16NSObjectProtocolP", "UIButton"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addAnnotation"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "button"]
+- !private ["So16NSObjectProtocolP", "calculate"]
+- !private ["So16NSObjectProtocolP", "convert"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "gestureRecognizers"]
+- !private ["So16NSObjectProtocolP", "handleMapTap"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEnabled"]
+- !private ["So16NSObjectProtocolP", "localizedDescription"]
+- !private ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "mapView"]
+- !private ["So16NSObjectProtocolP", "points"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "profileIdentifier"]
+- !private ["So16NSObjectProtocolP", "require"]
+- !private ["So16NSObjectProtocolP", "setTitle"]
+- !private ["So16NSObjectProtocolP", "setUserTrackingMode"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "showsUserLocation"]
+- !private ["So16NSObjectProtocolP", "startNavigation"]
+- !private ["So16NSObjectProtocolP", "styleURL"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["So14NSSecureCodingP", "profileIdentifier"]
+- !private ["16MapboxNavigation0B15MapViewDelegateP", "init"]
+- !private ["20MapboxCoreNavigation0C12RouteOptionsC", "init"]
+- !private ["20MapboxCoreNavigation0C12RouteOptionsC", "profileIdentifier"]
+- !private ["16MapboxNavigation0B14ViewControllerC", "init"]
+- !private ["s9OptionSetP", "disabled"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "disabled"]
+- !private ["s16RawRepresentableP", "follow"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s16RawRepresentableP", "touchUpInside"]
+- !private ["s16RawRepresentableP", "walking"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["20MapboxCoreNavigation23RouteControllerDelegateP", "init"]
+- !private ["16MapboxNavigation30RouteMapViewControllerDelegateP", "init"]
+- !private ["16MapboxDirections12RouteOptionsC", "init"]
+- !private ["16MapboxDirections12RouteOptionsC", "profileIdentifier"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "disabled"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["16MapboxNavigation20StyleManagerDelegateP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isEnabled"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "addAnnotation"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "convert"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "gestureRecognizers"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "setUserTrackingMode"]
+- !private ["So29UIAccessibilityIdentificationP", "showsUserLocation"]
+- !private ["So29UIAccessibilityIdentificationP", "styleURL"]
+- !private ["So12UIAppearanceP", "addAnnotation"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "convert"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "gestureRecognizers"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So12UIAppearanceP", "setUserTrackingMode"]
+- !private ["So12UIAppearanceP", "showsUserLocation"]
+- !private ["So12UIAppearanceP", "styleURL"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "CLLocationCoordinate2D"]
+- !private ["So21UIAppearanceContainerP", "Directions"]
+- !private ["So21UIAppearanceContainerP", "MGLMapView"]
+- !private ["So21UIAppearanceContainerP", "MGLPointAnnotation"]
+- !private ["So21UIAppearanceContainerP", "NavigationRouteOptions"]
+- !private ["So21UIAppearanceContainerP", "NavigationViewController"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAnnotation"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "button"]
+- !private ["So21UIAppearanceContainerP", "convert"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "gestureRecognizers"]
+- !private ["So21UIAppearanceContainerP", "handleMapTap"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "mapView"]
+- !private ["So21UIAppearanceContainerP", "points"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "setUserTrackingMode"]
+- !private ["So21UIAppearanceContainerP", "showsUserLocation"]
+- !private ["So21UIAppearanceContainerP", "startNavigation"]
+- !private ["So21UIAppearanceContainerP", "styleURL"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "backgroundColor"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "isEnabled"]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- ["So18UIContentContainerP", "CLLocationCoordinate2D"]
+- !private ["So18UIContentContainerP", "Directions"]
+- !private ["So18UIContentContainerP", "MGLMapView"]
+- !private ["So18UIContentContainerP", "MGLPointAnnotation"]
+- !private ["So18UIContentContainerP", "NavigationRouteOptions"]
+- !private ["So18UIContentContainerP", "NavigationViewController"]
+- !private ["So18UIContentContainerP", "UIButton"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "button"]
+- !private ["So18UIContentContainerP", "handleMapTap"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "mapView"]
+- !private ["So18UIContentContainerP", "points"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "startNavigation"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "backgroundColor"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "isEnabled"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["SC15UIControlEventsV", "touchUpInside"]
+- !private ["SC14UIControlStateV", "disabled"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "addAnnotation"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "convert"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "gestureRecognizers"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isEnabled"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "setUserTrackingMode"]
+- !private ["So17UICoordinateSpaceP", "showsUserLocation"]
+- !private ["So17UICoordinateSpaceP", "styleURL"]
+- !private ["So13UIDynamicItemP", "addAnnotation"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "convert"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "gestureRecognizers"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isEnabled"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So13UIDynamicItemP", "setUserTrackingMode"]
+- !private ["So13UIDynamicItemP", "showsUserLocation"]
+- !private ["So13UIDynamicItemP", "styleURL"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UIFocusEnvironmentP", "Directions"]
+- !private ["So18UIFocusEnvironmentP", "MGLMapView"]
+- !private ["So18UIFocusEnvironmentP", "MGLPointAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "NavigationRouteOptions"]
+- !private ["So18UIFocusEnvironmentP", "NavigationViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "button"]
+- !private ["So18UIFocusEnvironmentP", "convert"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "gestureRecognizers"]
+- !private ["So18UIFocusEnvironmentP", "handleMapTap"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "mapView"]
+- !private ["So18UIFocusEnvironmentP", "points"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "setUserTrackingMode"]
+- !private ["So18UIFocusEnvironmentP", "showsUserLocation"]
+- !private ["So18UIFocusEnvironmentP", "startNavigation"]
+- !private ["So18UIFocusEnvironmentP", "styleURL"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addAnnotation"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "convert"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "gestureRecognizers"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isEnabled"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So11UIFocusItemP", "setUserTrackingMode"]
+- !private ["So11UIFocusItemP", "showsUserLocation"]
+- !private ["So11UIFocusItemP", "styleURL"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So19UIGestureRecognizerC", "location"]
+- !private ["So19UIGestureRecognizerC", "require"]
+- !private ["So19UIGestureRecognizerC", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2D"]
+- !private ["So30UIPasteConfigurationSupportingP", "Directions"]
+- !private ["So30UIPasteConfigurationSupportingP", "MGLMapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "MGLPointAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "NavigationRouteOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "NavigationViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "button"]
+- !private ["So30UIPasteConfigurationSupportingP", "convert"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "gestureRecognizers"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleMapTap"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "mapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "points"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "setUserTrackingMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsUserLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "startNavigation"]
+- !private ["So30UIPasteConfigurationSupportingP", "styleURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CLLocationCoordinate2D"]
+- !private ["So11UIResponderC", "Directions"]
+- ["So11UIResponderC", "MGLMapView"]
+- !private ["So11UIResponderC", "MGLPointAnnotation"]
+- !private ["So11UIResponderC", "NavigationRouteOptions"]
+- !private ["So11UIResponderC", "NavigationViewController"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UITapGestureRecognizer"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "addAnnotation"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "button"]
+- !private ["So11UIResponderC", "convert"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "gestureRecognizers"]
+- ["So11UIResponderC", "handleMapTap"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isEnabled"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "points"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "setTitle"]
+- !private ["So11UIResponderC", "setUserTrackingMode"]
+- !private ["So11UIResponderC", "showsUserLocation"]
+- ["So11UIResponderC", "startNavigation"]
+- !private ["So11UIResponderC", "styleURL"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2D"]
+- !private ["So30UIResponderStandardEditActionsP", "Directions"]
+- !private ["So30UIResponderStandardEditActionsP", "MGLMapView"]
+- !private ["So30UIResponderStandardEditActionsP", "MGLPointAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "NavigationRouteOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "NavigationViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "button"]
+- !private ["So30UIResponderStandardEditActionsP", "convert"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "gestureRecognizers"]
+- !private ["So30UIResponderStandardEditActionsP", "handleMapTap"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "mapView"]
+- !private ["So30UIResponderStandardEditActionsP", "points"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "setUserTrackingMode"]
+- !private ["So30UIResponderStandardEditActionsP", "showsUserLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "startNavigation"]
+- !private ["So30UIResponderStandardEditActionsP", "styleURL"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- ["So16UIStateRestoringP", "CLLocationCoordinate2D"]
+- !private ["So16UIStateRestoringP", "Directions"]
+- !private ["So16UIStateRestoringP", "MGLMapView"]
+- !private ["So16UIStateRestoringP", "MGLPointAnnotation"]
+- !private ["So16UIStateRestoringP", "NavigationRouteOptions"]
+- !private ["So16UIStateRestoringP", "NavigationViewController"]
+- !private ["So16UIStateRestoringP", "UIButton"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "button"]
+- !private ["So16UIStateRestoringP", "handleMapTap"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "mapView"]
+- !private ["So16UIStateRestoringP", "points"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "startNavigation"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So22UITapGestureRecognizerC", "location"]
+- !private ["So22UITapGestureRecognizerC", "require"]
+- !private ["So22UITapGestureRecognizerC", "view"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UITraitEnvironmentP", "Directions"]
+- !private ["So18UITraitEnvironmentP", "MGLMapView"]
+- !private ["So18UITraitEnvironmentP", "MGLPointAnnotation"]
+- !private ["So18UITraitEnvironmentP", "NavigationRouteOptions"]
+- !private ["So18UITraitEnvironmentP", "NavigationViewController"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAnnotation"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "button"]
+- !private ["So18UITraitEnvironmentP", "convert"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "gestureRecognizers"]
+- !private ["So18UITraitEnvironmentP", "handleMapTap"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isEnabled"]
+- !private ["So18UITraitEnvironmentP", "mapView"]
+- !private ["So18UITraitEnvironmentP", "points"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "setUserTrackingMode"]
+- !private ["So18UITraitEnvironmentP", "showsUserLocation"]
+- !private ["So18UITraitEnvironmentP", "startNavigation"]
+- !private ["So18UITraitEnvironmentP", "styleURL"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addAnnotation"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "convert"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "gestureRecognizers"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isEnabled"]
+- !private ["So6UIViewC", "setTitle"]
+- !private ["So6UIViewC", "setUserTrackingMode"]
+- !private ["So6UIViewC", "showsUserLocation"]
+- !private ["So6UIViewC", "styleURL"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "CLLocationCoordinate2D"]
+- !private ["So16UIViewControllerC", "Directions"]
+- ["So16UIViewControllerC", "MGLMapView"]
+- !private ["So16UIViewControllerC", "MGLPointAnnotation"]
+- !private ["So16UIViewControllerC", "NavigationRouteOptions"]
+- !private ["So16UIViewControllerC", "NavigationViewController"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "button"]
+- ["So16UIViewControllerC", "handleMapTap"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "points"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "startNavigation"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["6EO18_214ViewControllerC", "CGRect"]
+- ["6EO18_214ViewControllerC", "CLLocationCoordinate2D"]
+- !private ["6EO18_214ViewControllerC", "Directions"]
+- ["6EO18_214ViewControllerC", "MGLMapView"]
+- !private ["6EO18_214ViewControllerC", "MGLPointAnnotation"]
+- !private ["6EO18_214ViewControllerC", "NavigationRouteOptions"]
+- !private ["6EO18_214ViewControllerC", "NavigationViewController"]
+- ["6EO18_214ViewControllerC", "UIButton"]
+- !private ["6EO18_214ViewControllerC", "UIColor"]
+- ["6EO18_214ViewControllerC", "UITapGestureRecognizer"]
+- !private ["6EO18_214ViewControllerC", "URL"]
+- ["6EO18_214ViewControllerC", "button"]
+- ["6EO18_214ViewControllerC", "deinit"]
+- ["6EO18_214ViewControllerC", "handleMapTap"]
+- ["6EO18_214ViewControllerC", "init"]
+- ["6EO18_214ViewControllerC", "mapView"]
+- ["6EO18_214ViewControllerC", "points"]
+- !private ["6EO18_214ViewControllerC", "present"]
+- !private ["6EO18_214ViewControllerC", "print"]
+- ["6EO18_214ViewControllerC", "startNavigation"]
+- !private ["6EO18_214ViewControllerC", "view"]
+- ["6EO18_214ViewControllerC", "viewDidLoad"]
+- !private ["16MapboxNavigation25VisualInstructionDelegateP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addAnnotation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "convert"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "gestureRecognizers"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setUserTrackingMode"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsUserLocation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "styleURL"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Directions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGLMapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MGLPointAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NavigationRouteOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NavigationViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "button"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "convert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleMapTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "points"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profileIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "require"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUserTrackingMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsUserLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "styleURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "walking"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s20_SwiftNewtypeWrapperP", "walking"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "16MapboxNavigation10AnchorableP"
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "16MapboxDirections0B0C"
+- !private "16MapboxDirections0B7OptionsC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "4Turf8JSONTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC29MBDirectionsProfileIdentifierV"
+- !private "So13MGLAnnotationP"
+- !private "So10MGLMapViewC"
+- !private "So18MGLMapViewDelegateP"
+- !private "So18MGLPointAnnotationC"
+- !private "So8MGLShapeC"
+- !private "SC19MGLUserTrackingModeO"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "16MapboxNavigation0B15MapViewDelegateP"
+- !private "20MapboxCoreNavigation0C12RouteOptionsC"
+- !private "16MapboxNavigation0B14ViewControllerC"
+- !private "s9OptionSetP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "20MapboxCoreNavigation23RouteControllerDelegateP"
+- !private "16MapboxNavigation30RouteMapViewControllerDelegateP"
+- !private "16MapboxDirections12RouteOptionsC"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "16MapboxNavigation20StyleManagerDelegateP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- "6EO18_214ViewControllerC"
+- !private "16MapboxNavigation25VisualInstructionDelegateP"
+- "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Modules/MapboxNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Headers/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKLog.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Headers/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Headers/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMETypes.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Headers/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Headers/MapboxNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TrustKit.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Headers/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxNavigation/MapboxNavigation.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Build/Products/Debug-iphonesimulator/MapboxMobileEvents/MapboxMobileEvents.framework/Modules/module.modulemap"
+- "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "a563d0b3b718296e87d3835fb5b2eeec"

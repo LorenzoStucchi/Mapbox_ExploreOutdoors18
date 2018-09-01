@@ -1,0 +1,1122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapboxVoiceController"
+provides-nominal:
+- "16MapboxNavigation0A15VoiceControllerC"
+provides-member:
+- ["16MapboxNavigation0A15VoiceControllerC", ""]
+provides-dynamic-lookup:
+- "didPassSpokenInstructionPoint"
+- "downloadAndCacheSpokenInstruction"
+- "fetchAndSpeak"
+- "play"
+- "speak"
+- "speakWithDefaultSpeechSynthesizer"
+- "stepsAheadToCache"
+- "timeoutIntervalForRequest"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "<"
+- !private "=="
+- !private "??"
+- !private "AVAudioPlayer"
+- "AssignmentPrecedence"
+- "BimodalDataCache"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- !private "DataCache"
+- "Error"
+- "Int"
+- "Locale"
+- "MapboxVoiceController"
+- !private "NSError"
+- "NSLocalizedString"
+- "NSNotification"
+- !private "RouteControllerNotificationUserInfoKey"
+- !private "RouteLegProgress"
+- !private "RouteProgress"
+- "RouteVoiceController"
+- !private "SpeechOptions"
+- "SpeechSynthesizer"
+- "SpokenInstruction"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- !private "URLError"
+- "URLSessionDataTask"
+- !private "assert"
+depends-member:
+- !private ["So13AVAudioPlayerC", "delegate"]
+- !private ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "isPlaying"]
+- !private ["So13AVAudioPlayerC", "play"]
+- !private ["So13AVAudioPlayerC", "prepareToPlay"]
+- !private ["So13AVAudioPlayerC", "stop"]
+- !private ["So21AVAudioPlayerDelegateP", "AVAudioPlayer"]
+- !private ["So21AVAudioPlayerDelegateP", "DataCache"]
+- !private ["So21AVAudioPlayerDelegateP", "NSError"]
+- ["So21AVAudioPlayerDelegateP", "NSLocalizedString"]
+- !private ["So21AVAudioPlayerDelegateP", "RouteControllerNotificationUserInfoKey"]
+- !private ["So21AVAudioPlayerDelegateP", "SpeechOptions"]
+- !private ["So21AVAudioPlayerDelegateP", "SpeechSynthesizer"]
+- ["So21AVAudioPlayerDelegateP", ""]
+- !private ["So21AVAudioPlayerDelegateP", "assert"]
+- !private ["So21AVAudioPlayerDelegateP", "audioPlayer"]
+- !private ["So21AVAudioPlayerDelegateP", "audioQueue"]
+- !private ["So21AVAudioPlayerDelegateP", "audioTask"]
+- !private ["So21AVAudioPlayerDelegateP", "cache"]
+- !private ["So21AVAudioPlayerDelegateP", "cachedDataForKey"]
+- !private ["So21AVAudioPlayerDelegateP", "didPassSpokenInstructionPoint"]
+- !private ["So21AVAudioPlayerDelegateP", "downloadAndCacheSpokenInstruction"]
+- !private ["So21AVAudioPlayerDelegateP", "duckAudio"]
+- !private ["So21AVAudioPlayerDelegateP", "fetchAndSpeak"]
+- !private ["So21AVAudioPlayerDelegateP", "hasCachedSpokenInstructionForKey"]
+- !private ["So21AVAudioPlayerDelegateP", "init"]
+- !private ["So21AVAudioPlayerDelegateP", "lastSpokenInstruction"]
+- !private ["So21AVAudioPlayerDelegateP", "locale"]
+- !private ["So21AVAudioPlayerDelegateP", "localizedErrorMessage"]
+- !private ["So21AVAudioPlayerDelegateP", "play"]
+- !private ["So21AVAudioPlayerDelegateP", "routeProgress"]
+- !private ["So21AVAudioPlayerDelegateP", "speak"]
+- !private ["So21AVAudioPlayerDelegateP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["So21AVAudioPlayerDelegateP", "speech"]
+- !private ["So21AVAudioPlayerDelegateP", "speechSynth"]
+- !private ["So21AVAudioPlayerDelegateP", "stepsAheadToCache"]
+- !private ["So21AVAudioPlayerDelegateP", "unDuckAudio"]
+- !private ["So21AVAudioPlayerDelegateP", "voiceControllerDelegate"]
+- !private ["SC16AVSpeechBoundaryO", "immediate"]
+- !private ["So19AVSpeechSynthesizerC", "stopSpeaking"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "AVAudioPlayer"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "DataCache"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "NSError"]
+- ["So27AVSpeechSynthesizerDelegateP", "NSLocalizedString"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "RouteControllerNotificationUserInfoKey"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "SpeechOptions"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "SpeechSynthesizer"]
+- ["So27AVSpeechSynthesizerDelegateP", ""]
+- !private ["So27AVSpeechSynthesizerDelegateP", "assert"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "audioPlayer"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "audioQueue"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "audioTask"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "cache"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "cachedDataForKey"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "didPassSpokenInstructionPoint"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "downloadAndCacheSpokenInstruction"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "duckAudio"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "fetchAndSpeak"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "hasCachedSpokenInstructionForKey"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "init"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "lastSpokenInstruction"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "locale"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "localizedErrorMessage"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "play"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "routeProgress"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "speak"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "speech"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "speechSynth"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "stepsAheadToCache"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "unDuckAudio"]
+- !private ["So27AVSpeechSynthesizerDelegateP", "voiceControllerDelegate"]
+- !private ["Sa", "suffix"]
+- !private ["s10ArraySliceV", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- !private ["16MapboxNavigation12BimodalCacheP", "data"]
+- !private ["16MapboxNavigation12BimodalCacheP", "init"]
+- !private ["16MapboxNavigation12BimodalCacheP", "store"]
+- !private ["16MapboxNavigation16BimodalDataCacheP", "data"]
+- !private ["16MapboxNavigation16BimodalDataCacheP", "init"]
+- !private ["16MapboxNavigation16BimodalDataCacheP", "store"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So6BundleC", "mapboxNavigation"]
+- !private ["s7CVarArgP", "AVAudioPlayer"]
+- !private ["s7CVarArgP", "DataCache"]
+- !private ["s7CVarArgP", "NSError"]
+- ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "RouteControllerNotificationUserInfoKey"]
+- !private ["s7CVarArgP", "SpeechOptions"]
+- !private ["s7CVarArgP", "SpeechSynthesizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "audioData"]
+- !private ["s7CVarArgP", "audioPlayer"]
+- !private ["s7CVarArgP", "audioQueue"]
+- !private ["s7CVarArgP", "audioTask"]
+- !private ["s7CVarArgP", "cache"]
+- !private ["s7CVarArgP", "cachedDataForKey"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "currentLegProgress"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didPassSpokenInstructionPoint"]
+- !private ["s7CVarArgP", "downloadAndCacheSpokenInstruction"]
+- !private ["s7CVarArgP", "duckAudio"]
+- !private ["s7CVarArgP", "fetchAndSpeak"]
+- !private ["s7CVarArgP", "hasCachedSpokenInstructionForKey"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instructionsSpokenAlongStep"]
+- !private ["s7CVarArgP", "isPlaying"]
+- !private ["s7CVarArgP", "lastSpokenInstruction"]
+- !private ["s7CVarArgP", "leg"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "localizedErrorMessage"]
+- ["s7CVarArgP", "mapboxNavigation"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "prepareToPlay"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "route"]
+- !private ["s7CVarArgP", "routeOptions"]
+- !private ["s7CVarArgP", "routeProgress"]
+- !private ["s7CVarArgP", "speak"]
+- !private ["s7CVarArgP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["s7CVarArgP", "speech"]
+- !private ["s7CVarArgP", "speechLocale"]
+- !private ["s7CVarArgP", "speechSynth"]
+- !private ["s7CVarArgP", "ssmlText"]
+- !private ["s7CVarArgP", "stepIndex"]
+- !private ["s7CVarArgP", "steps"]
+- !private ["s7CVarArgP", "stepsAheadToCache"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "stopSpeaking"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s7CVarArgP", "unDuckAudio"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "voiceControllerDelegate"]
+- !private ["10Foundation8URLErrorV4CodeV", "cancelled"]
+- !private ["s10CollectionP", "enumerated"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "suffix"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "DataCache"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerNotificationUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "SpeechOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "SpeechSynthesizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "audioData"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPlayerFailedToPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "audioQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "audioTask"]
+- !private ["s28CustomDebugStringConvertibleP", "cache"]
+- !private ["s28CustomDebugStringConvertibleP", "cachedDataForKey"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLegProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didPassSpokenInstructionPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadAndCacheSpokenInstruction"]
+- !private ["s28CustomDebugStringConvertibleP", "duckAudio"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyMapboxSpeechResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchAndSpeak"]
+- !private ["s28CustomDebugStringConvertibleP", "hasCachedSpokenInstructionForKey"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instructionsSpokenAlongStep"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaying"]
+- !private ["s28CustomDebugStringConvertibleP", "lastSpokenInstruction"]
+- !private ["s28CustomDebugStringConvertibleP", "leg"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedErrorMessage"]
+- ["s28CustomDebugStringConvertibleP", "mapboxNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareToPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "route"]
+- !private ["s28CustomDebugStringConvertibleP", "routeOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "routeProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "speak"]
+- !private ["s28CustomDebugStringConvertibleP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["s28CustomDebugStringConvertibleP", "speech"]
+- !private ["s28CustomDebugStringConvertibleP", "speechLocale"]
+- !private ["s28CustomDebugStringConvertibleP", "speechSynth"]
+- !private ["s28CustomDebugStringConvertibleP", "ssmlText"]
+- !private ["s28CustomDebugStringConvertibleP", "stepIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "steps"]
+- !private ["s28CustomDebugStringConvertibleP", "stepsAheadToCache"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "stopSpeaking"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "unDuckAudio"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "voiceControllerDelegate"]
+- !private ["10Foundation13CustomNSErrorP", "code"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "audioPlayerFailedToPlay"]
+- !private ["s17CustomReflectableP", "emptyMapboxSpeechResponse"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "AVAudioPlayer"]
+- !private ["s23CustomStringConvertibleP", "DataCache"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerNotificationUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "SpeechOptions"]
+- !private ["s23CustomStringConvertibleP", "SpeechSynthesizer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "audioData"]
+- !private ["s23CustomStringConvertibleP", "audioPlayer"]
+- !private ["s23CustomStringConvertibleP", "audioQueue"]
+- !private ["s23CustomStringConvertibleP", "audioTask"]
+- !private ["s23CustomStringConvertibleP", "cache"]
+- !private ["s23CustomStringConvertibleP", "cachedDataForKey"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "currentLegProgress"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didPassSpokenInstructionPoint"]
+- !private ["s23CustomStringConvertibleP", "downloadAndCacheSpokenInstruction"]
+- !private ["s23CustomStringConvertibleP", "duckAudio"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fetchAndSpeak"]
+- !private ["s23CustomStringConvertibleP", "hasCachedSpokenInstructionForKey"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instructionsSpokenAlongStep"]
+- !private ["s23CustomStringConvertibleP", "isPlaying"]
+- !private ["s23CustomStringConvertibleP", "lastSpokenInstruction"]
+- !private ["s23CustomStringConvertibleP", "leg"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "localizedErrorMessage"]
+- ["s23CustomStringConvertibleP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "prepareToPlay"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "route"]
+- !private ["s23CustomStringConvertibleP", "routeOptions"]
+- !private ["s23CustomStringConvertibleP", "routeProgress"]
+- !private ["s23CustomStringConvertibleP", "speak"]
+- !private ["s23CustomStringConvertibleP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["s23CustomStringConvertibleP", "speech"]
+- !private ["s23CustomStringConvertibleP", "speechLocale"]
+- !private ["s23CustomStringConvertibleP", "speechSynth"]
+- !private ["s23CustomStringConvertibleP", "ssmlText"]
+- !private ["s23CustomStringConvertibleP", "stepIndex"]
+- !private ["s23CustomStringConvertibleP", "steps"]
+- !private ["s23CustomStringConvertibleP", "stepsAheadToCache"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "stopSpeaking"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "unDuckAudio"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "voiceControllerDelegate"]
+- !private ["16MapboxNavigation9DataCacheC", "deinit"]
+- !private ["16MapboxNavigation9DataCacheC", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "audioPlayerFailedToPlay"]
+- !private ["s9DecodableP", "emptyMapboxSpeechResponse"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "suffix"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["16MapboxDirections0B7OptionsC", "locale"]
+- !private ["16MapboxDirections0B6ResultC", "routeOptions"]
+- !private ["16MapboxDirections0B6ResultC", "speechLocale"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "audioPlayerFailedToPlay"]
+- !private ["s9EncodableP", "emptyMapboxSpeechResponse"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "suffix"]
+- !private ["s9EquatableP", "AVAudioPlayer"]
+- !private ["s9EquatableP", "DataCache"]
+- !private ["s9EquatableP", "NSError"]
+- ["s9EquatableP", "NSLocalizedString"]
+- !private ["s9EquatableP", "RouteControllerNotificationUserInfoKey"]
+- !private ["s9EquatableP", "SpeechOptions"]
+- !private ["s9EquatableP", "SpeechSynthesizer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "audioData"]
+- !private ["s9EquatableP", "audioPlayer"]
+- !private ["s9EquatableP", "audioPlayerFailedToPlay"]
+- !private ["s9EquatableP", "audioQueue"]
+- !private ["s9EquatableP", "audioTask"]
+- !private ["s9EquatableP", "cache"]
+- !private ["s9EquatableP", "cachedDataForKey"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "cancelled"]
+- !private ["s9EquatableP", "code"]
+- !private ["s9EquatableP", "currentLegProgress"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "didPassSpokenInstructionPoint"]
+- !private ["s9EquatableP", "downloadAndCacheSpokenInstruction"]
+- !private ["s9EquatableP", "duckAudio"]
+- !private ["s9EquatableP", "emptyMapboxSpeechResponse"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "fetchAndSpeak"]
+- !private ["s9EquatableP", "hasCachedSpokenInstructionForKey"]
+- !private ["s9EquatableP", "immediate"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instructionsSpokenAlongStep"]
+- !private ["s9EquatableP", "isPlaying"]
+- !private ["s9EquatableP", "lastSpokenInstruction"]
+- !private ["s9EquatableP", "leg"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "localizedErrorMessage"]
+- ["s9EquatableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "play"]
+- !private ["s9EquatableP", "prepareToPlay"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "route"]
+- !private ["s9EquatableP", "routeOptions"]
+- !private ["s9EquatableP", "routeProgress"]
+- !private ["s9EquatableP", "routeProgressKey"]
+- !private ["s9EquatableP", "speak"]
+- !private ["s9EquatableP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["s9EquatableP", "speech"]
+- !private ["s9EquatableP", "speechLocale"]
+- !private ["s9EquatableP", "speechSynth"]
+- !private ["s9EquatableP", "spokenInstructionFailed"]
+- !private ["s9EquatableP", "ssmlText"]
+- !private ["s9EquatableP", "stepIndex"]
+- !private ["s9EquatableP", "steps"]
+- !private ["s9EquatableP", "stepsAheadToCache"]
+- !private ["s9EquatableP", "stop"]
+- !private ["s9EquatableP", "stopSpeaking"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "unDuckAudio"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s9EquatableP", "voiceControllerDelegate"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "audioPlayerFailedToPlay"]
+- !private ["s23ExpressibleByNilLiteralP", "emptyMapboxSpeechResponse"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AVAudioPlayer"]
+- !private ["s8HashableP", "DataCache"]
+- !private ["s8HashableP", "NSError"]
+- ["s8HashableP", "NSLocalizedString"]
+- !private ["s8HashableP", "RouteControllerNotificationUserInfoKey"]
+- !private ["s8HashableP", "SpeechOptions"]
+- !private ["s8HashableP", "SpeechSynthesizer"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "assert"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "audioData"]
+- !private ["s8HashableP", "audioPlayer"]
+- !private ["s8HashableP", "audioPlayerFailedToPlay"]
+- !private ["s8HashableP", "audioQueue"]
+- !private ["s8HashableP", "audioTask"]
+- !private ["s8HashableP", "cache"]
+- !private ["s8HashableP", "cachedDataForKey"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "cancelled"]
+- !private ["s8HashableP", "code"]
+- !private ["s8HashableP", "currentLegProgress"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "didPassSpokenInstructionPoint"]
+- !private ["s8HashableP", "downloadAndCacheSpokenInstruction"]
+- !private ["s8HashableP", "duckAudio"]
+- !private ["s8HashableP", "emptyMapboxSpeechResponse"]
+- !private ["s8HashableP", "fetchAndSpeak"]
+- !private ["s8HashableP", "hasCachedSpokenInstructionForKey"]
+- !private ["s8HashableP", "immediate"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instructionsSpokenAlongStep"]
+- !private ["s8HashableP", "isPlaying"]
+- !private ["s8HashableP", "lastSpokenInstruction"]
+- !private ["s8HashableP", "leg"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "localizedErrorMessage"]
+- ["s8HashableP", "mapboxNavigation"]
+- !private ["s8HashableP", "play"]
+- !private ["s8HashableP", "prepareToPlay"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "route"]
+- !private ["s8HashableP", "routeOptions"]
+- !private ["s8HashableP", "routeProgress"]
+- !private ["s8HashableP", "routeProgressKey"]
+- !private ["s8HashableP", "speak"]
+- !private ["s8HashableP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["s8HashableP", "speech"]
+- !private ["s8HashableP", "speechLocale"]
+- !private ["s8HashableP", "speechSynth"]
+- !private ["s8HashableP", "spokenInstructionFailed"]
+- !private ["s8HashableP", "ssmlText"]
+- !private ["s8HashableP", "stepIndex"]
+- !private ["s8HashableP", "steps"]
+- !private ["s8HashableP", "stepsAheadToCache"]
+- !private ["s8HashableP", "stop"]
+- !private ["s8HashableP", "stopSpeaking"]
+- !private ["s8HashableP", "unDuckAudio"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s8HashableP", "voiceControllerDelegate"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["16MapboxNavigation11MBErrorCodeO", "spokenInstructionFailed"]
+- !private ["SC40MBRouteControllerNotificationUserInfoKeyV", "routeProgressKey"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "AVAudioPlayer"]
+- ["16MapboxNavigation0A15VoiceControllerC", "BimodalDataCache"]
+- ["16MapboxNavigation0A15VoiceControllerC", "Bool"]
+- ["16MapboxNavigation0A15VoiceControllerC", "Data"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "DataCache"]
+- ["16MapboxNavigation0A15VoiceControllerC", "Error"]
+- ["16MapboxNavigation0A15VoiceControllerC", "Int"]
+- ["16MapboxNavigation0A15VoiceControllerC", "Locale"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "NSError"]
+- ["16MapboxNavigation0A15VoiceControllerC", "NSLocalizedString"]
+- ["16MapboxNavigation0A15VoiceControllerC", "NSNotification"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "RouteControllerNotificationUserInfoKey"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "RouteLegProgress"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "RouteProgress"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "SpeechOptions"]
+- ["16MapboxNavigation0A15VoiceControllerC", "SpeechSynthesizer"]
+- ["16MapboxNavigation0A15VoiceControllerC", "SpokenInstruction"]
+- ["16MapboxNavigation0A15VoiceControllerC", "String"]
+- ["16MapboxNavigation0A15VoiceControllerC", "TimeInterval"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "URLError"]
+- ["16MapboxNavigation0A15VoiceControllerC", "URLSessionDataTask"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "assert"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "audioPlayer"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "audioQueue"]
+- ["16MapboxNavigation0A15VoiceControllerC", "audioTask"]
+- ["16MapboxNavigation0A15VoiceControllerC", "cache"]
+- ["16MapboxNavigation0A15VoiceControllerC", "cachedDataForKey"]
+- ["16MapboxNavigation0A15VoiceControllerC", "deinit"]
+- ["16MapboxNavigation0A15VoiceControllerC", "didPassSpokenInstructionPoint"]
+- ["16MapboxNavigation0A15VoiceControllerC", "downloadAndCacheSpokenInstruction"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "duckAudio"]
+- ["16MapboxNavigation0A15VoiceControllerC", "fetchAndSpeak"]
+- ["16MapboxNavigation0A15VoiceControllerC", "hasCachedSpokenInstructionForKey"]
+- ["16MapboxNavigation0A15VoiceControllerC", "init"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "lastSpokenInstruction"]
+- ["16MapboxNavigation0A15VoiceControllerC", "locale"]
+- ["16MapboxNavigation0A15VoiceControllerC", "localizedErrorMessage"]
+- ["16MapboxNavigation0A15VoiceControllerC", "play"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "routeProgress"]
+- ["16MapboxNavigation0A15VoiceControllerC", "speak"]
+- ["16MapboxNavigation0A15VoiceControllerC", "speakWithDefaultSpeechSynthesizer"]
+- ["16MapboxNavigation0A15VoiceControllerC", "speech"]
+- ["16MapboxNavigation0A15VoiceControllerC", "stepsAheadToCache"]
+- ["16MapboxNavigation0A15VoiceControllerC", "timeoutIntervalForRequest"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "unDuckAudio"]
+- !private ["16MapboxNavigation0A15VoiceControllerC", "voiceControllerDelegate"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "suffix"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "instructionsSpokenAlongStep"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "routeOptions"]
+- !private ["So8NSCodingP", "speechLocale"]
+- !private ["So8NSCodingP", "ssmlText"]
+- !private ["So8NSCodingP", "steps"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So14NSNotificationC", "userInfo"]
+- !private ["So8NSObjectC", "AVAudioPlayer"]
+- ["So8NSObjectC", "BimodalDataCache"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DataCache"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "RouteControllerNotificationUserInfoKey"]
+- !private ["So8NSObjectC", "RouteLegProgress"]
+- !private ["So8NSObjectC", "RouteProgress"]
+- !private ["So8NSObjectC", "SpeechOptions"]
+- ["So8NSObjectC", "SpeechSynthesizer"]
+- ["So8NSObjectC", "SpokenInstruction"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "URLError"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- !private ["So8NSObjectC", "assert"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "audioData"]
+- !private ["So8NSObjectC", "audioPlayer"]
+- !private ["So8NSObjectC", "audioQueue"]
+- ["So8NSObjectC", "audioTask"]
+- ["So8NSObjectC", "cache"]
+- ["So8NSObjectC", "cachedDataForKey"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "currentLegProgress"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didPassSpokenInstructionPoint"]
+- ["So8NSObjectC", "downloadAndCacheSpokenInstruction"]
+- !private ["So8NSObjectC", "duckAudio"]
+- ["So8NSObjectC", "fetchAndSpeak"]
+- ["So8NSObjectC", "hasCachedSpokenInstructionForKey"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instructionsSpokenAlongStep"]
+- !private ["So8NSObjectC", "isPlaying"]
+- !private ["So8NSObjectC", "lastSpokenInstruction"]
+- !private ["So8NSObjectC", "leg"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "localizedErrorMessage"]
+- ["So8NSObjectC", "mapboxNavigation"]
+- ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "prepareToPlay"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "route"]
+- !private ["So8NSObjectC", "routeOptions"]
+- !private ["So8NSObjectC", "routeProgress"]
+- ["So8NSObjectC", "speak"]
+- ["So8NSObjectC", "speakWithDefaultSpeechSynthesizer"]
+- ["So8NSObjectC", "speech"]
+- !private ["So8NSObjectC", "speechLocale"]
+- !private ["So8NSObjectC", "speechSynth"]
+- !private ["So8NSObjectC", "ssmlText"]
+- !private ["So8NSObjectC", "stepIndex"]
+- !private ["So8NSObjectC", "steps"]
+- ["So8NSObjectC", "stepsAheadToCache"]
+- !private ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopSpeaking"]
+- ["So8NSObjectC", "timeoutIntervalForRequest"]
+- !private ["So8NSObjectC", "unDuckAudio"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "voiceControllerDelegate"]
+- !private ["So16NSObjectProtocolP", "AVAudioPlayer"]
+- !private ["So16NSObjectProtocolP", "DataCache"]
+- !private ["So16NSObjectProtocolP", "NSError"]
+- ["So16NSObjectProtocolP", "NSLocalizedString"]
+- !private ["So16NSObjectProtocolP", "RouteControllerNotificationUserInfoKey"]
+- !private ["So16NSObjectProtocolP", "SpeechOptions"]
+- !private ["So16NSObjectProtocolP", "SpeechSynthesizer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "assert"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "audioData"]
+- !private ["So16NSObjectProtocolP", "audioPlayer"]
+- !private ["So16NSObjectProtocolP", "audioQueue"]
+- !private ["So16NSObjectProtocolP", "audioTask"]
+- !private ["So16NSObjectProtocolP", "cache"]
+- !private ["So16NSObjectProtocolP", "cachedDataForKey"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "currentLegProgress"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "didPassSpokenInstructionPoint"]
+- !private ["So16NSObjectProtocolP", "downloadAndCacheSpokenInstruction"]
+- !private ["So16NSObjectProtocolP", "duckAudio"]
+- !private ["So16NSObjectProtocolP", "fetchAndSpeak"]
+- !private ["So16NSObjectProtocolP", "hasCachedSpokenInstructionForKey"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instructionsSpokenAlongStep"]
+- !private ["So16NSObjectProtocolP", "isPlaying"]
+- !private ["So16NSObjectProtocolP", "lastSpokenInstruction"]
+- !private ["So16NSObjectProtocolP", "leg"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "localizedErrorMessage"]
+- ["So16NSObjectProtocolP", "mapboxNavigation"]
+- !private ["So16NSObjectProtocolP", "play"]
+- !private ["So16NSObjectProtocolP", "prepareToPlay"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "route"]
+- !private ["So16NSObjectProtocolP", "routeOptions"]
+- !private ["So16NSObjectProtocolP", "routeProgress"]
+- !private ["So16NSObjectProtocolP", "speak"]
+- !private ["So16NSObjectProtocolP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["So16NSObjectProtocolP", "speech"]
+- !private ["So16NSObjectProtocolP", "speechLocale"]
+- !private ["So16NSObjectProtocolP", "speechSynth"]
+- !private ["So16NSObjectProtocolP", "ssmlText"]
+- !private ["So16NSObjectProtocolP", "stepIndex"]
+- !private ["So16NSObjectProtocolP", "steps"]
+- !private ["So16NSObjectProtocolP", "stepsAheadToCache"]
+- !private ["So16NSObjectProtocolP", "stop"]
+- !private ["So16NSObjectProtocolP", "stopSpeaking"]
+- !private ["So16NSObjectProtocolP", "unDuckAudio"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So16NSObjectProtocolP", "voiceControllerDelegate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "instructionsSpokenAlongStep"]
+- !private ["So14NSSecureCodingP", "locale"]
+- !private ["So14NSSecureCodingP", "routeOptions"]
+- !private ["So14NSSecureCodingP", "speechLocale"]
+- !private ["So14NSSecureCodingP", "ssmlText"]
+- !private ["So14NSSecureCodingP", "steps"]
+- !private ["So9OS_objectC", "async"]
+- !private ["Sq", "audioPlayerFailedToPlay"]
+- !private ["Sq", "emptyMapboxSpeechResponse"]
+- !private ["So17ProgressReportingP", "cancel"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- !private ["s16RawRepresentableP", "audioPlayerFailedToPlay"]
+- !private ["s16RawRepresentableP", "cancelled"]
+- !private ["s16RawRepresentableP", "emptyMapboxSpeechResponse"]
+- !private ["s16RawRepresentableP", "immediate"]
+- !private ["s16RawRepresentableP", "routeProgressKey"]
+- !private ["s16RawRepresentableP", "spokenInstructionFailed"]
+- !private ["16MapboxDirections5RouteC", "routeOptions"]
+- !private ["16MapboxDirections5RouteC", "speechLocale"]
+- !private ["16MapboxDirections8RouteLegC", "steps"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "leg"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "stepIndex"]
+- !private ["16MapboxDirections12RouteOptionsC", "locale"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "currentLegProgress"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "route"]
+- !private ["16MapboxDirections9RouteStepC", "instructionsSpokenAlongStep"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "AVAudioPlayer"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "BimodalDataCache"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "Bool"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "Data"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "DataCache"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "Error"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "Int"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "Locale"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "NSError"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "NSLocalizedString"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "NSNotification"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "RouteControllerNotificationUserInfoKey"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "RouteLegProgress"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "RouteProgress"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "SpeechOptions"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "SpeechSynthesizer"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "SpokenInstruction"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "String"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "TimeInterval"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "URLError"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "URLSessionDataTask"]
+- ["16MapboxNavigation20RouteVoiceControllerC", ""]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "assert"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "audioPlayer"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "audioQueue"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "audioTask"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "cache"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "cachedDataForKey"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "didPassSpokenInstructionPoint"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "downloadAndCacheSpokenInstruction"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "duckAudio"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "fetchAndSpeak"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "hasCachedSpokenInstructionForKey"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "init"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "lastSpokenInstruction"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "locale"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "localizedErrorMessage"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "play"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "routeProgress"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "speak"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "speakWithDefaultSpeechSynthesizer"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "speech"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "speechSynth"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "stepsAheadToCache"]
+- ["16MapboxNavigation20RouteVoiceControllerC", "timeoutIntervalForRequest"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "unDuckAudio"]
+- !private ["16MapboxNavigation20RouteVoiceControllerC", "voiceControllerDelegate"]
+- !private ["s8SequenceP", "enumerated"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "suffix"]
+- !private ["12MapboxSpeech0B7OptionsC", "init"]
+- !private ["12MapboxSpeech0B7OptionsC", "locale"]
+- !private ["12MapboxSpeech0B11SynthesizerC", "audioData"]
+- !private ["12MapboxSpeech0B11SynthesizerC", "init"]
+- !private ["16MapboxDirections17SpokenInstructionC", "ssmlText"]
+- !private ["16MapboxNavigation26SpokenInstructionErrorCodeO", "audioPlayerFailedToPlay"]
+- !private ["16MapboxNavigation26SpokenInstructionErrorCodeO", "emptyMapboxSpeechResponse"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8URLErrorV", "code"]
+- !private ["So18URLSessionDataTaskC", "cancel"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "cancel"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["16MapboxNavigation23VoiceControllerDelegateP", "voiceController"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "code"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "cancelled"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DataCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerNotificationUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SpeechOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SpeechSynthesizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachedDataForKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLegProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didPassSpokenInstructionPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadAndCacheSpokenInstruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duckAudio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchAndSpeak"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasCachedSpokenInstructionForKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instructionsSpokenAlongStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaying"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastSpokenInstruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedErrorMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapboxNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareToPlay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "route"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "routeOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "routeProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speak"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speakWithDefaultSpeechSynthesizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speech"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speechLocale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speechSynth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ssmlText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "steps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepsAheadToCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopSpeaking"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unDuckAudio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "voiceControllerDelegate"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "audioPlayerFailedToPlay"]
+- !private ["s21_ObjectiveCBridgeableP", "emptyMapboxSpeechResponse"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "routeProgressKey"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "code"]
+- !private ["s20_SwiftNewtypeWrapperP", "routeProgressKey"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["10Foundation16__BridgedNSErrorP", "code"]
+depends-nominal:
+- !private "So13AVAudioPlayerC"
+- "So21AVAudioPlayerDelegateP"
+- !private "SC16AVSpeechBoundaryO"
+- !private "So19AVSpeechSynthesizerC"
+- "So27AVSpeechSynthesizerDelegateP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "16MapboxNavigation12BimodalCacheP"
+- !private "16MapboxNavigation16BimodalDataCacheP"
+- !private "Sb"
+- "So6BundleC"
+- "s7CVarArgP"
+- !private "10Foundation8URLErrorV4CodeV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "16MapboxNavigation9DataCacheC"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "16MapboxDirections0B7OptionsC"
+- !private "16MapboxDirections0B6ResultC"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "4Turf8JSONTypeP"
+- "s25LosslessStringConvertibleP"
+- !private "16MapboxNavigation11MBErrorCodeO"
+- !private "SC40MBRouteControllerNotificationUserInfoKeyV"
+- "16MapboxNavigation0A15VoiceControllerC"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So17ProgressReportingP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "16MapboxDirections5RouteC"
+- !private "16MapboxDirections8RouteLegC"
+- !private "20MapboxCoreNavigation16RouteLegProgressC"
+- !private "16MapboxDirections12RouteOptionsC"
+- !private "20MapboxCoreNavigation13RouteProgressC"
+- !private "16MapboxDirections9RouteStepC"
+- "16MapboxNavigation20RouteVoiceControllerC"
+- "s8SequenceP"
+- !private "12MapboxSpeech0B7OptionsC"
+- !private "12MapboxSpeech0B11SynthesizerC"
+- !private "16MapboxDirections17SpokenInstructionC"
+- !private "16MapboxNavigation26SpokenInstructionErrorCodeO"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation8URLErrorV"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- !private "16MapboxNavigation23VoiceControllerDelegateP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+- !private "10Foundation16__BridgedNSErrorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "0943238cf6b7bf672420fde5f742f181"

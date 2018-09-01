@@ -1,0 +1,1132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouteProgress"
+- "RouteLegProgress"
+- "RouteStepProgress"
+provides-nominal:
+- "20MapboxCoreNavigation13RouteProgressC"
+- "20MapboxCoreNavigation16RouteLegProgressC"
+- "20MapboxCoreNavigation17RouteStepProgressC"
+provides-member:
+- ["20MapboxCoreNavigation13RouteProgressC", ""]
+- ["20MapboxCoreNavigation16RouteLegProgressC", ""]
+- ["20MapboxCoreNavigation17RouteStepProgressC", ""]
+provides-dynamic-lookup:
+- "currentIntersection"
+- "currentLeg"
+- "currentLegProgress"
+- "currentSpokenInstruction"
+- "currentStep"
+- "currentStepProgress"
+- "currentVisualInstruction"
+- "distanceRemaining"
+- "distanceTraveled"
+- "durationRemaining"
+- "followOnStep"
+- "fractionTraveled"
+- "intersectionDistances"
+- "intersectionIndex"
+- "intersectionsIncludingUpcomingManeuverIntersection"
+- "isCurrentStep"
+- "leg"
+- "legIndex"
+- "nearbyCoordinates"
+- "priorStep"
+- "remainingSpokenInstructions"
+- "remainingSteps"
+- "remainingVisualInstructions"
+- "remainingWaypoints"
+- "route"
+- "spokenInstructionIndex"
+- "step"
+- "stepAfter"
+- "stepBefore"
+- "stepIndex"
+- "upComingStep"
+- "upcomingIntersection"
+- "userDistanceToManeuverLocation"
+- "userHasArrivedAtWaypoint"
+- "visualInstructionIndex"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CLLocationCoordinate2D"
+- "CLLocationDistance"
+- "CongestionLevel"
+- "Dictionary"
+- "Double"
+- "Int"
+- "Intersection"
+- "NSObject"
+- !private "Polyline"
+- "Route"
+- "RouteLeg"
+- "RouteLegProgress"
+- "RouteProgress"
+- "RouteStep"
+- "RouteStepProgress"
+- "SpokenInstruction"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "VisualInstructionBanner"
+- "Waypoint"
+- !private "assert"
+- !private "zip"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "dropLast"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "index"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "prefix"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "startIndex"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "suffix"]
+- !private ["s10ArraySliceV", "append"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "enumerated"]
+- !private ["s10ArraySliceV", "map"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "dropLast"]
+- !private ["s23BidirectionalCollectionP", "endIndex"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "startIndex"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- ["s19BinaryFloatingPointP", "infinity"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Array"]
+- ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "Polyline"]
+- !private ["s7CVarArgP", "RouteLegProgress"]
+- !private ["s7CVarArgP", "RouteStepProgress"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "congestionTimesPerStep"]
+- !private ["s7CVarArgP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s7CVarArgP", "coordinateCount"]
+- !private ["s7CVarArgP", "coordinates"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentLeg"]
+- !private ["s7CVarArgP", "currentLegProgress"]
+- !private ["s7CVarArgP", "currentStep"]
+- !private ["s7CVarArgP", "currentStepProgress"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "distanceTraveled"]
+- !private ["s7CVarArgP", "dropLast"]
+- !private ["s7CVarArgP", "durationRemaining"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "expectedSegmentTravelTimes"]
+- !private ["s7CVarArgP", "expectedTravelTime"]
+- !private ["s7CVarArgP", "fractionTraveled"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "infinity"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instructionsDisplayedAlongStep"]
+- !private ["s7CVarArgP", "instructionsSpokenAlongStep"]
+- !private ["s7CVarArgP", "intersectionIndex"]
+- !private ["s7CVarArgP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "leg"]
+- !private ["s7CVarArgP", "legIndex"]
+- !private ["s7CVarArgP", "legs"]
+- !private ["s7CVarArgP", "maneuverType"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "priorStep"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "remainingSteps"]
+- !private ["s7CVarArgP", "route"]
+- !private ["s7CVarArgP", "segmentCongestionLevels"]
+- !private ["s7CVarArgP", "spokenInstructionIndex"]
+- !private ["s7CVarArgP", "startIndex"]
+- !private ["s7CVarArgP", "step"]
+- !private ["s7CVarArgP", "stepIndex"]
+- !private ["s7CVarArgP", "steps"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s7CVarArgP", "upComingStep"]
+- !private ["s7CVarArgP", "visualInstructionIndex"]
+- !private ["s7CVarArgP", "zip"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "dropLast"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "enumerated"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "startIndex"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "suffix"]
+- ["s10ComparableP", "infinity"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "Polyline"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteLegProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteStepProgress"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "congestionTimesPerStep"]
+- !private ["s28CustomDebugStringConvertibleP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinateCount"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinates"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLeg"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLegProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStep"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStepProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceTraveled"]
+- !private ["s28CustomDebugStringConvertibleP", "dropLast"]
+- !private ["s28CustomDebugStringConvertibleP", "durationRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "expectedSegmentTravelTimes"]
+- !private ["s28CustomDebugStringConvertibleP", "expectedTravelTime"]
+- !private ["s28CustomDebugStringConvertibleP", "fractionTraveled"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "infinity"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instructionsDisplayedAlongStep"]
+- !private ["s28CustomDebugStringConvertibleP", "instructionsSpokenAlongStep"]
+- !private ["s28CustomDebugStringConvertibleP", "intersectionIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "leg"]
+- !private ["s28CustomDebugStringConvertibleP", "legIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "legs"]
+- !private ["s28CustomDebugStringConvertibleP", "maneuverType"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "priorStep"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "remainingSteps"]
+- !private ["s28CustomDebugStringConvertibleP", "route"]
+- !private ["s28CustomDebugStringConvertibleP", "segmentCongestionLevels"]
+- !private ["s28CustomDebugStringConvertibleP", "spokenInstructionIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "step"]
+- !private ["s28CustomDebugStringConvertibleP", "stepIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "steps"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "upComingStep"]
+- !private ["s28CustomDebugStringConvertibleP", "visualInstructionIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "zip"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "infinity"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dropLast"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "infinity"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Polyline"]
+- !private ["s23CustomStringConvertibleP", "RouteLegProgress"]
+- !private ["s23CustomStringConvertibleP", "RouteStepProgress"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrive"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "congestionTimesPerStep"]
+- !private ["s23CustomStringConvertibleP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s23CustomStringConvertibleP", "coordinateCount"]
+- !private ["s23CustomStringConvertibleP", "coordinates"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentLeg"]
+- !private ["s23CustomStringConvertibleP", "currentLegProgress"]
+- !private ["s23CustomStringConvertibleP", "currentStep"]
+- !private ["s23CustomStringConvertibleP", "currentStepProgress"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "distanceTraveled"]
+- !private ["s23CustomStringConvertibleP", "dropLast"]
+- !private ["s23CustomStringConvertibleP", "durationRemaining"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "expectedSegmentTravelTimes"]
+- !private ["s23CustomStringConvertibleP", "expectedTravelTime"]
+- !private ["s23CustomStringConvertibleP", "fractionTraveled"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "infinity"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instructionsDisplayedAlongStep"]
+- !private ["s23CustomStringConvertibleP", "instructionsSpokenAlongStep"]
+- !private ["s23CustomStringConvertibleP", "intersectionIndex"]
+- !private ["s23CustomStringConvertibleP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "leg"]
+- !private ["s23CustomStringConvertibleP", "legIndex"]
+- !private ["s23CustomStringConvertibleP", "legs"]
+- !private ["s23CustomStringConvertibleP", "maneuverType"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "priorStep"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "remainingSteps"]
+- !private ["s23CustomStringConvertibleP", "route"]
+- !private ["s23CustomStringConvertibleP", "segmentCongestionLevels"]
+- !private ["s23CustomStringConvertibleP", "spokenInstructionIndex"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "step"]
+- !private ["s23CustomStringConvertibleP", "stepIndex"]
+- !private ["s23CustomStringConvertibleP", "steps"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "upComingStep"]
+- !private ["s23CustomStringConvertibleP", "visualInstructionIndex"]
+- !private ["s23CustomStringConvertibleP", "zip"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "closestCoordinate"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "dropLast"]
+- !private ["s9DecodableP", "endIndex"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "index"]
+- ["s9DecodableP", "infinity"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "prefix"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "startIndex"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "suffix"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["16MapboxDirections0B6ResultC", "distance"]
+- !private ["16MapboxDirections0B6ResultC", "legs"]
+- ["Sd", "infinity"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "closestCoordinate"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "dropLast"]
+- !private ["s9EncodableP", "endIndex"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "index"]
+- ["s9EncodableP", "infinity"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "prefix"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "startIndex"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "suffix"]
+- !private ["s9EquatableP", "Array"]
+- ["s9EquatableP", "Double"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "Polyline"]
+- !private ["s9EquatableP", "RouteLegProgress"]
+- !private ["s9EquatableP", "RouteStepProgress"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "arrive"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "closestCoordinate"]
+- !private ["s9EquatableP", "congestionTimesPerStep"]
+- !private ["s9EquatableP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s9EquatableP", "coordinateCount"]
+- !private ["s9EquatableP", "coordinates"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "currentLeg"]
+- !private ["s9EquatableP", "currentLegProgress"]
+- !private ["s9EquatableP", "currentStep"]
+- !private ["s9EquatableP", "currentStepProgress"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "distance"]
+- !private ["s9EquatableP", "distanceTraveled"]
+- !private ["s9EquatableP", "dropLast"]
+- !private ["s9EquatableP", "durationRemaining"]
+- !private ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "expectedSegmentTravelTimes"]
+- !private ["s9EquatableP", "expectedTravelTime"]
+- !private ["s9EquatableP", "fractionTraveled"]
+- !private ["s9EquatableP", "index"]
+- ["s9EquatableP", "infinity"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instructionsDisplayedAlongStep"]
+- !private ["s9EquatableP", "instructionsSpokenAlongStep"]
+- !private ["s9EquatableP", "intersectionIndex"]
+- !private ["s9EquatableP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "leg"]
+- !private ["s9EquatableP", "legIndex"]
+- !private ["s9EquatableP", "legs"]
+- !private ["s9EquatableP", "maneuverType"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "prefix"]
+- !private ["s9EquatableP", "priorStep"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "remainingSteps"]
+- !private ["s9EquatableP", "route"]
+- !private ["s9EquatableP", "segmentCongestionLevels"]
+- !private ["s9EquatableP", "spokenInstructionIndex"]
+- !private ["s9EquatableP", "startIndex"]
+- !private ["s9EquatableP", "step"]
+- !private ["s9EquatableP", "stepIndex"]
+- !private ["s9EquatableP", "steps"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "upComingStep"]
+- !private ["s9EquatableP", "visualInstructionIndex"]
+- !private ["s9EquatableP", "zip"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "infinity"]
+- ["s27ExpressibleByIntegerLiteralP", "infinity"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s13FloatingPointP", "infinity"]
+- !private ["s8HashableP", "Array"]
+- ["s8HashableP", "Double"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "Polyline"]
+- !private ["s8HashableP", "RouteLegProgress"]
+- !private ["s8HashableP", "RouteStepProgress"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "arrive"]
+- !private ["s8HashableP", "assert"]
+- !private ["s8HashableP", "congestionTimesPerStep"]
+- !private ["s8HashableP", "congestionTravelTimesSegmentsByStep"]
+- !private ["s8HashableP", "coordinateCount"]
+- !private ["s8HashableP", "coordinates"]
+- !private ["s8HashableP", "currentLeg"]
+- !private ["s8HashableP", "currentLegProgress"]
+- !private ["s8HashableP", "currentStep"]
+- !private ["s8HashableP", "currentStepProgress"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "distance"]
+- !private ["s8HashableP", "distanceTraveled"]
+- !private ["s8HashableP", "durationRemaining"]
+- !private ["s8HashableP", "expectedSegmentTravelTimes"]
+- !private ["s8HashableP", "expectedTravelTime"]
+- !private ["s8HashableP", "fractionTraveled"]
+- ["s8HashableP", "infinity"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instructionsDisplayedAlongStep"]
+- !private ["s8HashableP", "instructionsSpokenAlongStep"]
+- !private ["s8HashableP", "intersectionIndex"]
+- !private ["s8HashableP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["s8HashableP", "leg"]
+- !private ["s8HashableP", "legIndex"]
+- !private ["s8HashableP", "legs"]
+- !private ["s8HashableP", "maneuverType"]
+- !private ["s8HashableP", "priorStep"]
+- !private ["s8HashableP", "remainingSteps"]
+- !private ["s8HashableP", "route"]
+- !private ["s8HashableP", "segmentCongestionLevels"]
+- !private ["s8HashableP", "spokenInstructionIndex"]
+- !private ["s8HashableP", "step"]
+- !private ["s8HashableP", "stepIndex"]
+- !private ["s8HashableP", "steps"]
+- !private ["s8HashableP", "upComingStep"]
+- !private ["s8HashableP", "visualInstructionIndex"]
+- !private ["s8HashableP", "zip"]
+- !private ["4Turf10LineStringV17IndexedCoordinateV", "distance"]
+- !private ["Si", "init"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "infinity"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf10LineStringV", "closestCoordinate"]
+- !private ["4Turf10LineStringV", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "infinity"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["16MapboxDirections12ManeuverTypeO", "arrive"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "dropLast"]
+- !private ["s17MutableCollectionP", "endIndex"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "prefix"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "startIndex"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "suffix"]
+- !private ["So8NSCodingP", "coordinateCount"]
+- !private ["So8NSCodingP", "coordinates"]
+- !private ["So8NSCodingP", "destination"]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "expectedSegmentTravelTimes"]
+- !private ["So8NSCodingP", "expectedTravelTime"]
+- !private ["So8NSCodingP", "instructionsDisplayedAlongStep"]
+- !private ["So8NSCodingP", "instructionsSpokenAlongStep"]
+- !private ["So8NSCodingP", "legs"]
+- !private ["So8NSCodingP", "maneuverType"]
+- !private ["So8NSCodingP", "segmentCongestionLevels"]
+- !private ["So8NSCodingP", "steps"]
+- ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- ["So8NSObjectC", "CongestionLevel"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Intersection"]
+- !private ["So8NSObjectC", "Polyline"]
+- ["So8NSObjectC", "Route"]
+- ["So8NSObjectC", "RouteLeg"]
+- ["So8NSObjectC", "RouteLegProgress"]
+- ["So8NSObjectC", "RouteStep"]
+- ["So8NSObjectC", "RouteStepProgress"]
+- ["So8NSObjectC", "SpokenInstruction"]
+- ["So8NSObjectC", "StepIndexDistance"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "TimedCongestionLevel"]
+- ["So8NSObjectC", "VisualInstructionBanner"]
+- ["So8NSObjectC", "Waypoint"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "assert"]
+- ["So8NSObjectC", "closestStep"]
+- ["So8NSObjectC", "congestionTimesPerStep"]
+- ["So8NSObjectC", "congestionTravelTimesSegmentsByStep"]
+- !private ["So8NSObjectC", "coordinateCount"]
+- !private ["So8NSObjectC", "coordinates"]
+- ["So8NSObjectC", "currentIntersection"]
+- ["So8NSObjectC", "currentLeg"]
+- ["So8NSObjectC", "currentLegProgress"]
+- ["So8NSObjectC", "currentSpokenInstruction"]
+- ["So8NSObjectC", "currentStep"]
+- ["So8NSObjectC", "currentStepProgress"]
+- ["So8NSObjectC", "currentVisualInstruction"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "distance"]
+- ["So8NSObjectC", "distanceRemaining"]
+- ["So8NSObjectC", "distanceTraveled"]
+- ["So8NSObjectC", "durationRemaining"]
+- !private ["So8NSObjectC", "expectedSegmentTravelTimes"]
+- !private ["So8NSObjectC", "expectedTravelTime"]
+- ["So8NSObjectC", "followOnStep"]
+- ["So8NSObjectC", "fractionTraveled"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instructionsDisplayedAlongStep"]
+- !private ["So8NSObjectC", "instructionsSpokenAlongStep"]
+- ["So8NSObjectC", "intersectionDistances"]
+- ["So8NSObjectC", "intersectionIndex"]
+- ["So8NSObjectC", "intersectionsIncludingUpcomingManeuverIntersection"]
+- ["So8NSObjectC", "isCurrentStep"]
+- ["So8NSObjectC", "isFinalLeg"]
+- ["So8NSObjectC", "leg"]
+- ["So8NSObjectC", "legIndex"]
+- !private ["So8NSObjectC", "legs"]
+- !private ["So8NSObjectC", "maneuverType"]
+- ["So8NSObjectC", "nearbyCoordinates"]
+- ["So8NSObjectC", "priorStep"]
+- ["So8NSObjectC", "remainingSpokenInstructions"]
+- ["So8NSObjectC", "remainingSteps"]
+- ["So8NSObjectC", "remainingVisualInstructions"]
+- ["So8NSObjectC", "remainingWaypoints"]
+- ["So8NSObjectC", "route"]
+- !private ["So8NSObjectC", "segmentCongestionLevels"]
+- ["So8NSObjectC", "spokenInstructionIndex"]
+- ["So8NSObjectC", "step"]
+- ["So8NSObjectC", "stepAfter"]
+- ["So8NSObjectC", "stepBefore"]
+- ["So8NSObjectC", "stepIndex"]
+- !private ["So8NSObjectC", "steps"]
+- ["So8NSObjectC", "upComingStep"]
+- ["So8NSObjectC", "upcomingIntersection"]
+- ["So8NSObjectC", "userDistanceToManeuverLocation"]
+- ["So8NSObjectC", "userDistanceToUpcomingIntersection"]
+- ["So8NSObjectC", "userHasArrivedAtWaypoint"]
+- ["So8NSObjectC", "visualInstructionIndex"]
+- !private ["So8NSObjectC", "zip"]
+- !private ["So16NSObjectProtocolP", "Array"]
+- ["So16NSObjectProtocolP", "Double"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "Polyline"]
+- !private ["So16NSObjectProtocolP", "RouteLegProgress"]
+- !private ["So16NSObjectProtocolP", "RouteStepProgress"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "assert"]
+- !private ["So16NSObjectProtocolP", "congestionTimesPerStep"]
+- !private ["So16NSObjectProtocolP", "congestionTravelTimesSegmentsByStep"]
+- !private ["So16NSObjectProtocolP", "coordinateCount"]
+- !private ["So16NSObjectProtocolP", "coordinates"]
+- !private ["So16NSObjectProtocolP", "currentLeg"]
+- !private ["So16NSObjectProtocolP", "currentLegProgress"]
+- !private ["So16NSObjectProtocolP", "currentStep"]
+- !private ["So16NSObjectProtocolP", "currentStepProgress"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "distance"]
+- !private ["So16NSObjectProtocolP", "distanceTraveled"]
+- !private ["So16NSObjectProtocolP", "durationRemaining"]
+- !private ["So16NSObjectProtocolP", "expectedSegmentTravelTimes"]
+- !private ["So16NSObjectProtocolP", "expectedTravelTime"]
+- !private ["So16NSObjectProtocolP", "fractionTraveled"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instructionsDisplayedAlongStep"]
+- !private ["So16NSObjectProtocolP", "instructionsSpokenAlongStep"]
+- !private ["So16NSObjectProtocolP", "intersectionIndex"]
+- !private ["So16NSObjectProtocolP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["So16NSObjectProtocolP", "leg"]
+- !private ["So16NSObjectProtocolP", "legIndex"]
+- !private ["So16NSObjectProtocolP", "legs"]
+- !private ["So16NSObjectProtocolP", "maneuverType"]
+- !private ["So16NSObjectProtocolP", "priorStep"]
+- !private ["So16NSObjectProtocolP", "remainingSteps"]
+- !private ["So16NSObjectProtocolP", "route"]
+- !private ["So16NSObjectProtocolP", "segmentCongestionLevels"]
+- !private ["So16NSObjectProtocolP", "spokenInstructionIndex"]
+- !private ["So16NSObjectProtocolP", "step"]
+- !private ["So16NSObjectProtocolP", "stepIndex"]
+- !private ["So16NSObjectProtocolP", "steps"]
+- !private ["So16NSObjectProtocolP", "upComingStep"]
+- !private ["So16NSObjectProtocolP", "visualInstructionIndex"]
+- !private ["So16NSObjectProtocolP", "zip"]
+- !private ["So14NSSecureCodingP", "coordinateCount"]
+- !private ["So14NSSecureCodingP", "coordinates"]
+- !private ["So14NSSecureCodingP", "destination"]
+- !private ["So14NSSecureCodingP", "distance"]
+- !private ["So14NSSecureCodingP", "expectedSegmentTravelTimes"]
+- !private ["So14NSSecureCodingP", "expectedTravelTime"]
+- !private ["So14NSSecureCodingP", "instructionsDisplayedAlongStep"]
+- !private ["So14NSSecureCodingP", "instructionsSpokenAlongStep"]
+- !private ["So14NSSecureCodingP", "legs"]
+- !private ["So14NSSecureCodingP", "maneuverType"]
+- !private ["So14NSSecureCodingP", "segmentCongestionLevels"]
+- !private ["So14NSSecureCodingP", "steps"]
+- ["s7NumericP", "infinity"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "dropLast"]
+- !private ["s22RandomAccessCollectionP", "endIndex"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "prefix"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "startIndex"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "dropLast"]
+- !private ["s26RangeReplaceableCollectionP", "endIndex"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "prefix"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "startIndex"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- !private ["s16RawRepresentableP", "arrive"]
+- !private ["16MapboxDirections5RouteC", "distance"]
+- !private ["16MapboxDirections5RouteC", "legs"]
+- !private ["16MapboxDirections8RouteLegC", "destination"]
+- !private ["16MapboxDirections8RouteLegC", "distance"]
+- !private ["16MapboxDirections8RouteLegC", "expectedSegmentTravelTimes"]
+- !private ["16MapboxDirections8RouteLegC", "expectedTravelTime"]
+- !private ["16MapboxDirections8RouteLegC", "segmentCongestionLevels"]
+- !private ["16MapboxDirections8RouteLegC", "steps"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "Array"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "Bool"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "CLLocationCoordinate2D"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "CLLocationDistance"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "Double"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "Int"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "Polyline"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "RouteLeg"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "RouteStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "RouteStepProgress"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "StepIndexDistance"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "TimeInterval"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "assert"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "closestStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "currentStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "currentStepProgress"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "deinit"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "distanceTraveled"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "durationRemaining"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "followOnStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "fractionTraveled"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "init"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "isCurrentStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "leg"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "nearbyCoordinates"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "priorStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "remainingSteps"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "stepAfter"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "stepBefore"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "stepIndex"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "upComingStep"]
+- ["20MapboxCoreNavigation16RouteLegProgressC", "userHasArrivedAtWaypoint"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "Array"]
+- ["20MapboxCoreNavigation13RouteProgressC", "Bool"]
+- ["20MapboxCoreNavigation13RouteProgressC", "CLLocationDistance"]
+- ["20MapboxCoreNavigation13RouteProgressC", "CongestionLevel"]
+- ["20MapboxCoreNavigation13RouteProgressC", "Double"]
+- ["20MapboxCoreNavigation13RouteProgressC", "Int"]
+- ["20MapboxCoreNavigation13RouteProgressC", "Route"]
+- ["20MapboxCoreNavigation13RouteProgressC", "RouteLeg"]
+- ["20MapboxCoreNavigation13RouteProgressC", "RouteLegProgress"]
+- ["20MapboxCoreNavigation13RouteProgressC", "TimeInterval"]
+- ["20MapboxCoreNavigation13RouteProgressC", "TimedCongestionLevel"]
+- ["20MapboxCoreNavigation13RouteProgressC", "Waypoint"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "assert"]
+- ["20MapboxCoreNavigation13RouteProgressC", "congestionTimesPerStep"]
+- ["20MapboxCoreNavigation13RouteProgressC", "congestionTravelTimesSegmentsByStep"]
+- ["20MapboxCoreNavigation13RouteProgressC", "currentLeg"]
+- ["20MapboxCoreNavigation13RouteProgressC", "currentLegProgress"]
+- ["20MapboxCoreNavigation13RouteProgressC", "deinit"]
+- ["20MapboxCoreNavigation13RouteProgressC", "distanceRemaining"]
+- ["20MapboxCoreNavigation13RouteProgressC", "distanceTraveled"]
+- ["20MapboxCoreNavigation13RouteProgressC", "durationRemaining"]
+- ["20MapboxCoreNavigation13RouteProgressC", "fractionTraveled"]
+- ["20MapboxCoreNavigation13RouteProgressC", "init"]
+- ["20MapboxCoreNavigation13RouteProgressC", "isFinalLeg"]
+- ["20MapboxCoreNavigation13RouteProgressC", "legIndex"]
+- ["20MapboxCoreNavigation13RouteProgressC", "remainingWaypoints"]
+- ["20MapboxCoreNavigation13RouteProgressC", "route"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "zip"]
+- !private ["16MapboxDirections9RouteStepC", "coordinateCount"]
+- !private ["16MapboxDirections9RouteStepC", "coordinates"]
+- !private ["16MapboxDirections9RouteStepC", "distance"]
+- !private ["16MapboxDirections9RouteStepC", "expectedTravelTime"]
+- !private ["16MapboxDirections9RouteStepC", "instructionsDisplayedAlongStep"]
+- !private ["16MapboxDirections9RouteStepC", "instructionsSpokenAlongStep"]
+- !private ["16MapboxDirections9RouteStepC", "maneuverType"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "Array"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "CLLocationDistance"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "Double"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "Int"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "Intersection"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "RouteStep"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "SpokenInstruction"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "TimeInterval"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "VisualInstructionBanner"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "currentIntersection"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "currentSpokenInstruction"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "currentVisualInstruction"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "deinit"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "distanceRemaining"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "distanceTraveled"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "durationRemaining"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "fractionTraveled"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "init"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "intersectionDistances"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "intersectionIndex"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "intersectionsIncludingUpcomingManeuverIntersection"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "remainingSpokenInstructions"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "remainingVisualInstructions"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "spokenInstructionIndex"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "step"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "upcomingIntersection"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "userDistanceToManeuverLocation"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "userDistanceToUpcomingIntersection"]
+- ["20MapboxCoreNavigation17RouteStepProgressC", "visualInstructionIndex"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "dropLast"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "enumerated"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "startIndex"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "suffix"]
+- !private ["s13SignedIntegerP", "init"]
+- ["s13SignedNumericP", "infinity"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["s10StrideableP", "infinity"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dropLast"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "prefix"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "startIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s15_CVarArgAlignedP", "infinity"]
+- ["s22_CVarArgPassedAsDoubleP", "infinity"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dropLast"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "startIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "infinity"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "infinity"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Polyline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteLegProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteStepProgress"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "congestionTimesPerStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "congestionTravelTimesSegmentsByStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinateCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLeg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLegProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStepProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceTraveled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "durationRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectedSegmentTravelTimes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectedTravelTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fractionTraveled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instructionsDisplayedAlongStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instructionsSpokenAlongStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intersectionIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intersectionsIncludingUpcomingManeuverIntersection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "legIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "legs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maneuverType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priorStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "remainingSteps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "route"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "segmentCongestionLevels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spokenInstructionIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "step"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "steps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "upComingStep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "visualInstructionIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zip"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dropLast"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- ["s21_ObjectiveCBridgeableP", "infinity"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "startIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "16MapboxDirections0B6ResultC"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- !private "4Turf10LineStringV17IndexedCoordinateV"
+- !private "Si"
+- "4Turf8JSONTypeP"
+- !private "4Turf10LineStringV"
+- "s25LosslessStringConvertibleP"
+- !private "16MapboxDirections12ManeuverTypeO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "16MapboxDirections5RouteC"
+- !private "16MapboxDirections8RouteLegC"
+- "20MapboxCoreNavigation16RouteLegProgressC"
+- "20MapboxCoreNavigation13RouteProgressC"
+- !private "16MapboxDirections9RouteStepC"
+- "20MapboxCoreNavigation17RouteStepProgressC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "961e90618bfaa004577ddb0028624223"

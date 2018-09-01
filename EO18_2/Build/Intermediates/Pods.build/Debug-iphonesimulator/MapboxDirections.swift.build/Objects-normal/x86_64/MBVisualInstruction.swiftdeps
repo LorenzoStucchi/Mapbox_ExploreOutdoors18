@@ -1,0 +1,527 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VisualInstruction"
+provides-nominal:
+- "16MapboxDirections17VisualInstructionC"
+provides-member:
+- ["16MapboxDirections17VisualInstructionC", ""]
+provides-dynamic-lookup:
+- "components"
+- "encode"
+- "finalHeading"
+- "maneuverDirection"
+- "maneuverType"
+- "supportsSecureCoding"
+- "text"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "BooleanLiteralType"
+- "CLLocationDegrees"
+- "CastingPrecedence"
+- "ComponentRepresentable"
+- !private "JSONDictionary"
+- !private "LaneIndication"
+- !private "LaneIndicationComponent"
+- "ManeuverDirection"
+- "ManeuverType"
+- !private "NSArray"
+- "NSCoder"
+- "NSObject"
+- "NSSecureCoding"
+- !private "NSString"
+- "String"
+- !private "StringLiteralType"
+- "VisualInstruction"
+- !private "VisualInstructionComponent"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ComponentRepresentable"]
+- !private ["s7CVarArgP", "LaneIndication"]
+- !private ["s7CVarArgP", "LaneIndicationComponent"]
+- !private ["s7CVarArgP", "ManeuverDirection"]
+- !private ["s7CVarArgP", "ManeuverType"]
+- !private ["s7CVarArgP", "NSArray"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "VisualInstructionComponent"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "decodeDouble"]
+- !private ["s7CVarArgP", "decodeObject"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "finalHeading"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "maneuverDirection"]
+- !private ["s7CVarArgP", "maneuverType"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "supportsSecureCoding"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ComponentRepresentable"]
+- !private ["s28CustomDebugStringConvertibleP", "LaneIndication"]
+- !private ["s28CustomDebugStringConvertibleP", "LaneIndicationComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "ManeuverDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "ManeuverType"]
+- !private ["s28CustomDebugStringConvertibleP", "NSArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "VisualInstructionComponent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeDouble"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "finalHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "maneuverDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "maneuverType"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "supportsSecureCoding"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ComponentRepresentable"]
+- !private ["s23CustomStringConvertibleP", "LaneIndication"]
+- !private ["s23CustomStringConvertibleP", "LaneIndicationComponent"]
+- !private ["s23CustomStringConvertibleP", "ManeuverDirection"]
+- !private ["s23CustomStringConvertibleP", "ManeuverType"]
+- !private ["s23CustomStringConvertibleP", "NSArray"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "VisualInstructionComponent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "decodeDouble"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "finalHeading"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "maneuverDirection"]
+- !private ["s23CustomStringConvertibleP", "maneuverType"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "none"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "supportsSecureCoding"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "ComponentRepresentable"]
+- !private ["s9EquatableP", "LaneIndication"]
+- !private ["s9EquatableP", "LaneIndicationComponent"]
+- !private ["s9EquatableP", "ManeuverDirection"]
+- !private ["s9EquatableP", "ManeuverType"]
+- !private ["s9EquatableP", "NSArray"]
+- !private ["s9EquatableP", "NSString"]
+- !private ["s9EquatableP", "VisualInstructionComponent"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "components"]
+- !private ["s9EquatableP", "decodeDouble"]
+- !private ["s9EquatableP", "decodeObject"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- !private ["s9EquatableP", "finalHeading"]
+- !private ["s9EquatableP", "first"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lowercased"]
+- !private ["s9EquatableP", "maneuverDirection"]
+- !private ["s9EquatableP", "maneuverType"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "supportsSecureCoding"]
+- !private ["s9EquatableP", "text"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s8HashableP", "ComponentRepresentable"]
+- !private ["s8HashableP", "LaneIndication"]
+- !private ["s8HashableP", "LaneIndicationComponent"]
+- !private ["s8HashableP", "ManeuverDirection"]
+- !private ["s8HashableP", "ManeuverType"]
+- !private ["s8HashableP", "NSArray"]
+- !private ["s8HashableP", "NSString"]
+- !private ["s8HashableP", "VisualInstructionComponent"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "components"]
+- !private ["s8HashableP", "decodeDouble"]
+- !private ["s8HashableP", "decodeObject"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "finalHeading"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lowercased"]
+- !private ["s8HashableP", "maneuverDirection"]
+- !private ["s8HashableP", "maneuverType"]
+- !private ["s8HashableP", "none"]
+- ["s8HashableP", "supportsSecureCoding"]
+- !private ["s8HashableP", "text"]
+- !private ["16MapboxDirections23LaneIndicationComponentC", "deinit"]
+- !private ["16MapboxDirections23LaneIndicationComponentC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["SC16MBLaneIndicationV", "init"]
+- !private ["16MapboxDirections17ManeuverDirectionO", "deinit"]
+- !private ["16MapboxDirections17ManeuverDirectionO", "init"]
+- !private ["16MapboxDirections17ManeuverDirectionO", "none"]
+- !private ["16MapboxDirections12ManeuverTypeO", "deinit"]
+- !private ["16MapboxDirections12ManeuverTypeO", "init"]
+- !private ["16MapboxDirections12ManeuverTypeO", "none"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So7NSCoderC", "decodeDouble"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "ComponentRepresentable"]
+- !private ["So8NSCodingP", "LaneIndication"]
+- !private ["So8NSCodingP", "LaneIndicationComponent"]
+- !private ["So8NSCodingP", "ManeuverDirection"]
+- !private ["So8NSCodingP", "ManeuverType"]
+- !private ["So8NSCodingP", "NSArray"]
+- !private ["So8NSCodingP", "NSString"]
+- !private ["So8NSCodingP", "VisualInstructionComponent"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "components"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "finalHeading"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "maneuverDirection"]
+- !private ["So8NSCodingP", "maneuverType"]
+- ["So8NSCodingP", "supportsSecureCoding"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocationDegrees"]
+- ["So8NSObjectC", "ComponentRepresentable"]
+- !private ["So8NSObjectC", "JSONDictionary"]
+- !private ["So8NSObjectC", "LaneIndication"]
+- !private ["So8NSObjectC", "LaneIndicationComponent"]
+- ["So8NSObjectC", "ManeuverDirection"]
+- ["So8NSObjectC", "ManeuverType"]
+- !private ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "VisualInstructionComponent"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "decodeDouble"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "finalHeading"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lowercased"]
+- ["So8NSObjectC", "maneuverDirection"]
+- ["So8NSObjectC", "maneuverType"]
+- ["So8NSObjectC", "supportsSecureCoding"]
+- ["So8NSObjectC", "text"]
+- !private ["So16NSObjectProtocolP", "ComponentRepresentable"]
+- !private ["So16NSObjectProtocolP", "LaneIndication"]
+- !private ["So16NSObjectProtocolP", "LaneIndicationComponent"]
+- !private ["So16NSObjectProtocolP", "ManeuverDirection"]
+- !private ["So16NSObjectProtocolP", "ManeuverType"]
+- !private ["So16NSObjectProtocolP", "NSArray"]
+- !private ["So16NSObjectProtocolP", "NSString"]
+- !private ["So16NSObjectProtocolP", "VisualInstructionComponent"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "components"]
+- !private ["So16NSObjectProtocolP", "decodeDouble"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "finalHeading"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So16NSObjectProtocolP", "maneuverDirection"]
+- !private ["So16NSObjectProtocolP", "maneuverType"]
+- ["So16NSObjectProtocolP", "supportsSecureCoding"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So14NSSecureCodingP", "ComponentRepresentable"]
+- !private ["So14NSSecureCodingP", "LaneIndication"]
+- !private ["So14NSSecureCodingP", "LaneIndicationComponent"]
+- !private ["So14NSSecureCodingP", "ManeuverDirection"]
+- !private ["So14NSSecureCodingP", "ManeuverType"]
+- !private ["So14NSSecureCodingP", "NSArray"]
+- !private ["So14NSSecureCodingP", "NSString"]
+- !private ["So14NSSecureCodingP", "VisualInstructionComponent"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "components"]
+- ["So14NSSecureCodingP", "encode"]
+- ["So14NSSecureCodingP", "encodeWithCoder"]
+- !private ["So14NSSecureCodingP", "finalHeading"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "maneuverDirection"]
+- !private ["So14NSSecureCodingP", "maneuverType"]
+- ["So14NSSecureCodingP", "supportsSecureCoding"]
+- !private ["So14NSSecureCodingP", "text"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["16MapboxDirections17VisualInstructionC", "Bool"]
+- ["16MapboxDirections17VisualInstructionC", "CLLocationDegrees"]
+- ["16MapboxDirections17VisualInstructionC", "ComponentRepresentable"]
+- !private ["16MapboxDirections17VisualInstructionC", "JSONDictionary"]
+- !private ["16MapboxDirections17VisualInstructionC", "LaneIndication"]
+- !private ["16MapboxDirections17VisualInstructionC", "LaneIndicationComponent"]
+- ["16MapboxDirections17VisualInstructionC", "ManeuverDirection"]
+- ["16MapboxDirections17VisualInstructionC", "ManeuverType"]
+- !private ["16MapboxDirections17VisualInstructionC", "NSArray"]
+- ["16MapboxDirections17VisualInstructionC", "NSCoder"]
+- !private ["16MapboxDirections17VisualInstructionC", "NSString"]
+- ["16MapboxDirections17VisualInstructionC", "String"]
+- !private ["16MapboxDirections17VisualInstructionC", "VisualInstructionComponent"]
+- ["16MapboxDirections17VisualInstructionC", "components"]
+- ["16MapboxDirections17VisualInstructionC", "deinit"]
+- ["16MapboxDirections17VisualInstructionC", "encode"]
+- ["16MapboxDirections17VisualInstructionC", "encodeWithCoder"]
+- ["16MapboxDirections17VisualInstructionC", "finalHeading"]
+- ["16MapboxDirections17VisualInstructionC", "init"]
+- ["16MapboxDirections17VisualInstructionC", "maneuverDirection"]
+- ["16MapboxDirections17VisualInstructionC", "maneuverType"]
+- ["16MapboxDirections17VisualInstructionC", "supportsSecureCoding"]
+- ["16MapboxDirections17VisualInstructionC", "text"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "deinit"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ComponentRepresentable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LaneIndication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LaneIndicationComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ManeuverDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ManeuverType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VisualInstructionComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeDouble"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalHeading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maneuverDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maneuverType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "supportsSecureCoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "16MapboxDirections22ComponentRepresentableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "16MapboxDirections23LaneIndicationComponentC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC16MBLaneIndicationV"
+- !private "16MapboxDirections17ManeuverDirectionO"
+- !private "16MapboxDirections12ManeuverTypeO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "16MapboxDirections17VisualInstructionC"
+- !private "16MapboxDirections26VisualInstructionComponentC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f529b2c33ac3489200464abe5bfc4a4b"

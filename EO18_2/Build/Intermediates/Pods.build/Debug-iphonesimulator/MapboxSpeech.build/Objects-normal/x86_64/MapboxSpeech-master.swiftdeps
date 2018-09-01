@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "4b7902eb0caa20ae87cc91ff2b55baa9"
+build_time: [1535745647, 643336000]
+inputs:
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.swift": [1535745277, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MBSpeechOptions.swift": [1535745277, 0]

@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "captureScreen"
+provides-nominal:
+provides-member:
+- ["So8UIWindowC", ""]
+- ["So7UIImageC", ""]
+- ["So8UIWindowC", "capture"]
+- ["So7UIImageC", "scaled"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- !private "CGRect"
+- !private "CGSize"
+- "Data"
+- !private "UIApplication"
+- !private "UIGraphicsBeginImageContext"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- !private "UIScreen"
+- "UIWindow"
+- "captureScreen"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So15CALayerDelegateP", "UIGraphicsEndImageContext"]
+- !private ["So15CALayerDelegateP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So15CALayerDelegateP", "UIScreen"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "capture"]
+- !private ["So15CALayerDelegateP", "drawHierarchy"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "isOpaque"]
+- !private ["SC7CGPointV", "zero"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "UIGraphicsBeginImageContext"]
+- !private ["s7CVarArgP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s7CVarArgP", "UIGraphicsEndImageContext"]
+- !private ["s7CVarArgP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "capture"]
+- !private ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "drawHierarchy"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "isOpaque"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "scaled"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "capture"]
+- !private ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "drawHierarchy"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isOpaque"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "scaled"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "capture"]
+- !private ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "drawHierarchy"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "isOpaque"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "scaled"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "UIGraphicsBeginImageContext"]
+- !private ["s9EquatableP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s9EquatableP", "UIGraphicsEndImageContext"]
+- !private ["s9EquatableP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "capture"]
+- !private ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "drawHierarchy"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isOpaque"]
+- !private ["s9EquatableP", "keyWindow"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "scaled"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "zero"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "UIGraphicsBeginImageContext"]
+- !private ["s8HashableP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s8HashableP", "UIGraphicsEndImageContext"]
+- !private ["s8HashableP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "capture"]
+- !private ["s8HashableP", "draw"]
+- !private ["s8HashableP", "drawHierarchy"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "isOpaque"]
+- !private ["s8HashableP", "keyWindow"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "scale"]
+- !private ["s8HashableP", "scaled"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "size"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "UIGraphicsBeginImageContext"]
+- !private ["So8NSCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSCodingP", "UIGraphicsEndImageContext"]
+- !private ["So8NSCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSCodingP", "UIScreen"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "capture"]
+- !private ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "drawHierarchy"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "isOpaque"]
+- !private ["So8NSCodingP", "scaled"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "CGSize"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsBeginImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderReadingP", "draw"]
+- !private ["So21NSItemProviderReadingP", "scaled"]
+- !private ["So21NSItemProviderReadingP", "size"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "CGSize"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsBeginImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderWritingP", "draw"]
+- !private ["So21NSItemProviderWritingP", "scaled"]
+- !private ["So21NSItemProviderWritingP", "size"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "CGSize"]
+- !private ["So8NSObjectC", "UIGraphicsBeginImageContext"]
+- !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIScreen"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "capture"]
+- !private ["So8NSObjectC", "draw"]
+- !private ["So8NSObjectC", "drawHierarchy"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "isOpaque"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "scale"]
+- ["So8NSObjectC", "scaled"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsBeginImageContext"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsEndImageContext"]
+- !private ["So16NSObjectProtocolP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "capture"]
+- !private ["So16NSObjectProtocolP", "draw"]
+- !private ["So16NSObjectProtocolP", "drawHierarchy"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "isOpaque"]
+- !private ["So16NSObjectProtocolP", "keyWindow"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "scale"]
+- !private ["So16NSObjectProtocolP", "scaled"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "CGSize"]
+- !private ["So14NSSecureCodingP", "UIGraphicsBeginImageContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsEndImageContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So14NSSecureCodingP", "draw"]
+- !private ["So14NSSecureCodingP", "scaled"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "CGSize"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsBeginImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsEndImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIScreen"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "capture"]
+- !private ["So29UIAccessibilityIdentificationP", "draw"]
+- !private ["So29UIAccessibilityIdentificationP", "drawHierarchy"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "isOpaque"]
+- !private ["So29UIAccessibilityIdentificationP", "scaled"]
+- !private ["So29UIAccessibilityIdentificationP", "size"]
+- !private ["So12UIAppearanceP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So12UIAppearanceP", "UIGraphicsEndImageContext"]
+- !private ["So12UIAppearanceP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So12UIAppearanceP", "UIScreen"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "capture"]
+- !private ["So12UIAppearanceP", "drawHierarchy"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "isOpaque"]
+- !private ["So21UIAppearanceContainerP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21UIAppearanceContainerP", "UIGraphicsEndImageContext"]
+- !private ["So21UIAppearanceContainerP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21UIAppearanceContainerP", "UIScreen"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "capture"]
+- !private ["So21UIAppearanceContainerP", "drawHierarchy"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "isOpaque"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So17UICoordinateSpaceP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So17UICoordinateSpaceP", "UIGraphicsEndImageContext"]
+- !private ["So17UICoordinateSpaceP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So17UICoordinateSpaceP", "UIScreen"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "capture"]
+- !private ["So17UICoordinateSpaceP", "drawHierarchy"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "isOpaque"]
+- !private ["So13UIDynamicItemP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So13UIDynamicItemP", "UIGraphicsEndImageContext"]
+- !private ["So13UIDynamicItemP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So13UIDynamicItemP", "UIScreen"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "capture"]
+- !private ["So13UIDynamicItemP", "drawHierarchy"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "isOpaque"]
+- !private ["So18UIFocusEnvironmentP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So18UIFocusEnvironmentP", "UIGraphicsEndImageContext"]
+- !private ["So18UIFocusEnvironmentP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So18UIFocusEnvironmentP", "UIScreen"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "capture"]
+- !private ["So18UIFocusEnvironmentP", "drawHierarchy"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "isOpaque"]
+- !private ["So11UIFocusItemP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So11UIFocusItemP", "UIGraphicsEndImageContext"]
+- !private ["So11UIFocusItemP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So11UIFocusItemP", "UIScreen"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "capture"]
+- !private ["So11UIFocusItemP", "drawHierarchy"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "isOpaque"]
+- ["So7UIImageC", "CGFloat"]
+- !private ["So7UIImageC", "CGRect"]
+- !private ["So7UIImageC", "CGSize"]
+- !private ["So7UIImageC", "UIGraphicsBeginImageContext"]
+- !private ["So7UIImageC", "UIGraphicsEndImageContext"]
+- !private ["So7UIImageC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "draw"]
+- ["So7UIImageC", "scaled"]
+- !private ["So7UIImageC", "size"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGSize"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsBeginImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsEndImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "draw"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "scaled"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIGraphicsEndImageContext"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "capture"]
+- !private ["So30UIPasteConfigurationSupportingP", "drawHierarchy"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "isOpaque"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So11UIResponderC", "UIGraphicsEndImageContext"]
+- !private ["So11UIResponderC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIScreen"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "capture"]
+- !private ["So11UIResponderC", "drawHierarchy"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "isOpaque"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "UIGraphicsEndImageContext"]
+- !private ["So30UIResponderStandardEditActionsP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "capture"]
+- !private ["So30UIResponderStandardEditActionsP", "drawHierarchy"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "isOpaque"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So8UIScreenC", "scale"]
+- !private ["So18UITraitEnvironmentP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So18UITraitEnvironmentP", "UIGraphicsEndImageContext"]
+- !private ["So18UITraitEnvironmentP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So18UITraitEnvironmentP", "UIScreen"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "capture"]
+- !private ["So18UITraitEnvironmentP", "drawHierarchy"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "isOpaque"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "scale"]
+- !private ["So6UIViewC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So6UIViewC", "UIGraphicsEndImageContext"]
+- !private ["So6UIViewC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So6UIViewC", "UIImage"]
+- !private ["So6UIViewC", "UIScreen"]
+- !private ["So6UIViewC", "bounds"]
+- ["So6UIViewC", "capture"]
+- !private ["So6UIViewC", "drawHierarchy"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "isOpaque"]
+- !private ["So8UIWindowC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8UIWindowC", "UIGraphicsEndImageContext"]
+- !private ["So8UIWindowC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8UIWindowC", "UIImage"]
+- !private ["So8UIWindowC", "UIScreen"]
+- !private ["So8UIWindowC", "bounds"]
+- ["So8UIWindowC", "capture"]
+- !private ["So8UIWindowC", "drawHierarchy"]
+- !private ["So8UIWindowC", "frame"]
+- !private ["So8UIWindowC", "isOpaque"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIGraphicsEndImageContext"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIScreen"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "capture"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "drawHierarchy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isOpaque"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGSize"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsBeginImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsEndImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "draw"]
+- !private ["s26_ExpressibleByImageLiteralP", "scaled"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsEndImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "capture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawHierarchy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isOpaque"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scaled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So8UIWindowC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "9d22b79d51959917cd97ca54b333da10"

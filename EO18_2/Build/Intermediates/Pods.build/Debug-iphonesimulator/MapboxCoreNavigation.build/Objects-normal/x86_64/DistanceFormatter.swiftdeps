@@ -1,0 +1,1113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RoundingTable"
+- "DistanceFormatter"
+provides-nominal:
+- "20MapboxCoreNavigation13RoundingTableV"
+- "20MapboxCoreNavigation13RoundingTableV9ThresholdV"
+- "20MapboxCoreNavigation17DistanceFormatterC"
+provides-member:
+- ["Sd", ""]
+- ["20MapboxCoreNavigation13RoundingTableV", ""]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", ""]
+- ["SC21NSAttributedStringKeyV", ""]
+- ["20MapboxCoreNavigation17DistanceFormatterC", ""]
+- ["Sd", "metersPerMile"]
+- ["Sd", "feetPerMeter"]
+- ["Sd", "miles"]
+- ["Sd", "feet"]
+- ["Sd", "yards"]
+- ["Sd", "kilometers"]
+- ["Sd", "inMiles"]
+- ["Sd", "inYards"]
+- ["Sd", "converted"]
+- ["SC21NSAttributedStringKeyV", "quantity"]
+provides-dynamic-lookup:
+- "attributedString"
+- "encode"
+- "string"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CLLocationDistance"
+- "CastingPrecedence"
+- "DistanceFormatter"
+- "Double"
+- "Int"
+- "LengthFormatter"
+- "NSAttributedString"
+- "NSAttributedStringKey"
+- "NSCoder"
+- !private "NSMutableAttributedString"
+- !private "NSNotFound"
+- !private "NSNumber"
+- !private "NSString"
+- !private "NavigationSettings"
+- "RoundingTable"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["Sa", "last"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s19BinaryFloatingPointP", "converted"]
+- !private ["s19BinaryFloatingPointP", "feet"]
+- !private ["s19BinaryFloatingPointP", "feetPerMeter"]
+- !private ["s19BinaryFloatingPointP", "inMiles"]
+- !private ["s19BinaryFloatingPointP", "inYards"]
+- !private ["s19BinaryFloatingPointP", "kilometers"]
+- !private ["s19BinaryFloatingPointP", "metersPerMile"]
+- !private ["s19BinaryFloatingPointP", "miles"]
+- !private ["s19BinaryFloatingPointP", "yards"]
+- !private ["s13BinaryIntegerP", "inMiles"]
+- !private ["s13BinaryIntegerP", "inYards"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "LengthFormatter"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "NSNotFound"]
+- !private ["s7CVarArgP", "NavigationSettings"]
+- !private ["s7CVarArgP", "RoundingTable"]
+- ["s7CVarArgP", "Unit"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAttribute"]
+- !private ["s7CVarArgP", "alwaysShowsDecimalSeparator"]
+- !private ["s7CVarArgP", "approx"]
+- !private ["s7CVarArgP", "converted"]
+- !private ["s7CVarArgP", "decimalSeparator"]
+- !private ["s7CVarArgP", "decodeBool"]
+- !private ["s7CVarArgP", "encode"]
+- !private ["s7CVarArgP", "feet"]
+- !private ["s7CVarArgP", "feetPerMeter"]
+- !private ["s7CVarArgP", "formattedDistance"]
+- !private ["s7CVarArgP", "inMiles"]
+- !private ["s7CVarArgP", "inYards"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kilometers"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "maximumFractionDigits"]
+- !private ["s7CVarArgP", "metersPerMile"]
+- !private ["s7CVarArgP", "miles"]
+- !private ["s7CVarArgP", "nonFractionalLengthFormatter"]
+- !private ["s7CVarArgP", "numberFormatter"]
+- !private ["s7CVarArgP", "positivePrefix"]
+- !private ["s7CVarArgP", "positiveSuffix"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "roundingIncrement"]
+- !private ["s7CVarArgP", "roundingTableImperial"]
+- !private ["s7CVarArgP", "roundingTableMetric"]
+- !private ["s7CVarArgP", "roundingTableUK"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "threshold"]
+- !private ["s7CVarArgP", "unit"]
+- !private ["s7CVarArgP", "usesMetric"]
+- !private ["s7CVarArgP", "usesSignificantDigits"]
+- !private ["s7CVarArgP", "yards"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10ComparableP", "converted"]
+- !private ["s10ComparableP", "feet"]
+- !private ["s10ComparableP", "feetPerMeter"]
+- !private ["s10ComparableP", "inMiles"]
+- !private ["s10ComparableP", "inYards"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "kilometers"]
+- !private ["s10ComparableP", "metersPerMile"]
+- !private ["s10ComparableP", "miles"]
+- !private ["s10ComparableP", "yards"]
+- ["s28CustomDebugStringConvertibleP", "LengthFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotFound"]
+- !private ["s28CustomDebugStringConvertibleP", "NavigationSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "RoundingTable"]
+- ["s28CustomDebugStringConvertibleP", "Unit"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "alwaysShowsDecimalSeparator"]
+- !private ["s28CustomDebugStringConvertibleP", "approx"]
+- !private ["s28CustomDebugStringConvertibleP", "converted"]
+- !private ["s28CustomDebugStringConvertibleP", "decimalSeparator"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeBool"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "feet"]
+- !private ["s28CustomDebugStringConvertibleP", "feetPerMeter"]
+- !private ["s28CustomDebugStringConvertibleP", "formattedDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "inMiles"]
+- !private ["s28CustomDebugStringConvertibleP", "inYards"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kilometers"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "metersPerMile"]
+- !private ["s28CustomDebugStringConvertibleP", "miles"]
+- !private ["s28CustomDebugStringConvertibleP", "nationalizedCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "nonFractionalLengthFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "numberFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "positivePrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "positiveSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "roundingIncrement"]
+- !private ["s28CustomDebugStringConvertibleP", "roundingTableImperial"]
+- !private ["s28CustomDebugStringConvertibleP", "roundingTableMetric"]
+- !private ["s28CustomDebugStringConvertibleP", "roundingTableUK"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "threshold"]
+- !private ["s28CustomDebugStringConvertibleP", "unit"]
+- !private ["s28CustomDebugStringConvertibleP", "usesMetric"]
+- !private ["s28CustomDebugStringConvertibleP", "usesSignificantDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "yards"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "converted"]
+- !private ["s29CustomPlaygroundQuickLookableP", "feet"]
+- !private ["s29CustomPlaygroundQuickLookableP", "feetPerMeter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "inMiles"]
+- !private ["s29CustomPlaygroundQuickLookableP", "inYards"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "kilometers"]
+- !private ["s29CustomPlaygroundQuickLookableP", "location"]
+- !private ["s29CustomPlaygroundQuickLookableP", "metersPerMile"]
+- !private ["s29CustomPlaygroundQuickLookableP", "miles"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s29CustomPlaygroundQuickLookableP", "yards"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "converted"]
+- !private ["s17CustomReflectableP", "feet"]
+- !private ["s17CustomReflectableP", "feetPerMeter"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "inMiles"]
+- !private ["s17CustomReflectableP", "inYards"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "kilometers"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "location"]
+- !private ["s17CustomReflectableP", "metersPerMile"]
+- !private ["s17CustomReflectableP", "miles"]
+- !private ["s17CustomReflectableP", "nationalizedCurrent"]
+- !private ["s17CustomReflectableP", "yards"]
+- ["s23CustomStringConvertibleP", "LengthFormatter"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSNotFound"]
+- !private ["s23CustomStringConvertibleP", "NavigationSettings"]
+- !private ["s23CustomStringConvertibleP", "RoundingTable"]
+- ["s23CustomStringConvertibleP", "Unit"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAttribute"]
+- !private ["s23CustomStringConvertibleP", "alwaysShowsDecimalSeparator"]
+- !private ["s23CustomStringConvertibleP", "approx"]
+- !private ["s23CustomStringConvertibleP", "converted"]
+- !private ["s23CustomStringConvertibleP", "decimalSeparator"]
+- !private ["s23CustomStringConvertibleP", "decodeBool"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "feet"]
+- !private ["s23CustomStringConvertibleP", "feetPerMeter"]
+- !private ["s23CustomStringConvertibleP", "formattedDistance"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "inMiles"]
+- !private ["s23CustomStringConvertibleP", "inYards"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kilometers"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "maximumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "metersPerMile"]
+- !private ["s23CustomStringConvertibleP", "miles"]
+- !private ["s23CustomStringConvertibleP", "nationalizedCurrent"]
+- !private ["s23CustomStringConvertibleP", "nonFractionalLengthFormatter"]
+- !private ["s23CustomStringConvertibleP", "numberFormatter"]
+- !private ["s23CustomStringConvertibleP", "positivePrefix"]
+- !private ["s23CustomStringConvertibleP", "positiveSuffix"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "roundingIncrement"]
+- !private ["s23CustomStringConvertibleP", "roundingTableImperial"]
+- !private ["s23CustomStringConvertibleP", "roundingTableMetric"]
+- !private ["s23CustomStringConvertibleP", "roundingTableUK"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "threshold"]
+- !private ["s23CustomStringConvertibleP", "unit"]
+- !private ["s23CustomStringConvertibleP", "usesMetric"]
+- !private ["s23CustomStringConvertibleP", "usesSignificantDigits"]
+- !private ["s23CustomStringConvertibleP", "yards"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "converted"]
+- !private ["s9DecodableP", "feet"]
+- !private ["s9DecodableP", "feetPerMeter"]
+- !private ["s9DecodableP", "identifier"]
+- !private ["s9DecodableP", "inMiles"]
+- !private ["s9DecodableP", "inYards"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "kilometers"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "location"]
+- !private ["s9DecodableP", "metersPerMile"]
+- !private ["s9DecodableP", "miles"]
+- !private ["s9DecodableP", "nationalizedCurrent"]
+- !private ["s9DecodableP", "yards"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "Bool"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "CLLocationDistance"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "Double"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "LengthFormatter"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "NSAttributedString"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "NSAttributedStringKey"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "NSCoder"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "NSMutableAttributedString"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "NSNotFound"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "NSNumber"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "NSString"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "NavigationSettings"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "RoundingTable"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "String"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "approx"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "attributedString"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "deinit"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "encode"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "formattedDistance"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "init"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "nonFractionalLengthFormatter"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "numberFormatter"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableImperial"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableImperial.storage"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableMetric"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableMetric.storage"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableUK"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "roundingTableUK.storage"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "string"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "threshold"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "unit"]
+- ["Sd", "CLLocationDistance"]
+- ["Sd", "Double"]
+- ["Sd", "LengthFormatter"]
+- ["Sd", "converted"]
+- ["Sd", "feet"]
+- ["Sd", "feetPerMeter"]
+- ["Sd", "inMiles"]
+- ["Sd", "inYards"]
+- ["Sd", "kilometers"]
+- ["Sd", "metersPerMile"]
+- ["Sd", "miles"]
+- ["Sd", "yards"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "converted"]
+- !private ["s9EncodableP", "feet"]
+- !private ["s9EncodableP", "feetPerMeter"]
+- !private ["s9EncodableP", "identifier"]
+- !private ["s9EncodableP", "inMiles"]
+- !private ["s9EncodableP", "inYards"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "kilometers"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "location"]
+- !private ["s9EncodableP", "metersPerMile"]
+- !private ["s9EncodableP", "miles"]
+- !private ["s9EncodableP", "nationalizedCurrent"]
+- !private ["s9EncodableP", "yards"]
+- ["s9EquatableP", "LengthFormatter"]
+- ["s9EquatableP", "NSAttributedStringKey"]
+- !private ["s9EquatableP", "NSMutableAttributedString"]
+- !private ["s9EquatableP", "NSNotFound"]
+- !private ["s9EquatableP", "NavigationSettings"]
+- !private ["s9EquatableP", "RoundingTable"]
+- ["s9EquatableP", "Unit"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAttribute"]
+- !private ["s9EquatableP", "alwaysShowsDecimalSeparator"]
+- !private ["s9EquatableP", "approx"]
+- ["s9EquatableP", "centimeter"]
+- !private ["s9EquatableP", "converted"]
+- !private ["s9EquatableP", "decimalSeparator"]
+- !private ["s9EquatableP", "decodeBool"]
+- !private ["s9EquatableP", "encode"]
+- !private ["s9EquatableP", "feet"]
+- !private ["s9EquatableP", "feetPerMeter"]
+- ["s9EquatableP", "foot"]
+- !private ["s9EquatableP", "formattedDistance"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "inMiles"]
+- !private ["s9EquatableP", "inYards"]
+- ["s9EquatableP", "inch"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "kilometer"]
+- !private ["s9EquatableP", "kilometers"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "maximumFractionDigits"]
+- ["s9EquatableP", "meter"]
+- !private ["s9EquatableP", "metersPerMile"]
+- ["s9EquatableP", "mile"]
+- !private ["s9EquatableP", "miles"]
+- ["s9EquatableP", "millimeter"]
+- !private ["s9EquatableP", "nationalizedCurrent"]
+- !private ["s9EquatableP", "nonFractionalLengthFormatter"]
+- !private ["s9EquatableP", "numberFormatter"]
+- !private ["s9EquatableP", "positivePrefix"]
+- !private ["s9EquatableP", "positiveSuffix"]
+- !private ["s9EquatableP", "quantity"]
+- !private ["s9EquatableP", "range"]
+- !private ["s9EquatableP", "roundingIncrement"]
+- !private ["s9EquatableP", "roundingTableImperial"]
+- !private ["s9EquatableP", "roundingTableMetric"]
+- !private ["s9EquatableP", "roundingTableUK"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "threshold"]
+- !private ["s9EquatableP", "unit"]
+- !private ["s9EquatableP", "usesMetric"]
+- !private ["s9EquatableP", "usesSignificantDigits"]
+- ["s9EquatableP", "yard"]
+- !private ["s9EquatableP", "yards"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s25ExpressibleByFloatLiteralP", "converted"]
+- !private ["s25ExpressibleByFloatLiteralP", "feet"]
+- !private ["s25ExpressibleByFloatLiteralP", "feetPerMeter"]
+- !private ["s25ExpressibleByFloatLiteralP", "inMiles"]
+- !private ["s25ExpressibleByFloatLiteralP", "inYards"]
+- !private ["s25ExpressibleByFloatLiteralP", "kilometers"]
+- !private ["s25ExpressibleByFloatLiteralP", "metersPerMile"]
+- !private ["s25ExpressibleByFloatLiteralP", "miles"]
+- !private ["s25ExpressibleByFloatLiteralP", "yards"]
+- !private ["s27ExpressibleByIntegerLiteralP", "converted"]
+- !private ["s27ExpressibleByIntegerLiteralP", "feet"]
+- !private ["s27ExpressibleByIntegerLiteralP", "feetPerMeter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "inMiles"]
+- !private ["s27ExpressibleByIntegerLiteralP", "inYards"]
+- !private ["s27ExpressibleByIntegerLiteralP", "kilometers"]
+- !private ["s27ExpressibleByIntegerLiteralP", "metersPerMile"]
+- !private ["s27ExpressibleByIntegerLiteralP", "miles"]
+- !private ["s27ExpressibleByIntegerLiteralP", "yards"]
+- !private ["s23ExpressibleByNilLiteralP", "nationalizedCurrent"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s17FixedWidthIntegerP", "inMiles"]
+- !private ["s17FixedWidthIntegerP", "inYards"]
+- !private ["s13FloatingPointP", "converted"]
+- !private ["s13FloatingPointP", "feet"]
+- !private ["s13FloatingPointP", "feetPerMeter"]
+- !private ["s13FloatingPointP", "inMiles"]
+- !private ["s13FloatingPointP", "inYards"]
+- !private ["s13FloatingPointP", "kilometers"]
+- !private ["s13FloatingPointP", "metersPerMile"]
+- !private ["s13FloatingPointP", "miles"]
+- !private ["s13FloatingPointP", "yards"]
+- ["So9FormatterC", "Bool"]
+- ["So9FormatterC", "CLLocationDistance"]
+- ["So9FormatterC", "Double"]
+- ["So9FormatterC", "LengthFormatter"]
+- ["So9FormatterC", "NSAttributedString"]
+- ["So9FormatterC", "NSAttributedStringKey"]
+- ["So9FormatterC", "NSCoder"]
+- !private ["So9FormatterC", "NSMutableAttributedString"]
+- !private ["So9FormatterC", "NSNotFound"]
+- !private ["So9FormatterC", "NSNumber"]
+- !private ["So9FormatterC", "NSString"]
+- !private ["So9FormatterC", "NavigationSettings"]
+- ["So9FormatterC", "RoundingTable"]
+- ["So9FormatterC", "String"]
+- ["So9FormatterC", "Unit"]
+- !private ["So9FormatterC", "alwaysShowsDecimalSeparator"]
+- ["So9FormatterC", "approx"]
+- ["So9FormatterC", "attributedString"]
+- !private ["So9FormatterC", "decimalSeparator"]
+- ["So9FormatterC", "encode"]
+- ["So9FormatterC", "formattedDistance"]
+- ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "maximumFractionDigits"]
+- ["So9FormatterC", "nonFractionalLengthFormatter"]
+- !private ["So9FormatterC", "numberFormatter"]
+- !private ["So9FormatterC", "positivePrefix"]
+- !private ["So9FormatterC", "positiveSuffix"]
+- !private ["So9FormatterC", "roundingIncrement"]
+- ["So9FormatterC", "roundingTableImperial"]
+- ["So9FormatterC", "roundingTableImperial.storage"]
+- ["So9FormatterC", "roundingTableMetric"]
+- ["So9FormatterC", "roundingTableMetric.storage"]
+- ["So9FormatterC", "roundingTableUK"]
+- ["So9FormatterC", "roundingTableUK.storage"]
+- ["So9FormatterC", "string"]
+- ["So9FormatterC", "threshold"]
+- ["So9FormatterC", "unit"]
+- !private ["So9FormatterC", "usesSignificantDigits"]
+- ["s8HashableP", "LengthFormatter"]
+- ["s8HashableP", "NSAttributedStringKey"]
+- !private ["s8HashableP", "NSMutableAttributedString"]
+- !private ["s8HashableP", "NSNotFound"]
+- !private ["s8HashableP", "NavigationSettings"]
+- !private ["s8HashableP", "RoundingTable"]
+- ["s8HashableP", "Unit"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAttribute"]
+- !private ["s8HashableP", "alwaysShowsDecimalSeparator"]
+- !private ["s8HashableP", "approx"]
+- ["s8HashableP", "centimeter"]
+- !private ["s8HashableP", "converted"]
+- !private ["s8HashableP", "decimalSeparator"]
+- !private ["s8HashableP", "decodeBool"]
+- !private ["s8HashableP", "encode"]
+- !private ["s8HashableP", "feet"]
+- !private ["s8HashableP", "feetPerMeter"]
+- ["s8HashableP", "foot"]
+- !private ["s8HashableP", "formattedDistance"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "inMiles"]
+- !private ["s8HashableP", "inYards"]
+- ["s8HashableP", "inch"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "kilometer"]
+- !private ["s8HashableP", "kilometers"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "maximumFractionDigits"]
+- ["s8HashableP", "meter"]
+- !private ["s8HashableP", "metersPerMile"]
+- ["s8HashableP", "mile"]
+- !private ["s8HashableP", "miles"]
+- ["s8HashableP", "millimeter"]
+- !private ["s8HashableP", "nationalizedCurrent"]
+- !private ["s8HashableP", "nonFractionalLengthFormatter"]
+- !private ["s8HashableP", "numberFormatter"]
+- !private ["s8HashableP", "positivePrefix"]
+- !private ["s8HashableP", "positiveSuffix"]
+- !private ["s8HashableP", "quantity"]
+- !private ["s8HashableP", "range"]
+- !private ["s8HashableP", "roundingIncrement"]
+- !private ["s8HashableP", "roundingTableImperial"]
+- !private ["s8HashableP", "roundingTableMetric"]
+- !private ["s8HashableP", "roundingTableUK"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "threshold"]
+- !private ["s8HashableP", "unit"]
+- !private ["s8HashableP", "usesMetric"]
+- !private ["s8HashableP", "usesSignificantDigits"]
+- ["s8HashableP", "yard"]
+- !private ["s8HashableP", "yards"]
+- !private ["SQ", "nationalizedCurrent"]
+- !private ["Si", "inMiles"]
+- !private ["Si", "inYards"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "converted"]
+- !private ["4Turf8JSONTypeP", "feet"]
+- !private ["4Turf8JSONTypeP", "feetPerMeter"]
+- !private ["4Turf8JSONTypeP", "inMiles"]
+- !private ["4Turf8JSONTypeP", "inYards"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf8JSONTypeP", "kilometers"]
+- !private ["4Turf8JSONTypeP", "metersPerMile"]
+- !private ["4Turf8JSONTypeP", "miles"]
+- !private ["4Turf8JSONTypeP", "yards"]
+- ["So15LengthFormatterC", "Bool"]
+- ["So15LengthFormatterC", "CLLocationDistance"]
+- ["So15LengthFormatterC", "Double"]
+- ["So15LengthFormatterC", "LengthFormatter"]
+- ["So15LengthFormatterC", "NSAttributedString"]
+- ["So15LengthFormatterC", "NSAttributedStringKey"]
+- ["So15LengthFormatterC", "NSCoder"]
+- !private ["So15LengthFormatterC", "NSMutableAttributedString"]
+- !private ["So15LengthFormatterC", "NSNotFound"]
+- !private ["So15LengthFormatterC", "NSNumber"]
+- !private ["So15LengthFormatterC", "NSString"]
+- !private ["So15LengthFormatterC", "NavigationSettings"]
+- ["So15LengthFormatterC", "RoundingTable"]
+- ["So15LengthFormatterC", "String"]
+- ["So15LengthFormatterC", "Unit"]
+- ["So15LengthFormatterC", ""]
+- ["So15LengthFormatterC", "approx"]
+- ["So15LengthFormatterC", "attributedString"]
+- ["So15LengthFormatterC", "encode"]
+- ["So15LengthFormatterC", "formattedDistance"]
+- ["So15LengthFormatterC", "init"]
+- ["So15LengthFormatterC", "nonFractionalLengthFormatter"]
+- !private ["So15LengthFormatterC", "numberFormatter"]
+- ["So15LengthFormatterC", "roundingTableImperial"]
+- ["So15LengthFormatterC", "roundingTableImperial.storage"]
+- ["So15LengthFormatterC", "roundingTableMetric"]
+- ["So15LengthFormatterC", "roundingTableMetric.storage"]
+- ["So15LengthFormatterC", "roundingTableUK"]
+- ["So15LengthFormatterC", "roundingTableUK.storage"]
+- ["So15LengthFormatterC", "string"]
+- ["So15LengthFormatterC", "threshold"]
+- ["So15LengthFormatterC", "unit"]
+- !private ["10Foundation6LocaleV", "identifier"]
+- !private ["10Foundation6LocaleV", "nationalizedCurrent"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "converted"]
+- !private ["s25LosslessStringConvertibleP", "feet"]
+- !private ["s25LosslessStringConvertibleP", "feetPerMeter"]
+- !private ["s25LosslessStringConvertibleP", "inMiles"]
+- !private ["s25LosslessStringConvertibleP", "inYards"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "kilometers"]
+- !private ["s25LosslessStringConvertibleP", "metersPerMile"]
+- !private ["s25LosslessStringConvertibleP", "miles"]
+- !private ["s25LosslessStringConvertibleP", "yards"]
+- !private ["s10MirrorPathP", "inMiles"]
+- !private ["s10MirrorPathP", "inYards"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["So18NSAttributedStringC", "addAttribute"]
+- !private ["So18NSAttributedStringC", "init"]
+- ["SC21NSAttributedStringKeyV", "NSAttributedStringKey"]
+- ["SC21NSAttributedStringKeyV", "init"]
+- ["SC21NSAttributedStringKeyV", "quantity"]
+- !private ["So7NSCoderC", "decodeBool"]
+- !private ["So7NSCoderC", "encode"]
+- ["So8NSCodingP", "LengthFormatter"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "NSNotFound"]
+- !private ["So8NSCodingP", "NavigationSettings"]
+- !private ["So8NSCodingP", "RoundingTable"]
+- ["So8NSCodingP", "Unit"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAttribute"]
+- !private ["So8NSCodingP", "alwaysShowsDecimalSeparator"]
+- !private ["So8NSCodingP", "approx"]
+- !private ["So8NSCodingP", "decimalSeparator"]
+- !private ["So8NSCodingP", "encode"]
+- !private ["So8NSCodingP", "formattedDistance"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "maximumFractionDigits"]
+- !private ["So8NSCodingP", "nonFractionalLengthFormatter"]
+- !private ["So8NSCodingP", "numberFormatter"]
+- !private ["So8NSCodingP", "positivePrefix"]
+- !private ["So8NSCodingP", "positiveSuffix"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "roundingIncrement"]
+- !private ["So8NSCodingP", "roundingTableImperial"]
+- !private ["So8NSCodingP", "roundingTableMetric"]
+- !private ["So8NSCodingP", "roundingTableUK"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "threshold"]
+- !private ["So8NSCodingP", "unit"]
+- !private ["So8NSCodingP", "usesSignificantDigits"]
+- ["So9NSCopyingP", "LengthFormatter"]
+- !private ["So9NSCopyingP", "NSMutableAttributedString"]
+- !private ["So9NSCopyingP", "NSNotFound"]
+- !private ["So9NSCopyingP", "NavigationSettings"]
+- !private ["So9NSCopyingP", "RoundingTable"]
+- ["So9NSCopyingP", "Unit"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "addAttribute"]
+- !private ["So9NSCopyingP", "alwaysShowsDecimalSeparator"]
+- !private ["So9NSCopyingP", "approx"]
+- !private ["So9NSCopyingP", "decimalSeparator"]
+- !private ["So9NSCopyingP", "encode"]
+- !private ["So9NSCopyingP", "formattedDistance"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "maximumFractionDigits"]
+- !private ["So9NSCopyingP", "nonFractionalLengthFormatter"]
+- !private ["So9NSCopyingP", "numberFormatter"]
+- !private ["So9NSCopyingP", "positivePrefix"]
+- !private ["So9NSCopyingP", "positiveSuffix"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "roundingIncrement"]
+- !private ["So9NSCopyingP", "roundingTableImperial"]
+- !private ["So9NSCopyingP", "roundingTableMetric"]
+- !private ["So9NSCopyingP", "roundingTableUK"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "threshold"]
+- !private ["So9NSCopyingP", "unit"]
+- !private ["So9NSCopyingP", "usesSignificantDigits"]
+- !private ["So21NSItemProviderReadingP", "addAttribute"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderWritingP", "addAttribute"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So25NSMutableAttributedStringC", "addAttribute"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "addAttribute"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "range"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "LengthFormatter"]
+- ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "NSAttributedStringKey"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSNotFound"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NavigationSettings"]
+- ["So8NSObjectC", "RoundingTable"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Unit"]
+- !private ["So8NSObjectC", "addAttribute"]
+- !private ["So8NSObjectC", "alwaysShowsDecimalSeparator"]
+- ["So8NSObjectC", "approx"]
+- ["So8NSObjectC", "attributedString"]
+- !private ["So8NSObjectC", "decimalSeparator"]
+- !private ["So8NSObjectC", "decodeBool"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "formattedDistance"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "maximumFractionDigits"]
+- ["So8NSObjectC", "nonFractionalLengthFormatter"]
+- !private ["So8NSObjectC", "numberFormatter"]
+- !private ["So8NSObjectC", "positivePrefix"]
+- !private ["So8NSObjectC", "positiveSuffix"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "roundingIncrement"]
+- ["So8NSObjectC", "roundingTableImperial"]
+- ["So8NSObjectC", "roundingTableImperial.storage"]
+- ["So8NSObjectC", "roundingTableMetric"]
+- ["So8NSObjectC", "roundingTableMetric.storage"]
+- ["So8NSObjectC", "roundingTableUK"]
+- ["So8NSObjectC", "roundingTableUK.storage"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "threshold"]
+- ["So8NSObjectC", "unit"]
+- !private ["So8NSObjectC", "usesMetric"]
+- !private ["So8NSObjectC", "usesSignificantDigits"]
+- ["So16NSObjectProtocolP", "LengthFormatter"]
+- !private ["So16NSObjectProtocolP", "NSMutableAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSNotFound"]
+- !private ["So16NSObjectProtocolP", "NavigationSettings"]
+- !private ["So16NSObjectProtocolP", "RoundingTable"]
+- ["So16NSObjectProtocolP", "Unit"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addAttribute"]
+- !private ["So16NSObjectProtocolP", "alwaysShowsDecimalSeparator"]
+- !private ["So16NSObjectProtocolP", "approx"]
+- !private ["So16NSObjectProtocolP", "decimalSeparator"]
+- !private ["So16NSObjectProtocolP", "decodeBool"]
+- !private ["So16NSObjectProtocolP", "encode"]
+- !private ["So16NSObjectProtocolP", "formattedDistance"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "maximumFractionDigits"]
+- !private ["So16NSObjectProtocolP", "nonFractionalLengthFormatter"]
+- !private ["So16NSObjectProtocolP", "numberFormatter"]
+- !private ["So16NSObjectProtocolP", "positivePrefix"]
+- !private ["So16NSObjectProtocolP", "positiveSuffix"]
+- !private ["So16NSObjectProtocolP", "range"]
+- !private ["So16NSObjectProtocolP", "roundingIncrement"]
+- !private ["So16NSObjectProtocolP", "roundingTableImperial"]
+- !private ["So16NSObjectProtocolP", "roundingTableMetric"]
+- !private ["So16NSObjectProtocolP", "roundingTableUK"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "threshold"]
+- !private ["So16NSObjectProtocolP", "unit"]
+- !private ["So16NSObjectProtocolP", "usesMetric"]
+- !private ["So16NSObjectProtocolP", "usesSignificantDigits"]
+- !private ["So14NSSecureCodingP", "addAttribute"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So8NSStringC", "range"]
+- !private ["20MapboxCoreNavigation0C8SettingsC", "shared"]
+- !private ["20MapboxCoreNavigation0C8SettingsC", "usesMetric"]
+- !private ["So15NumberFormatterC", "alwaysShowsDecimalSeparator"]
+- !private ["So15NumberFormatterC", "decimalSeparator"]
+- !private ["So15NumberFormatterC", "locale"]
+- !private ["So15NumberFormatterC", "maximumFractionDigits"]
+- !private ["So15NumberFormatterC", "positivePrefix"]
+- !private ["So15NumberFormatterC", "positiveSuffix"]
+- !private ["So15NumberFormatterC", "roundingIncrement"]
+- !private ["So15NumberFormatterC", "string"]
+- !private ["So15NumberFormatterC", "usesSignificantDigits"]
+- !private ["s7NumericP", "converted"]
+- !private ["s7NumericP", "feet"]
+- !private ["s7NumericP", "feetPerMeter"]
+- !private ["s7NumericP", "inMiles"]
+- !private ["s7NumericP", "inYards"]
+- !private ["s7NumericP", "kilometers"]
+- !private ["s7NumericP", "metersPerMile"]
+- !private ["s7NumericP", "miles"]
+- !private ["s7NumericP", "yards"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- ["s16RawRepresentableP", "NSAttributedStringKey"]
+- ["s16RawRepresentableP", "centimeter"]
+- ["s16RawRepresentableP", "foot"]
+- ["s16RawRepresentableP", "inch"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "kilometer"]
+- ["s16RawRepresentableP", "meter"]
+- ["s16RawRepresentableP", "mile"]
+- ["s16RawRepresentableP", "millimeter"]
+- !private ["s16RawRepresentableP", "quantity"]
+- ["s16RawRepresentableP", "yard"]
+- !private ["10Foundation20ReferenceConvertibleP", "identifier"]
+- !private ["10Foundation20ReferenceConvertibleP", "nationalizedCurrent"]
+- ["20MapboxCoreNavigation13RoundingTableV", "CLLocationDistance"]
+- ["20MapboxCoreNavigation13RoundingTableV", "DistanceFormatter"]
+- ["20MapboxCoreNavigation13RoundingTableV", "Double"]
+- ["20MapboxCoreNavigation13RoundingTableV", "Int"]
+- ["20MapboxCoreNavigation13RoundingTableV", "LengthFormatter"]
+- ["20MapboxCoreNavigation13RoundingTableV", "String"]
+- ["20MapboxCoreNavigation13RoundingTableV", "Threshold"]
+- ["20MapboxCoreNavigation13RoundingTableV", "init"]
+- ["20MapboxCoreNavigation13RoundingTableV", "threshold"]
+- ["20MapboxCoreNavigation13RoundingTableV", "thresholds"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s13SignedIntegerP", "inMiles"]
+- !private ["s13SignedIntegerP", "inYards"]
+- !private ["s13SignedNumericP", "converted"]
+- !private ["s13SignedNumericP", "feet"]
+- !private ["s13SignedNumericP", "feetPerMeter"]
+- !private ["s13SignedNumericP", "inMiles"]
+- !private ["s13SignedNumericP", "inYards"]
+- !private ["s13SignedNumericP", "kilometers"]
+- !private ["s13SignedNumericP", "metersPerMile"]
+- !private ["s13SignedNumericP", "miles"]
+- !private ["s13SignedNumericP", "yards"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "converted"]
+- !private ["s10StrideableP", "feet"]
+- !private ["s10StrideableP", "feetPerMeter"]
+- !private ["s10StrideableP", "inMiles"]
+- !private ["s10StrideableP", "inYards"]
+- !private ["s10StrideableP", "kilometers"]
+- !private ["s10StrideableP", "metersPerMile"]
+- !private ["s10StrideableP", "miles"]
+- !private ["s10StrideableP", "yards"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "CLLocationDistance"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "DistanceFormatter"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "Double"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "Int"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "LengthFormatter"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "String"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "init"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "localizedDistanceString"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "maximumDistance"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "maximumFractionDigits"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "roundingIncrement"]
+- ["20MapboxCoreNavigation13RoundingTableV9ThresholdV", "unit"]
+- ["So15LengthFormatterC4UnitO", "centimeter"]
+- ["So15LengthFormatterC4UnitO", "foot"]
+- ["So15LengthFormatterC4UnitO", "inch"]
+- ["So15LengthFormatterC4UnitO", "kilometer"]
+- ["So15LengthFormatterC4UnitO", "meter"]
+- ["So15LengthFormatterC4UnitO", "mile"]
+- ["So15LengthFormatterC4UnitO", "millimeter"]
+- ["So15LengthFormatterC4UnitO", "yard"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s18_BitwiseOperationsP", "inMiles"]
+- !private ["s18_BitwiseOperationsP", "inYards"]
+- !private ["s15_CVarArgAlignedP", "converted"]
+- !private ["s15_CVarArgAlignedP", "feet"]
+- !private ["s15_CVarArgAlignedP", "feetPerMeter"]
+- !private ["s15_CVarArgAlignedP", "inMiles"]
+- !private ["s15_CVarArgAlignedP", "inYards"]
+- !private ["s15_CVarArgAlignedP", "kilometers"]
+- !private ["s15_CVarArgAlignedP", "metersPerMile"]
+- !private ["s15_CVarArgAlignedP", "miles"]
+- !private ["s15_CVarArgAlignedP", "yards"]
+- !private ["s22_CVarArgPassedAsDoubleP", "converted"]
+- !private ["s22_CVarArgPassedAsDoubleP", "feet"]
+- !private ["s22_CVarArgPassedAsDoubleP", "feetPerMeter"]
+- !private ["s22_CVarArgPassedAsDoubleP", "inMiles"]
+- !private ["s22_CVarArgPassedAsDoubleP", "inYards"]
+- !private ["s22_CVarArgPassedAsDoubleP", "kilometers"]
+- !private ["s22_CVarArgPassedAsDoubleP", "metersPerMile"]
+- !private ["s22_CVarArgPassedAsDoubleP", "miles"]
+- !private ["s22_CVarArgPassedAsDoubleP", "yards"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "converted"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "feet"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "feetPerMeter"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "inMiles"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "inYards"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "kilometers"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "metersPerMile"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "miles"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "yards"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "converted"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "feet"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "feetPerMeter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "inMiles"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "inYards"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "kilometers"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "metersPerMile"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "miles"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "yards"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LengthFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotFound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NavigationSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RoundingTable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Unit"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alwaysShowsDecimalSeparator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "approx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decimalSeparator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeBool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formattedDistance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nonFractionalLengthFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "positivePrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "positiveSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roundingIncrement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roundingTableImperial"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roundingTableMetric"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roundingTableUK"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "threshold"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesMetric"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesSignificantDigits"]
+- !private ["SC8_NSRangeV", "location"]
+- ["s21_ObjectiveCBridgeableP", "NSAttributedStringKey"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "converted"]
+- !private ["s21_ObjectiveCBridgeableP", "feet"]
+- !private ["s21_ObjectiveCBridgeableP", "feetPerMeter"]
+- !private ["s21_ObjectiveCBridgeableP", "identifier"]
+- !private ["s21_ObjectiveCBridgeableP", "inMiles"]
+- !private ["s21_ObjectiveCBridgeableP", "inYards"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "kilometers"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "location"]
+- !private ["s21_ObjectiveCBridgeableP", "metersPerMile"]
+- !private ["s21_ObjectiveCBridgeableP", "miles"]
+- !private ["s21_ObjectiveCBridgeableP", "nationalizedCurrent"]
+- !private ["s21_ObjectiveCBridgeableP", "quantity"]
+- !private ["s21_ObjectiveCBridgeableP", "yards"]
+- ["s20_SwiftNewtypeWrapperP", "NSAttributedStringKey"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "quantity"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "20MapboxCoreNavigation17DistanceFormatterC"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "So9FormatterC"
+- "s8HashableP"
+- !private "SQ"
+- !private "Si"
+- "4Turf8JSONTypeP"
+- "So15LengthFormatterC"
+- !private "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So18NSAttributedStringC"
+- "SC21NSAttributedStringKeyV"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "20MapboxCoreNavigation0C8SettingsC"
+- !private "So15NumberFormatterC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "20MapboxCoreNavigation13RoundingTableV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "20MapboxCoreNavigation13RoundingTableV9ThresholdV"
+- "So15LengthFormatterC4UnitO"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "SC8_NSRangeV"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "0effcdf8f2565a7e773666950791d337"

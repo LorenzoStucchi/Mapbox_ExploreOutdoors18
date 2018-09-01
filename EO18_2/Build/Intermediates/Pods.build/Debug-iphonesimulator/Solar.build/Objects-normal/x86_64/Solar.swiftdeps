@@ -1,0 +1,470 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Solar"
+provides-nominal:
+- "5SolarAAV"
+provides-member:
+- ["5SolarAAV", ""]
+- ["5SolarAAV", "isDaytime"]
+- ["5SolarAAV", "isNighttime"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "/"
+- !private "<"
+- "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLLocationCoordinate2D"
+- !private "CLLocationCoordinate2DIsValid"
+- !private "Calendar"
+- "Date"
+- "Double"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "Solar"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "TimeZone"
+- !private "acos"
+- !private "asin"
+- !private "atan"
+- !private "cos"
+- !private "floor"
+- !private "sin"
+- !private "tan"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "Double"]
+- !private ["s19BinaryFloatingPointP", "degreesToRadians"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["s19BinaryFloatingPointP", "radiansToDegrees"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "degreesToRadians"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "radiansToDegrees"]
+- !private ["10Foundation8CalendarV", "date"]
+- !private ["10Foundation8CalendarV", "dateComponents"]
+- !private ["10Foundation8CalendarV", "init"]
+- !private ["10Foundation8CalendarV", "ordinality"]
+- !private ["10Foundation8CalendarV", "timeZone"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "Double"]
+- !private ["s10ComparableP", "degreesToRadians"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pi"]
+- !private ["s10ComparableP", "radiansToDegrees"]
+- !private ["s10ComparableP", "timeIntervalSince1970"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "month"]
+- !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "degreesToRadians"]
+- !private ["s28CustomDebugStringConvertibleP", "hour"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "minute"]
+- !private ["s28CustomDebugStringConvertibleP", "ordinality"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "radiansToDegrees"]
+- !private ["s28CustomDebugStringConvertibleP", "second"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "degreesToRadians"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s29CustomPlaygroundQuickLookableP", "radiansToDegrees"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "dateComponents"]
+- !private ["s17CustomReflectableP", "degreesToRadians"]
+- !private ["s17CustomReflectableP", "hour"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "minute"]
+- !private ["s17CustomReflectableP", "ordinality"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "radiansToDegrees"]
+- !private ["s17CustomReflectableP", "second"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateComponents"]
+- !private ["s23CustomStringConvertibleP", "degreesToRadians"]
+- !private ["s23CustomStringConvertibleP", "hour"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "minute"]
+- !private ["s23CustomStringConvertibleP", "ordinality"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "radiansToDegrees"]
+- !private ["s23CustomStringConvertibleP", "second"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["10Foundation14DateComponentsV", "hour"]
+- !private ["10Foundation14DateComponentsV", "minute"]
+- !private ["10Foundation14DateComponentsV", "second"]
+- !private ["s9DecodableP", "Double"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "date"]
+- !private ["s9DecodableP", "dateComponents"]
+- !private ["s9DecodableP", "degreesToRadians"]
+- !private ["s9DecodableP", "hour"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "minute"]
+- !private ["s9DecodableP", "ordinality"]
+- !private ["s9DecodableP", "pi"]
+- !private ["s9DecodableP", "radiansToDegrees"]
+- !private ["s9DecodableP", "second"]
+- !private ["s9DecodableP", "timeIntervalSince1970"]
+- !private ["s9DecodableP", "timeZone"]
+- ["Sd", "Double"]
+- !private ["Sd", "degreesToRadians"]
+- !private ["Sd", "init"]
+- !private ["Sd", "pi"]
+- !private ["Sd", "radiansToDegrees"]
+- !private ["s9EncodableP", "Double"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "date"]
+- !private ["s9EncodableP", "dateComponents"]
+- !private ["s9EncodableP", "degreesToRadians"]
+- !private ["s9EncodableP", "hour"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "minute"]
+- !private ["s9EncodableP", "ordinality"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EncodableP", "radiansToDegrees"]
+- !private ["s9EncodableP", "second"]
+- !private ["s9EncodableP", "timeIntervalSince1970"]
+- !private ["s9EncodableP", "timeZone"]
+- !private ["s9EquatableP", "Double"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "astronimical"]
+- !private ["s9EquatableP", "civil"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateComponents"]
+- !private ["s9EquatableP", "day"]
+- !private ["s9EquatableP", "degreesToRadians"]
+- !private ["s9EquatableP", "gregorian"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "hour"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "minute"]
+- !private ["s9EquatableP", "month"]
+- !private ["s9EquatableP", "nautical"]
+- !private ["s9EquatableP", "official"]
+- !private ["s9EquatableP", "ordinality"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "radiansToDegrees"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "second"]
+- !private ["s9EquatableP", "sunrise"]
+- !private ["s9EquatableP", "sunset"]
+- !private ["s9EquatableP", "timeIntervalSince1970"]
+- !private ["s9EquatableP", "timeZone"]
+- !private ["s9EquatableP", "year"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "degreesToRadians"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s25ExpressibleByFloatLiteralP", "radiansToDegrees"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "degreesToRadians"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "radiansToDegrees"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s13FloatingPointP", "Double"]
+- !private ["s13FloatingPointP", "degreesToRadians"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s13FloatingPointP", "radiansToDegrees"]
+- !private ["s8HashableP", "Double"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "astronimical"]
+- !private ["s8HashableP", "civil"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateComponents"]
+- !private ["s8HashableP", "day"]
+- !private ["s8HashableP", "degreesToRadians"]
+- !private ["s8HashableP", "gregorian"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "hour"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "minute"]
+- !private ["s8HashableP", "month"]
+- !private ["s8HashableP", "nautical"]
+- !private ["s8HashableP", "official"]
+- !private ["s8HashableP", "ordinality"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "radiansToDegrees"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "second"]
+- !private ["s8HashableP", "sunrise"]
+- !private ["s8HashableP", "sunset"]
+- !private ["s8HashableP", "timeIntervalSince1970"]
+- !private ["s8HashableP", "timeZone"]
+- !private ["s8HashableP", "year"]
+- !private ["10Foundation8CalendarV10IdentifierO", "gregorian"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "degreesToRadians"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s25LosslessStringConvertibleP", "radiansToDegrees"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s7NumericP", "Double"]
+- !private ["s7NumericP", "degreesToRadians"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "pi"]
+- !private ["s7NumericP", "radiansToDegrees"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "astronimical"]
+- !private ["s16RawRepresentableP", "civil"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "nautical"]
+- !private ["s16RawRepresentableP", "official"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
+- !private ["10Foundation20ReferenceConvertibleP", "hour"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "minute"]
+- !private ["10Foundation20ReferenceConvertibleP", "ordinality"]
+- !private ["10Foundation20ReferenceConvertibleP", "second"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeZone"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "degreesToRadians"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s13SignedNumericP", "radiansToDegrees"]
+- ["5SolarAAV", "Bool"]
+- ["5SolarAAV", "CLLocationCoordinate2D"]
+- !private ["5SolarAAV", "CLLocationCoordinate2DIsValid"]
+- !private ["5SolarAAV", "Calendar"]
+- ["5SolarAAV", "Date"]
+- ["5SolarAAV", "Double"]
+- !private ["5SolarAAV", "Int"]
+- ["5SolarAAV", "SunriseSunset"]
+- !private ["5SolarAAV", "TimeZone"]
+- ["5SolarAAV", "Zenith"]
+- !private ["5SolarAAV", "acos"]
+- !private ["5SolarAAV", "asin"]
+- ["5SolarAAV", "astronomicalSunrise"]
+- ["5SolarAAV", "astronomicalSunset"]
+- !private ["5SolarAAV", "atan"]
+- ["5SolarAAV", "calculate"]
+- ["5SolarAAV", "civilSunrise"]
+- ["5SolarAAV", "civilSunset"]
+- ["5SolarAAV", "coordinate"]
+- !private ["5SolarAAV", "cos"]
+- ["5SolarAAV", "date"]
+- !private ["5SolarAAV", "floor"]
+- ["5SolarAAV", "init"]
+- ["5SolarAAV", "isDaytime"]
+- ["5SolarAAV", "isNighttime"]
+- ["5SolarAAV", "nauticalSunrise"]
+- ["5SolarAAV", "nauticalSunset"]
+- !private ["5SolarAAV", "normalise"]
+- !private ["5SolarAAV", "sin"]
+- ["5SolarAAV", "sunrise"]
+- ["5SolarAAV", "sunset"]
+- !private ["5SolarAAV", "tan"]
+- !private ["s10StrideableP", "Double"]
+- !private ["s10StrideableP", "degreesToRadians"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pi"]
+- !private ["s10StrideableP", "radiansToDegrees"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "Double"]
+- !private ["s15_CVarArgAlignedP", "degreesToRadians"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s15_CVarArgAlignedP", "radiansToDegrees"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Double"]
+- !private ["s22_CVarArgPassedAsDoubleP", "degreesToRadians"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "radiansToDegrees"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Double"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "degreesToRadians"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "radiansToDegrees"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "degreesToRadians"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "radiansToDegrees"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation14_MutableBoxingP", "date"]
+- !private ["10Foundation14_MutableBoxingP", "dateComponents"]
+- !private ["10Foundation14_MutableBoxingP", "hour"]
+- !private ["10Foundation14_MutableBoxingP", "init"]
+- !private ["10Foundation14_MutableBoxingP", "minute"]
+- !private ["10Foundation14_MutableBoxingP", "ordinality"]
+- !private ["10Foundation14_MutableBoxingP", "second"]
+- !private ["10Foundation14_MutableBoxingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "dateComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "degreesToRadians"]
+- !private ["s21_ObjectiveCBridgeableP", "hour"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "minute"]
+- !private ["s21_ObjectiveCBridgeableP", "ordinality"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "radiansToDegrees"]
+- !private ["s21_ObjectiveCBridgeableP", "second"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "timeZone"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "SC22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "s9DecodableP"
+- "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "10Foundation8CalendarV10IdentifierO"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "5SolarAAV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation14_MutableBoxingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "58793e19b1c99dd58b31d8cf513b10c0"

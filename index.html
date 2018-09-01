@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>My experience in ExploreOutdoors18 by Mapbox</title>
+
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+
+    <!-- Bootstrap 4.1.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Font Awesome Free 5.0.13 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+
+<header class="header-bg">
+
+    <div class="container header-content">
+
+        <h1>My experience in ExploreOutdoors18 by Mapbox</h1>
+        <div class="line-shape-heading"></div>
+
+    </div>
+
+</header>
+
+<!-- Project description -->
+<div class="section-padding">
+
+    <div class="container">
+
+        <div class="text">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading first-heading text-center">
+                        <h2>My experience</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                +
+            </p>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>First week: Build a map of your favorite hometown spots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                +
+            </p>
+            <div id='map'></div>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Second week: Help people navigate to your favorite spots</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                +
+            </p>
+            <!--<a class="image fitleft" href="imm/imm1.png" ><img src="imm/imm1.png" alt /></a>
+            <a class="image fitright" href="imm/imm2.png" ><img src="imm/imm2.png" alt /></a> -->
+
+            <script id="gigi" src="https://gist.github.com/LorenzoStucchi/e7028097566d677fd03b71662d68110a.js"></script>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Third week: Build a 3D visualization of your hometown map </h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                +
+            </p>
+
+            <script id= "gigi" src="https://gist.github.com/LorenzoStucchi/6aa1d6f3444824800ab5b06fce9b7674.js"></script>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Final consideration </h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                As I told before I liked very much this challenges but I'm not American so I can't be part of this
+                contest so thanks very much Mapbox for this experience and good luck to all the other participants!
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- jQuery 3.3.1 -->
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+
+<!-- Bootstrap 4.1.1 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous">
+</script>
+
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibG9yZW56b3N0dWNjaGkiLCJhIjoiY2poOHkxbDV3MDZ6YjMwbzM2M2R1MjYxeiJ9._wsXJw4kbG-02Bhh9EXNQg';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/lorenzostucchi/cjklalqeq2z9k2smshd5ntvlg',
+        center: [9.322747, 44.315954],
+        zoom: 15.0
+    });
+</script>
+
+</body>
+
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Display a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibG9yZW56b3N0dWNjaGkiLCJhIjoiY2poOHkxbDV3MDZ6YjMwbzM2M2R1MjYxeiJ9._wsXJw4kbG-02Bhh9EXNQg';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/lorenzostucchi/cjklalqeq2z9k2smshd5ntvlg',
+        center: [9.322747, 44.315954],
+        zoom: 15.0
+    });
+</script>
+
+</body>
+</html>
+-->

@@ -1,0 +1,625 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HttpRequestOperation"
+provides-nominal:
+- "14MapboxSceneKit20HttpRequestOperationC"
+- "14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO"
+provides-member:
+- ["14MapboxSceneKit20HttpRequestOperationC", ""]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", ""]
+provides-dynamic-lookup:
+- "cancel"
+- "start"
+depends-top-level:
+- !private "!"
+- !private "..."
+- "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AsyncOperation"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "Data"
+- "Error"
+- "HTTPURLResponse"
+- "HttpRequestOperation"
+- "Int"
+- !private "NSLog"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "URLRequest"
+- "URLSession"
+- "URLSessionDataTask"
+- "UUID"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["14MapboxSceneKit14AsyncOperationC", "Bool"]
+- ["14MapboxSceneKit14AsyncOperationC", "Data"]
+- ["14MapboxSceneKit14AsyncOperationC", "Error"]
+- ["14MapboxSceneKit14AsyncOperationC", "HTTPMethod"]
+- ["14MapboxSceneKit14AsyncOperationC", "HTTPOfflineStatusCode"]
+- ["14MapboxSceneKit14AsyncOperationC", "HTTPURLResponse"]
+- ["14MapboxSceneKit14AsyncOperationC", "HttpRequestOperation"]
+- ["14MapboxSceneKit14AsyncOperationC", "HttpRequestOperationCallback"]
+- ["14MapboxSceneKit14AsyncOperationC", "Int"]
+- !private ["14MapboxSceneKit14AsyncOperationC", "NSLog"]
+- ["14MapboxSceneKit14AsyncOperationC", "String"]
+- ["14MapboxSceneKit14AsyncOperationC", "URL"]
+- ["14MapboxSceneKit14AsyncOperationC", "URLRequest"]
+- ["14MapboxSceneKit14AsyncOperationC", "URLSession"]
+- ["14MapboxSceneKit14AsyncOperationC", "URLSessionDataTask"]
+- ["14MapboxSceneKit14AsyncOperationC", "UUID"]
+- ["14MapboxSceneKit14AsyncOperationC", "Void"]
+- ["14MapboxSceneKit14AsyncOperationC", ""]
+- !private ["14MapboxSceneKit14AsyncOperationC", "_findStringSwitchCase"]
+- ["14MapboxSceneKit14AsyncOperationC", "buildRequest"]
+- ["14MapboxSceneKit14AsyncOperationC", "callback"]
+- ["14MapboxSceneKit14AsyncOperationC", "cancel"]
+- ["14MapboxSceneKit14AsyncOperationC", "clone"]
+- ["14MapboxSceneKit14AsyncOperationC", "endTaskAndCallbackWithSuccess"]
+- ["14MapboxSceneKit14AsyncOperationC", "handle"]
+- ["14MapboxSceneKit14AsyncOperationC", "headers"]
+- ["14MapboxSceneKit14AsyncOperationC", "init"]
+- !private ["14MapboxSceneKit14AsyncOperationC", "isCancelled"]
+- !private ["14MapboxSceneKit14AsyncOperationC", "isExecuting"]
+- !private ["14MapboxSceneKit14AsyncOperationC", "isFinished"]
+- !private ["14MapboxSceneKit14AsyncOperationC", "isReady"]
+- ["14MapboxSceneKit14AsyncOperationC", "method"]
+- ["14MapboxSceneKit14AsyncOperationC", "session"]
+- ["14MapboxSceneKit14AsyncOperationC", "start"]
+- ["14MapboxSceneKit14AsyncOperationC", "task"]
+- ["14MapboxSceneKit14AsyncOperationC", "taskID"]
+- ["14MapboxSceneKit14AsyncOperationC", "url"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "HTTPOfflineStatusCode"]
+- !private ["s7CVarArgP", "HttpRequestOperation"]
+- !private ["s7CVarArgP", "NSLog"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "buildRequest"]
+- !private ["s7CVarArgP", "callback"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "endTaskAndCallbackWithSuccess"]
+- !private ["s7CVarArgP", "handle"]
+- !private ["s7CVarArgP", "headers"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isExecuting"]
+- !private ["s7CVarArgP", "isFinished"]
+- !private ["s7CVarArgP", "isReady"]
+- !private ["s7CVarArgP", "method"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "task"]
+- !private ["s7CVarArgP", "taskID"]
+- !private ["s7CVarArgP", "url"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPOfflineStatusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "HttpRequestOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "buildRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "callback"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "endTaskAndCallbackWithSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "handle"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isExecuting"]
+- !private ["s28CustomDebugStringConvertibleP", "isFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "isReady"]
+- !private ["s28CustomDebugStringConvertibleP", "method"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "task"]
+- !private ["s28CustomDebugStringConvertibleP", "taskID"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "HTTPOfflineStatusCode"]
+- !private ["s23CustomStringConvertibleP", "HttpRequestOperation"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "buildRequest"]
+- !private ["s23CustomStringConvertibleP", "callback"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "endTaskAndCallbackWithSuccess"]
+- !private ["s23CustomStringConvertibleP", "handle"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isExecuting"]
+- !private ["s23CustomStringConvertibleP", "isFinished"]
+- !private ["s23CustomStringConvertibleP", "isReady"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- !private ["s23CustomStringConvertibleP", "taskID"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["s10DictionaryV", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "GET"]
+- !private ["s9EquatableP", "HTTPOfflineStatusCode"]
+- !private ["s9EquatableP", "HttpRequestOperation"]
+- !private ["s9EquatableP", "NSLog"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "URLRequest"]
+- ["s9EquatableP", "UUID"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "buildRequest"]
+- !private ["s9EquatableP", "callback"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "endTaskAndCallbackWithSuccess"]
+- !private ["s9EquatableP", "handle"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "headers"]
+- !private ["s9EquatableP", "httpMethod"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isCancelled"]
+- !private ["s9EquatableP", "isExecuting"]
+- !private ["s9EquatableP", "isFinished"]
+- !private ["s9EquatableP", "isReady"]
+- !private ["s9EquatableP", "method"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s9EquatableP", "task"]
+- !private ["s9EquatableP", "taskID"]
+- !private ["s9EquatableP", "url"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "CONNECT"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "DELETE"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "GET"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "HEAD"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "OPTIONS"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "PATCH"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "POST"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "PUT"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "RawValue"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "TRACE"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "_Default_RawValue"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "_findStringSwitchCase"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "deinit"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "hashValue"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "init"]
+- ["14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO", "rawValue"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "GET"]
+- !private ["s8HashableP", "HTTPOfflineStatusCode"]
+- !private ["s8HashableP", "HttpRequestOperation"]
+- !private ["s8HashableP", "NSLog"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", "String"]
+- !private ["s8HashableP", "URLRequest"]
+- ["s8HashableP", "UUID"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "buildRequest"]
+- !private ["s8HashableP", "callback"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "endTaskAndCallbackWithSuccess"]
+- !private ["s8HashableP", "handle"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "headers"]
+- !private ["s8HashableP", "httpMethod"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isCancelled"]
+- !private ["s8HashableP", "isExecuting"]
+- !private ["s8HashableP", "isFinished"]
+- !private ["s8HashableP", "isReady"]
+- !private ["s8HashableP", "method"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "session"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s8HashableP", "task"]
+- !private ["s8HashableP", "taskID"]
+- !private ["s8HashableP", "url"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "Bool"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "Data"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "Error"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "HTTPMethod"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "HTTPOfflineStatusCode"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "HTTPURLResponse"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "HttpRequestOperation"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "HttpRequestOperationCallback"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "Int"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "NSLog"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "String"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "URL"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "URLRequest"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "URLSession"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "URLSessionDataTask"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "UUID"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "Void"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "_findStringSwitchCase"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "buildRequest"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "callback"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "cancel"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "clone"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "deinit"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "endTaskAndCallbackWithSuccess"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "handle"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "headers"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "init"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "isCancelled"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "isExecuting"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "isFinished"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "isReady"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "method"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "session"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "start"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "task"]
+- ["14MapboxSceneKit20HttpRequestOperationC", "taskID"]
+- !private ["14MapboxSceneKit20HttpRequestOperationC", "url"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "HTTPMethod"]
+- ["So8NSObjectC", "HTTPOfflineStatusCode"]
+- ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "HttpRequestOperation"]
+- ["So8NSObjectC", "HttpRequestOperationCallback"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSLog"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "buildRequest"]
+- ["So8NSObjectC", "callback"]
+- ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "clone"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "endTaskAndCallbackWithSuccess"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "headers"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isCancelled"]
+- !private ["So8NSObjectC", "isExecuting"]
+- !private ["So8NSObjectC", "isFinished"]
+- !private ["So8NSObjectC", "isReady"]
+- ["So8NSObjectC", "method"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "statusCode"]
+- ["So8NSObjectC", "task"]
+- ["So8NSObjectC", "taskID"]
+- ["So8NSObjectC", "url"]
+- !private ["So16NSObjectProtocolP", "HTTPOfflineStatusCode"]
+- !private ["So16NSObjectProtocolP", "HttpRequestOperation"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- ["So16NSObjectProtocolP", "UUID"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_findStringSwitchCase"]
+- !private ["So16NSObjectProtocolP", "buildRequest"]
+- !private ["So16NSObjectProtocolP", "callback"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "endTaskAndCallbackWithSuccess"]
+- !private ["So16NSObjectProtocolP", "handle"]
+- !private ["So16NSObjectProtocolP", "headers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isCancelled"]
+- !private ["So16NSObjectProtocolP", "isExecuting"]
+- !private ["So16NSObjectProtocolP", "isFinished"]
+- !private ["So16NSObjectProtocolP", "isReady"]
+- !private ["So16NSObjectProtocolP", "method"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "session"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So16NSObjectProtocolP", "task"]
+- !private ["So16NSObjectProtocolP", "taskID"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- ["So9OperationC", "Bool"]
+- ["So9OperationC", "Data"]
+- ["So9OperationC", "Error"]
+- ["So9OperationC", "HTTPMethod"]
+- ["So9OperationC", "HTTPOfflineStatusCode"]
+- ["So9OperationC", "HTTPURLResponse"]
+- ["So9OperationC", "HttpRequestOperation"]
+- ["So9OperationC", "HttpRequestOperationCallback"]
+- ["So9OperationC", "Int"]
+- !private ["So9OperationC", "NSLog"]
+- ["So9OperationC", "String"]
+- ["So9OperationC", "URL"]
+- ["So9OperationC", "URLRequest"]
+- ["So9OperationC", "URLSession"]
+- ["So9OperationC", "URLSessionDataTask"]
+- ["So9OperationC", "UUID"]
+- ["So9OperationC", "Void"]
+- !private ["So9OperationC", "_findStringSwitchCase"]
+- ["So9OperationC", "buildRequest"]
+- ["So9OperationC", "callback"]
+- ["So9OperationC", "cancel"]
+- ["So9OperationC", "clone"]
+- ["So9OperationC", "endTaskAndCallbackWithSuccess"]
+- ["So9OperationC", "handle"]
+- ["So9OperationC", "headers"]
+- ["So9OperationC", "init"]
+- !private ["So9OperationC", "isCancelled"]
+- !private ["So9OperationC", "isExecuting"]
+- !private ["So9OperationC", "isFinished"]
+- !private ["So9OperationC", "isReady"]
+- ["So9OperationC", "method"]
+- ["So9OperationC", "session"]
+- ["So9OperationC", "start"]
+- ["So9OperationC", "task"]
+- ["So9OperationC", "taskID"]
+- ["So9OperationC", "url"]
+- !private ["So17ProgressReportingP", "cancel"]
+- !private ["So17ProgressReportingP", "resume"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "GET"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So18URLSessionDataTaskC", "cancel"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So14URLSessionTaskC", "cancel"]
+- !private ["So14URLSessionTaskC", "resume"]
+- ["10Foundation4UUIDV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HTTPOfflineStatusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HttpRequestOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endTaskAndCallbackWithSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isExecuting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReady"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "task"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taskID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14MapboxSceneKit14AsyncOperationC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "14MapboxSceneKit20HttpRequestOperationC10HTTPMethodO"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- "14MapboxSceneKit20HttpRequestOperationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So9OperationC"
+- !private "So17ProgressReportingP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation10URLRequestV"
+- !private "So11URLResponseC"
+- !private "So10URLSessionC"
+- !private "So18URLSessionDataTaskC"
+- !private "So14URLSessionTaskC"
+- "10Foundation4UUIDV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxSceneKit/MapboxSceneKit-umbrella.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSceneKit.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "441684f09c3926e4ee63800d24a1ccfb"

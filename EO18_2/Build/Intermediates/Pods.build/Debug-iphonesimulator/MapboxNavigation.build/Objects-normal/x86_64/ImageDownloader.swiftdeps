@@ -1,0 +1,837 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageDownloadCompletionBlock"
+- "ReentrantImageDownloader"
+- "ImageDownloader"
+provides-nominal:
+- "16MapboxNavigation24ReentrantImageDownloaderP"
+- "16MapboxNavigation15ImageDownloaderC"
+provides-member:
+- ["16MapboxNavigation24ReentrantImageDownloaderP", ""]
+- ["16MapboxNavigation15ImageDownloaderC", ""]
+provides-dynamic-lookup:
+- "urlSession"
+depends-top-level:
+- !private "!"
+- !private "+"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Data"
+- "DispatchQueue"
+- "Error"
+- !private "HTTPURLResponse"
+- "ImageDownload"
+- "ImageDownloadCompletionBlock"
+- "ImageDownloadOperation"
+- "ImageDownloader"
+- "NSObject"
+- !private "Operation"
+- "OperationQueue"
+- "ReentrantImageDownloader"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- "URL"
+- "URLRequest"
+- "URLResponse"
+- "URLSession"
+- "URLSessionConfiguration"
+- "URLSessionDataDelegate"
+- "URLSessionDataTask"
+- "URLSessionTask"
+- "Void"
+depends-member:
+- !private ["So13DispatchQueueC0A0E10AttributesV", "concurrent"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "bundleIdentifier"]
+- !private ["So6BundleC", "mapboxNavigation"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "ImageDownloadOperation"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- ["s7CVarArgP", "ResponseDisposition"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "accessQueue"]
+- ["s7CVarArgP", "activeOperation"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "cancelAllOperations"]
+- ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "downloadImage"]
+- !private ["s7CVarArgP", "downloadQueue"]
+- !private ["s7CVarArgP", "headers"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mapboxNavigation"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "operationType"]
+- !private ["s7CVarArgP", "operations"]
+- !private ["s7CVarArgP", "originalRequest"]
+- !private ["s7CVarArgP", "sessionConfiguration"]
+- ["s7CVarArgP", "setOperationType"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "urlRequest"]
+- ["s7CVarArgP", "urlSession"]
+- ["s7CVarArgP", "urlSessionDidFinishEvents"]
+- !private ["So12NSURLRequestC11CachePolicyO", "reloadIgnoringCacheData"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "ImageDownloadOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- ["s28CustomDebugStringConvertibleP", "ResponseDisposition"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessQueue"]
+- ["s28CustomDebugStringConvertibleP", "activeOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "allHTTPHeaderFields"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "cachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAllOperations"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "downloadImage"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mapboxNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "operationType"]
+- !private ["s28CustomDebugStringConvertibleP", "operations"]
+- !private ["s28CustomDebugStringConvertibleP", "originalRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "setOperationType"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "urlRequest"]
+- ["s28CustomDebugStringConvertibleP", "urlSession"]
+- ["s28CustomDebugStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "allHTTPHeaderFields"]
+- !private ["s17CustomReflectableP", "cachePolicy"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "ImageDownloadOperation"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- ["s23CustomStringConvertibleP", "ResponseDisposition"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "accessQueue"]
+- ["s23CustomStringConvertibleP", "activeOperation"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "allHTTPHeaderFields"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "cachePolicy"]
+- !private ["s23CustomStringConvertibleP", "cancelAllOperations"]
+- ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "downloadImage"]
+- !private ["s23CustomStringConvertibleP", "downloadQueue"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "operationType"]
+- !private ["s23CustomStringConvertibleP", "operations"]
+- !private ["s23CustomStringConvertibleP", "originalRequest"]
+- !private ["s23CustomStringConvertibleP", "sessionConfiguration"]
+- ["s23CustomStringConvertibleP", "setOperationType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "urlRequest"]
+- ["s23CustomStringConvertibleP", "urlSession"]
+- ["s23CustomStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "sync"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "sync"]
+- !private ["8Dispatch0A13WorkItemFlagsV", "barrier"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- ["s9EquatableP", "ImageDownloadOperation"]
+- !private ["s9EquatableP", "OperationQueue"]
+- ["s9EquatableP", "ResponseDisposition"]
+- !private ["s9EquatableP", "URLRequest"]
+- ["s9EquatableP", "URLSession"]
+- ["s9EquatableP", "URLSessionConfiguration"]
+- ["s9EquatableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "accessQueue"]
+- ["s9EquatableP", "activeOperation"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "allHTTPHeaderFields"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "barrier"]
+- !private ["s9EquatableP", "bundleIdentifier"]
+- !private ["s9EquatableP", "cachePolicy"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "cancelAllOperations"]
+- !private ["s9EquatableP", "concurrent"]
+- ["s9EquatableP", "default"]
+- ["s9EquatableP", "downloadImage"]
+- !private ["s9EquatableP", "downloadQueue"]
+- !private ["s9EquatableP", "headers"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "operationType"]
+- !private ["s9EquatableP", "operations"]
+- !private ["s9EquatableP", "originalRequest"]
+- !private ["s9EquatableP", "reloadIgnoringCacheData"]
+- !private ["s9EquatableP", "sessionConfiguration"]
+- ["s9EquatableP", "setOperationType"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "sync"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "urlRequest"]
+- ["s9EquatableP", "urlSession"]
+- ["s9EquatableP", "urlSessionDidFinishEvents"]
+- !private ["s25ExpressibleByArrayLiteralP", "barrier"]
+- !private ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So15HTTPURLResponseC", "url"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "DispatchQueue"]
+- ["s8HashableP", "ImageDownloadOperation"]
+- !private ["s8HashableP", "OperationQueue"]
+- ["s8HashableP", "ResponseDisposition"]
+- !private ["s8HashableP", "URLRequest"]
+- ["s8HashableP", "URLSession"]
+- ["s8HashableP", "URLSessionConfiguration"]
+- ["s8HashableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "accessQueue"]
+- ["s8HashableP", "activeOperation"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "allHTTPHeaderFields"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "bundleIdentifier"]
+- !private ["s8HashableP", "cachePolicy"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "cancelAllOperations"]
+- ["s8HashableP", "default"]
+- ["s8HashableP", "downloadImage"]
+- !private ["s8HashableP", "downloadQueue"]
+- !private ["s8HashableP", "headers"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "mapboxNavigation"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "operationType"]
+- !private ["s8HashableP", "operations"]
+- !private ["s8HashableP", "originalRequest"]
+- !private ["s8HashableP", "reloadIgnoringCacheData"]
+- !private ["s8HashableP", "sessionConfiguration"]
+- ["s8HashableP", "setOperationType"]
+- !private ["s8HashableP", "sync"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "urlRequest"]
+- ["s8HashableP", "urlSession"]
+- ["s8HashableP", "urlSessionDidFinishEvents"]
+- !private ["16MapboxNavigation13ImageDownloadP", "addCompletion"]
+- !private ["16MapboxNavigation13ImageDownloadP", "init"]
+- !private ["16MapboxNavigation13ImageDownloadP", "isFinished"]
+- !private ["16MapboxNavigation13ImageDownloadP", "urlSession"]
+- ["16MapboxNavigation22ImageDownloadOperationC", "deinit"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "Bundle"]
+- ["16MapboxNavigation15ImageDownloaderC", "Data"]
+- ["16MapboxNavigation15ImageDownloaderC", "DispatchQueue"]
+- ["16MapboxNavigation15ImageDownloaderC", "Error"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "HTTPURLResponse"]
+- ["16MapboxNavigation15ImageDownloaderC", "ImageDownload"]
+- ["16MapboxNavigation15ImageDownloaderC", "ImageDownloadCompletionBlock"]
+- ["16MapboxNavigation15ImageDownloaderC", "ImageDownloadOperation"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "Operation"]
+- ["16MapboxNavigation15ImageDownloaderC", "OperationQueue"]
+- ["16MapboxNavigation15ImageDownloaderC", "String"]
+- ["16MapboxNavigation15ImageDownloaderC", "URL"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLRequest"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLResponse"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLSession"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLSessionConfiguration"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLSessionDataTask"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["16MapboxNavigation15ImageDownloaderC", "URLSessionTask"]
+- ["16MapboxNavigation15ImageDownloaderC", "Void"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "accessQueue"]
+- ["16MapboxNavigation15ImageDownloaderC", "activeOperation"]
+- ["16MapboxNavigation15ImageDownloaderC", "deinit"]
+- ["16MapboxNavigation15ImageDownloaderC", "downloadImage"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "downloadQueue"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "headers"]
+- ["16MapboxNavigation15ImageDownloaderC", "init"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "operationType"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "operations"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "sessionConfiguration"]
+- ["16MapboxNavigation15ImageDownloaderC", "setOperationType"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "urlRequest"]
+- ["16MapboxNavigation15ImageDownloaderC", "urlSession"]
+- !private ["16MapboxNavigation15ImageDownloaderC", "urlSession.storage"]
+- ["16MapboxNavigation15ImageDownloaderC", "urlSessionDidFinishEvents"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "url"]
+- ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "originalRequest"]
+- !private ["So9NSCopyingP", "url"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "ImageDownload"]
+- ["So8NSObjectC", "ImageDownloadCompletionBlock"]
+- ["So8NSObjectC", "ImageDownloadOperation"]
+- !private ["So8NSObjectC", "Operation"]
+- ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "ResponseDisposition"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLResponse"]
+- ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectC", "URLSessionTask"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "accessQueue"]
+- ["So8NSObjectC", "activeOperation"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "cancelAllOperations"]
+- ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "downloadImage"]
+- ["So8NSObjectC", "downloadQueue"]
+- ["So8NSObjectC", "headers"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mapboxNavigation"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "operationType"]
+- ["So8NSObjectC", "operations"]
+- !private ["So8NSObjectC", "originalRequest"]
+- ["So8NSObjectC", "sessionConfiguration"]
+- ["So8NSObjectC", "setOperationType"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "urlRequest"]
+- ["So8NSObjectC", "urlSession"]
+- ["So8NSObjectC", "urlSession.storage"]
+- ["So8NSObjectC", "urlSessionDidFinishEvents"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- ["So16NSObjectProtocolP", "ImageDownloadOperation"]
+- !private ["So16NSObjectProtocolP", "OperationQueue"]
+- ["So16NSObjectProtocolP", "ResponseDisposition"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- ["So16NSObjectProtocolP", "URLSession"]
+- ["So16NSObjectProtocolP", "URLSessionConfiguration"]
+- ["So16NSObjectProtocolP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "accessQueue"]
+- ["So16NSObjectProtocolP", "activeOperation"]
+- !private ["So16NSObjectProtocolP", "addCompletion"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "bundleIdentifier"]
+- !private ["So16NSObjectProtocolP", "cancelAllOperations"]
+- ["So16NSObjectProtocolP", "default"]
+- ["So16NSObjectProtocolP", "downloadImage"]
+- !private ["So16NSObjectProtocolP", "downloadQueue"]
+- !private ["So16NSObjectProtocolP", "headers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isFinished"]
+- !private ["So16NSObjectProtocolP", "mapboxNavigation"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "operationType"]
+- !private ["So16NSObjectProtocolP", "operations"]
+- !private ["So16NSObjectProtocolP", "originalRequest"]
+- !private ["So16NSObjectProtocolP", "sessionConfiguration"]
+- ["So16NSObjectProtocolP", "setOperationType"]
+- !private ["So16NSObjectProtocolP", "sync"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "urlRequest"]
+- ["So16NSObjectProtocolP", "urlSession"]
+- ["So16NSObjectProtocolP", "urlSessionDidFinishEvents"]
+- !private ["So14NSSecureCodingP", "url"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["So14OperationQueueC", "addOperation"]
+- !private ["So14OperationQueueC", "cancelAllOperations"]
+- !private ["So14OperationQueueC", "init"]
+- !private ["So14OperationQueueC", "name"]
+- !private ["s9OptionSetP", "barrier"]
+- !private ["s9OptionSetP", "concurrent"]
+- !private ["So17ProgressReportingP", "originalRequest"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "barrier"]
+- !private ["s16RawRepresentableP", "cancel"]
+- !private ["s16RawRepresentableP", "concurrent"]
+- !private ["s16RawRepresentableP", "reloadIgnoringCacheData"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "Bundle"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "DispatchQueue"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "ImageDownload"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "ImageDownloadCompletionBlock"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "ImageDownloadOperation"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "OperationQueue"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "URL"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "URLRequest"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "URLSession"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "URLSessionConfiguration"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "Void"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", ""]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "accessQueue"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "activeOperation"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "downloadImage"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "downloadQueue"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "headers"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "init"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "operationType"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "operations"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "sessionConfiguration"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "setOperationType"]
+- !private ["16MapboxNavigation24ReentrantImageDownloaderP", "urlRequest"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "urlSession"]
+- ["16MapboxNavigation24ReentrantImageDownloaderP", "urlSessionDidFinishEvents"]
+- !private ["10Foundation20ReferenceConvertibleP", "allHTTPHeaderFields"]
+- !private ["10Foundation20ReferenceConvertibleP", "cachePolicy"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["So10URLSessionC19ResponseDispositionO", "cancel"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "barrier"]
+- !private ["s10SetAlgebraP", "concurrent"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation10URLRequestV", "allHTTPHeaderFields"]
+- !private ["10Foundation10URLRequestV", "cachePolicy"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["So11URLResponseC", "url"]
+- ["So10URLSessionC", "ResponseDisposition"]
+- !private ["So10URLSessionC", "init"]
+- ["So23URLSessionConfigurationC", "default"]
+- !private ["So22URLSessionDataDelegateP", "Bundle"]
+- !private ["So22URLSessionDataDelegateP", "DispatchQueue"]
+- ["So22URLSessionDataDelegateP", "ImageDownloadOperation"]
+- !private ["So22URLSessionDataDelegateP", "OperationQueue"]
+- !private ["So22URLSessionDataDelegateP", "URLRequest"]
+- ["So22URLSessionDataDelegateP", "URLSession"]
+- ["So22URLSessionDataDelegateP", "URLSessionConfiguration"]
+- ["So22URLSessionDataDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So22URLSessionDataDelegateP", ""]
+- !private ["So22URLSessionDataDelegateP", "accessQueue"]
+- ["So22URLSessionDataDelegateP", "activeOperation"]
+- !private ["So22URLSessionDataDelegateP", "addCompletion"]
+- ["So22URLSessionDataDelegateP", "downloadImage"]
+- !private ["So22URLSessionDataDelegateP", "downloadQueue"]
+- !private ["So22URLSessionDataDelegateP", "headers"]
+- !private ["So22URLSessionDataDelegateP", "init"]
+- !private ["So22URLSessionDataDelegateP", "isFinished"]
+- !private ["So22URLSessionDataDelegateP", "operationType"]
+- !private ["So22URLSessionDataDelegateP", "operations"]
+- !private ["So22URLSessionDataDelegateP", "sessionConfiguration"]
+- ["So22URLSessionDataDelegateP", "setOperationType"]
+- !private ["So22URLSessionDataDelegateP", "urlRequest"]
+- ["So22URLSessionDataDelegateP", "urlSession"]
+- ["So22URLSessionDataDelegateP", "urlSessionDidFinishEvents"]
+- !private ["So18URLSessionDataTaskC", "originalRequest"]
+- !private ["So18URLSessionDelegateP", "Bundle"]
+- !private ["So18URLSessionDelegateP", "DispatchQueue"]
+- ["So18URLSessionDelegateP", "ImageDownloadOperation"]
+- !private ["So18URLSessionDelegateP", "OperationQueue"]
+- !private ["So18URLSessionDelegateP", "URLRequest"]
+- ["So18URLSessionDelegateP", "URLSession"]
+- ["So18URLSessionDelegateP", "URLSessionConfiguration"]
+- ["So18URLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So18URLSessionDelegateP", ""]
+- !private ["So18URLSessionDelegateP", "accessQueue"]
+- ["So18URLSessionDelegateP", "activeOperation"]
+- !private ["So18URLSessionDelegateP", "addCompletion"]
+- ["So18URLSessionDelegateP", "downloadImage"]
+- !private ["So18URLSessionDelegateP", "downloadQueue"]
+- !private ["So18URLSessionDelegateP", "headers"]
+- !private ["So18URLSessionDelegateP", "init"]
+- !private ["So18URLSessionDelegateP", "isFinished"]
+- !private ["So18URLSessionDelegateP", "operationType"]
+- !private ["So18URLSessionDelegateP", "operations"]
+- !private ["So18URLSessionDelegateP", "sessionConfiguration"]
+- ["So18URLSessionDelegateP", "setOperationType"]
+- !private ["So18URLSessionDelegateP", "urlRequest"]
+- ["So18URLSessionDelegateP", "urlSession"]
+- ["So18URLSessionDelegateP", "urlSessionDidFinishEvents"]
+- !private ["So14URLSessionTaskC", "originalRequest"]
+- !private ["So22URLSessionTaskDelegateP", "Bundle"]
+- !private ["So22URLSessionTaskDelegateP", "DispatchQueue"]
+- ["So22URLSessionTaskDelegateP", "ImageDownloadOperation"]
+- !private ["So22URLSessionTaskDelegateP", "OperationQueue"]
+- !private ["So22URLSessionTaskDelegateP", "URLRequest"]
+- ["So22URLSessionTaskDelegateP", "URLSession"]
+- ["So22URLSessionTaskDelegateP", "URLSessionConfiguration"]
+- ["So22URLSessionTaskDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So22URLSessionTaskDelegateP", ""]
+- !private ["So22URLSessionTaskDelegateP", "accessQueue"]
+- ["So22URLSessionTaskDelegateP", "activeOperation"]
+- !private ["So22URLSessionTaskDelegateP", "addCompletion"]
+- ["So22URLSessionTaskDelegateP", "downloadImage"]
+- !private ["So22URLSessionTaskDelegateP", "downloadQueue"]
+- !private ["So22URLSessionTaskDelegateP", "headers"]
+- !private ["So22URLSessionTaskDelegateP", "init"]
+- !private ["So22URLSessionTaskDelegateP", "isFinished"]
+- !private ["So22URLSessionTaskDelegateP", "operationType"]
+- !private ["So22URLSessionTaskDelegateP", "operations"]
+- !private ["So22URLSessionTaskDelegateP", "sessionConfiguration"]
+- ["So22URLSessionTaskDelegateP", "setOperationType"]
+- !private ["So22URLSessionTaskDelegateP", "urlRequest"]
+- ["So22URLSessionTaskDelegateP", "urlSession"]
+- ["So22URLSessionTaskDelegateP", "urlSessionDidFinishEvents"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ImageDownloadOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ResponseDisposition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "activeOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelAllOperations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "downloadImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapboxNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "operationType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "operations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setOperationType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urlRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSessionDidFinishEvents"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "allHTTPHeaderFields"]
+- !private ["s21_ObjectiveCBridgeableP", "cachePolicy"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So13DispatchQueueC0A0E10AttributesV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "So12NSURLRequestC11CachePolicyO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "8Dispatch0A13WorkItemFlagsV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- !private "16MapboxNavigation13ImageDownloadP"
+- "16MapboxNavigation22ImageDownloadOperationC"
+- "16MapboxNavigation15ImageDownloaderC"
+- "4Turf8JSONTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "So14OperationQueueC"
+- !private "s9OptionSetP"
+- !private "So17ProgressReportingP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "16MapboxNavigation24ReentrantImageDownloaderP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So10URLSessionC19ResponseDispositionO"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation10URLRequestV"
+- !private "So11URLResponseC"
+- "So10URLSessionC"
+- "So23URLSessionConfigurationC"
+- "So22URLSessionDataDelegateP"
+- !private "So18URLSessionDataTaskC"
+- "So18URLSessionDelegateP"
+- !private "So14URLSessionTaskC"
+- "So22URLSessionTaskDelegateP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "20ac3a125b55d43065691da6f9fb82df"

@@ -1,0 +1,601 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextType"
+- "AudioFormat"
+- "SpeechGender"
+- "SpeechOptions"
+provides-nominal:
+- "12MapboxSpeech8TextTypeO"
+- "12MapboxSpeech11AudioFormatO"
+- "12MapboxSpeech0B6GenderO"
+- "12MapboxSpeech0B7OptionsC"
+provides-member:
+- ["12MapboxSpeech8TextTypeO", ""]
+- ["12MapboxSpeech11AudioFormatO", ""]
+- ["12MapboxSpeech0B6GenderO", ""]
+- ["12MapboxSpeech0B7OptionsC", ""]
+provides-dynamic-lookup:
+- "encode"
+- "locale"
+- "outputFormat"
+- "speechGender"
+- "supportsSecureCoding"
+- "text"
+- "textType"
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AudioFormat"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CharacterSet"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Locale"
+- !private "NSArray"
+- "NSCoder"
+- !private "NSLocale"
+- "NSObject"
+- "NSSecureCoding"
+- !private "NSString"
+- "SpeechGender"
+- "SpeechOptions"
+- "String"
+- !private "StringLiteralType"
+- "TextType"
+- "UInt"
+- "URLQueryItem"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["12MapboxSpeech11AudioFormatO", "AudioFormat"]
+- ["12MapboxSpeech11AudioFormatO", "RawValue"]
+- ["12MapboxSpeech11AudioFormatO", "String"]
+- ["12MapboxSpeech11AudioFormatO", "_Default_RawValue"]
+- ["12MapboxSpeech11AudioFormatO", "deinit"]
+- ["12MapboxSpeech11AudioFormatO", "description"]
+- ["12MapboxSpeech11AudioFormatO", "hashValue"]
+- ["12MapboxSpeech11AudioFormatO", "init"]
+- ["12MapboxSpeech11AudioFormatO", "mp3"]
+- ["12MapboxSpeech11AudioFormatO", "oggVorbis"]
+- ["12MapboxSpeech11AudioFormatO", "pcm"]
+- ["12MapboxSpeech11AudioFormatO", "rawValue"]
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "AudioFormat"]
+- !private ["s7CVarArgP", "CharacterSet"]
+- ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "NSArray"]
+- !private ["s7CVarArgP", "NSLocale"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "SpeechGender"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TextType"]
+- !private ["s7CVarArgP", "URLQueryItem"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "decodeObject"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "outputFormat"]
+- !private ["s7CVarArgP", "speechGender"]
+- ["s7CVarArgP", "supportsSecureCoding"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textType"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- !private ["10Foundation12CharacterSetV", "inverted"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AudioFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "NSArray"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocale"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "SpeechGender"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TextType"]
+- !private ["s28CustomDebugStringConvertibleP", "URLQueryItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "autoupdatingCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inverted"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "outputFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "speechGender"]
+- ["s28CustomDebugStringConvertibleP", "supportsSecureCoding"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "autoupdatingCurrent"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AudioFormat"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "NSArray"]
+- !private ["s23CustomStringConvertibleP", "NSLocale"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "SpeechGender"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TextType"]
+- !private ["s23CustomStringConvertibleP", "URLQueryItem"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "autoupdatingCurrent"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- ["s23CustomStringConvertibleP", "female"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inverted"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- ["s23CustomStringConvertibleP", "male"]
+- ["s23CustomStringConvertibleP", "mp3"]
+- ["s23CustomStringConvertibleP", "neuter"]
+- ["s23CustomStringConvertibleP", "oggVorbis"]
+- !private ["s23CustomStringConvertibleP", "outputFormat"]
+- ["s23CustomStringConvertibleP", "pcm"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "speechGender"]
+- ["s23CustomStringConvertibleP", "ssml"]
+- ["s23CustomStringConvertibleP", "supportsSecureCoding"]
+- ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textType"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "autoupdatingCurrent"]
+- !private ["s9DecodableP", "identifier"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "inverted"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "autoupdatingCurrent"]
+- !private ["s9EncodableP", "identifier"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "inverted"]
+- !private ["s9EquatableP", "AudioFormat"]
+- !private ["s9EquatableP", "CharacterSet"]
+- ["s9EquatableP", "Locale"]
+- !private ["s9EquatableP", "NSArray"]
+- !private ["s9EquatableP", "NSLocale"]
+- !private ["s9EquatableP", "NSString"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "SpeechGender"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "TextType"]
+- !private ["s9EquatableP", "URLQueryItem"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "autoupdatingCurrent"]
+- !private ["s9EquatableP", "decodeObject"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- ["s9EquatableP", "female"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inverted"]
+- !private ["s9EquatableP", "locale"]
+- ["s9EquatableP", "male"]
+- ["s9EquatableP", "mp3"]
+- ["s9EquatableP", "neuter"]
+- ["s9EquatableP", "oggVorbis"]
+- !private ["s9EquatableP", "outputFormat"]
+- ["s9EquatableP", "pcm"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "speechGender"]
+- ["s9EquatableP", "ssml"]
+- ["s9EquatableP", "supportsSecureCoding"]
+- ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textType"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "inverted"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AudioFormat"]
+- !private ["s8HashableP", "CharacterSet"]
+- ["s8HashableP", "Locale"]
+- !private ["s8HashableP", "NSArray"]
+- !private ["s8HashableP", "NSLocale"]
+- !private ["s8HashableP", "NSString"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "SpeechGender"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "TextType"]
+- !private ["s8HashableP", "URLQueryItem"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- ["s8HashableP", "autoupdatingCurrent"]
+- !private ["s8HashableP", "decodeObject"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- ["s8HashableP", "female"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "inverted"]
+- !private ["s8HashableP", "locale"]
+- ["s8HashableP", "male"]
+- ["s8HashableP", "mp3"]
+- ["s8HashableP", "neuter"]
+- ["s8HashableP", "oggVorbis"]
+- !private ["s8HashableP", "outputFormat"]
+- ["s8HashableP", "pcm"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "speechGender"]
+- ["s8HashableP", "ssml"]
+- ["s8HashableP", "supportsSecureCoding"]
+- ["s8HashableP", "text"]
+- !private ["s8HashableP", "textType"]
+- ["10Foundation6LocaleV", "autoupdatingCurrent"]
+- !private ["10Foundation6LocaleV", "identifier"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So8NSCodingP", "AudioFormat"]
+- !private ["So8NSCodingP", "CharacterSet"]
+- ["So8NSCodingP", "Locale"]
+- !private ["So8NSCodingP", "NSArray"]
+- !private ["So8NSCodingP", "NSLocale"]
+- !private ["So8NSCodingP", "NSString"]
+- !private ["So8NSCodingP", "SpeechGender"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "TextType"]
+- !private ["So8NSCodingP", "URLQueryItem"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "outputFormat"]
+- !private ["So8NSCodingP", "speechGender"]
+- ["So8NSCodingP", "supportsSecureCoding"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textType"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- ["So8NSObjectC", "AudioFormat"]
+- !private ["So8NSObjectC", "CharacterSet"]
+- ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSLocale"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "SpeechGender"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TextType"]
+- ["So8NSObjectC", "URLQueryItem"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "outputFormat"]
+- ["So8NSObjectC", "params"]
+- ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "speechGender"]
+- ["So8NSObjectC", "supportsSecureCoding"]
+- ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textType"]
+- !private ["So16NSObjectProtocolP", "AudioFormat"]
+- !private ["So16NSObjectProtocolP", "CharacterSet"]
+- ["So16NSObjectProtocolP", "Locale"]
+- !private ["So16NSObjectProtocolP", "NSArray"]
+- !private ["So16NSObjectProtocolP", "NSLocale"]
+- !private ["So16NSObjectProtocolP", "NSString"]
+- !private ["So16NSObjectProtocolP", "SpeechGender"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "TextType"]
+- !private ["So16NSObjectProtocolP", "URLQueryItem"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "outputFormat"]
+- !private ["So16NSObjectProtocolP", "speechGender"]
+- ["So16NSObjectProtocolP", "supportsSecureCoding"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textType"]
+- !private ["So14NSSecureCodingP", "AudioFormat"]
+- !private ["So14NSSecureCodingP", "CharacterSet"]
+- ["So14NSSecureCodingP", "Locale"]
+- !private ["So14NSSecureCodingP", "NSArray"]
+- !private ["So14NSSecureCodingP", "NSLocale"]
+- !private ["So14NSSecureCodingP", "NSString"]
+- !private ["So14NSSecureCodingP", "SpeechGender"]
+- !private ["So14NSSecureCodingP", "String"]
+- !private ["So14NSSecureCodingP", "TextType"]
+- !private ["So14NSSecureCodingP", "URLQueryItem"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- ["So14NSSecureCodingP", "encode"]
+- ["So14NSSecureCodingP", "encodeWithCoder"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "locale"]
+- !private ["So14NSSecureCodingP", "outputFormat"]
+- !private ["So14NSSecureCodingP", "speechGender"]
+- ["So14NSSecureCodingP", "supportsSecureCoding"]
+- !private ["So14NSSecureCodingP", "text"]
+- !private ["So14NSSecureCodingP", "textType"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "description"]
+- ["s16RawRepresentableP", "female"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "male"]
+- ["s16RawRepresentableP", "mp3"]
+- ["s16RawRepresentableP", "neuter"]
+- ["s16RawRepresentableP", "oggVorbis"]
+- ["s16RawRepresentableP", "pcm"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "ssml"]
+- ["s16RawRepresentableP", "text"]
+- ["10Foundation20ReferenceConvertibleP", "autoupdatingCurrent"]
+- !private ["10Foundation20ReferenceConvertibleP", "identifier"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "inverted"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "inverted"]
+- ["12MapboxSpeech0B6GenderO", "RawValue"]
+- !private ["12MapboxSpeech0B6GenderO", "SpeechGender"]
+- ["12MapboxSpeech0B6GenderO", "String"]
+- ["12MapboxSpeech0B6GenderO", "_Default_RawValue"]
+- ["12MapboxSpeech0B6GenderO", "deinit"]
+- ["12MapboxSpeech0B6GenderO", "description"]
+- ["12MapboxSpeech0B6GenderO", "female"]
+- ["12MapboxSpeech0B6GenderO", "hashValue"]
+- ["12MapboxSpeech0B6GenderO", "init"]
+- ["12MapboxSpeech0B6GenderO", "male"]
+- ["12MapboxSpeech0B6GenderO", "neuter"]
+- ["12MapboxSpeech0B6GenderO", "rawValue"]
+- ["12MapboxSpeech0B7OptionsC", "AudioFormat"]
+- !private ["12MapboxSpeech0B7OptionsC", "CharacterSet"]
+- ["12MapboxSpeech0B7OptionsC", "Locale"]
+- !private ["12MapboxSpeech0B7OptionsC", "NSArray"]
+- ["12MapboxSpeech0B7OptionsC", "NSCoder"]
+- !private ["12MapboxSpeech0B7OptionsC", "NSLocale"]
+- !private ["12MapboxSpeech0B7OptionsC", "NSString"]
+- ["12MapboxSpeech0B7OptionsC", "SpeechGender"]
+- ["12MapboxSpeech0B7OptionsC", "String"]
+- ["12MapboxSpeech0B7OptionsC", "TextType"]
+- ["12MapboxSpeech0B7OptionsC", "URLQueryItem"]
+- ["12MapboxSpeech0B7OptionsC", "deinit"]
+- ["12MapboxSpeech0B7OptionsC", "encode"]
+- ["12MapboxSpeech0B7OptionsC", "encodeWithCoder"]
+- ["12MapboxSpeech0B7OptionsC", "init"]
+- ["12MapboxSpeech0B7OptionsC", "locale"]
+- ["12MapboxSpeech0B7OptionsC", "outputFormat"]
+- ["12MapboxSpeech0B7OptionsC", "params"]
+- ["12MapboxSpeech0B7OptionsC", "path"]
+- ["12MapboxSpeech0B7OptionsC", "speechGender"]
+- ["12MapboxSpeech0B7OptionsC", "supportsSecureCoding"]
+- ["12MapboxSpeech0B7OptionsC", "text"]
+- ["12MapboxSpeech0B7OptionsC", "textType"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["12MapboxSpeech8TextTypeO", "RawValue"]
+- ["12MapboxSpeech8TextTypeO", "String"]
+- !private ["12MapboxSpeech8TextTypeO", "TextType"]
+- ["12MapboxSpeech8TextTypeO", "_Default_RawValue"]
+- ["12MapboxSpeech8TextTypeO", "deinit"]
+- ["12MapboxSpeech8TextTypeO", "description"]
+- ["12MapboxSpeech8TextTypeO", "hashValue"]
+- ["12MapboxSpeech8TextTypeO", "init"]
+- ["12MapboxSpeech8TextTypeO", "rawValue"]
+- ["12MapboxSpeech8TextTypeO", "ssml"]
+- ["12MapboxSpeech8TextTypeO", "text"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AudioFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharacterSet"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SpeechGender"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLQueryItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outputFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speechGender"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "supportsSecureCoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textType"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "autoupdatingCurrent"]
+- !private ["s21_ObjectiveCBridgeableP", "identifier"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "inverted"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "12MapboxSpeech11AudioFormatO"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "12MapboxSpeech0B6GenderO"
+- "12MapboxSpeech0B7OptionsC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "12MapboxSpeech8TextTypeO"
+- !private "10Foundation12URLQueryItemV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "647c3c03661ddb0a6c0b643d31753238"

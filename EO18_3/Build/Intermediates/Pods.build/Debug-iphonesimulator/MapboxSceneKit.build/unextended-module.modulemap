@@ -1,0 +1,10 @@
+framework module MapboxSceneKit {
+  umbrella header "MapboxSceneKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MapboxSceneKit.__Swift {
+    exclude header "MapboxSceneKit-Swift.h"
+}

@@ -1,0 +1,564 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TunnelIntersectionManagerDelegate"
+- "TunnelIntersectionManager"
+provides-nominal:
+- "20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP"
+- "20MapboxCoreNavigation25TunnelIntersectionManagerC"
+provides-member:
+- ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", ""]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", ""]
+provides-dynamic-lookup:
+- "animatedLocationManager"
+- "delegate"
+- "enableTunnelAnimation"
+- "isAnimationEnabled"
+- "suspendTunnelAnimation"
+- "tunnelExitLocations"
+- "tunnelIntersectionManager"
+- "tunnelSimulationEnabled"
+- "userWithinTunnelEntranceRadius"
+depends-top-level:
+- !private "!"
+- !private "<"
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CLLocation"
+- "NSObject"
+- "RouteController"
+- !private "RouteControllerMinimumDistanceToTunnelEntrance"
+- !private "RouteControllerMinimumSpeedAtTunnelEntranceRadius"
+- "RouteProgress"
+- "SimulatedLocationManager"
+- "TunnelIntersectionManager"
+- "TunnelIntersectionManagerDelegate"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeAll"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So10CLLocationC", "isQualified"]
+- !private ["So10CLLocationC", "speed"]
+- !private ["So17CLLocationManagerC", "delegate"]
+- !private ["So17CLLocationManagerC", "routeProgress"]
+- !private ["So17CLLocationManagerC", "startUpdatingHeading"]
+- !private ["So17CLLocationManagerC", "startUpdatingLocation"]
+- !private ["So17CLLocationManagerC", "stopUpdatingHeading"]
+- !private ["So17CLLocationManagerC", "stopUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "rawLocation"]
+- ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["s7CVarArgP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["s7CVarArgP", "SimulatedLocationManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "animatedLocationManager"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentIntersection"]
+- !private ["s7CVarArgP", "currentLegProgress"]
+- !private ["s7CVarArgP", "currentStepProgress"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAnimationEnabled"]
+- !private ["s7CVarArgP", "isQualified"]
+- !private ["s7CVarArgP", "outletRoadClasses"]
+- !private ["s7CVarArgP", "rawLocation"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "routeProgress"]
+- !private ["s7CVarArgP", "speed"]
+- !private ["s7CVarArgP", "startUpdatingHeading"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- !private ["s7CVarArgP", "stopUpdatingHeading"]
+- !private ["s7CVarArgP", "stopUpdatingLocation"]
+- !private ["s7CVarArgP", "tunnelExitLocations"]
+- !private ["s7CVarArgP", "tunnelSimulationEnabled"]
+- !private ["s7CVarArgP", "upcomingIntersection"]
+- !private ["s7CVarArgP", "userDistanceToUpcomingIntersection"]
+- !private ["s7CVarArgP", "userWithinTunnelEntranceRadius"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["s28CustomDebugStringConvertibleP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "SimulatedLocationManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "animatedLocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentIntersection"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLegProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "currentStepProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAnimationEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isQualified"]
+- !private ["s28CustomDebugStringConvertibleP", "outletRoadClasses"]
+- !private ["s28CustomDebugStringConvertibleP", "rawLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "routeProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "speed"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "stopUpdatingHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "tunnelExitLocations"]
+- !private ["s28CustomDebugStringConvertibleP", "tunnelSimulationEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "upcomingIntersection"]
+- !private ["s28CustomDebugStringConvertibleP", "userDistanceToUpcomingIntersection"]
+- !private ["s28CustomDebugStringConvertibleP", "userWithinTunnelEntranceRadius"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["s23CustomStringConvertibleP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["s23CustomStringConvertibleP", "SimulatedLocationManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animatedLocationManager"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentIntersection"]
+- !private ["s23CustomStringConvertibleP", "currentLegProgress"]
+- !private ["s23CustomStringConvertibleP", "currentStepProgress"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAnimationEnabled"]
+- !private ["s23CustomStringConvertibleP", "isQualified"]
+- !private ["s23CustomStringConvertibleP", "outletRoadClasses"]
+- !private ["s23CustomStringConvertibleP", "rawLocation"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "routeProgress"]
+- !private ["s23CustomStringConvertibleP", "speed"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingHeading"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "stopUpdatingHeading"]
+- !private ["s23CustomStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "tunnel"]
+- !private ["s23CustomStringConvertibleP", "tunnelExitLocations"]
+- !private ["s23CustomStringConvertibleP", "tunnelSimulationEnabled"]
+- !private ["s23CustomStringConvertibleP", "upcomingIntersection"]
+- !private ["s23CustomStringConvertibleP", "userDistanceToUpcomingIntersection"]
+- !private ["s23CustomStringConvertibleP", "userWithinTunnelEntranceRadius"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeAll"]
+- ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["s9EquatableP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["s9EquatableP", "SimulatedLocationManager"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "animatedLocationManager"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "currentIntersection"]
+- !private ["s9EquatableP", "currentLegProgress"]
+- !private ["s9EquatableP", "currentStepProgress"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAnimationEnabled"]
+- !private ["s9EquatableP", "isQualified"]
+- !private ["s9EquatableP", "outletRoadClasses"]
+- !private ["s9EquatableP", "rawLocation"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "routeProgress"]
+- !private ["s9EquatableP", "speed"]
+- !private ["s9EquatableP", "startUpdatingHeading"]
+- !private ["s9EquatableP", "startUpdatingLocation"]
+- !private ["s9EquatableP", "stopUpdatingHeading"]
+- !private ["s9EquatableP", "stopUpdatingLocation"]
+- !private ["s9EquatableP", "tunnel"]
+- !private ["s9EquatableP", "tunnelExitLocations"]
+- !private ["s9EquatableP", "tunnelSimulationEnabled"]
+- !private ["s9EquatableP", "upcomingIntersection"]
+- !private ["s9EquatableP", "userDistanceToUpcomingIntersection"]
+- !private ["s9EquatableP", "userWithinTunnelEntranceRadius"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "tunnel"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "CLLocation"]
+- !private ["s8HashableP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["s8HashableP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["s8HashableP", "SimulatedLocationManager"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "animatedLocationManager"]
+- !private ["s8HashableP", "currentIntersection"]
+- !private ["s8HashableP", "currentLegProgress"]
+- !private ["s8HashableP", "currentStepProgress"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAnimationEnabled"]
+- !private ["s8HashableP", "isQualified"]
+- !private ["s8HashableP", "outletRoadClasses"]
+- !private ["s8HashableP", "rawLocation"]
+- !private ["s8HashableP", "routeProgress"]
+- !private ["s8HashableP", "speed"]
+- !private ["s8HashableP", "startUpdatingHeading"]
+- !private ["s8HashableP", "startUpdatingLocation"]
+- !private ["s8HashableP", "stopUpdatingHeading"]
+- !private ["s8HashableP", "stopUpdatingLocation"]
+- !private ["s8HashableP", "tunnelExitLocations"]
+- !private ["s8HashableP", "tunnelSimulationEnabled"]
+- !private ["s8HashableP", "upcomingIntersection"]
+- !private ["s8HashableP", "userDistanceToUpcomingIntersection"]
+- !private ["s8HashableP", "userWithinTunnelEntranceRadius"]
+- !private ["16MapboxDirections12IntersectionC", "outletRoadClasses"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SC13MBRoadClassesV", "contains"]
+- !private ["SC13MBRoadClassesV", "tunnel"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "removeAll"]
+- !private ["So8NSCodingP", "isQualified"]
+- !private ["So8NSCodingP", "outletRoadClasses"]
+- !private ["So8NSCodingP", "speed"]
+- !private ["So9NSCopyingP", "isQualified"]
+- !private ["So9NSCopyingP", "speed"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "RouteController"]
+- !private ["So8NSObjectC", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["So8NSObjectC", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- ["So8NSObjectC", "RouteProgress"]
+- ["So8NSObjectC", "SimulatedLocationManager"]
+- ["So8NSObjectC", "TunnelIntersectionManagerDelegate"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "animatedLocationManager"]
+- ["So8NSObjectC", "checkForTunnelIntersection"]
+- !private ["So8NSObjectC", "currentIntersection"]
+- !private ["So8NSObjectC", "currentLegProgress"]
+- !private ["So8NSObjectC", "currentStepProgress"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "enableTunnelAnimation"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isAnimationEnabled"]
+- !private ["So8NSObjectC", "isQualified"]
+- !private ["So8NSObjectC", "outletRoadClasses"]
+- !private ["So8NSObjectC", "rawLocation"]
+- !private ["So8NSObjectC", "routeProgress"]
+- !private ["So8NSObjectC", "speed"]
+- !private ["So8NSObjectC", "startUpdatingHeading"]
+- !private ["So8NSObjectC", "startUpdatingLocation"]
+- !private ["So8NSObjectC", "stopUpdatingHeading"]
+- !private ["So8NSObjectC", "stopUpdatingLocation"]
+- ["So8NSObjectC", "suspendTunnelAnimation"]
+- ["So8NSObjectC", "tunnelExitLocations"]
+- ["So8NSObjectC", "tunnelSimulationEnabled"]
+- !private ["So8NSObjectC", "upcomingIntersection"]
+- !private ["So8NSObjectC", "userDistanceToUpcomingIntersection"]
+- ["So8NSObjectC", "userWithinTunnelEntranceRadius"]
+- ["So16NSObjectProtocolP", "CLLocation"]
+- !private ["So16NSObjectProtocolP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["So16NSObjectProtocolP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["So16NSObjectProtocolP", "SimulatedLocationManager"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "animatedLocationManager"]
+- !private ["So16NSObjectProtocolP", "currentIntersection"]
+- !private ["So16NSObjectProtocolP", "currentLegProgress"]
+- !private ["So16NSObjectProtocolP", "currentStepProgress"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAnimationEnabled"]
+- !private ["So16NSObjectProtocolP", "isQualified"]
+- !private ["So16NSObjectProtocolP", "outletRoadClasses"]
+- !private ["So16NSObjectProtocolP", "rawLocation"]
+- !private ["So16NSObjectProtocolP", "routeProgress"]
+- !private ["So16NSObjectProtocolP", "speed"]
+- !private ["So16NSObjectProtocolP", "startUpdatingHeading"]
+- !private ["So16NSObjectProtocolP", "startUpdatingLocation"]
+- !private ["So16NSObjectProtocolP", "stopUpdatingHeading"]
+- !private ["So16NSObjectProtocolP", "stopUpdatingLocation"]
+- !private ["So16NSObjectProtocolP", "tunnelExitLocations"]
+- !private ["So16NSObjectProtocolP", "tunnelSimulationEnabled"]
+- !private ["So16NSObjectProtocolP", "upcomingIntersection"]
+- !private ["So16NSObjectProtocolP", "userDistanceToUpcomingIntersection"]
+- !private ["So16NSObjectProtocolP", "userWithinTunnelEntranceRadius"]
+- !private ["So14NSSecureCodingP", "isQualified"]
+- !private ["So14NSSecureCodingP", "outletRoadClasses"]
+- !private ["So14NSSecureCodingP", "speed"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "delegate"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "routeProgress"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "startUpdatingHeading"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "startUpdatingLocation"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "stopUpdatingHeading"]
+- !private ["20MapboxCoreNavigation0C15LocationManagerC", "stopUpdatingLocation"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "tunnel"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "removeAll"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeAll"]
+- !private ["s16RawRepresentableP", "contains"]
+- !private ["s16RawRepresentableP", "tunnel"]
+- !private ["20MapboxCoreNavigation15RouteControllerC", "deinit"]
+- !private ["20MapboxCoreNavigation15RouteControllerC", "rawLocation"]
+- !private ["20MapboxCoreNavigation16RouteLegProgressC", "currentStepProgress"]
+- !private ["20MapboxCoreNavigation13RouteProgressC", "currentLegProgress"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "currentIntersection"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "upcomingIntersection"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "userDistanceToUpcomingIntersection"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "tunnel"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "delegate"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "init"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "routeProgress"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "startUpdatingHeading"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "startUpdatingLocation"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "stopUpdatingHeading"]
+- !private ["20MapboxCoreNavigation24SimulatedLocationManagerC", "stopUpdatingLocation"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "Bool"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "CLLocation"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "RouteController"]
+- !private ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "RouteProgress"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "SimulatedLocationManager"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "TunnelIntersectionManagerDelegate"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "animatedLocationManager"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "checkForTunnelIntersection"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "deinit"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "delegate"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "enableTunnelAnimation"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "init"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "isAnimationEnabled"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "suspendTunnelAnimation"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "tunnelExitLocations"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "tunnelSimulationEnabled"]
+- ["20MapboxCoreNavigation25TunnelIntersectionManagerC", "userWithinTunnelEntranceRadius"]
+- ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", "CLLocation"]
+- ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", "TunnelIntersectionManager"]
+- !private ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", "rawLocation"]
+- ["20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP", "tunnelIntersectionManager"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerMinimumDistanceToTunnelEntrance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RouteControllerMinimumSpeedAtTunnelEntranceRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SimulatedLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animatedLocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentIntersection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLegProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentStepProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAnimationEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isQualified"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outletRoadClasses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rawLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "routeProgress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopUpdatingHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tunnelExitLocations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tunnelSimulationEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "upcomingIntersection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userDistanceToUpcomingIntersection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userWithinTunnelEntranceRadius"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So10CLLocationC"
+- !private "So17CLLocationManagerC"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "16MapboxDirections12IntersectionC"
+- !private "4Turf8JSONTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC13MBRoadClassesV"
+- "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "20MapboxCoreNavigation0C15LocationManagerC"
+- !private "s9OptionSetP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "20MapboxCoreNavigation15RouteControllerC"
+- !private "20MapboxCoreNavigation16RouteLegProgressC"
+- !private "20MapboxCoreNavigation13RouteProgressC"
+- !private "20MapboxCoreNavigation17RouteStepProgressC"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "20MapboxCoreNavigation24SimulatedLocationManagerC"
+- "20MapboxCoreNavigation25TunnelIntersectionManagerC"
+- "20MapboxCoreNavigation33TunnelIntersectionManagerDelegateP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "4e95f0ea5e780146560a5602a1ce8f65"

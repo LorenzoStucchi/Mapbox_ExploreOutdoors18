@@ -1,0 +1,708 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationRadians"
+- "RadianDistance"
+- "RadianDirection"
+- "metersPerRadian"
+- "equatorialRadius"
+- "RadianCoordinate2D"
+- "LineSegment"
+- "Turf"
+- "Ring"
+provides-nominal:
+- "4Turf18RadianCoordinate2DV"
+- "4TurfAAV"
+- "4Turf10LineStringV17IndexedCoordinateV"
+- "4Turf4RingV"
+provides-member:
+- ["4Turf18RadianCoordinate2DV", ""]
+- ["4TurfAAV", ""]
+- ["4Turf10LineStringV", ""]
+- ["4Turf10LineStringV17IndexedCoordinateV", ""]
+- ["4Turf4RingV", ""]
+- ["4Turf7PolygonV", ""]
+- ["4Turf10LineStringV", "IndexedCoordinate"]
+- ["4Turf10LineStringV", "init"]
+- ["4Turf10LineStringV", "coordinateFromStart"]
+- ["4Turf10LineStringV", "distance"]
+- ["4Turf10LineStringV", "sliced"]
+- ["4Turf10LineStringV", "trimmed"]
+- ["4Turf10LineStringV", "closestCoordinate"]
+- ["4Turf7PolygonV", "area"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "*="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "BooleanLiteralType"
+- "CLLocationCoordinate2D"
+- "CLLocationDistance"
+- "Double"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "LineSegment"
+- "LineString"
+- "LocationRadians"
+- "Polygon"
+- "RadianCoordinate2D"
+- "RadianDirection"
+- "RadianDistance"
+- "Ring"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "Turf"
+- !private "abs"
+- !private "asin"
+- !private "assert"
+- !private "atan2"
+- !private "cos"
+- "equatorialRadius"
+- !private "max"
+- "metersPerRadian"
+- !private "pow"
+- !private "round"
+- !private "sin"
+- !private "sqrt"
+- !private "zip"
+- !private "||"
+depends-member:
+- ["Sa", "Element"]
+- ["Sa", "Index"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "indices"]
+- !private ["Sa", "init"]
+- !private ["Sa", "insert"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "prefix"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "suffix"]
+- !private ["s10ArraySliceV", "coordinate"]
+- !private ["s10ArraySliceV", "direction"]
+- !private ["s10ArraySliceV", "distance"]
+- !private ["s10ArraySliceV", "reversed"]
+- ["s23BidirectionalCollectionP", "Element"]
+- ["s23BidirectionalCollectionP", "Index"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "coordinate"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "direction"]
+- !private ["s23BidirectionalCollectionP", "distance"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "indices"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "insert"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- !private ["s19BinaryFloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s19BinaryFloatingPointP", "toRadians"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC22CLLocationCoordinate2DV", "coordinate"]
+- !private ["SC22CLLocationCoordinate2DV", "deinit"]
+- !private ["SC22CLLocationCoordinate2DV", "direction"]
+- !private ["SC22CLLocationCoordinate2DV", "distance"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- ["s7CVarArgP", "Element"]
+- ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "indices"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "prefix"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s7CVarArgP", "toRadians"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "coordinate"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "direction"]
+- !private ["s10CollectionP", "distance"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "indices"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "reversed"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "suffix"]
+- !private ["s10ComparableP", "greatestFiniteMagnitude"]
+- !private ["s10ComparableP", "toRadians"]
+- !private ["s14CountableRangeV", "last"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "indices"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s28CustomDebugStringConvertibleP", "toRadians"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toRadians"]
+- ["s17CustomReflectableP", "Element"]
+- ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "coordinate"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "direction"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "indices"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s17CustomReflectableP", "toRadians"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "indices"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s23CustomStringConvertibleP", "toRadians"]
+- !private ["s9DecodableP", "Array"]
+- ["s9DecodableP", "Element"]
+- ["s9DecodableP", "Index"]
+- !private ["s9DecodableP", "IndexedCoordinate"]
+- !private ["s9DecodableP", "LineString"]
+- !private ["s9DecodableP", "Turf"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "abs"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "area"]
+- !private ["s9DecodableP", "assert"]
+- !private ["s9DecodableP", "closestCoordinate"]
+- !private ["s9DecodableP", "coordinate"]
+- !private ["s9DecodableP", "coordinates"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "direction"]
+- !private ["s9DecodableP", "distance"]
+- !private ["s9DecodableP", "equatorialRadius"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "greatestFiniteMagnitude"]
+- !private ["s9DecodableP", "indices"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "innerRings"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "latitude"]
+- !private ["s9DecodableP", "longitude"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "max"]
+- !private ["s9DecodableP", "outerRing"]
+- !private ["s9DecodableP", "prefix"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "round"]
+- !private ["s9DecodableP", "sin"]
+- !private ["s9DecodableP", "sliced"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "suffix"]
+- !private ["s9DecodableP", "toRadians"]
+- !private ["s9DecodableP", "zip"]
+- !private ["Sd", "greatestFiniteMagnitude"]
+- !private ["Sd", "toRadians"]
+- !private ["s9EncodableP", "Array"]
+- ["s9EncodableP", "Element"]
+- ["s9EncodableP", "Index"]
+- !private ["s9EncodableP", "IndexedCoordinate"]
+- !private ["s9EncodableP", "LineString"]
+- !private ["s9EncodableP", "Turf"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "abs"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "area"]
+- !private ["s9EncodableP", "assert"]
+- !private ["s9EncodableP", "closestCoordinate"]
+- !private ["s9EncodableP", "coordinate"]
+- !private ["s9EncodableP", "coordinates"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "direction"]
+- !private ["s9EncodableP", "distance"]
+- !private ["s9EncodableP", "equatorialRadius"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "greatestFiniteMagnitude"]
+- !private ["s9EncodableP", "indices"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "innerRings"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "latitude"]
+- !private ["s9EncodableP", "longitude"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "max"]
+- !private ["s9EncodableP", "outerRing"]
+- !private ["s9EncodableP", "prefix"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "round"]
+- !private ["s9EncodableP", "sin"]
+- !private ["s9EncodableP", "sliced"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "suffix"]
+- !private ["s9EncodableP", "toRadians"]
+- !private ["s9EncodableP", "zip"]
+- !private ["s9EquatableP", "Array"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "Index"]
+- !private ["s9EquatableP", "IndexedCoordinate"]
+- !private ["s9EquatableP", "LineString"]
+- !private ["s9EquatableP", "Turf"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "abs"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "closestCoordinate"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "coordinates"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "direction"]
+- !private ["s9EquatableP", "distance"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "greatestFiniteMagnitude"]
+- !private ["s9EquatableP", "indices"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "innerRings"]
+- !private ["s9EquatableP", "insert"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "latitude"]
+- !private ["s9EquatableP", "longitude"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "outerRing"]
+- !private ["s9EquatableP", "prefix"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "reversed"]
+- !private ["s9EquatableP", "round"]
+- !private ["s9EquatableP", "sliced"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "toRadians"]
+- !private ["s9EquatableP", "zip"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "Index"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "coordinate"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "direction"]
+- !private ["s25ExpressibleByArrayLiteralP", "distance"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "indices"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "prefix"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "toRadians"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "toRadians"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "greatestFiniteMagnitude"]
+- !private ["s13FloatingPointP", "toRadians"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "greatestFiniteMagnitude"]
+- !private ["s8HashableP", "toRadians"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "Array"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "CLLocationCoordinate2D"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "CLLocationDistance"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "coordinate"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "distance"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "index"]
+- ["4Turf10LineStringV17IndexedCoordinateV", "init"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "greatestFiniteMagnitude"]
+- !private ["4Turf8JSONTypeP", "toRadians"]
+- ["4Turf10LineStringV", "Array"]
+- !private ["4Turf10LineStringV", "Bool"]
+- ["4Turf10LineStringV", "CLLocationCoordinate2D"]
+- ["4Turf10LineStringV", "CLLocationDistance"]
+- ["4Turf10LineStringV", "IndexedCoordinate"]
+- ["4Turf10LineStringV", "LineString"]
+- !private ["4Turf10LineStringV", "Turf"]
+- !private ["4Turf10LineStringV", "abs"]
+- !private ["4Turf10LineStringV", "assert"]
+- ["4Turf10LineStringV", "closestCoordinate"]
+- ["4Turf10LineStringV", "coordinateFromStart"]
+- !private ["4Turf10LineStringV", "coordinates"]
+- !private ["4Turf10LineStringV", "deinit"]
+- ["4Turf10LineStringV", "distance"]
+- ["4Turf10LineStringV", "init"]
+- !private ["4Turf10LineStringV", "max"]
+- !private ["4Turf10LineStringV", "round"]
+- ["4Turf10LineStringV", "sliced"]
+- ["4Turf10LineStringV", "trimmed"]
+- !private ["4Turf10LineStringV", "zip"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "toRadians"]
+- ["s17MutableCollectionP", "Element"]
+- ["s17MutableCollectionP", "Index"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "coordinate"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "direction"]
+- !private ["s17MutableCollectionP", "distance"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "indices"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "insert"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "prefix"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "reversed"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "suffix"]
+- !private ["s7NumericP", "greatestFiniteMagnitude"]
+- !private ["s7NumericP", "toRadians"]
+- ["4Turf7PolygonV", "Double"]
+- !private ["4Turf7PolygonV", "abs"]
+- ["4Turf7PolygonV", "area"]
+- !private ["4Turf7PolygonV", "innerRings"]
+- !private ["4Turf7PolygonV", "outerRing"]
+- ["4Turf18RadianCoordinate2DV", "CLLocationCoordinate2D"]
+- ["4Turf18RadianCoordinate2DV", "LocationRadians"]
+- ["4Turf18RadianCoordinate2DV", "RadianCoordinate2D"]
+- ["4Turf18RadianCoordinate2DV", "RadianDirection"]
+- ["4Turf18RadianCoordinate2DV", "RadianDistance"]
+- !private ["4Turf18RadianCoordinate2DV", "asin"]
+- !private ["4Turf18RadianCoordinate2DV", "atan2"]
+- ["4Turf18RadianCoordinate2DV", "coordinate"]
+- !private ["4Turf18RadianCoordinate2DV", "cos"]
+- ["4Turf18RadianCoordinate2DV", "direction"]
+- ["4Turf18RadianCoordinate2DV", "distance"]
+- ["4Turf18RadianCoordinate2DV", "init"]
+- ["4Turf18RadianCoordinate2DV", "latitude"]
+- ["4Turf18RadianCoordinate2DV", "longitude"]
+- !private ["4Turf18RadianCoordinate2DV", "pow"]
+- !private ["4Turf18RadianCoordinate2DV", "sin"]
+- !private ["4Turf18RadianCoordinate2DV", "sqrt"]
+- ["s22RandomAccessCollectionP", "Element"]
+- ["s22RandomAccessCollectionP", "Index"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "coordinate"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "direction"]
+- !private ["s22RandomAccessCollectionP", "distance"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "indices"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "insert"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "prefix"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s15RangeExpressionP", "last"]
+- ["s26RangeReplaceableCollectionP", "Element"]
+- ["s26RangeReplaceableCollectionP", "Index"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "coordinate"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "direction"]
+- !private ["s26RangeReplaceableCollectionP", "distance"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "indices"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "insert"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "prefix"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- ["4Turf4RingV", "CLLocationCoordinate2D"]
+- ["4Turf4RingV", "Double"]
+- !private ["4Turf4RingV", "Int"]
+- ["4Turf4RingV", "area"]
+- ["4Turf4RingV", "coordinates"]
+- ["4Turf4RingV", "deinit"]
+- !private ["4Turf4RingV", "equatorialRadius"]
+- ["4Turf4RingV", "init"]
+- !private ["4Turf4RingV", "sin"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "coordinate"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "direction"]
+- !private ["s8SequenceP", "distance"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "indices"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "reversed"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "suffix"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "toRadians"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "greatestFiniteMagnitude"]
+- !private ["s10StrideableP", "toRadians"]
+- ["4TurfAAV", "CLLocationCoordinate2D"]
+- ["4TurfAAV", "LineSegment"]
+- ["4TurfAAV", "init"]
+- ["4TurfAAV", "intersection"]
+- !private ["s12Zip2SequenceV", "map"]
+- ["s14_ArrayProtocolP", "Element"]
+- ["s14_ArrayProtocolP", "Index"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "coordinate"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "direction"]
+- !private ["s14_ArrayProtocolP", "distance"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "indices"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "insert"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "prefix"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "toRadians"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "toRadians"]
+- ["s24_DestructorSafeContainerP", "Element"]
+- ["s24_DestructorSafeContainerP", "Index"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "coordinate"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "direction"]
+- !private ["s24_DestructorSafeContainerP", "distance"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "indices"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "insert"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "prefix"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "toRadians"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "toRadians"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s21_ObjectiveCBridgeableP", "Element"]
+- ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "coordinate"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "direction"]
+- !private ["s21_ObjectiveCBridgeableP", "distance"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "indices"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- !private ["s21_ObjectiveCBridgeableP", "toRadians"]
+depends-nominal:
+- "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "SC22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- "4Turf10LineStringV17IndexedCoordinateV"
+- !private "4Turf8JSONTypeP"
+- "4Turf10LineStringV"
+- !private "s25LosslessStringConvertibleP"
+- "s17MutableCollectionP"
+- !private "s7NumericP"
+- "4Turf7PolygonV"
+- "4Turf18RadianCoordinate2DV"
+- "s22RandomAccessCollectionP"
+- !private "s15RangeExpressionP"
+- "s26RangeReplaceableCollectionP"
+- "4Turf4RingV"
+- "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "4TurfAAV"
+- !private "s12Zip2SequenceV"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f4ccd60fadd2844dcb864729eeac7d3a"

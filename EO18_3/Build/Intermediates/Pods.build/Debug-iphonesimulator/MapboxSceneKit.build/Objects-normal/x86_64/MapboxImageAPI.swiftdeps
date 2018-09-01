@@ -1,0 +1,919 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapboxImageAPI"
+provides-nominal:
+- "14MapboxSceneKit0A8ImageAPIC"
+provides-member:
+- ["14MapboxSceneKit0A8ImageAPIC", ""]
+provides-dynamic-lookup:
+- "TileImageFormatJPG100"
+- "TileImageFormatJPG70"
+- "TileImageFormatJPG80"
+- "TileImageFormatJPG90"
+- "TileImageFormatPNG"
+- "cancelRequestWithID"
+- "image"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "/"
+- !private "=="
+- !private "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- !private "CGFloat"
+- "CGSize"
+- "CLLocationDegrees"
+- "CastingPrecedence"
+- !private "DispatchGroup"
+- "DispatchQueue"
+- "Float"
+- !private "ImageBuilder"
+- "Int"
+- "MMEEventsManager"
+- "MapboxHTTPAPI"
+- "MapboxImageAPI"
+- !private "Math"
+- !private "NSDictionary"
+- !private "NSLog"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UIEdgeInsets"
+- "UIImage"
+- !private "UIImagePNGRepresentation"
+- "UUID"
+- "UnicodeScalarType"
+- "Void"
+- !private "assert"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- !private ["Sa", "max"]
+- !private ["Sa", "min"]
+- ["So13DispatchQueueC0A0E10AttributesV", "concurrent"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "max"]
+- !private ["s23BidirectionalCollectionP", "min"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "object"]
+- !private ["So6BundleC", "path"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "DispatchGroup"]
+- ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "ImageBuilder"]
+- !private ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "MMEEventsManager"]
+- !private ["s7CVarArgP", "MapboxHTTPAPI"]
+- !private ["s7CVarArgP", "MapboxImageAPI"]
+- !private ["s7CVarArgP", "Math"]
+- !private ["s7CVarArgP", "NSDictionary"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TileImageFormatPNG"]
+- !private ["s7CVarArgP", "UIEdgeInsets"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImagePNGRepresentation"]
+- ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "cancelRequestWithID"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "disableLocationMetrics"]
+- !private ["s7CVarArgP", "enter"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "eventsManager"]
+- !private ["s7CVarArgP", "httpAPI"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "isMetricsEnabledForInUsePermissions"]
+- !private ["s7CVarArgP", "isMetricsEnabledInSimulator"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "leave"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "min"]
+- !private ["s7CVarArgP", "notify"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "pendingFetches"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "sendTurnstileEvent"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "styleSize"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tileSize"]
+- !private ["s7CVarArgP", "tiles"]
+- !private ["s11ClosedRangeV", "map"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "enumerated"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "keys"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "max"]
+- !private ["s10CollectionP", "min"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s20CountableClosedRangeV", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchGroup"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageBuilder"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "MMEEventsManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MapboxHTTPAPI"]
+- !private ["s28CustomDebugStringConvertibleP", "MapboxImageAPI"]
+- !private ["s28CustomDebugStringConvertibleP", "Math"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TileImageFormatPNG"]
+- !private ["s28CustomDebugStringConvertibleP", "UIEdgeInsets"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImagePNGRepresentation"]
+- ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelRequestWithID"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "disableLocationMetrics"]
+- !private ["s28CustomDebugStringConvertibleP", "enter"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "eventsManager"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "httpAPI"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "isMetricsEnabledForInUsePermissions"]
+- !private ["s28CustomDebugStringConvertibleP", "isMetricsEnabledInSimulator"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "leave"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "min"]
+- !private ["s28CustomDebugStringConvertibleP", "notify"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pendingFetches"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "sendTurnstileEvent"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "styleSize"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tileSize"]
+- !private ["s28CustomDebugStringConvertibleP", "tiles"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "min"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "DispatchGroup"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "ImageBuilder"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "MMEEventsManager"]
+- !private ["s23CustomStringConvertibleP", "MapboxHTTPAPI"]
+- !private ["s23CustomStringConvertibleP", "MapboxImageAPI"]
+- !private ["s23CustomStringConvertibleP", "Math"]
+- !private ["s23CustomStringConvertibleP", "NSDictionary"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TileImageFormatPNG"]
+- !private ["s23CustomStringConvertibleP", "UIEdgeInsets"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImagePNGRepresentation"]
+- ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "cancelRequestWithID"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "disableLocationMetrics"]
+- !private ["s23CustomStringConvertibleP", "enter"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "eventsManager"]
+- !private ["s23CustomStringConvertibleP", "httpAPI"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- !private ["s23CustomStringConvertibleP", "isMetricsEnabledForInUsePermissions"]
+- !private ["s23CustomStringConvertibleP", "isMetricsEnabledInSimulator"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "leave"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "notify"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pendingFetches"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "sendTurnstileEvent"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "styleSize"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tileSize"]
+- !private ["s23CustomStringConvertibleP", "tiles"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "enumerated"]
+- !private ["s9DecodableP", "height"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "keys"]
+- !private ["s9DecodableP", "max"]
+- !private ["s9DecodableP", "min"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "width"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "keys"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So13DispatchGroupC", "enter"]
+- !private ["So13DispatchGroupC", "init"]
+- !private ["So13DispatchGroupC", "leave"]
+- !private ["So13DispatchGroupC", "notify"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "enter"]
+- !private ["So14DispatchObjectC", "init"]
+- !private ["So14DispatchObjectC", "leave"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So14DispatchObjectC", "notify"]
+- !private ["So13DispatchQueueC", "async"]
+- ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "enumerated"]
+- !private ["s9EncodableP", "height"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "keys"]
+- !private ["s9EncodableP", "max"]
+- !private ["s9EncodableP", "min"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "CGFloat"]
+- ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "DispatchGroup"]
+- ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "ImageBuilder"]
+- !private ["s9EquatableP", "Int"]
+- ["s9EquatableP", "MMEEventsManager"]
+- !private ["s9EquatableP", "MapboxHTTPAPI"]
+- !private ["s9EquatableP", "MapboxImageAPI"]
+- !private ["s9EquatableP", "Math"]
+- !private ["s9EquatableP", "NSDictionary"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "TileImageFormatPNG"]
+- !private ["s9EquatableP", "UIEdgeInsets"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIImagePNGRepresentation"]
+- ["s9EquatableP", "UUID"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "bottom"]
+- !private ["s9EquatableP", "cancelRequestWithID"]
+- ["s9EquatableP", "concurrent"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "disableLocationMetrics"]
+- !private ["s9EquatableP", "enter"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "eventsManager"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "httpAPI"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- !private ["s9EquatableP", "isMetricsEnabledForInUsePermissions"]
+- !private ["s9EquatableP", "isMetricsEnabledInSimulator"]
+- !private ["s9EquatableP", "keys"]
+- !private ["s9EquatableP", "leave"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "min"]
+- !private ["s9EquatableP", "notify"]
+- !private ["s9EquatableP", "object"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "pendingFetches"]
+- !private ["s9EquatableP", "queue"]
+- !private ["s9EquatableP", "removeValue"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "sendTurnstileEvent"]
+- ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "styleSize"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tileSize"]
+- !private ["s9EquatableP", "tiles"]
+- !private ["s9EquatableP", "top"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "max"]
+- !private ["s25ExpressibleByArrayLiteralP", "min"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "CGFloat"]
+- ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "DispatchGroup"]
+- ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "ImageBuilder"]
+- !private ["s8HashableP", "Int"]
+- ["s8HashableP", "MMEEventsManager"]
+- !private ["s8HashableP", "MapboxHTTPAPI"]
+- !private ["s8HashableP", "MapboxImageAPI"]
+- !private ["s8HashableP", "Math"]
+- !private ["s8HashableP", "NSDictionary"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "TileImageFormatPNG"]
+- !private ["s8HashableP", "UIEdgeInsets"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIImagePNGRepresentation"]
+- ["s8HashableP", "UUID"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "assert"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "cancelRequestWithID"]
+- !private ["s8HashableP", "disableLocationMetrics"]
+- !private ["s8HashableP", "enter"]
+- !private ["s8HashableP", "eventsManager"]
+- !private ["s8HashableP", "httpAPI"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- !private ["s8HashableP", "isMetricsEnabledForInUsePermissions"]
+- !private ["s8HashableP", "isMetricsEnabledInSimulator"]
+- !private ["s8HashableP", "leave"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "notify"]
+- !private ["s8HashableP", "object"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "pendingFetches"]
+- !private ["s8HashableP", "queue"]
+- !private ["s8HashableP", "sendTurnstileEvent"]
+- ["s8HashableP", "shared"]
+- !private ["s8HashableP", "styleSize"]
+- !private ["s8HashableP", "tileSize"]
+- !private ["s8HashableP", "tiles"]
+- !private ["14MapboxSceneKit12ImageBuilderC", "addTile"]
+- !private ["14MapboxSceneKit12ImageBuilderC", "init"]
+- !private ["14MapboxSceneKit12ImageBuilderC", "makeImage"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["So16MMEEventsManagerC", "disableLocationMetrics"]
+- !private ["So16MMEEventsManagerC", "initialize"]
+- !private ["So16MMEEventsManagerC", "isMetricsEnabledForInUsePermissions"]
+- !private ["So16MMEEventsManagerC", "isMetricsEnabledInSimulator"]
+- !private ["So16MMEEventsManagerC", "sendTurnstileEvent"]
+- ["So16MMEEventsManagerC", "shared"]
+- !private ["14MapboxSceneKit0A7HTTPAPIC", "cancelRequestWithID"]
+- !private ["14MapboxSceneKit0A7HTTPAPIC", "init"]
+- !private ["14MapboxSceneKit0A7HTTPAPIC", "style"]
+- !private ["14MapboxSceneKit0A7HTTPAPIC", "tileset"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "AnyObject"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "Bundle"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "CGFloat"]
+- ["14MapboxSceneKit0A8ImageAPIC", "CGSize"]
+- ["14MapboxSceneKit0A8ImageAPIC", "CLLocationDegrees"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "DispatchGroup"]
+- ["14MapboxSceneKit0A8ImageAPIC", "DispatchQueue"]
+- ["14MapboxSceneKit0A8ImageAPIC", "Float"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "ImageBuilder"]
+- ["14MapboxSceneKit0A8ImageAPIC", "Int"]
+- ["14MapboxSceneKit0A8ImageAPIC", "MMEEventsManager"]
+- ["14MapboxSceneKit0A8ImageAPIC", "MapboxHTTPAPI"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "MapboxImageAPI"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "Math"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "NSDictionary"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "NSLog"]
+- ["14MapboxSceneKit0A8ImageAPIC", "String"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileImageFormatJPG100"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileImageFormatJPG70"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileImageFormatJPG80"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileImageFormatJPG90"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileImageFormatPNG"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileLoadCompletion"]
+- ["14MapboxSceneKit0A8ImageAPIC", "TileLoadProgressCallback"]
+- ["14MapboxSceneKit0A8ImageAPIC", "UIEdgeInsets"]
+- ["14MapboxSceneKit0A8ImageAPIC", "UIImage"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "UIImagePNGRepresentation"]
+- ["14MapboxSceneKit0A8ImageAPIC", "UUID"]
+- ["14MapboxSceneKit0A8ImageAPIC", "Void"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "assert"]
+- ["14MapboxSceneKit0A8ImageAPIC", "cancelRequestWithID"]
+- ["14MapboxSceneKit0A8ImageAPIC", "deinit"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "eventsManager"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "httpAPI"]
+- ["14MapboxSceneKit0A8ImageAPIC", "image"]
+- ["14MapboxSceneKit0A8ImageAPIC", "init"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "pendingFetches"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "queue"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "styleSize"]
+- !private ["14MapboxSceneKit0A8ImageAPIC", "tileSize"]
+- ["14MapboxSceneKit0A8ImageAPIC", "tiles"]
+- !private ["14MapboxSceneKit4MathC", "latLng2tile"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "max"]
+- !private ["s17MutableCollectionP", "min"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "CLLocationDegrees"]
+- !private ["So8NSObjectC", "DispatchGroup"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "ImageBuilder"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "MMEEventsManager"]
+- ["So8NSObjectC", "MapboxHTTPAPI"]
+- !private ["So8NSObjectC", "MapboxImageAPI"]
+- !private ["So8NSObjectC", "Math"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSLog"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TileImageFormatJPG100"]
+- ["So8NSObjectC", "TileImageFormatJPG70"]
+- ["So8NSObjectC", "TileImageFormatJPG80"]
+- ["So8NSObjectC", "TileImageFormatJPG90"]
+- ["So8NSObjectC", "TileImageFormatPNG"]
+- ["So8NSObjectC", "TileLoadCompletion"]
+- ["So8NSObjectC", "TileLoadProgressCallback"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImagePNGRepresentation"]
+- ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "assert"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "cancelRequestWithID"]
+- !private ["So8NSObjectC", "disableLocationMetrics"]
+- !private ["So8NSObjectC", "enter"]
+- ["So8NSObjectC", "eventsManager"]
+- ["So8NSObjectC", "httpAPI"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initialize"]
+- !private ["So8NSObjectC", "isMetricsEnabledForInUsePermissions"]
+- !private ["So8NSObjectC", "isMetricsEnabledInSimulator"]
+- !private ["So8NSObjectC", "leave"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notify"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "path"]
+- ["So8NSObjectC", "pendingFetches"]
+- ["So8NSObjectC", "queue"]
+- !private ["So8NSObjectC", "sendTurnstileEvent"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "styleSize"]
+- ["So8NSObjectC", "tileSize"]
+- ["So8NSObjectC", "tiles"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "DispatchGroup"]
+- ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- !private ["So16NSObjectProtocolP", "ImageBuilder"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- ["So16NSObjectProtocolP", "MMEEventsManager"]
+- !private ["So16NSObjectProtocolP", "MapboxHTTPAPI"]
+- !private ["So16NSObjectProtocolP", "MapboxImageAPI"]
+- !private ["So16NSObjectProtocolP", "Math"]
+- !private ["So16NSObjectProtocolP", "NSDictionary"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "TileImageFormatPNG"]
+- !private ["So16NSObjectProtocolP", "UIEdgeInsets"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIImagePNGRepresentation"]
+- ["So16NSObjectProtocolP", "UUID"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "assert"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "cancelRequestWithID"]
+- !private ["So16NSObjectProtocolP", "disableLocationMetrics"]
+- !private ["So16NSObjectProtocolP", "enter"]
+- !private ["So16NSObjectProtocolP", "eventsManager"]
+- !private ["So16NSObjectProtocolP", "httpAPI"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initialize"]
+- !private ["So16NSObjectProtocolP", "isMetricsEnabledForInUsePermissions"]
+- !private ["So16NSObjectProtocolP", "isMetricsEnabledInSimulator"]
+- !private ["So16NSObjectProtocolP", "leave"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "notify"]
+- !private ["So16NSObjectProtocolP", "object"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "pendingFetches"]
+- !private ["So16NSObjectProtocolP", "queue"]
+- !private ["So16NSObjectProtocolP", "sendTurnstileEvent"]
+- ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "styleSize"]
+- !private ["So16NSObjectProtocolP", "tileSize"]
+- !private ["So16NSObjectProtocolP", "tiles"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "enter"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "leave"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "notify"]
+- ["s9OptionSetP", "concurrent"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "max"]
+- !private ["s22RandomAccessCollectionP", "min"]
+- !private ["s15RangeExpressionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "max"]
+- !private ["s26RangeReplaceableCollectionP", "min"]
+- ["s16RawRepresentableP", "concurrent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "enumerated"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "keys"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "max"]
+- !private ["s8SequenceP", "min"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- ["s10SetAlgebraP", "concurrent"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["SC12UIEdgeInsetsV", "bottom"]
+- !private ["SC12UIEdgeInsetsV", "init"]
+- !private ["SC12UIEdgeInsetsV", "left"]
+- !private ["SC12UIEdgeInsetsV", "right"]
+- !private ["SC12UIEdgeInsetsV", "top"]
+- !private ["SC12UIEdgeInsetsV", "zero"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "max"]
+- !private ["s14_ArrayProtocolP", "min"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "max"]
+- !private ["s24_DestructorSafeContainerP", "min"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchGroup"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageBuilder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MMEEventsManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MapboxHTTPAPI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MapboxImageAPI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Math"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TileImageFormatPNG"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePNGRepresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelRequestWithID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disableLocationMetrics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "eventsManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpAPI"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMetricsEnabledForInUsePermissions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMetricsEnabledInSimulator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leave"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notify"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pendingFetches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendTurnstileEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "styleSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tileSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tiles"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "left"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "min"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "right"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "So13DispatchQueueC0A0E10AttributesV"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So6BundleC"
+- !private "12CoreGraphics7CGFloatV"
+- "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s11ClosedRangeV"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "s20CountableClosedRangeV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- !private "So13DispatchGroupC"
+- !private "So14DispatchObjectC"
+- "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "14MapboxSceneKit12ImageBuilderC"
+- "s25LosslessStringConvertibleP"
+- "So16MMEEventsManagerC"
+- !private "14MapboxSceneKit0A7HTTPAPIC"
+- "14MapboxSceneKit0A8ImageAPIC"
+- !private "14MapboxSceneKit4MathC"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s15RangeExpressionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "SC12UIEdgeInsetsV"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation4UUIDV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/Target Support Files/MapboxSceneKit/MapboxSceneKit-umbrella.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSceneKit.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "14fc0053abf94b63040db63f12c360c3"

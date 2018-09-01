@@ -1,0 +1,677 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GeoJSONObject"
+- "FeatureVariant"
+- "Feature"
+- "PointFeature"
+- "LineStringFeature"
+- "PolygonFeature"
+- "MultiPolygonFeature"
+- "MultiPointFeature"
+- "MultiLineStringFeature"
+- "FeatureCollection"
+- "GeoJSONType"
+- "GeoJSONError"
+- "GeoJSON"
+provides-nominal:
+- "4Turf13GeoJSONObjectP"
+- "4Turf14FeatureVariantO"
+- "4Turf7FeatureV"
+- "4Turf12PointFeatureV"
+- "4Turf17LineStringFeatureV"
+- "4Turf14PolygonFeatureV"
+- "4Turf19MultiPolygonFeatureV"
+- "4Turf17MultiPointFeatureV"
+- "4Turf22MultiLineStringFeatureV"
+- "4Turf17FeatureCollectionV"
+- "4Turf11GeoJSONTypeO"
+- "4Turf12GeoJSONErrorO"
+- "4Turf7GeoJSONC"
+provides-member:
+- ["4Turf13GeoJSONObjectP", ""]
+- ["4Turf14FeatureVariantO", ""]
+- ["4Turf7FeatureV", ""]
+- ["4Turf12PointFeatureV", ""]
+- ["4Turf17LineStringFeatureV", ""]
+- ["4Turf14PolygonFeatureV", ""]
+- ["4Turf19MultiPolygonFeatureV", ""]
+- ["4Turf17MultiPointFeatureV", ""]
+- ["4Turf22MultiLineStringFeatureV", ""]
+- ["4Turf17FeatureCollectionV", ""]
+- ["4Turf11GeoJSONTypeO", ""]
+- ["4Turf12GeoJSONErrorO", ""]
+- ["4Turf7GeoJSONC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AnyJSONType"
+- "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- "Data"
+- "Decoder"
+- "Encoder"
+- "Error"
+- "Feature"
+- "FeatureCollection"
+- "FeatureIdentifier"
+- "FeatureVariant"
+- "GeoJSON"
+- !private "GeoJSONCodingKeys"
+- "GeoJSONError"
+- "GeoJSONObject"
+- "GeoJSONType"
+- "Geometry"
+- !private "JSONDecoder"
+- "LineString"
+- "LineStringFeature"
+- "MultiLineString"
+- "MultiLineStringFeature"
+- "MultiPoint"
+- "MultiPointFeature"
+- "MultiPolygon"
+- "MultiPolygonFeature"
+- "Point"
+- "PointFeature"
+- "Polygon"
+- "PolygonFeature"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["4Turf11AnyJSONTypeV", "deinit"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "features"]
+- !private ["s9CodingKeyP", "geometry"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "identifier"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "properties"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "simplifiedGeometry"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "type"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "features"]
+- !private ["s28CustomDebugStringConvertibleP", "geometry"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "properties"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "simplifiedGeometry"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "features"]
+- !private ["s23CustomStringConvertibleP", "geometry"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "properties"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "simplifiedGeometry"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- ["s9DecodableP", "AnyJSONType"]
+- !private ["s9DecodableP", "CodingKeys"]
+- !private ["s9DecodableP", "Feature"]
+- !private ["s9DecodableP", "FeatureCollection"]
+- ["s9DecodableP", "FeatureIdentifier"]
+- !private ["s9DecodableP", "FeatureVariant"]
+- !private ["s9DecodableP", "GeoJSON"]
+- !private ["s9DecodableP", "GeoJSONCodingKeys"]
+- !private ["s9DecodableP", "GeoJSONError"]
+- !private ["s9DecodableP", "GeoJSONType"]
+- !private ["s9DecodableP", "Geometry"]
+- !private ["s9DecodableP", "JSONDecoder"]
+- !private ["s9DecodableP", "LineString"]
+- !private ["s9DecodableP", "LineStringFeature"]
+- !private ["s9DecodableP", "MultiLineString"]
+- !private ["s9DecodableP", "MultiLineStringFeature"]
+- !private ["s9DecodableP", "MultiPoint"]
+- !private ["s9DecodableP", "MultiPointFeature"]
+- !private ["s9DecodableP", "MultiPolygon"]
+- !private ["s9DecodableP", "MultiPolygonFeature"]
+- !private ["s9DecodableP", "Point"]
+- !private ["s9DecodableP", "PointFeature"]
+- !private ["s9DecodableP", "Polygon"]
+- !private ["s9DecodableP", "PolygonFeature"]
+- ["s9DecodableP", "String"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_findStringSwitchCase"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "decoded"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "features"]
+- !private ["s9DecodableP", "geometry"]
+- !private ["s9DecodableP", "geometryType"]
+- ["s9DecodableP", "identifier"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "lineStringFeature"]
+- ["s9DecodableP", "multiLineStringFeature"]
+- ["s9DecodableP", "multiPointFeature"]
+- ["s9DecodableP", "multiPolygonFeature"]
+- ["s9DecodableP", "pointFeature"]
+- ["s9DecodableP", "polygonFeature"]
+- ["s9DecodableP", "properties"]
+- !private ["s9DecodableP", "simplifiedGeometry"]
+- !private ["s9DecodableP", "type"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- ["s9EncodableP", "AnyJSONType"]
+- !private ["s9EncodableP", "CodingKeys"]
+- !private ["s9EncodableP", "Feature"]
+- !private ["s9EncodableP", "FeatureCollection"]
+- ["s9EncodableP", "FeatureIdentifier"]
+- !private ["s9EncodableP", "FeatureVariant"]
+- !private ["s9EncodableP", "GeoJSON"]
+- !private ["s9EncodableP", "GeoJSONCodingKeys"]
+- !private ["s9EncodableP", "GeoJSONError"]
+- !private ["s9EncodableP", "GeoJSONType"]
+- !private ["s9EncodableP", "Geometry"]
+- !private ["s9EncodableP", "JSONDecoder"]
+- !private ["s9EncodableP", "LineString"]
+- !private ["s9EncodableP", "LineStringFeature"]
+- !private ["s9EncodableP", "MultiLineString"]
+- !private ["s9EncodableP", "MultiLineStringFeature"]
+- !private ["s9EncodableP", "MultiPoint"]
+- !private ["s9EncodableP", "MultiPointFeature"]
+- !private ["s9EncodableP", "MultiPolygon"]
+- !private ["s9EncodableP", "MultiPolygonFeature"]
+- !private ["s9EncodableP", "Point"]
+- !private ["s9EncodableP", "PointFeature"]
+- !private ["s9EncodableP", "Polygon"]
+- !private ["s9EncodableP", "PolygonFeature"]
+- ["s9EncodableP", "String"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_findStringSwitchCase"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "decoded"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "features"]
+- !private ["s9EncodableP", "geometry"]
+- !private ["s9EncodableP", "geometryType"]
+- ["s9EncodableP", "identifier"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "lineStringFeature"]
+- ["s9EncodableP", "multiLineStringFeature"]
+- ["s9EncodableP", "multiPointFeature"]
+- ["s9EncodableP", "multiPolygonFeature"]
+- ["s9EncodableP", "pointFeature"]
+- ["s9EncodableP", "polygonFeature"]
+- ["s9EncodableP", "properties"]
+- !private ["s9EncodableP", "simplifiedGeometry"]
+- !private ["s9EncodableP", "type"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- ["s9EquatableP", "Feature"]
+- ["s9EquatableP", "FeatureCollection"]
+- ["s9EquatableP", "LineString"]
+- ["s9EquatableP", "MultiLineString"]
+- ["s9EquatableP", "MultiPoint"]
+- ["s9EquatableP", "MultiPolygon"]
+- ["s9EquatableP", "Point"]
+- ["s9EquatableP", "Polygon"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "features"]
+- !private ["s9EquatableP", "geometry"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "noTypeFound"]
+- !private ["s9EquatableP", "properties"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "simplifiedGeometry"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "unknownType"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "noTypeFound"]
+- !private ["s5ErrorP", "unknownType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["4Turf7FeatureV", "CodingKey"]
+- !private ["4Turf7FeatureV", "CodingKeys"]
+- ["4Turf7FeatureV", "Decoder"]
+- ["4Turf7FeatureV", "Encoder"]
+- ["4Turf7FeatureV", "GeoJSONType"]
+- ["4Turf7FeatureV", "Geometry"]
+- ["4Turf7FeatureV", "String"]
+- !private ["4Turf7FeatureV", "_findStringSwitchCase"]
+- ["4Turf7FeatureV", "deinit"]
+- ["4Turf7FeatureV", "encode"]
+- ["4Turf7FeatureV", "init"]
+- !private ["4Turf7FeatureV", "simplifiedGeometry"]
+- ["4Turf7FeatureV", "type"]
+- ["4Turf17FeatureCollectionV", "AnyJSONType"]
+- ["4Turf17FeatureCollectionV", "Array"]
+- ["4Turf17FeatureCollectionV", "CodingKey"]
+- !private ["4Turf17FeatureCollectionV", "CodingKeys"]
+- ["4Turf17FeatureCollectionV", "Decoder"]
+- ["4Turf17FeatureCollectionV", "Encoder"]
+- ["4Turf17FeatureCollectionV", "FeatureIdentifier"]
+- ["4Turf17FeatureCollectionV", "FeatureVariant"]
+- !private ["4Turf17FeatureCollectionV", "GeometryCodingKeys"]
+- ["4Turf17FeatureCollectionV", "String"]
+- !private ["4Turf17FeatureCollectionV", "_findStringSwitchCase"]
+- ["4Turf17FeatureCollectionV", "deinit"]
+- ["4Turf17FeatureCollectionV", "encode"]
+- ["4Turf17FeatureCollectionV", "features"]
+- ["4Turf17FeatureCollectionV", "identifier"]
+- ["4Turf17FeatureCollectionV", "init"]
+- ["4Turf17FeatureCollectionV", "properties"]
+- !private ["4Turf17FeatureIdentifierO", "deinit"]
+- ["4Turf14FeatureVariantO", "Decoder"]
+- ["4Turf14FeatureVariantO", "Encoder"]
+- ["4Turf14FeatureVariantO", "LineStringFeature"]
+- ["4Turf14FeatureVariantO", "MultiLineStringFeature"]
+- ["4Turf14FeatureVariantO", "MultiPointFeature"]
+- ["4Turf14FeatureVariantO", "MultiPolygonFeature"]
+- ["4Turf14FeatureVariantO", "PointFeature"]
+- ["4Turf14FeatureVariantO", "PolygonFeature"]
+- ["4Turf14FeatureVariantO", "deinit"]
+- ["4Turf14FeatureVariantO", "encode"]
+- ["4Turf14FeatureVariantO", "init"]
+- ["4Turf14FeatureVariantO", "lineStringFeature"]
+- ["4Turf14FeatureVariantO", "multiLineStringFeature"]
+- ["4Turf14FeatureVariantO", "multiPointFeature"]
+- ["4Turf14FeatureVariantO", "multiPolygonFeature"]
+- ["4Turf14FeatureVariantO", "pointFeature"]
+- ["4Turf14FeatureVariantO", "polygonFeature"]
+- ["4Turf14FeatureVariantO", "value"]
+- ["4Turf7GeoJSONC", "Codable"]
+- ["4Turf7GeoJSONC", "Data"]
+- ["4Turf7GeoJSONC", "Decoder"]
+- ["4Turf7GeoJSONC", "Encoder"]
+- !private ["4Turf7GeoJSONC", "Feature"]
+- !private ["4Turf7GeoJSONC", "FeatureCollection"]
+- ["4Turf7GeoJSONC", "GeoJSON"]
+- !private ["4Turf7GeoJSONC", "GeoJSONError"]
+- ["4Turf7GeoJSONC", "GeoJSONObject"]
+- !private ["4Turf7GeoJSONC", "JSONDecoder"]
+- !private ["4Turf7GeoJSONC", "LineStringFeature"]
+- !private ["4Turf7GeoJSONC", "MultiLineStringFeature"]
+- !private ["4Turf7GeoJSONC", "MultiPointFeature"]
+- !private ["4Turf7GeoJSONC", "MultiPolygonFeature"]
+- !private ["4Turf7GeoJSONC", "PointFeature"]
+- !private ["4Turf7GeoJSONC", "PolygonFeature"]
+- ["4Turf7GeoJSONC", "decoded"]
+- ["4Turf7GeoJSONC", "deinit"]
+- ["4Turf7GeoJSONC", "encode"]
+- ["4Turf7GeoJSONC", "init"]
+- ["4Turf7GeoJSONC", "parse"]
+- ["4Turf12GeoJSONErrorO", "__derived_enum_equals"]
+- ["4Turf12GeoJSONErrorO", "_code"]
+- ["4Turf12GeoJSONErrorO", "_domain"]
+- ["4Turf12GeoJSONErrorO", "_getEmbeddedNSError"]
+- ["4Turf12GeoJSONErrorO", "_userInfo"]
+- ["4Turf12GeoJSONErrorO", "deinit"]
+- ["4Turf12GeoJSONErrorO", "hashValue"]
+- ["4Turf12GeoJSONErrorO", "noTypeFound"]
+- ["4Turf12GeoJSONErrorO", "unknownType"]
+- ["4Turf13GeoJSONObjectP", "AnyJSONType"]
+- !private ["4Turf13GeoJSONObjectP", "CodingKeys"]
+- ["4Turf13GeoJSONObjectP", "FeatureIdentifier"]
+- !private ["4Turf13GeoJSONObjectP", "FeatureVariant"]
+- !private ["4Turf13GeoJSONObjectP", "GeoJSONCodingKeys"]
+- !private ["4Turf13GeoJSONObjectP", "LineString"]
+- !private ["4Turf13GeoJSONObjectP", "MultiLineString"]
+- !private ["4Turf13GeoJSONObjectP", "MultiPoint"]
+- !private ["4Turf13GeoJSONObjectP", "MultiPolygon"]
+- !private ["4Turf13GeoJSONObjectP", "Point"]
+- !private ["4Turf13GeoJSONObjectP", "Polygon"]
+- ["4Turf13GeoJSONObjectP", "String"]
+- ["4Turf13GeoJSONObjectP", ""]
+- !private ["4Turf13GeoJSONObjectP", "_findStringSwitchCase"]
+- ["4Turf13GeoJSONObjectP", "encode"]
+- !private ["4Turf13GeoJSONObjectP", "features"]
+- !private ["4Turf13GeoJSONObjectP", "geometry"]
+- ["4Turf13GeoJSONObjectP", "identifier"]
+- ["4Turf13GeoJSONObjectP", "init"]
+- ["4Turf13GeoJSONObjectP", "properties"]
+- ["4Turf11GeoJSONTypeO", "Feature"]
+- ["4Turf11GeoJSONTypeO", "FeatureCollection"]
+- ["4Turf11GeoJSONTypeO", "GeoJSONType"]
+- ["4Turf11GeoJSONTypeO", "RawValue"]
+- ["4Turf11GeoJSONTypeO", "_Default_RawValue"]
+- !private ["4Turf11GeoJSONTypeO", "_findStringSwitchCase"]
+- ["4Turf11GeoJSONTypeO", "allValues"]
+- ["4Turf11GeoJSONTypeO", "deinit"]
+- ["4Turf11GeoJSONTypeO", "hashValue"]
+- ["4Turf11GeoJSONTypeO", "init"]
+- ["4Turf11GeoJSONTypeO", "rawValue"]
+- !private ["4Turf8GeometryV", "deinit"]
+- !private ["4Turf8GeometryV", "geometryType"]
+- ["4Turf12GeometryTypeO", "LineString"]
+- ["4Turf12GeometryTypeO", "MultiLineString"]
+- ["4Turf12GeometryTypeO", "MultiPoint"]
+- ["4Turf12GeometryTypeO", "MultiPolygon"]
+- ["4Turf12GeometryTypeO", "Point"]
+- ["4Turf12GeometryTypeO", "Polygon"]
+- ["s8HashableP", "Feature"]
+- ["s8HashableP", "FeatureCollection"]
+- ["s8HashableP", "LineString"]
+- ["s8HashableP", "MultiLineString"]
+- ["s8HashableP", "MultiPoint"]
+- ["s8HashableP", "MultiPolygon"]
+- ["s8HashableP", "Point"]
+- ["s8HashableP", "Polygon"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_userInfo"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- !private ["s8HashableP", "features"]
+- !private ["s8HashableP", "geometry"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "noTypeFound"]
+- !private ["s8HashableP", "properties"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "simplifiedGeometry"]
+- ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "type"]
+- !private ["s8HashableP", "unknownType"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["4Turf10LineStringV", "deinit"]
+- ["4Turf17LineStringFeatureV", "AnyJSONType"]
+- ["4Turf17LineStringFeatureV", "Decoder"]
+- ["4Turf17LineStringFeatureV", "Encoder"]
+- ["4Turf17LineStringFeatureV", "FeatureIdentifier"]
+- !private ["4Turf17LineStringFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf17LineStringFeatureV", "LineString"]
+- ["4Turf17LineStringFeatureV", "String"]
+- ["4Turf17LineStringFeatureV", "deinit"]
+- ["4Turf17LineStringFeatureV", "encode"]
+- ["4Turf17LineStringFeatureV", "geometry"]
+- ["4Turf17LineStringFeatureV", "identifier"]
+- ["4Turf17LineStringFeatureV", "init"]
+- ["4Turf17LineStringFeatureV", "properties"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["4Turf15MultiLineStringV", "deinit"]
+- ["4Turf22MultiLineStringFeatureV", "AnyJSONType"]
+- ["4Turf22MultiLineStringFeatureV", "Decoder"]
+- ["4Turf22MultiLineStringFeatureV", "Encoder"]
+- ["4Turf22MultiLineStringFeatureV", "FeatureIdentifier"]
+- !private ["4Turf22MultiLineStringFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf22MultiLineStringFeatureV", "MultiLineString"]
+- ["4Turf22MultiLineStringFeatureV", "String"]
+- ["4Turf22MultiLineStringFeatureV", "deinit"]
+- ["4Turf22MultiLineStringFeatureV", "encode"]
+- ["4Turf22MultiLineStringFeatureV", "geometry"]
+- ["4Turf22MultiLineStringFeatureV", "identifier"]
+- ["4Turf22MultiLineStringFeatureV", "init"]
+- ["4Turf22MultiLineStringFeatureV", "properties"]
+- !private ["4Turf10MultiPointV", "deinit"]
+- ["4Turf17MultiPointFeatureV", "AnyJSONType"]
+- ["4Turf17MultiPointFeatureV", "Decoder"]
+- ["4Turf17MultiPointFeatureV", "Encoder"]
+- ["4Turf17MultiPointFeatureV", "FeatureIdentifier"]
+- !private ["4Turf17MultiPointFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf17MultiPointFeatureV", "MultiPoint"]
+- ["4Turf17MultiPointFeatureV", "String"]
+- ["4Turf17MultiPointFeatureV", "deinit"]
+- ["4Turf17MultiPointFeatureV", "encode"]
+- ["4Turf17MultiPointFeatureV", "geometry"]
+- ["4Turf17MultiPointFeatureV", "identifier"]
+- ["4Turf17MultiPointFeatureV", "init"]
+- ["4Turf17MultiPointFeatureV", "properties"]
+- !private ["4Turf12MultiPolygonV", "deinit"]
+- ["4Turf19MultiPolygonFeatureV", "AnyJSONType"]
+- ["4Turf19MultiPolygonFeatureV", "Decoder"]
+- ["4Turf19MultiPolygonFeatureV", "Encoder"]
+- ["4Turf19MultiPolygonFeatureV", "FeatureIdentifier"]
+- !private ["4Turf19MultiPolygonFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf19MultiPolygonFeatureV", "MultiPolygon"]
+- ["4Turf19MultiPolygonFeatureV", "String"]
+- ["4Turf19MultiPolygonFeatureV", "deinit"]
+- ["4Turf19MultiPolygonFeatureV", "encode"]
+- ["4Turf19MultiPolygonFeatureV", "geometry"]
+- ["4Turf19MultiPolygonFeatureV", "identifier"]
+- ["4Turf19MultiPolygonFeatureV", "init"]
+- ["4Turf19MultiPolygonFeatureV", "properties"]
+- !private ["4Turf5PointV", "deinit"]
+- ["4Turf12PointFeatureV", "AnyJSONType"]
+- ["4Turf12PointFeatureV", "Decoder"]
+- ["4Turf12PointFeatureV", "Encoder"]
+- ["4Turf12PointFeatureV", "FeatureIdentifier"]
+- !private ["4Turf12PointFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf12PointFeatureV", "Point"]
+- ["4Turf12PointFeatureV", "String"]
+- ["4Turf12PointFeatureV", "deinit"]
+- ["4Turf12PointFeatureV", "encode"]
+- ["4Turf12PointFeatureV", "geometry"]
+- ["4Turf12PointFeatureV", "identifier"]
+- ["4Turf12PointFeatureV", "init"]
+- ["4Turf12PointFeatureV", "properties"]
+- !private ["4Turf7PolygonV", "deinit"]
+- ["4Turf14PolygonFeatureV", "AnyJSONType"]
+- ["4Turf14PolygonFeatureV", "Decoder"]
+- ["4Turf14PolygonFeatureV", "Encoder"]
+- ["4Turf14PolygonFeatureV", "FeatureIdentifier"]
+- !private ["4Turf14PolygonFeatureV", "GeoJSONCodingKeys"]
+- ["4Turf14PolygonFeatureV", "Polygon"]
+- ["4Turf14PolygonFeatureV", "String"]
+- ["4Turf14PolygonFeatureV", "deinit"]
+- ["4Turf14PolygonFeatureV", "encode"]
+- ["4Turf14PolygonFeatureV", "geometry"]
+- ["4Turf14PolygonFeatureV", "identifier"]
+- ["4Turf14PolygonFeatureV", "init"]
+- ["4Turf14PolygonFeatureV", "properties"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "Feature"]
+- ["s16RawRepresentableP", "FeatureCollection"]
+- ["s16RawRepresentableP", "LineString"]
+- ["s16RawRepresentableP", "MultiLineString"]
+- ["s16RawRepresentableP", "MultiPoint"]
+- ["s16RawRepresentableP", "MultiPolygon"]
+- ["s16RawRepresentableP", "Point"]
+- ["s16RawRepresentableP", "Polygon"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "debugDescription"]
+- ["s16RawRepresentableP", "description"]
+- !private ["s16RawRepresentableP", "features"]
+- !private ["s16RawRepresentableP", "geometry"]
+- ["s16RawRepresentableP", "hashValue"]
+- !private ["s16RawRepresentableP", "identifier"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "intValue"]
+- !private ["s16RawRepresentableP", "properties"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "simplifiedGeometry"]
+- ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "type"]
+- ["s8SequenceP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Turf11AnyJSONTypeV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Turf7FeatureV"
+- "4Turf17FeatureCollectionV"
+- !private "4Turf17FeatureIdentifierO"
+- "4Turf14FeatureVariantO"
+- "4Turf7GeoJSONC"
+- "4Turf12GeoJSONErrorO"
+- "4Turf13GeoJSONObjectP"
+- "4Turf11GeoJSONTypeO"
+- !private "4Turf8GeometryV"
+- "4Turf12GeometryTypeO"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- "4Turf8JSONTypeP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "4Turf10LineStringV"
+- "4Turf17LineStringFeatureV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "4Turf15MultiLineStringV"
+- "4Turf22MultiLineStringFeatureV"
+- !private "4Turf10MultiPointV"
+- "4Turf17MultiPointFeatureV"
+- !private "4Turf12MultiPolygonV"
+- "4Turf19MultiPolygonFeatureV"
+- !private "4Turf5PointV"
+- "4Turf12PointFeatureV"
+- !private "4Turf7PolygonV"
+- "4Turf14PolygonFeatureV"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "750e118790ea753287cdcfc041fb0ba1"

@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONType"
+- "AnyJSONType"
+provides-nominal:
+- "4Turf8JSONTypeP"
+- "Si"
+- "SS"
+- "Sd"
+- "Sb"
+- "4Turf11AnyJSONTypeV"
+- "4Turf4RingV"
+provides-member:
+- ["4Turf8JSONTypeP", ""]
+- ["Si", ""]
+- ["SS", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["4Turf11AnyJSONTypeV", ""]
+- ["4Turf4RingV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyJSONType"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CLLocationCoordinate2D"
+- "CastingPrecedence"
+- "Codable"
+- "Decoder"
+- !private "DecodingError"
+- "Double"
+- "Encoder"
+- "Int"
+- "JSONType"
+- "Ring"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["4Turf11AnyJSONTypeV", "AnyJSONType"]
+- !private ["4Turf11AnyJSONTypeV", "Bool"]
+- ["4Turf11AnyJSONTypeV", "Decoder"]
+- !private ["4Turf11AnyJSONTypeV", "DecodingError"]
+- !private ["4Turf11AnyJSONTypeV", "Double"]
+- ["4Turf11AnyJSONTypeV", "Encoder"]
+- !private ["4Turf11AnyJSONTypeV", "Int"]
+- !private ["4Turf11AnyJSONTypeV", "JSONType"]
+- !private ["4Turf11AnyJSONTypeV", "String"]
+- ["4Turf11AnyJSONTypeV", "deinit"]
+- ["4Turf11AnyJSONTypeV", "encode"]
+- ["4Turf11AnyJSONTypeV", "init"]
+- ["4Turf11AnyJSONTypeV", "jsonValue"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "jsonValue"]
+- ["s19BinaryFloatingPointP", "jsonValue"]
+- ["s13BinaryIntegerP", "jsonValue"]
+- ["Sb", "deinit"]
+- ["Sb", "jsonValue"]
+- !private ["SC22CLLocationCoordinate2DV", "deinit"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "jsonValue"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "jsonValue"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "jsonValue"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "jsonValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "jsonValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "jsonValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "jsonValue"]
+- !private ["s9DecodableP", "AnyJSONType"]
+- !private ["s9DecodableP", "Bool"]
+- !private ["s9DecodableP", "CLLocationCoordinate2D"]
+- !private ["s9DecodableP", "DecodingError"]
+- !private ["s9DecodableP", "Double"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "JSONType"]
+- !private ["s9DecodableP", "Ring"]
+- !private ["s9DecodableP", "String"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "coordinates"]
+- ["s9DecodableP", "encode"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "jsonValue"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- ["Sd", "deinit"]
+- ["Sd", "jsonValue"]
+- !private ["s9EncodableP", "AnyJSONType"]
+- !private ["s9EncodableP", "Bool"]
+- !private ["s9EncodableP", "CLLocationCoordinate2D"]
+- !private ["s9EncodableP", "DecodingError"]
+- !private ["s9EncodableP", "Double"]
+- !private ["s9EncodableP", "Int"]
+- !private ["s9EncodableP", "JSONType"]
+- !private ["s9EncodableP", "Ring"]
+- !private ["s9EncodableP", "String"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "coordinates"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "jsonValue"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "jsonValue"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "typeMismatch"]
+- ["s27ExpressibleByBooleanLiteralP", "jsonValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "jsonValue"]
+- ["s25ExpressibleByFloatLiteralP", "jsonValue"]
+- ["s27ExpressibleByIntegerLiteralP", "jsonValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "jsonValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "jsonValue"]
+- ["s17FixedWidthIntegerP", "jsonValue"]
+- ["s13FloatingPointP", "jsonValue"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "jsonValue"]
+- ["Si", "deinit"]
+- ["Si", "jsonValue"]
+- !private ["4Turf8JSONTypeP", "AnyJSONType"]
+- !private ["4Turf8JSONTypeP", "Bool"]
+- !private ["4Turf8JSONTypeP", "DecodingError"]
+- !private ["4Turf8JSONTypeP", "Double"]
+- !private ["4Turf8JSONTypeP", "Int"]
+- !private ["4Turf8JSONTypeP", "JSONType"]
+- !private ["4Turf8JSONTypeP", "String"]
+- ["4Turf8JSONTypeP", ""]
+- ["4Turf8JSONTypeP", "encode"]
+- ["4Turf8JSONTypeP", "init"]
+- ["4Turf8JSONTypeP", "jsonValue"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "jsonValue"]
+- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "jsonValue"]
+- ["s7NumericP", "jsonValue"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "jsonValue"]
+- !private ["4Turf4RingV", "CLLocationCoordinate2D"]
+- ["4Turf4RingV", "Decoder"]
+- ["4Turf4RingV", "Encoder"]
+- !private ["4Turf4RingV", "Ring"]
+- !private ["4Turf4RingV", "coordinates"]
+- ["4Turf4RingV", "deinit"]
+- ["4Turf4RingV", "encode"]
+- ["4Turf4RingV", "init"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "jsonValue"]
+- ["s13SignedIntegerP", "jsonValue"]
+- ["s13SignedNumericP", "jsonValue"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- ["s10StrideableP", "jsonValue"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["SS", "jsonValue"]
+- !private ["s14StringProtocolP", "init"]
+- ["s14StringProtocolP", "jsonValue"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "jsonValue"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "jsonValue"]
+- ["s18_BitwiseOperationsP", "jsonValue"]
+- ["s15_CVarArgAlignedP", "jsonValue"]
+- ["s22_CVarArgPassedAsDoubleP", "jsonValue"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "jsonValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "jsonValue"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "jsonValue"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "jsonValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "jsonValue"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "jsonValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "jsonValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "jsonValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "jsonValue"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "jsonValue"]
+depends-nominal:
+- "4Turf11AnyJSONTypeV"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "s13BinaryIntegerP"
+- "Sb"
+- !private "SC22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "s13DecodingErrorO7ContextV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- "Sd"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "Si"
+- "4Turf8JSONTypeP"
+- !private "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "4Turf4RingV"
+- "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a1035fbcfc6e7093882d8af8b89c169f"

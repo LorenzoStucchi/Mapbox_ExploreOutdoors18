@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "2b62e8974862bf9c78d9830594d9728d"
+build_time: [1535018420, 602615000]
+inputs:
+  "/Users/Lorenzo/Desktop/Mapbox-3d/EO18_3/EO18_3Tests/EO18_3Tests.swift": [1535007309, 0]

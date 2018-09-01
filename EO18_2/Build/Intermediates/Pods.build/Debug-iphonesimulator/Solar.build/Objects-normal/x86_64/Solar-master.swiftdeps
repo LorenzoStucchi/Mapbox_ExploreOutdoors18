@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f0ddb94fd87e764b2e0ad76d4a72d04f"
+build_time: [1535745654, 866876000]
+inputs:
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Solar/Solar/Solar.swift": [1535745281, 0]

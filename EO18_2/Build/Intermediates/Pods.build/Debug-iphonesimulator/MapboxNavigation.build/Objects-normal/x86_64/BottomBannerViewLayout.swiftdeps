@@ -1,0 +1,1435 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["16MapboxNavigation16BottomBannerViewC", ""]
+- ["16MapboxNavigation16BottomBannerViewC", "setupViews"]
+- ["16MapboxNavigation16BottomBannerViewC", "traitCollectionDidChange"]
+provides-dynamic-lookup:
+- "traitCollectionDidChange"
+depends-top-level:
+- !private "!="
+- !private "/"
+- !private "=="
+- !private "ArrivalTimeLabel"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "BottomBannerView"
+- !private "CancelButton"
+- !private "DistanceRemainingLabel"
+- "NSLayoutConstraint"
+- !private "SeparatorView"
+- !private "StringLiteralType"
+- !private "TimeRemainingLabel"
+- !private "UIImage"
+- !private "UIScreen"
+- "UITraitCollection"
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "ArrivalTimeLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "CancelButton"]
+- !private ["16MapboxNavigation10AnchorableP", "DistanceRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "SeparatorView"]
+- !private ["16MapboxNavigation10AnchorableP", "TimeRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "UIImage"]
+- !private ["16MapboxNavigation10AnchorableP", "UIScreen"]
+- !private ["16MapboxNavigation10AnchorableP", "addSubview"]
+- !private ["16MapboxNavigation10AnchorableP", "arrivalTimeLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "bottomAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "cancelButton"]
+- !private ["16MapboxNavigation10AnchorableP", "centerYAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "distanceRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "font"]
+- !private ["16MapboxNavigation10AnchorableP", "heightAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "horizontalDividerView"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "lastBaselineAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "leadingAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "setImage"]
+- !private ["16MapboxNavigation10AnchorableP", "setupConstraints"]
+- !private ["16MapboxNavigation10AnchorableP", "setupVerticalCompactLayout"]
+- !private ["16MapboxNavigation10AnchorableP", "setupVerticalRegularLayout"]
+- !private ["16MapboxNavigation10AnchorableP", "timeRemainingLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "topAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "trailingAnchor"]
+- !private ["16MapboxNavigation10AnchorableP", "traitCollection"]
+- !private ["16MapboxNavigation10AnchorableP", "traitCollectionDidChange"]
+- !private ["16MapboxNavigation10AnchorableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["16MapboxNavigation10AnchorableP", "verticalCompactConstraints"]
+- !private ["16MapboxNavigation10AnchorableP", "verticalDividerView"]
+- !private ["16MapboxNavigation10AnchorableP", "verticalRegularConstraints"]
+- !private ["16MapboxNavigation10AnchorableP", "widthAnchor"]
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "centerYAnchor"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "deinit"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "init"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "trailingAnchor"]
+- !private ["16MapboxNavigation16ArrivalTimeLabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "ArrivalTimeLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "CancelButton"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "DistanceRemainingLabel"]
+- ["16MapboxNavigation16BottomBannerViewC", "NSLayoutConstraint"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "SeparatorView"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "TimeRemainingLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "UIImage"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "UIScreen"]
+- ["16MapboxNavigation16BottomBannerViewC", "UITraitCollection"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "addSubview"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "arrivalTimeLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "bottomAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "cancelButton"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "centerYAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "deinit"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "distanceRemainingLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "heightAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "horizontalDividerView"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "leadingAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "setupConstraints"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "setupVerticalCompactLayout"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "setupVerticalRegularLayout"]
+- ["16MapboxNavigation16BottomBannerViewC", "setupViews"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "timeRemainingLabel"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "topAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "trailingAnchor"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "traitCollection"]
+- ["16MapboxNavigation16BottomBannerViewC", "traitCollectionDidChange"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "verticalCompactConstraints"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "verticalDividerView"]
+- !private ["16MapboxNavigation16BottomBannerViewC", "verticalRegularConstraints"]
+- !private ["So6BundleC", "mapboxNavigation"]
+- !private ["16MapboxNavigation6ButtonC", "bottomAnchor"]
+- !private ["16MapboxNavigation6ButtonC", "centerYAnchor"]
+- !private ["16MapboxNavigation6ButtonC", "init"]
+- !private ["16MapboxNavigation6ButtonC", "leadingAnchor"]
+- !private ["16MapboxNavigation6ButtonC", "setImage"]
+- !private ["16MapboxNavigation6ButtonC", "topAnchor"]
+- !private ["16MapboxNavigation6ButtonC", "trailingAnchor"]
+- !private ["16MapboxNavigation6ButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["16MapboxNavigation6ButtonC", "widthAnchor"]
+- !private ["So15CALayerDelegateP", "ArrivalTimeLabel"]
+- !private ["So15CALayerDelegateP", "CancelButton"]
+- !private ["So15CALayerDelegateP", "DistanceRemainingLabel"]
+- !private ["So15CALayerDelegateP", "SeparatorView"]
+- !private ["So15CALayerDelegateP", "TimeRemainingLabel"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "UIScreen"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "arrivalTimeLabel"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- !private ["So15CALayerDelegateP", "cancelButton"]
+- !private ["So15CALayerDelegateP", "centerYAnchor"]
+- !private ["So15CALayerDelegateP", "distanceRemainingLabel"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "heightAnchor"]
+- !private ["So15CALayerDelegateP", "horizontalDividerView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "lastBaselineAnchor"]
+- !private ["So15CALayerDelegateP", "leadingAnchor"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- !private ["So15CALayerDelegateP", "setupConstraints"]
+- !private ["So15CALayerDelegateP", "setupVerticalCompactLayout"]
+- !private ["So15CALayerDelegateP", "setupVerticalRegularLayout"]
+- !private ["So15CALayerDelegateP", "timeRemainingLabel"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["So15CALayerDelegateP", "trailingAnchor"]
+- !private ["So15CALayerDelegateP", "traitCollection"]
+- !private ["So15CALayerDelegateP", "traitCollectionDidChange"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15CALayerDelegateP", "verticalCompactConstraints"]
+- !private ["So15CALayerDelegateP", "verticalDividerView"]
+- !private ["So15CALayerDelegateP", "verticalRegularConstraints"]
+- !private ["So15CALayerDelegateP", "widthAnchor"]
+- !private ["s7CVarArgP", "ArrivalTimeLabel"]
+- !private ["s7CVarArgP", "CancelButton"]
+- !private ["s7CVarArgP", "DistanceRemainingLabel"]
+- !private ["s7CVarArgP", "SeparatorView"]
+- !private ["s7CVarArgP", "TimeRemainingLabel"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arrivalTimeLabel"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- !private ["s7CVarArgP", "cancelButton"]
+- !private ["s7CVarArgP", "centerYAnchor"]
+- !private ["s7CVarArgP", "constraint"]
+- !private ["s7CVarArgP", "distanceRemainingLabel"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "heightAnchor"]
+- !private ["s7CVarArgP", "horizontalDividerView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isActive"]
+- !private ["s7CVarArgP", "lastBaselineAnchor"]
+- !private ["s7CVarArgP", "leadingAnchor"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "mapboxNavigation"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "setupConstraints"]
+- !private ["s7CVarArgP", "setupVerticalCompactLayout"]
+- !private ["s7CVarArgP", "setupVerticalRegularLayout"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "timeRemainingLabel"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s7CVarArgP", "trailingAnchor"]
+- !private ["s7CVarArgP", "traitCollection"]
+- !private ["s7CVarArgP", "traitCollectionDidChange"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "verticalCompactConstraints"]
+- !private ["s7CVarArgP", "verticalDividerView"]
+- !private ["s7CVarArgP", "verticalRegularConstraints"]
+- !private ["s7CVarArgP", "verticalSizeClass"]
+- !private ["s7CVarArgP", "widthAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "bottomAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "centerYAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "deinit"]
+- !private ["16MapboxNavigation12CancelButtonC", "init"]
+- !private ["16MapboxNavigation12CancelButtonC", "leadingAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "setImage"]
+- !private ["16MapboxNavigation12CancelButtonC", "topAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "trailingAnchor"]
+- !private ["16MapboxNavigation12CancelButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["16MapboxNavigation12CancelButtonC", "widthAnchor"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "medium"]
+- !private ["s28CustomDebugStringConvertibleP", "ArrivalTimeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "CancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "DistanceRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "SeparatorView"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrivalTimeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "constraint"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalDividerView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isActive"]
+- !private ["s28CustomDebugStringConvertibleP", "lastBaselineAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "mapboxNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setupConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "setupVerticalCompactLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "setupVerticalRegularLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "timeRemainingLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "traitCollection"]
+- !private ["s28CustomDebugStringConvertibleP", "traitCollectionDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalCompactConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalDividerView"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalRegularConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalSizeClass"]
+- !private ["s28CustomDebugStringConvertibleP", "widthAnchor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "ArrivalTimeLabel"]
+- !private ["s23CustomStringConvertibleP", "CancelButton"]
+- !private ["s23CustomStringConvertibleP", "DistanceRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "SeparatorView"]
+- !private ["s23CustomStringConvertibleP", "TimeRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrivalTimeLabel"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- !private ["s23CustomStringConvertibleP", "cancelButton"]
+- !private ["s23CustomStringConvertibleP", "centerYAnchor"]
+- !private ["s23CustomStringConvertibleP", "constraint"]
+- !private ["s23CustomStringConvertibleP", "distanceRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "heightAnchor"]
+- !private ["s23CustomStringConvertibleP", "horizontalDividerView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isActive"]
+- !private ["s23CustomStringConvertibleP", "lastBaselineAnchor"]
+- !private ["s23CustomStringConvertibleP", "leadingAnchor"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "mapboxNavigation"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "setupConstraints"]
+- !private ["s23CustomStringConvertibleP", "setupVerticalCompactLayout"]
+- !private ["s23CustomStringConvertibleP", "setupVerticalRegularLayout"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "timeRemainingLabel"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "trailingAnchor"]
+- !private ["s23CustomStringConvertibleP", "traitCollection"]
+- !private ["s23CustomStringConvertibleP", "traitCollectionDidChange"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "verticalCompactConstraints"]
+- !private ["s23CustomStringConvertibleP", "verticalDividerView"]
+- !private ["s23CustomStringConvertibleP", "verticalRegularConstraints"]
+- !private ["s23CustomStringConvertibleP", "verticalSizeClass"]
+- !private ["s23CustomStringConvertibleP", "widthAnchor"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "mapboxNavigation"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "deinit"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "font"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "init"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "lastBaselineAnchor"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "leadingAnchor"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "topAnchor"]
+- !private ["16MapboxNavigation22DistanceRemainingLabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "ArrivalTimeLabel"]
+- !private ["s9EquatableP", "CancelButton"]
+- !private ["s9EquatableP", "DistanceRemainingLabel"]
+- !private ["s9EquatableP", "SeparatorView"]
+- !private ["s9EquatableP", "TimeRemainingLabel"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIScreen"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "arrivalTimeLabel"]
+- !private ["s9EquatableP", "bottomAnchor"]
+- !private ["s9EquatableP", "cancelButton"]
+- !private ["s9EquatableP", "centerYAnchor"]
+- !private ["s9EquatableP", "compact"]
+- !private ["s9EquatableP", "constraint"]
+- !private ["s9EquatableP", "custom"]
+- !private ["s9EquatableP", "distanceRemainingLabel"]
+- !private ["s9EquatableP", "font"]
+- !private ["s9EquatableP", "forEach"]
+- !private ["s9EquatableP", "heightAnchor"]
+- !private ["s9EquatableP", "horizontalDividerView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isActive"]
+- !private ["s9EquatableP", "lastBaselineAnchor"]
+- !private ["s9EquatableP", "leadingAnchor"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "mapboxNavigation"]
+- !private ["s9EquatableP", "medium"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "setImage"]
+- !private ["s9EquatableP", "setupConstraints"]
+- !private ["s9EquatableP", "setupVerticalCompactLayout"]
+- !private ["s9EquatableP", "setupVerticalRegularLayout"]
+- !private ["s9EquatableP", "systemFont"]
+- !private ["s9EquatableP", "timeRemainingLabel"]
+- !private ["s9EquatableP", "topAnchor"]
+- !private ["s9EquatableP", "trailingAnchor"]
+- !private ["s9EquatableP", "traitCollection"]
+- !private ["s9EquatableP", "traitCollectionDidChange"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "verticalCompactConstraints"]
+- !private ["s9EquatableP", "verticalDividerView"]
+- !private ["s9EquatableP", "verticalRegularConstraints"]
+- !private ["s9EquatableP", "verticalSizeClass"]
+- !private ["s9EquatableP", "widthAnchor"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "mapboxNavigation"]
+- !private ["s23ExpressibleByNilLiteralP", "systemFont"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "ArrivalTimeLabel"]
+- !private ["s8HashableP", "CancelButton"]
+- !private ["s8HashableP", "DistanceRemainingLabel"]
+- !private ["s8HashableP", "SeparatorView"]
+- !private ["s8HashableP", "TimeRemainingLabel"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIScreen"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "arrivalTimeLabel"]
+- !private ["s8HashableP", "bottomAnchor"]
+- !private ["s8HashableP", "cancelButton"]
+- !private ["s8HashableP", "centerYAnchor"]
+- !private ["s8HashableP", "compact"]
+- !private ["s8HashableP", "constraint"]
+- !private ["s8HashableP", "custom"]
+- !private ["s8HashableP", "distanceRemainingLabel"]
+- !private ["s8HashableP", "font"]
+- !private ["s8HashableP", "heightAnchor"]
+- !private ["s8HashableP", "horizontalDividerView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isActive"]
+- !private ["s8HashableP", "lastBaselineAnchor"]
+- !private ["s8HashableP", "leadingAnchor"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "mapboxNavigation"]
+- !private ["s8HashableP", "medium"]
+- !private ["s8HashableP", "scale"]
+- !private ["s8HashableP", "setImage"]
+- !private ["s8HashableP", "setupConstraints"]
+- !private ["s8HashableP", "setupVerticalCompactLayout"]
+- !private ["s8HashableP", "setupVerticalRegularLayout"]
+- !private ["s8HashableP", "systemFont"]
+- !private ["s8HashableP", "timeRemainingLabel"]
+- !private ["s8HashableP", "topAnchor"]
+- !private ["s8HashableP", "trailingAnchor"]
+- !private ["s8HashableP", "traitCollection"]
+- !private ["s8HashableP", "traitCollectionDidChange"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "verticalCompactConstraints"]
+- !private ["s8HashableP", "verticalDividerView"]
+- !private ["s8HashableP", "verticalRegularConstraints"]
+- !private ["s8HashableP", "verticalSizeClass"]
+- !private ["s8HashableP", "widthAnchor"]
+- !private ["SQ", "systemFont"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["So8NSCodingP", "ArrivalTimeLabel"]
+- !private ["So8NSCodingP", "CancelButton"]
+- !private ["So8NSCodingP", "DistanceRemainingLabel"]
+- !private ["So8NSCodingP", "SeparatorView"]
+- !private ["So8NSCodingP", "TimeRemainingLabel"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIScreen"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "arrivalTimeLabel"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- !private ["So8NSCodingP", "cancelButton"]
+- !private ["So8NSCodingP", "centerYAnchor"]
+- !private ["So8NSCodingP", "distanceRemainingLabel"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "heightAnchor"]
+- !private ["So8NSCodingP", "horizontalDividerView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastBaselineAnchor"]
+- !private ["So8NSCodingP", "leadingAnchor"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "setupConstraints"]
+- !private ["So8NSCodingP", "setupVerticalCompactLayout"]
+- !private ["So8NSCodingP", "setupVerticalRegularLayout"]
+- !private ["So8NSCodingP", "timeRemainingLabel"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So8NSCodingP", "trailingAnchor"]
+- !private ["So8NSCodingP", "traitCollection"]
+- !private ["So8NSCodingP", "traitCollectionDidChange"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "verticalCompactConstraints"]
+- !private ["So8NSCodingP", "verticalDividerView"]
+- !private ["So8NSCodingP", "verticalRegularConstraints"]
+- !private ["So8NSCodingP", "verticalSizeClass"]
+- !private ["So8NSCodingP", "widthAnchor"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "verticalSizeClass"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So14NSLayoutAnchorC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "isActive"]
+- !private ["So17NSLayoutDimensionC", "constraint"]
+- !private ["So19NSLayoutXAxisAnchorC", "constraint"]
+- !private ["So19NSLayoutYAxisAnchorC", "constraint"]
+- !private ["So8NSObjectC", "ArrivalTimeLabel"]
+- !private ["So8NSObjectC", "CancelButton"]
+- !private ["So8NSObjectC", "DistanceRemainingLabel"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- !private ["So8NSObjectC", "SeparatorView"]
+- !private ["So8NSObjectC", "TimeRemainingLabel"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UITraitCollection"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "arrivalTimeLabel"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- !private ["So8NSObjectC", "cancelButton"]
+- !private ["So8NSObjectC", "centerYAnchor"]
+- !private ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "distanceRemainingLabel"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "heightAnchor"]
+- !private ["So8NSObjectC", "horizontalDividerView"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isActive"]
+- !private ["So8NSObjectC", "lastBaselineAnchor"]
+- !private ["So8NSObjectC", "leadingAnchor"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "mapboxNavigation"]
+- !private ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "setImage"]
+- ["So8NSObjectC", "setupConstraints"]
+- ["So8NSObjectC", "setupVerticalCompactLayout"]
+- ["So8NSObjectC", "setupVerticalRegularLayout"]
+- ["So8NSObjectC", "setupViews"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "timeRemainingLabel"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectC", "trailingAnchor"]
+- !private ["So8NSObjectC", "traitCollection"]
+- ["So8NSObjectC", "traitCollectionDidChange"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "verticalCompactConstraints"]
+- !private ["So8NSObjectC", "verticalDividerView"]
+- !private ["So8NSObjectC", "verticalRegularConstraints"]
+- !private ["So8NSObjectC", "verticalSizeClass"]
+- !private ["So8NSObjectC", "widthAnchor"]
+- !private ["So16NSObjectProtocolP", "ArrivalTimeLabel"]
+- !private ["So16NSObjectProtocolP", "CancelButton"]
+- !private ["So16NSObjectProtocolP", "DistanceRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "SeparatorView"]
+- !private ["So16NSObjectProtocolP", "TimeRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIScreen"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "arrivalTimeLabel"]
+- !private ["So16NSObjectProtocolP", "bottomAnchor"]
+- !private ["So16NSObjectProtocolP", "cancelButton"]
+- !private ["So16NSObjectProtocolP", "centerYAnchor"]
+- !private ["So16NSObjectProtocolP", "constraint"]
+- !private ["So16NSObjectProtocolP", "distanceRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "font"]
+- !private ["So16NSObjectProtocolP", "heightAnchor"]
+- !private ["So16NSObjectProtocolP", "horizontalDividerView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isActive"]
+- !private ["So16NSObjectProtocolP", "lastBaselineAnchor"]
+- !private ["So16NSObjectProtocolP", "leadingAnchor"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "mapboxNavigation"]
+- !private ["So16NSObjectProtocolP", "scale"]
+- !private ["So16NSObjectProtocolP", "setImage"]
+- !private ["So16NSObjectProtocolP", "setupConstraints"]
+- !private ["So16NSObjectProtocolP", "setupVerticalCompactLayout"]
+- !private ["So16NSObjectProtocolP", "setupVerticalRegularLayout"]
+- !private ["So16NSObjectProtocolP", "systemFont"]
+- !private ["So16NSObjectProtocolP", "timeRemainingLabel"]
+- !private ["So16NSObjectProtocolP", "topAnchor"]
+- !private ["So16NSObjectProtocolP", "trailingAnchor"]
+- !private ["So16NSObjectProtocolP", "traitCollection"]
+- !private ["So16NSObjectProtocolP", "traitCollectionDidChange"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "verticalCompactConstraints"]
+- !private ["So16NSObjectProtocolP", "verticalDividerView"]
+- !private ["So16NSObjectProtocolP", "verticalRegularConstraints"]
+- !private ["So16NSObjectProtocolP", "verticalSizeClass"]
+- !private ["So16NSObjectProtocolP", "widthAnchor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "verticalSizeClass"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["Sq", "mapboxNavigation"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "compact"]
+- !private ["s16RawRepresentableP", "custom"]
+- !private ["s16RawRepresentableP", "medium"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["16MapboxNavigation13SeparatorViewC", "centerYAnchor"]
+- !private ["16MapboxNavigation13SeparatorViewC", "deinit"]
+- !private ["16MapboxNavigation13SeparatorViewC", "heightAnchor"]
+- !private ["16MapboxNavigation13SeparatorViewC", "init"]
+- !private ["16MapboxNavigation13SeparatorViewC", "leadingAnchor"]
+- !private ["16MapboxNavigation13SeparatorViewC", "topAnchor"]
+- !private ["16MapboxNavigation13SeparatorViewC", "trailingAnchor"]
+- !private ["16MapboxNavigation13SeparatorViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["16MapboxNavigation13SeparatorViewC", "widthAnchor"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["16MapboxNavigation14StylableButtonC", "bottomAnchor"]
+- !private ["16MapboxNavigation14StylableButtonC", "centerYAnchor"]
+- !private ["16MapboxNavigation14StylableButtonC", "init"]
+- !private ["16MapboxNavigation14StylableButtonC", "leadingAnchor"]
+- !private ["16MapboxNavigation14StylableButtonC", "setImage"]
+- !private ["16MapboxNavigation14StylableButtonC", "topAnchor"]
+- !private ["16MapboxNavigation14StylableButtonC", "trailingAnchor"]
+- !private ["16MapboxNavigation14StylableButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["16MapboxNavigation14StylableButtonC", "widthAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "bottomAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "centerYAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "font"]
+- !private ["16MapboxNavigation13StylableLabelC", "init"]
+- !private ["16MapboxNavigation13StylableLabelC", "lastBaselineAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "leadingAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "topAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "trailingAnchor"]
+- !private ["16MapboxNavigation13StylableLabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "bottomAnchor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "centerYAnchor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "deinit"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "font"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "init"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "lastBaselineAnchor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "leadingAnchor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "trailingAnchor"]
+- !private ["16MapboxNavigation18TimeRemainingLabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "bottomAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "centerYAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "leadingAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "topAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "trailingAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "widthAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "ArrivalTimeLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "CancelButton"]
+- !private ["So29UIAccessibilityIdentificationP", "DistanceRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "SeparatorView"]
+- !private ["So29UIAccessibilityIdentificationP", "TimeRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "UIScreen"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "arrivalTimeLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "cancelButton"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "heightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "horizontalDividerView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "lastBaselineAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "leadingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setupConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "setupVerticalCompactLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "setupVerticalRegularLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "timeRemainingLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "trailingAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "traitCollection"]
+- !private ["So29UIAccessibilityIdentificationP", "traitCollectionDidChange"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "verticalCompactConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "verticalDividerView"]
+- !private ["So29UIAccessibilityIdentificationP", "verticalRegularConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- !private ["So12UIAppearanceP", "ArrivalTimeLabel"]
+- !private ["So12UIAppearanceP", "CancelButton"]
+- !private ["So12UIAppearanceP", "DistanceRemainingLabel"]
+- !private ["So12UIAppearanceP", "SeparatorView"]
+- !private ["So12UIAppearanceP", "TimeRemainingLabel"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "UIScreen"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "arrivalTimeLabel"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- !private ["So12UIAppearanceP", "cancelButton"]
+- !private ["So12UIAppearanceP", "centerYAnchor"]
+- !private ["So12UIAppearanceP", "distanceRemainingLabel"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "heightAnchor"]
+- !private ["So12UIAppearanceP", "horizontalDividerView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "lastBaselineAnchor"]
+- !private ["So12UIAppearanceP", "leadingAnchor"]
+- !private ["So12UIAppearanceP", "setImage"]
+- !private ["So12UIAppearanceP", "setupConstraints"]
+- !private ["So12UIAppearanceP", "setupVerticalCompactLayout"]
+- !private ["So12UIAppearanceP", "setupVerticalRegularLayout"]
+- !private ["So12UIAppearanceP", "timeRemainingLabel"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So12UIAppearanceP", "trailingAnchor"]
+- !private ["So12UIAppearanceP", "traitCollection"]
+- !private ["So12UIAppearanceP", "traitCollectionDidChange"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "verticalCompactConstraints"]
+- !private ["So12UIAppearanceP", "verticalDividerView"]
+- !private ["So12UIAppearanceP", "verticalRegularConstraints"]
+- !private ["So12UIAppearanceP", "widthAnchor"]
+- !private ["So21UIAppearanceContainerP", "ArrivalTimeLabel"]
+- !private ["So21UIAppearanceContainerP", "CancelButton"]
+- !private ["So21UIAppearanceContainerP", "DistanceRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "SeparatorView"]
+- !private ["So21UIAppearanceContainerP", "TimeRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UIScreen"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "arrivalTimeLabel"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- !private ["So21UIAppearanceContainerP", "cancelButton"]
+- !private ["So21UIAppearanceContainerP", "centerYAnchor"]
+- !private ["So21UIAppearanceContainerP", "distanceRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "heightAnchor"]
+- !private ["So21UIAppearanceContainerP", "horizontalDividerView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lastBaselineAnchor"]
+- !private ["So21UIAppearanceContainerP", "leadingAnchor"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "setupConstraints"]
+- !private ["So21UIAppearanceContainerP", "setupVerticalCompactLayout"]
+- !private ["So21UIAppearanceContainerP", "setupVerticalRegularLayout"]
+- !private ["So21UIAppearanceContainerP", "timeRemainingLabel"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "trailingAnchor"]
+- !private ["So21UIAppearanceContainerP", "traitCollection"]
+- !private ["So21UIAppearanceContainerP", "traitCollectionDidChange"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "verticalCompactConstraints"]
+- !private ["So21UIAppearanceContainerP", "verticalDividerView"]
+- !private ["So21UIAppearanceContainerP", "verticalRegularConstraints"]
+- !private ["So21UIAppearanceContainerP", "widthAnchor"]
+- !private ["So8UIButtonC", "bottomAnchor"]
+- !private ["So8UIButtonC", "centerYAnchor"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "leadingAnchor"]
+- !private ["So8UIButtonC", "setImage"]
+- !private ["So8UIButtonC", "topAnchor"]
+- !private ["So8UIButtonC", "trailingAnchor"]
+- !private ["So8UIButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8UIButtonC", "widthAnchor"]
+- !private ["SC12UIButtonTypeO", "custom"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "bottomAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "centerYAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "lastBaselineAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "leadingAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "topAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "trailingAnchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9UIControlC", "bottomAnchor"]
+- !private ["So9UIControlC", "centerYAnchor"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "leadingAnchor"]
+- !private ["So9UIControlC", "setImage"]
+- !private ["So9UIControlC", "topAnchor"]
+- !private ["So9UIControlC", "trailingAnchor"]
+- !private ["So9UIControlC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9UIControlC", "widthAnchor"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "ArrivalTimeLabel"]
+- !private ["So17UICoordinateSpaceP", "CancelButton"]
+- !private ["So17UICoordinateSpaceP", "DistanceRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "SeparatorView"]
+- !private ["So17UICoordinateSpaceP", "TimeRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "UIScreen"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "arrivalTimeLabel"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- !private ["So17UICoordinateSpaceP", "cancelButton"]
+- !private ["So17UICoordinateSpaceP", "centerYAnchor"]
+- !private ["So17UICoordinateSpaceP", "distanceRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "heightAnchor"]
+- !private ["So17UICoordinateSpaceP", "horizontalDividerView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "lastBaselineAnchor"]
+- !private ["So17UICoordinateSpaceP", "leadingAnchor"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- !private ["So17UICoordinateSpaceP", "setupConstraints"]
+- !private ["So17UICoordinateSpaceP", "setupVerticalCompactLayout"]
+- !private ["So17UICoordinateSpaceP", "setupVerticalRegularLayout"]
+- !private ["So17UICoordinateSpaceP", "timeRemainingLabel"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So17UICoordinateSpaceP", "trailingAnchor"]
+- !private ["So17UICoordinateSpaceP", "traitCollection"]
+- !private ["So17UICoordinateSpaceP", "traitCollectionDidChange"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "verticalCompactConstraints"]
+- !private ["So17UICoordinateSpaceP", "verticalDividerView"]
+- !private ["So17UICoordinateSpaceP", "verticalRegularConstraints"]
+- !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- !private ["So13UIDynamicItemP", "ArrivalTimeLabel"]
+- !private ["So13UIDynamicItemP", "CancelButton"]
+- !private ["So13UIDynamicItemP", "DistanceRemainingLabel"]
+- !private ["So13UIDynamicItemP", "SeparatorView"]
+- !private ["So13UIDynamicItemP", "TimeRemainingLabel"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "UIScreen"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "arrivalTimeLabel"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- !private ["So13UIDynamicItemP", "cancelButton"]
+- !private ["So13UIDynamicItemP", "centerYAnchor"]
+- !private ["So13UIDynamicItemP", "distanceRemainingLabel"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "heightAnchor"]
+- !private ["So13UIDynamicItemP", "horizontalDividerView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "lastBaselineAnchor"]
+- !private ["So13UIDynamicItemP", "leadingAnchor"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- !private ["So13UIDynamicItemP", "setupConstraints"]
+- !private ["So13UIDynamicItemP", "setupVerticalCompactLayout"]
+- !private ["So13UIDynamicItemP", "setupVerticalRegularLayout"]
+- !private ["So13UIDynamicItemP", "timeRemainingLabel"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "trailingAnchor"]
+- !private ["So13UIDynamicItemP", "traitCollection"]
+- !private ["So13UIDynamicItemP", "traitCollectionDidChange"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "verticalCompactConstraints"]
+- !private ["So13UIDynamicItemP", "verticalDividerView"]
+- !private ["So13UIDynamicItemP", "verticalRegularConstraints"]
+- !private ["So13UIDynamicItemP", "widthAnchor"]
+- !private ["So18UIFocusEnvironmentP", "ArrivalTimeLabel"]
+- !private ["So18UIFocusEnvironmentP", "CancelButton"]
+- !private ["So18UIFocusEnvironmentP", "DistanceRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "SeparatorView"]
+- !private ["So18UIFocusEnvironmentP", "TimeRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UIScreen"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "arrivalTimeLabel"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- !private ["So18UIFocusEnvironmentP", "cancelButton"]
+- !private ["So18UIFocusEnvironmentP", "centerYAnchor"]
+- !private ["So18UIFocusEnvironmentP", "distanceRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "heightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "horizontalDividerView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lastBaselineAnchor"]
+- !private ["So18UIFocusEnvironmentP", "leadingAnchor"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "setupConstraints"]
+- !private ["So18UIFocusEnvironmentP", "setupVerticalCompactLayout"]
+- !private ["So18UIFocusEnvironmentP", "setupVerticalRegularLayout"]
+- !private ["So18UIFocusEnvironmentP", "timeRemainingLabel"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "trailingAnchor"]
+- !private ["So18UIFocusEnvironmentP", "traitCollection"]
+- !private ["So18UIFocusEnvironmentP", "traitCollectionDidChange"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "verticalCompactConstraints"]
+- !private ["So18UIFocusEnvironmentP", "verticalDividerView"]
+- !private ["So18UIFocusEnvironmentP", "verticalRegularConstraints"]
+- !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- !private ["So11UIFocusItemP", "ArrivalTimeLabel"]
+- !private ["So11UIFocusItemP", "CancelButton"]
+- !private ["So11UIFocusItemP", "DistanceRemainingLabel"]
+- !private ["So11UIFocusItemP", "SeparatorView"]
+- !private ["So11UIFocusItemP", "TimeRemainingLabel"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "UIScreen"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "arrivalTimeLabel"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- !private ["So11UIFocusItemP", "cancelButton"]
+- !private ["So11UIFocusItemP", "centerYAnchor"]
+- !private ["So11UIFocusItemP", "distanceRemainingLabel"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "heightAnchor"]
+- !private ["So11UIFocusItemP", "horizontalDividerView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "lastBaselineAnchor"]
+- !private ["So11UIFocusItemP", "leadingAnchor"]
+- !private ["So11UIFocusItemP", "setImage"]
+- !private ["So11UIFocusItemP", "setupConstraints"]
+- !private ["So11UIFocusItemP", "setupVerticalCompactLayout"]
+- !private ["So11UIFocusItemP", "setupVerticalRegularLayout"]
+- !private ["So11UIFocusItemP", "timeRemainingLabel"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So11UIFocusItemP", "trailingAnchor"]
+- !private ["So11UIFocusItemP", "traitCollection"]
+- !private ["So11UIFocusItemP", "traitCollectionDidChange"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "verticalCompactConstraints"]
+- !private ["So11UIFocusItemP", "verticalDividerView"]
+- !private ["So11UIFocusItemP", "verticalRegularConstraints"]
+- !private ["So11UIFocusItemP", "widthAnchor"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So7UILabelC", "bottomAnchor"]
+- !private ["So7UILabelC", "centerYAnchor"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "lastBaselineAnchor"]
+- !private ["So7UILabelC", "leadingAnchor"]
+- !private ["So7UILabelC", "topAnchor"]
+- !private ["So7UILabelC", "trailingAnchor"]
+- !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "ArrivalTimeLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "CancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "DistanceRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "SeparatorView"]
+- !private ["So30UIPasteConfigurationSupportingP", "TimeRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrivalTimeLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "cancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "heightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "horizontalDividerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lastBaselineAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "leadingAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupVerticalCompactLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupVerticalRegularLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "timeRemainingLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "trailingAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "traitCollection"]
+- !private ["So30UIPasteConfigurationSupportingP", "traitCollectionDidChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "verticalCompactConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "verticalDividerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "verticalRegularConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "widthAnchor"]
+- !private ["So11UIResponderC", "ArrivalTimeLabel"]
+- !private ["So11UIResponderC", "CancelButton"]
+- !private ["So11UIResponderC", "DistanceRemainingLabel"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- !private ["So11UIResponderC", "SeparatorView"]
+- !private ["So11UIResponderC", "TimeRemainingLabel"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UITraitCollection"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "arrivalTimeLabel"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- !private ["So11UIResponderC", "cancelButton"]
+- !private ["So11UIResponderC", "centerYAnchor"]
+- !private ["So11UIResponderC", "distanceRemainingLabel"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "heightAnchor"]
+- !private ["So11UIResponderC", "horizontalDividerView"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "lastBaselineAnchor"]
+- !private ["So11UIResponderC", "leadingAnchor"]
+- !private ["So11UIResponderC", "setImage"]
+- ["So11UIResponderC", "setupConstraints"]
+- ["So11UIResponderC", "setupVerticalCompactLayout"]
+- ["So11UIResponderC", "setupVerticalRegularLayout"]
+- ["So11UIResponderC", "setupViews"]
+- !private ["So11UIResponderC", "timeRemainingLabel"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So11UIResponderC", "trailingAnchor"]
+- !private ["So11UIResponderC", "traitCollection"]
+- ["So11UIResponderC", "traitCollectionDidChange"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "verticalCompactConstraints"]
+- !private ["So11UIResponderC", "verticalDividerView"]
+- !private ["So11UIResponderC", "verticalRegularConstraints"]
+- !private ["So11UIResponderC", "widthAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "ArrivalTimeLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "CancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "DistanceRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "SeparatorView"]
+- !private ["So30UIResponderStandardEditActionsP", "TimeRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "arrivalTimeLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "cancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "heightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "horizontalDividerView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lastBaselineAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "leadingAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "setupConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "setupVerticalCompactLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "setupVerticalRegularLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "timeRemainingLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "trailingAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "traitCollection"]
+- !private ["So30UIResponderStandardEditActionsP", "traitCollectionDidChange"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "verticalCompactConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "verticalDividerView"]
+- !private ["So30UIResponderStandardEditActionsP", "verticalRegularConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "widthAnchor"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So8UIScreenC", "scale"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bottomAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "centerYAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "leadingAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "topAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "trailingAnchor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "widthAnchor"]
+- !private ["So17UITraitCollectionC", "verticalSizeClass"]
+- !private ["So18UITraitEnvironmentP", "ArrivalTimeLabel"]
+- !private ["So18UITraitEnvironmentP", "CancelButton"]
+- !private ["So18UITraitEnvironmentP", "DistanceRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "SeparatorView"]
+- !private ["So18UITraitEnvironmentP", "TimeRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UIScreen"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "arrivalTimeLabel"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- !private ["So18UITraitEnvironmentP", "cancelButton"]
+- !private ["So18UITraitEnvironmentP", "centerYAnchor"]
+- !private ["So18UITraitEnvironmentP", "distanceRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "heightAnchor"]
+- !private ["So18UITraitEnvironmentP", "horizontalDividerView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lastBaselineAnchor"]
+- !private ["So18UITraitEnvironmentP", "leadingAnchor"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "scale"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "setupConstraints"]
+- !private ["So18UITraitEnvironmentP", "setupVerticalCompactLayout"]
+- !private ["So18UITraitEnvironmentP", "setupVerticalRegularLayout"]
+- !private ["So18UITraitEnvironmentP", "timeRemainingLabel"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So18UITraitEnvironmentP", "trailingAnchor"]
+- !private ["So18UITraitEnvironmentP", "traitCollection"]
+- !private ["So18UITraitEnvironmentP", "traitCollectionDidChange"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "verticalCompactConstraints"]
+- !private ["So18UITraitEnvironmentP", "verticalDividerView"]
+- !private ["So18UITraitEnvironmentP", "verticalRegularConstraints"]
+- !private ["So18UITraitEnvironmentP", "widthAnchor"]
+- !private ["SC24UIUserInterfaceSizeClassO", "compact"]
+- !private ["So6UIViewC", "ArrivalTimeLabel"]
+- !private ["So6UIViewC", "CancelButton"]
+- !private ["So6UIViewC", "DistanceRemainingLabel"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- !private ["So6UIViewC", "SeparatorView"]
+- !private ["So6UIViewC", "TimeRemainingLabel"]
+- !private ["So6UIViewC", "UIImage"]
+- !private ["So6UIViewC", "UIScreen"]
+- ["So6UIViewC", "UITraitCollection"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "arrivalTimeLabel"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- !private ["So6UIViewC", "cancelButton"]
+- !private ["So6UIViewC", "centerYAnchor"]
+- !private ["So6UIViewC", "distanceRemainingLabel"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "heightAnchor"]
+- !private ["So6UIViewC", "horizontalDividerView"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "lastBaselineAnchor"]
+- !private ["So6UIViewC", "leadingAnchor"]
+- !private ["So6UIViewC", "setImage"]
+- ["So6UIViewC", "setupConstraints"]
+- ["So6UIViewC", "setupVerticalCompactLayout"]
+- ["So6UIViewC", "setupVerticalRegularLayout"]
+- ["So6UIViewC", "setupViews"]
+- !private ["So6UIViewC", "timeRemainingLabel"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["So6UIViewC", "trailingAnchor"]
+- !private ["So6UIViewC", "traitCollection"]
+- ["So6UIViewC", "traitCollectionDidChange"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "verticalCompactConstraints"]
+- !private ["So6UIViewC", "verticalDividerView"]
+- !private ["So6UIViewC", "verticalRegularConstraints"]
+- !private ["So6UIViewC", "widthAnchor"]
+- !private ["So6UIFontC6WeightV", "medium"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "ArrivalTimeLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CancelButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "DistanceRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "SeparatorView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "TimeRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIScreen"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrivalTimeLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cancelButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "heightAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "horizontalDividerView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "lastBaselineAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "leadingAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupVerticalCompactLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupVerticalRegularLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "timeRemainingLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "trailingAnchor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "traitCollection"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "traitCollectionDidChange"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "verticalCompactConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "verticalDividerView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "verticalRegularConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ArrivalTimeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DistanceRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SeparatorView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrivalTimeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalDividerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastBaselineAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapboxNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupVerticalCompactLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupVerticalRegularLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeRemainingLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "traitCollection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "traitCollectionDidChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalCompactConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalDividerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalRegularConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalSizeClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "mapboxNavigation"]
+- !private ["s21_ObjectiveCBridgeableP", "medium"]
+- !private ["s21_ObjectiveCBridgeableP", "systemFont"]
+- !private ["s20_SwiftNewtypeWrapperP", "medium"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["5UIKit01_A23NumericRawRepresentableP", "medium"]
+depends-nominal:
+- !private "16MapboxNavigation10AnchorableP"
+- !private "Sa"
+- !private "16MapboxNavigation16ArrivalTimeLabelC"
+- !private "s23BidirectionalCollectionP"
+- "16MapboxNavigation16BottomBannerViewC"
+- !private "So6BundleC"
+- !private "16MapboxNavigation6ButtonC"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "16MapboxNavigation12CancelButtonC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "16MapboxNavigation22DistanceRemainingLabelC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "SQ"
+- !private "4Turf8JSONTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So14NSLayoutAnchorC"
+- !private "So18NSLayoutConstraintC"
+- !private "So17NSLayoutDimensionC"
+- !private "So19NSLayoutXAxisAnchorC"
+- !private "So19NSLayoutYAxisAnchorC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "16MapboxNavigation13SeparatorViewC"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "16MapboxNavigation14StylableButtonC"
+- !private "16MapboxNavigation13StylableLabelC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "16MapboxNavigation18TimeRemainingLabelC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "SC12UIButtonTypeO"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So17UITraitCollectionC"
+- !private "So18UITraitEnvironmentP"
+- !private "SC24UIUserInterfaceSizeClassO"
+- "So6UIViewC"
+- !private "So6UIFontC6WeightV"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- !private "5UIKit01_A23NumericRawRepresentableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "a6d665ab134f9e776921b288ca2e0345"

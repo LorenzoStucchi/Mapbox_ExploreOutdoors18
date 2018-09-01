@@ -1,0 +1,1402 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InstructionsBannerViewDelegate"
+- "InstructionsBannerView"
+- "BaseInstructionsBannerView"
+provides-nominal:
+- "16MapboxNavigation30InstructionsBannerViewDelegateP"
+- "16MapboxNavigation22InstructionsBannerViewC"
+- "16MapboxNavigation26BaseInstructionsBannerViewC"
+provides-member:
+- ["16MapboxNavigation30InstructionsBannerViewDelegateP", ""]
+- ["16MapboxNavigation22InstructionsBannerViewC", ""]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", ""]
+provides-dynamic-lookup:
+- "didDragInstructionsBanner"
+- "didTapInstructionsBanner"
+- "draggedInstructionsBanner"
+- "prepareForInterfaceBuilder"
+- "tappedInstructionsBanner"
+- "update"
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private ">"
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseInstructionsBannerView"
+- "BooleanLiteralType"
+- "CGRect"
+- "CLLocationDistance"
+- "CastingPrecedence"
+- "DistanceFormatter"
+- "DistanceLabel"
+- "InstructionsBannerView"
+- "InstructionsBannerViewDelegate"
+- "ManeuverView"
+- "NSCoder"
+- "NSLayoutConstraint"
+- !private "NSNotFound"
+- "PrimaryLabel"
+- "RouteStepProgress"
+- "SecondaryLabel"
+- "SeparatorView"
+- "StepListIndicatorView"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIControl"
+- !private "UIPanGestureRecognizer"
+- "UIView"
+- !private "VisualInstruction"
+- "VisualInstructionBanner"
+- !private "VisualInstructionComponent"
+- "VisualInstructionDelegate"
+depends-member:
+- ["16MapboxNavigation10AnchorableP", "DistanceFormatter"]
+- ["16MapboxNavigation10AnchorableP", "NSLayoutConstraint"]
+- !private ["16MapboxNavigation10AnchorableP", "NSNotFound"]
+- !private ["16MapboxNavigation10AnchorableP", "VisualInstruction"]
+- !private ["16MapboxNavigation10AnchorableP", "VisualInstructionComponent"]
+- ["16MapboxNavigation10AnchorableP", ""]
+- !private ["16MapboxNavigation10AnchorableP", "attributedDistanceString"]
+- !private ["16MapboxNavigation10AnchorableP", "baselineAlignInstructions"]
+- !private ["16MapboxNavigation10AnchorableP", "centerYAlignInstructions"]
+- !private ["16MapboxNavigation10AnchorableP", "commonInit"]
+- !private ["16MapboxNavigation10AnchorableP", "delegate"]
+- !private ["16MapboxNavigation10AnchorableP", "distance"]
+- !private ["16MapboxNavigation10AnchorableP", "distanceFormatter"]
+- !private ["16MapboxNavigation10AnchorableP", "distanceLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "drivingSide"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "instruction"]
+- !private ["16MapboxNavigation10AnchorableP", "instructionDelegate"]
+- !private ["16MapboxNavigation10AnchorableP", "isHidden"]
+- !private ["16MapboxNavigation10AnchorableP", "isStart"]
+- !private ["16MapboxNavigation10AnchorableP", "maneuverView"]
+- !private ["16MapboxNavigation10AnchorableP", "numberOfLines"]
+- !private ["16MapboxNavigation10AnchorableP", "prepareForInterfaceBuilder"]
+- !private ["16MapboxNavigation10AnchorableP", "primaryLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "secondaryLabel"]
+- !private ["16MapboxNavigation10AnchorableP", "setupAvailableBounds"]
+- !private ["16MapboxNavigation10AnchorableP", "setupLayout"]
+- !private ["16MapboxNavigation10AnchorableP", "setupViews"]
+- !private ["16MapboxNavigation10AnchorableP", "stepListIndicatorView"]
+- !private ["16MapboxNavigation10AnchorableP", "text"]
+- !private ["16MapboxNavigation10AnchorableP", "visualInstruction"]
+- ["Sa", "init"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "CGRect"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "CLLocationDistance"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "DistanceFormatter"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "DistanceLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "InstructionsBannerViewDelegate"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "ManeuverView"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "NSCoder"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "NSLayoutConstraint"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "NSNotFound"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "PrimaryLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "RouteStepProgress"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "SecondaryLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "SeparatorView"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "StepListIndicatorView"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "UIPanGestureRecognizer"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "UIView"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "VisualInstruction"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "VisualInstructionBanner"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "VisualInstructionComponent"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "VisualInstructionDelegate"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", ""]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "_separatorView"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "baselineAlignInstructions"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "baselineConstraints"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "centerYAlignInstructions"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "centerYConstraints"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "commonInit"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "deinit"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "delegate"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "distance"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "distanceFormatter"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "distanceLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "dividerView"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "draggedInstructionsBanner"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "init"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "instructionDelegate"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "maneuverView"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "prepareForInterfaceBuilder"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "primaryLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "secondaryLabel"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "separatorView"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "setupAvailableBounds"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "setupLayout"]
+- !private ["16MapboxNavigation26BaseInstructionsBannerViewC", "setupViews"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "stepListIndicatorView"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "tappedInstructionsBanner"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "update"]
+- ["16MapboxNavigation26BaseInstructionsBannerViewC", "updateDistance"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So15CALayerDelegateP", "DistanceFormatter"]
+- ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- !private ["So15CALayerDelegateP", "NSNotFound"]
+- !private ["So15CALayerDelegateP", "VisualInstruction"]
+- !private ["So15CALayerDelegateP", "VisualInstructionComponent"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "attributedDistanceString"]
+- !private ["So15CALayerDelegateP", "baselineAlignInstructions"]
+- !private ["So15CALayerDelegateP", "centerYAlignInstructions"]
+- !private ["So15CALayerDelegateP", "commonInit"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "distance"]
+- !private ["So15CALayerDelegateP", "distanceFormatter"]
+- !private ["So15CALayerDelegateP", "distanceLabel"]
+- !private ["So15CALayerDelegateP", "drivingSide"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "instruction"]
+- !private ["So15CALayerDelegateP", "instructionDelegate"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "isStart"]
+- !private ["So15CALayerDelegateP", "maneuverView"]
+- !private ["So15CALayerDelegateP", "numberOfLines"]
+- !private ["So15CALayerDelegateP", "prepareForInterfaceBuilder"]
+- !private ["So15CALayerDelegateP", "primaryLabel"]
+- !private ["So15CALayerDelegateP", "secondaryLabel"]
+- !private ["So15CALayerDelegateP", "setupAvailableBounds"]
+- !private ["So15CALayerDelegateP", "setupLayout"]
+- !private ["So15CALayerDelegateP", "setupViews"]
+- !private ["So15CALayerDelegateP", "stepListIndicatorView"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "visualInstruction"]
+- ["s7CVarArgP", "DistanceFormatter"]
+- ["s7CVarArgP", "NSLayoutConstraint"]
+- !private ["s7CVarArgP", "NSNotFound"]
+- !private ["s7CVarArgP", "VisualInstruction"]
+- !private ["s7CVarArgP", "VisualInstructionComponent"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "attributedDistanceString"]
+- !private ["s7CVarArgP", "attributedString"]
+- !private ["s7CVarArgP", "baselineAlignInstructions"]
+- !private ["s7CVarArgP", "centerYAlignInstructions"]
+- !private ["s7CVarArgP", "commonInit"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "distanceFormatter"]
+- !private ["s7CVarArgP", "distanceLabel"]
+- !private ["s7CVarArgP", "distanceRemaining"]
+- !private ["s7CVarArgP", "drivingSide"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instruction"]
+- !private ["s7CVarArgP", "instructionDelegate"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "isStart"]
+- !private ["s7CVarArgP", "maneuverView"]
+- !private ["s7CVarArgP", "numberOfLines"]
+- !private ["s7CVarArgP", "prepareForInterfaceBuilder"]
+- !private ["s7CVarArgP", "primaryInstruction"]
+- !private ["s7CVarArgP", "primaryLabel"]
+- !private ["s7CVarArgP", "secondaryInstruction"]
+- !private ["s7CVarArgP", "secondaryLabel"]
+- !private ["s7CVarArgP", "setupAvailableBounds"]
+- !private ["s7CVarArgP", "setupLayout"]
+- !private ["s7CVarArgP", "setupViews"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stepListIndicatorView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "visualInstruction"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["16MapboxDirections22ComponentRepresentableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "DistanceFormatter"]
+- ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotFound"]
+- !private ["s28CustomDebugStringConvertibleP", "VisualInstruction"]
+- !private ["s28CustomDebugStringConvertibleP", "VisualInstructionComponent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "attributedDistanceString"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "baselineAlignInstructions"]
+- !private ["s28CustomDebugStringConvertibleP", "centerYAlignInstructions"]
+- !private ["s28CustomDebugStringConvertibleP", "commonInit"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceRemaining"]
+- !private ["s28CustomDebugStringConvertibleP", "drivingSide"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instruction"]
+- !private ["s28CustomDebugStringConvertibleP", "instructionDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isStart"]
+- !private ["s28CustomDebugStringConvertibleP", "maneuverView"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfLines"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareForInterfaceBuilder"]
+- !private ["s28CustomDebugStringConvertibleP", "primaryInstruction"]
+- !private ["s28CustomDebugStringConvertibleP", "primaryLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "secondaryInstruction"]
+- !private ["s28CustomDebugStringConvertibleP", "secondaryLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setupAvailableBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "setupLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "setupViews"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stepListIndicatorView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "visualInstruction"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DistanceFormatter"]
+- ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
+- !private ["s23CustomStringConvertibleP", "NSNotFound"]
+- !private ["s23CustomStringConvertibleP", "VisualInstruction"]
+- !private ["s23CustomStringConvertibleP", "VisualInstructionComponent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "attributedDistanceString"]
+- !private ["s23CustomStringConvertibleP", "attributedString"]
+- !private ["s23CustomStringConvertibleP", "baselineAlignInstructions"]
+- !private ["s23CustomStringConvertibleP", "centerYAlignInstructions"]
+- !private ["s23CustomStringConvertibleP", "commonInit"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "distanceFormatter"]
+- !private ["s23CustomStringConvertibleP", "distanceLabel"]
+- !private ["s23CustomStringConvertibleP", "distanceRemaining"]
+- !private ["s23CustomStringConvertibleP", "drivingSide"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instruction"]
+- !private ["s23CustomStringConvertibleP", "instructionDelegate"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "isStart"]
+- !private ["s23CustomStringConvertibleP", "maneuverView"]
+- !private ["s23CustomStringConvertibleP", "none"]
+- !private ["s23CustomStringConvertibleP", "numberOfLines"]
+- !private ["s23CustomStringConvertibleP", "prepareForInterfaceBuilder"]
+- !private ["s23CustomStringConvertibleP", "primaryInstruction"]
+- !private ["s23CustomStringConvertibleP", "primaryLabel"]
+- !private ["s23CustomStringConvertibleP", "right"]
+- !private ["s23CustomStringConvertibleP", "secondaryInstruction"]
+- !private ["s23CustomStringConvertibleP", "secondaryLabel"]
+- !private ["s23CustomStringConvertibleP", "setupAvailableBounds"]
+- !private ["s23CustomStringConvertibleP", "setupLayout"]
+- !private ["s23CustomStringConvertibleP", "setupViews"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stepListIndicatorView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "visualInstruction"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["20MapboxCoreNavigation17DistanceFormatterC", "attributedString"]
+- ["20MapboxCoreNavigation17DistanceFormatterC", "init"]
+- !private ["16MapboxNavigation13DistanceLabelC", "attributedDistanceString"]
+- !private ["16MapboxNavigation13DistanceLabelC", "text"]
+- !private ["16MapboxDirections11DrivingSideO", "right"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "DistanceFormatter"]
+- ["s9EquatableP", "NSLayoutConstraint"]
+- !private ["s9EquatableP", "NSNotFound"]
+- !private ["s9EquatableP", "VisualInstruction"]
+- !private ["s9EquatableP", "VisualInstructionComponent"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "attributedDistanceString"]
+- !private ["s9EquatableP", "attributedString"]
+- !private ["s9EquatableP", "baselineAlignInstructions"]
+- !private ["s9EquatableP", "centerYAlignInstructions"]
+- !private ["s9EquatableP", "commonInit"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "distance"]
+- !private ["s9EquatableP", "distanceFormatter"]
+- !private ["s9EquatableP", "distanceLabel"]
+- !private ["s9EquatableP", "distanceRemaining"]
+- !private ["s9EquatableP", "drivingSide"]
+- !private ["s9EquatableP", "ended"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instruction"]
+- !private ["s9EquatableP", "instructionDelegate"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "isStart"]
+- !private ["s9EquatableP", "maneuverView"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "numberOfLines"]
+- !private ["s9EquatableP", "prepareForInterfaceBuilder"]
+- !private ["s9EquatableP", "primaryInstruction"]
+- !private ["s9EquatableP", "primaryLabel"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "secondaryInstruction"]
+- !private ["s9EquatableP", "secondaryLabel"]
+- !private ["s9EquatableP", "setupAvailableBounds"]
+- !private ["s9EquatableP", "setupLayout"]
+- !private ["s9EquatableP", "setupViews"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "stepListIndicatorView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "visualInstruction"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "attributedString"]
+- ["s8HashableP", "DistanceFormatter"]
+- ["s8HashableP", "NSLayoutConstraint"]
+- !private ["s8HashableP", "NSNotFound"]
+- !private ["s8HashableP", "VisualInstruction"]
+- !private ["s8HashableP", "VisualInstructionComponent"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "attributedDistanceString"]
+- !private ["s8HashableP", "attributedString"]
+- !private ["s8HashableP", "baselineAlignInstructions"]
+- !private ["s8HashableP", "centerYAlignInstructions"]
+- !private ["s8HashableP", "commonInit"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "distance"]
+- !private ["s8HashableP", "distanceFormatter"]
+- !private ["s8HashableP", "distanceLabel"]
+- !private ["s8HashableP", "distanceRemaining"]
+- !private ["s8HashableP", "drivingSide"]
+- !private ["s8HashableP", "ended"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instruction"]
+- !private ["s8HashableP", "instructionDelegate"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "isStart"]
+- !private ["s8HashableP", "maneuverView"]
+- !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "numberOfLines"]
+- !private ["s8HashableP", "prepareForInterfaceBuilder"]
+- !private ["s8HashableP", "primaryInstruction"]
+- !private ["s8HashableP", "primaryLabel"]
+- !private ["s8HashableP", "right"]
+- !private ["s8HashableP", "secondaryInstruction"]
+- !private ["s8HashableP", "secondaryLabel"]
+- !private ["s8HashableP", "setupAvailableBounds"]
+- !private ["s8HashableP", "setupLayout"]
+- !private ["s8HashableP", "setupViews"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "stepListIndicatorView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "visualInstruction"]
+- !private ["16MapboxNavigation16InstructionLabelC", "instruction"]
+- !private ["16MapboxNavigation16InstructionLabelC", "instructionDelegate"]
+- !private ["16MapboxNavigation16InstructionLabelC", "numberOfLines"]
+- !private ["16MapboxNavigation30InstructionPresenterDataSourceP", "instruction"]
+- !private ["16MapboxNavigation30InstructionPresenterDataSourceP", "instructionDelegate"]
+- !private ["16MapboxNavigation30InstructionPresenterDataSourceP", "numberOfLines"]
+- ["16MapboxNavigation22InstructionsBannerViewC", "deinit"]
+- ["16MapboxNavigation22InstructionsBannerViewC", "init"]
+- ["16MapboxNavigation30InstructionsBannerViewDelegateP", "BaseInstructionsBannerView"]
+- ["16MapboxNavigation30InstructionsBannerViewDelegateP", "didDragInstructionsBanner"]
+- ["16MapboxNavigation30InstructionsBannerViewDelegateP", "didTapInstructionsBanner"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["So15LengthFormatterC", "attributedString"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["16MapboxDirections17ManeuverDirectionO", "none"]
+- !private ["16MapboxDirections12ManeuverTypeO", "none"]
+- !private ["16MapboxNavigation12ManeuverViewC", "drivingSide"]
+- !private ["16MapboxNavigation12ManeuverViewC", "isStart"]
+- !private ["16MapboxNavigation12ManeuverViewC", "visualInstruction"]
+- !private ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSCodingP", "DistanceFormatter"]
+- ["So8NSCodingP", "NSLayoutConstraint"]
+- !private ["So8NSCodingP", "NSNotFound"]
+- !private ["So8NSCodingP", "VisualInstruction"]
+- !private ["So8NSCodingP", "VisualInstructionComponent"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "attributedDistanceString"]
+- !private ["So8NSCodingP", "attributedString"]
+- !private ["So8NSCodingP", "baselineAlignInstructions"]
+- !private ["So8NSCodingP", "centerYAlignInstructions"]
+- !private ["So8NSCodingP", "commonInit"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "distanceFormatter"]
+- !private ["So8NSCodingP", "distanceLabel"]
+- !private ["So8NSCodingP", "drivingSide"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "instruction"]
+- !private ["So8NSCodingP", "instructionDelegate"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "isStart"]
+- !private ["So8NSCodingP", "maneuverView"]
+- !private ["So8NSCodingP", "numberOfLines"]
+- !private ["So8NSCodingP", "prepareForInterfaceBuilder"]
+- !private ["So8NSCodingP", "primaryInstruction"]
+- !private ["So8NSCodingP", "primaryLabel"]
+- !private ["So8NSCodingP", "secondaryInstruction"]
+- !private ["So8NSCodingP", "secondaryLabel"]
+- !private ["So8NSCodingP", "setupAvailableBounds"]
+- !private ["So8NSCodingP", "setupLayout"]
+- !private ["So8NSCodingP", "setupViews"]
+- !private ["So8NSCodingP", "stepListIndicatorView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "visualInstruction"]
+- !private ["So9NSCopyingP", "attributedString"]
+- ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- ["So8NSObjectC", "DistanceFormatter"]
+- ["So8NSObjectC", "DistanceLabel"]
+- ["So8NSObjectC", "InstructionsBannerViewDelegate"]
+- ["So8NSObjectC", "ManeuverView"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- !private ["So8NSObjectC", "NSNotFound"]
+- ["So8NSObjectC", "PrimaryLabel"]
+- ["So8NSObjectC", "RouteStepProgress"]
+- ["So8NSObjectC", "SecondaryLabel"]
+- ["So8NSObjectC", "SeparatorView"]
+- ["So8NSObjectC", "StepListIndicatorView"]
+- !private ["So8NSObjectC", "UIPanGestureRecognizer"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "VisualInstruction"]
+- ["So8NSObjectC", "VisualInstructionBanner"]
+- !private ["So8NSObjectC", "VisualInstructionComponent"]
+- ["So8NSObjectC", "VisualInstructionDelegate"]
+- ["So8NSObjectC", "_separatorView"]
+- !private ["So8NSObjectC", "attributedDistanceString"]
+- !private ["So8NSObjectC", "attributedString"]
+- !private ["So8NSObjectC", "baselineAlignInstructions"]
+- ["So8NSObjectC", "baselineConstraints"]
+- !private ["So8NSObjectC", "centerYAlignInstructions"]
+- ["So8NSObjectC", "centerYConstraints"]
+- ["So8NSObjectC", "commonInit"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "distance"]
+- ["So8NSObjectC", "distanceFormatter"]
+- ["So8NSObjectC", "distanceLabel"]
+- !private ["So8NSObjectC", "distanceRemaining"]
+- ["So8NSObjectC", "dividerView"]
+- ["So8NSObjectC", "draggedInstructionsBanner"]
+- !private ["So8NSObjectC", "drivingSide"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instruction"]
+- ["So8NSObjectC", "instructionDelegate"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "isStart"]
+- ["So8NSObjectC", "maneuverView"]
+- !private ["So8NSObjectC", "numberOfLines"]
+- ["So8NSObjectC", "prepareForInterfaceBuilder"]
+- !private ["So8NSObjectC", "primaryInstruction"]
+- ["So8NSObjectC", "primaryLabel"]
+- !private ["So8NSObjectC", "secondaryInstruction"]
+- ["So8NSObjectC", "secondaryLabel"]
+- ["So8NSObjectC", "separatorView"]
+- !private ["So8NSObjectC", "setupAvailableBounds"]
+- !private ["So8NSObjectC", "setupLayout"]
+- !private ["So8NSObjectC", "setupViews"]
+- !private ["So8NSObjectC", "state"]
+- ["So8NSObjectC", "stepListIndicatorView"]
+- ["So8NSObjectC", "tappedInstructionsBanner"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectC", "updateDistance"]
+- !private ["So8NSObjectC", "visualInstruction"]
+- ["So16NSObjectProtocolP", "DistanceFormatter"]
+- ["So16NSObjectProtocolP", "NSLayoutConstraint"]
+- !private ["So16NSObjectProtocolP", "NSNotFound"]
+- !private ["So16NSObjectProtocolP", "VisualInstruction"]
+- !private ["So16NSObjectProtocolP", "VisualInstructionComponent"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "attributedDistanceString"]
+- !private ["So16NSObjectProtocolP", "attributedString"]
+- !private ["So16NSObjectProtocolP", "baselineAlignInstructions"]
+- !private ["So16NSObjectProtocolP", "centerYAlignInstructions"]
+- !private ["So16NSObjectProtocolP", "commonInit"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "distance"]
+- !private ["So16NSObjectProtocolP", "distanceFormatter"]
+- !private ["So16NSObjectProtocolP", "distanceLabel"]
+- !private ["So16NSObjectProtocolP", "distanceRemaining"]
+- !private ["So16NSObjectProtocolP", "drivingSide"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instruction"]
+- !private ["So16NSObjectProtocolP", "instructionDelegate"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "isStart"]
+- !private ["So16NSObjectProtocolP", "maneuverView"]
+- !private ["So16NSObjectProtocolP", "numberOfLines"]
+- !private ["So16NSObjectProtocolP", "prepareForInterfaceBuilder"]
+- !private ["So16NSObjectProtocolP", "primaryInstruction"]
+- !private ["So16NSObjectProtocolP", "primaryLabel"]
+- !private ["So16NSObjectProtocolP", "secondaryInstruction"]
+- !private ["So16NSObjectProtocolP", "secondaryLabel"]
+- !private ["So16NSObjectProtocolP", "setupAvailableBounds"]
+- !private ["So16NSObjectProtocolP", "setupLayout"]
+- !private ["So16NSObjectProtocolP", "setupViews"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "stepListIndicatorView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "visualInstruction"]
+- !private ["So14NSSecureCodingP", "drivingSide"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "primaryInstruction"]
+- !private ["So14NSSecureCodingP", "secondaryInstruction"]
+- !private ["16MapboxNavigation12PrimaryLabelC", "instruction"]
+- !private ["16MapboxNavigation12PrimaryLabelC", "instructionDelegate"]
+- !private ["16MapboxNavigation12PrimaryLabelC", "numberOfLines"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "ended"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["s16RawRepresentableP", "right"]
+- !private ["s16RawRepresentableP", "text"]
+- !private ["20MapboxCoreNavigation17RouteStepProgressC", "distanceRemaining"]
+- !private ["16MapboxNavigation14SecondaryLabelC", "instruction"]
+- !private ["16MapboxNavigation14SecondaryLabelC", "instructionDelegate"]
+- ["s8SequenceP", "init"]
+- !private ["16MapboxNavigation21StepListIndicatorViewC", "isHidden"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["16MapboxNavigation13StylableLabelC", "attributedDistanceString"]
+- !private ["16MapboxNavigation13StylableLabelC", "instruction"]
+- !private ["16MapboxNavigation13StylableLabelC", "instructionDelegate"]
+- !private ["16MapboxNavigation13StylableLabelC", "numberOfLines"]
+- !private ["16MapboxNavigation13StylableLabelC", "text"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "DistanceFormatter"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- !private ["So29UIAccessibilityIdentificationP", "NSNotFound"]
+- !private ["So29UIAccessibilityIdentificationP", "VisualInstruction"]
+- !private ["So29UIAccessibilityIdentificationP", "VisualInstructionComponent"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "attributedDistanceString"]
+- !private ["So29UIAccessibilityIdentificationP", "baselineAlignInstructions"]
+- !private ["So29UIAccessibilityIdentificationP", "centerYAlignInstructions"]
+- !private ["So29UIAccessibilityIdentificationP", "commonInit"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "distance"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceFormatter"]
+- !private ["So29UIAccessibilityIdentificationP", "distanceLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "drivingSide"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "instruction"]
+- !private ["So29UIAccessibilityIdentificationP", "instructionDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "isStart"]
+- !private ["So29UIAccessibilityIdentificationP", "maneuverView"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfLines"]
+- !private ["So29UIAccessibilityIdentificationP", "prepareForInterfaceBuilder"]
+- !private ["So29UIAccessibilityIdentificationP", "primaryLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "secondaryLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setupAvailableBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "setupLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "setupViews"]
+- !private ["So29UIAccessibilityIdentificationP", "stepListIndicatorView"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "visualInstruction"]
+- ["So12UIAppearanceP", "DistanceFormatter"]
+- ["So12UIAppearanceP", "NSLayoutConstraint"]
+- !private ["So12UIAppearanceP", "NSNotFound"]
+- !private ["So12UIAppearanceP", "VisualInstruction"]
+- !private ["So12UIAppearanceP", "VisualInstructionComponent"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "attributedDistanceString"]
+- !private ["So12UIAppearanceP", "baselineAlignInstructions"]
+- !private ["So12UIAppearanceP", "centerYAlignInstructions"]
+- !private ["So12UIAppearanceP", "commonInit"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "distance"]
+- !private ["So12UIAppearanceP", "distanceFormatter"]
+- !private ["So12UIAppearanceP", "distanceLabel"]
+- !private ["So12UIAppearanceP", "drivingSide"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "instruction"]
+- !private ["So12UIAppearanceP", "instructionDelegate"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "isStart"]
+- !private ["So12UIAppearanceP", "maneuverView"]
+- !private ["So12UIAppearanceP", "numberOfLines"]
+- !private ["So12UIAppearanceP", "prepareForInterfaceBuilder"]
+- !private ["So12UIAppearanceP", "primaryLabel"]
+- !private ["So12UIAppearanceP", "secondaryLabel"]
+- !private ["So12UIAppearanceP", "setupAvailableBounds"]
+- !private ["So12UIAppearanceP", "setupLayout"]
+- !private ["So12UIAppearanceP", "setupViews"]
+- !private ["So12UIAppearanceP", "stepListIndicatorView"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "visualInstruction"]
+- ["So21UIAppearanceContainerP", "DistanceFormatter"]
+- ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- !private ["So21UIAppearanceContainerP", "NSNotFound"]
+- !private ["So21UIAppearanceContainerP", "VisualInstruction"]
+- !private ["So21UIAppearanceContainerP", "VisualInstructionComponent"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "attributedDistanceString"]
+- !private ["So21UIAppearanceContainerP", "baselineAlignInstructions"]
+- !private ["So21UIAppearanceContainerP", "centerYAlignInstructions"]
+- !private ["So21UIAppearanceContainerP", "commonInit"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "distance"]
+- !private ["So21UIAppearanceContainerP", "distanceFormatter"]
+- !private ["So21UIAppearanceContainerP", "distanceLabel"]
+- !private ["So21UIAppearanceContainerP", "drivingSide"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "instruction"]
+- !private ["So21UIAppearanceContainerP", "instructionDelegate"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "isStart"]
+- !private ["So21UIAppearanceContainerP", "maneuverView"]
+- !private ["So21UIAppearanceContainerP", "numberOfLines"]
+- !private ["So21UIAppearanceContainerP", "prepareForInterfaceBuilder"]
+- !private ["So21UIAppearanceContainerP", "primaryLabel"]
+- !private ["So21UIAppearanceContainerP", "secondaryLabel"]
+- !private ["So21UIAppearanceContainerP", "setupAvailableBounds"]
+- !private ["So21UIAppearanceContainerP", "setupLayout"]
+- !private ["So21UIAppearanceContainerP", "setupViews"]
+- !private ["So21UIAppearanceContainerP", "stepListIndicatorView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "visualInstruction"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedDistanceString"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "instruction"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "instructionDelegate"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "numberOfLines"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So9UIControlC", "CGRect"]
+- ["So9UIControlC", "CLLocationDistance"]
+- ["So9UIControlC", "DistanceFormatter"]
+- ["So9UIControlC", "DistanceLabel"]
+- ["So9UIControlC", "InstructionsBannerViewDelegate"]
+- ["So9UIControlC", "ManeuverView"]
+- ["So9UIControlC", "NSCoder"]
+- ["So9UIControlC", "NSLayoutConstraint"]
+- !private ["So9UIControlC", "NSNotFound"]
+- ["So9UIControlC", "PrimaryLabel"]
+- ["So9UIControlC", "RouteStepProgress"]
+- ["So9UIControlC", "SecondaryLabel"]
+- ["So9UIControlC", "SeparatorView"]
+- ["So9UIControlC", "StepListIndicatorView"]
+- !private ["So9UIControlC", "UIPanGestureRecognizer"]
+- ["So9UIControlC", "UIView"]
+- !private ["So9UIControlC", "VisualInstruction"]
+- ["So9UIControlC", "VisualInstructionBanner"]
+- !private ["So9UIControlC", "VisualInstructionComponent"]
+- ["So9UIControlC", "VisualInstructionDelegate"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "_separatorView"]
+- !private ["So9UIControlC", "baselineAlignInstructions"]
+- ["So9UIControlC", "baselineConstraints"]
+- !private ["So9UIControlC", "centerYAlignInstructions"]
+- ["So9UIControlC", "centerYConstraints"]
+- ["So9UIControlC", "commonInit"]
+- ["So9UIControlC", "delegate"]
+- ["So9UIControlC", "distance"]
+- ["So9UIControlC", "distanceFormatter"]
+- ["So9UIControlC", "distanceLabel"]
+- ["So9UIControlC", "dividerView"]
+- ["So9UIControlC", "draggedInstructionsBanner"]
+- ["So9UIControlC", "init"]
+- ["So9UIControlC", "instructionDelegate"]
+- ["So9UIControlC", "maneuverView"]
+- ["So9UIControlC", "prepareForInterfaceBuilder"]
+- ["So9UIControlC", "primaryLabel"]
+- ["So9UIControlC", "secondaryLabel"]
+- ["So9UIControlC", "separatorView"]
+- !private ["So9UIControlC", "setupAvailableBounds"]
+- !private ["So9UIControlC", "setupLayout"]
+- !private ["So9UIControlC", "setupViews"]
+- ["So9UIControlC", "stepListIndicatorView"]
+- ["So9UIControlC", "tappedInstructionsBanner"]
+- ["So9UIControlC", "update"]
+- ["So9UIControlC", "updateDistance"]
+- ["So17UICoordinateSpaceP", "DistanceFormatter"]
+- ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- !private ["So17UICoordinateSpaceP", "NSNotFound"]
+- !private ["So17UICoordinateSpaceP", "VisualInstruction"]
+- !private ["So17UICoordinateSpaceP", "VisualInstructionComponent"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "attributedDistanceString"]
+- !private ["So17UICoordinateSpaceP", "baselineAlignInstructions"]
+- !private ["So17UICoordinateSpaceP", "centerYAlignInstructions"]
+- !private ["So17UICoordinateSpaceP", "commonInit"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "distance"]
+- !private ["So17UICoordinateSpaceP", "distanceFormatter"]
+- !private ["So17UICoordinateSpaceP", "distanceLabel"]
+- !private ["So17UICoordinateSpaceP", "drivingSide"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "instruction"]
+- !private ["So17UICoordinateSpaceP", "instructionDelegate"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "isStart"]
+- !private ["So17UICoordinateSpaceP", "maneuverView"]
+- !private ["So17UICoordinateSpaceP", "numberOfLines"]
+- !private ["So17UICoordinateSpaceP", "prepareForInterfaceBuilder"]
+- !private ["So17UICoordinateSpaceP", "primaryLabel"]
+- !private ["So17UICoordinateSpaceP", "secondaryLabel"]
+- !private ["So17UICoordinateSpaceP", "setupAvailableBounds"]
+- !private ["So17UICoordinateSpaceP", "setupLayout"]
+- !private ["So17UICoordinateSpaceP", "setupViews"]
+- !private ["So17UICoordinateSpaceP", "stepListIndicatorView"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "visualInstruction"]
+- ["So13UIDynamicItemP", "DistanceFormatter"]
+- ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- !private ["So13UIDynamicItemP", "NSNotFound"]
+- !private ["So13UIDynamicItemP", "VisualInstruction"]
+- !private ["So13UIDynamicItemP", "VisualInstructionComponent"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "attributedDistanceString"]
+- !private ["So13UIDynamicItemP", "baselineAlignInstructions"]
+- !private ["So13UIDynamicItemP", "centerYAlignInstructions"]
+- !private ["So13UIDynamicItemP", "commonInit"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "distance"]
+- !private ["So13UIDynamicItemP", "distanceFormatter"]
+- !private ["So13UIDynamicItemP", "distanceLabel"]
+- !private ["So13UIDynamicItemP", "drivingSide"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "instruction"]
+- !private ["So13UIDynamicItemP", "instructionDelegate"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "isStart"]
+- !private ["So13UIDynamicItemP", "maneuverView"]
+- !private ["So13UIDynamicItemP", "numberOfLines"]
+- !private ["So13UIDynamicItemP", "prepareForInterfaceBuilder"]
+- !private ["So13UIDynamicItemP", "primaryLabel"]
+- !private ["So13UIDynamicItemP", "secondaryLabel"]
+- !private ["So13UIDynamicItemP", "setupAvailableBounds"]
+- !private ["So13UIDynamicItemP", "setupLayout"]
+- !private ["So13UIDynamicItemP", "setupViews"]
+- !private ["So13UIDynamicItemP", "stepListIndicatorView"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "visualInstruction"]
+- ["So18UIFocusEnvironmentP", "DistanceFormatter"]
+- ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UIFocusEnvironmentP", "NSNotFound"]
+- !private ["So18UIFocusEnvironmentP", "VisualInstruction"]
+- !private ["So18UIFocusEnvironmentP", "VisualInstructionComponent"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "attributedDistanceString"]
+- !private ["So18UIFocusEnvironmentP", "baselineAlignInstructions"]
+- !private ["So18UIFocusEnvironmentP", "centerYAlignInstructions"]
+- !private ["So18UIFocusEnvironmentP", "commonInit"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "distance"]
+- !private ["So18UIFocusEnvironmentP", "distanceFormatter"]
+- !private ["So18UIFocusEnvironmentP", "distanceLabel"]
+- !private ["So18UIFocusEnvironmentP", "drivingSide"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "instruction"]
+- !private ["So18UIFocusEnvironmentP", "instructionDelegate"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "isStart"]
+- !private ["So18UIFocusEnvironmentP", "maneuverView"]
+- !private ["So18UIFocusEnvironmentP", "numberOfLines"]
+- !private ["So18UIFocusEnvironmentP", "prepareForInterfaceBuilder"]
+- !private ["So18UIFocusEnvironmentP", "primaryLabel"]
+- !private ["So18UIFocusEnvironmentP", "secondaryLabel"]
+- !private ["So18UIFocusEnvironmentP", "setupAvailableBounds"]
+- !private ["So18UIFocusEnvironmentP", "setupLayout"]
+- !private ["So18UIFocusEnvironmentP", "setupViews"]
+- !private ["So18UIFocusEnvironmentP", "stepListIndicatorView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "visualInstruction"]
+- ["So11UIFocusItemP", "DistanceFormatter"]
+- ["So11UIFocusItemP", "NSLayoutConstraint"]
+- !private ["So11UIFocusItemP", "NSNotFound"]
+- !private ["So11UIFocusItemP", "VisualInstruction"]
+- !private ["So11UIFocusItemP", "VisualInstructionComponent"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "attributedDistanceString"]
+- !private ["So11UIFocusItemP", "baselineAlignInstructions"]
+- !private ["So11UIFocusItemP", "centerYAlignInstructions"]
+- !private ["So11UIFocusItemP", "commonInit"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "distance"]
+- !private ["So11UIFocusItemP", "distanceFormatter"]
+- !private ["So11UIFocusItemP", "distanceLabel"]
+- !private ["So11UIFocusItemP", "drivingSide"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "instruction"]
+- !private ["So11UIFocusItemP", "instructionDelegate"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "isStart"]
+- !private ["So11UIFocusItemP", "maneuverView"]
+- !private ["So11UIFocusItemP", "numberOfLines"]
+- !private ["So11UIFocusItemP", "prepareForInterfaceBuilder"]
+- !private ["So11UIFocusItemP", "primaryLabel"]
+- !private ["So11UIFocusItemP", "secondaryLabel"]
+- !private ["So11UIFocusItemP", "setupAvailableBounds"]
+- !private ["So11UIFocusItemP", "setupLayout"]
+- !private ["So11UIFocusItemP", "setupViews"]
+- !private ["So11UIFocusItemP", "stepListIndicatorView"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "visualInstruction"]
+- !private ["So19UIGestureRecognizerC", "state"]
+- !private ["SC24UIGestureRecognizerStateO", "ended"]
+- !private ["So7UILabelC", "attributedDistanceString"]
+- !private ["So7UILabelC", "instruction"]
+- !private ["So7UILabelC", "instructionDelegate"]
+- !private ["So7UILabelC", "numberOfLines"]
+- !private ["So7UILabelC", "text"]
+- !private ["So22UIPanGestureRecognizerC", "state"]
+- ["So30UIPasteConfigurationSupportingP", "DistanceFormatter"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNotFound"]
+- !private ["So30UIPasteConfigurationSupportingP", "VisualInstruction"]
+- !private ["So30UIPasteConfigurationSupportingP", "VisualInstructionComponent"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedDistanceString"]
+- !private ["So30UIPasteConfigurationSupportingP", "baselineAlignInstructions"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerYAlignInstructions"]
+- !private ["So30UIPasteConfigurationSupportingP", "commonInit"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "distance"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceFormatter"]
+- !private ["So30UIPasteConfigurationSupportingP", "distanceLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "drivingSide"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "instruction"]
+- !private ["So30UIPasteConfigurationSupportingP", "instructionDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isStart"]
+- !private ["So30UIPasteConfigurationSupportingP", "maneuverView"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfLines"]
+- !private ["So30UIPasteConfigurationSupportingP", "prepareForInterfaceBuilder"]
+- !private ["So30UIPasteConfigurationSupportingP", "primaryLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "secondaryLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupAvailableBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupViews"]
+- !private ["So30UIPasteConfigurationSupportingP", "stepListIndicatorView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "visualInstruction"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CLLocationDistance"]
+- ["So11UIResponderC", "DistanceFormatter"]
+- ["So11UIResponderC", "DistanceLabel"]
+- ["So11UIResponderC", "InstructionsBannerViewDelegate"]
+- ["So11UIResponderC", "ManeuverView"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- !private ["So11UIResponderC", "NSNotFound"]
+- ["So11UIResponderC", "PrimaryLabel"]
+- ["So11UIResponderC", "RouteStepProgress"]
+- ["So11UIResponderC", "SecondaryLabel"]
+- ["So11UIResponderC", "SeparatorView"]
+- ["So11UIResponderC", "StepListIndicatorView"]
+- !private ["So11UIResponderC", "UIPanGestureRecognizer"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "VisualInstruction"]
+- ["So11UIResponderC", "VisualInstructionBanner"]
+- !private ["So11UIResponderC", "VisualInstructionComponent"]
+- ["So11UIResponderC", "VisualInstructionDelegate"]
+- ["So11UIResponderC", "_separatorView"]
+- !private ["So11UIResponderC", "attributedDistanceString"]
+- !private ["So11UIResponderC", "baselineAlignInstructions"]
+- ["So11UIResponderC", "baselineConstraints"]
+- !private ["So11UIResponderC", "centerYAlignInstructions"]
+- ["So11UIResponderC", "centerYConstraints"]
+- ["So11UIResponderC", "commonInit"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "distance"]
+- ["So11UIResponderC", "distanceFormatter"]
+- ["So11UIResponderC", "distanceLabel"]
+- ["So11UIResponderC", "dividerView"]
+- ["So11UIResponderC", "draggedInstructionsBanner"]
+- !private ["So11UIResponderC", "drivingSide"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "instruction"]
+- ["So11UIResponderC", "instructionDelegate"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "isStart"]
+- ["So11UIResponderC", "maneuverView"]
+- !private ["So11UIResponderC", "numberOfLines"]
+- ["So11UIResponderC", "prepareForInterfaceBuilder"]
+- ["So11UIResponderC", "primaryLabel"]
+- ["So11UIResponderC", "secondaryLabel"]
+- ["So11UIResponderC", "separatorView"]
+- !private ["So11UIResponderC", "setupAvailableBounds"]
+- !private ["So11UIResponderC", "setupLayout"]
+- !private ["So11UIResponderC", "setupViews"]
+- ["So11UIResponderC", "stepListIndicatorView"]
+- ["So11UIResponderC", "tappedInstructionsBanner"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "update"]
+- ["So11UIResponderC", "updateDistance"]
+- !private ["So11UIResponderC", "visualInstruction"]
+- ["So30UIResponderStandardEditActionsP", "DistanceFormatter"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNotFound"]
+- !private ["So30UIResponderStandardEditActionsP", "VisualInstruction"]
+- !private ["So30UIResponderStandardEditActionsP", "VisualInstructionComponent"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "attributedDistanceString"]
+- !private ["So30UIResponderStandardEditActionsP", "baselineAlignInstructions"]
+- !private ["So30UIResponderStandardEditActionsP", "centerYAlignInstructions"]
+- !private ["So30UIResponderStandardEditActionsP", "commonInit"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "distance"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceFormatter"]
+- !private ["So30UIResponderStandardEditActionsP", "distanceLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "drivingSide"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "instruction"]
+- !private ["So30UIResponderStandardEditActionsP", "instructionDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isStart"]
+- !private ["So30UIResponderStandardEditActionsP", "maneuverView"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfLines"]
+- !private ["So30UIResponderStandardEditActionsP", "prepareForInterfaceBuilder"]
+- !private ["So30UIResponderStandardEditActionsP", "primaryLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "secondaryLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setupAvailableBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "setupLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "setupViews"]
+- !private ["So30UIResponderStandardEditActionsP", "stepListIndicatorView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "visualInstruction"]
+- ["So18UITraitEnvironmentP", "DistanceFormatter"]
+- ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- !private ["So18UITraitEnvironmentP", "NSNotFound"]
+- !private ["So18UITraitEnvironmentP", "VisualInstruction"]
+- !private ["So18UITraitEnvironmentP", "VisualInstructionComponent"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "attributedDistanceString"]
+- !private ["So18UITraitEnvironmentP", "baselineAlignInstructions"]
+- !private ["So18UITraitEnvironmentP", "centerYAlignInstructions"]
+- !private ["So18UITraitEnvironmentP", "commonInit"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "distance"]
+- !private ["So18UITraitEnvironmentP", "distanceFormatter"]
+- !private ["So18UITraitEnvironmentP", "distanceLabel"]
+- !private ["So18UITraitEnvironmentP", "drivingSide"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "instruction"]
+- !private ["So18UITraitEnvironmentP", "instructionDelegate"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "isStart"]
+- !private ["So18UITraitEnvironmentP", "maneuverView"]
+- !private ["So18UITraitEnvironmentP", "numberOfLines"]
+- !private ["So18UITraitEnvironmentP", "prepareForInterfaceBuilder"]
+- !private ["So18UITraitEnvironmentP", "primaryLabel"]
+- !private ["So18UITraitEnvironmentP", "secondaryLabel"]
+- !private ["So18UITraitEnvironmentP", "setupAvailableBounds"]
+- !private ["So18UITraitEnvironmentP", "setupLayout"]
+- !private ["So18UITraitEnvironmentP", "setupViews"]
+- !private ["So18UITraitEnvironmentP", "stepListIndicatorView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "visualInstruction"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CLLocationDistance"]
+- ["So6UIViewC", "DistanceFormatter"]
+- ["So6UIViewC", "DistanceLabel"]
+- ["So6UIViewC", "InstructionsBannerViewDelegate"]
+- ["So6UIViewC", "ManeuverView"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- !private ["So6UIViewC", "NSNotFound"]
+- ["So6UIViewC", "PrimaryLabel"]
+- ["So6UIViewC", "RouteStepProgress"]
+- ["So6UIViewC", "SecondaryLabel"]
+- ["So6UIViewC", "SeparatorView"]
+- ["So6UIViewC", "StepListIndicatorView"]
+- !private ["So6UIViewC", "UIPanGestureRecognizer"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "VisualInstruction"]
+- ["So6UIViewC", "VisualInstructionBanner"]
+- !private ["So6UIViewC", "VisualInstructionComponent"]
+- ["So6UIViewC", "VisualInstructionDelegate"]
+- ["So6UIViewC", "_separatorView"]
+- !private ["So6UIViewC", "attributedDistanceString"]
+- !private ["So6UIViewC", "baselineAlignInstructions"]
+- ["So6UIViewC", "baselineConstraints"]
+- !private ["So6UIViewC", "centerYAlignInstructions"]
+- ["So6UIViewC", "centerYConstraints"]
+- ["So6UIViewC", "commonInit"]
+- ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "distance"]
+- ["So6UIViewC", "distanceFormatter"]
+- ["So6UIViewC", "distanceLabel"]
+- ["So6UIViewC", "dividerView"]
+- ["So6UIViewC", "draggedInstructionsBanner"]
+- !private ["So6UIViewC", "drivingSide"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "instruction"]
+- ["So6UIViewC", "instructionDelegate"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "isStart"]
+- ["So6UIViewC", "maneuverView"]
+- !private ["So6UIViewC", "numberOfLines"]
+- ["So6UIViewC", "prepareForInterfaceBuilder"]
+- ["So6UIViewC", "primaryLabel"]
+- ["So6UIViewC", "secondaryLabel"]
+- ["So6UIViewC", "separatorView"]
+- !private ["So6UIViewC", "setupAvailableBounds"]
+- !private ["So6UIViewC", "setupLayout"]
+- !private ["So6UIViewC", "setupViews"]
+- ["So6UIViewC", "stepListIndicatorView"]
+- ["So6UIViewC", "tappedInstructionsBanner"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "update"]
+- ["So6UIViewC", "updateDistance"]
+- !private ["So6UIViewC", "visualInstruction"]
+- !private ["16MapboxDirections17VisualInstructionC", "init"]
+- !private ["16MapboxDirections23VisualInstructionBannerC", "drivingSide"]
+- !private ["16MapboxDirections23VisualInstructionBannerC", "primaryInstruction"]
+- !private ["16MapboxDirections23VisualInstructionBannerC", "secondaryInstruction"]
+- !private ["16MapboxDirections26VisualInstructionComponentC", "init"]
+- !private ["16MapboxDirections30VisualInstructionComponentTypeO", "text"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "DistanceFormatter"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "NSLayoutConstraint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "NSNotFound"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "VisualInstruction"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "VisualInstructionComponent"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "attributedDistanceString"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "baselineAlignInstructions"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerYAlignInstructions"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "commonInit"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceFormatter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "distanceLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "drivingSide"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "instruction"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "instructionDelegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isStart"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "maneuverView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfLines"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "prepareForInterfaceBuilder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "primaryLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "secondaryLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupAvailableBounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupViews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stepListIndicatorView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "visualInstruction"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DistanceFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotFound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VisualInstruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VisualInstructionComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedDistanceString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baselineAlignInstructions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerYAlignInstructions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commonInit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceRemaining"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drivingSide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instructionDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maneuverView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfLines"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareForInterfaceBuilder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "primaryInstruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "primaryLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondaryInstruction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondaryLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupAvailableBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupViews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stepListIndicatorView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "visualInstruction"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "16MapboxNavigation10AnchorableP"
+- "Sa"
+- "16MapboxNavigation26BaseInstructionsBannerViewC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "16MapboxDirections22ComponentRepresentableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "20MapboxCoreNavigation17DistanceFormatterC"
+- !private "16MapboxNavigation13DistanceLabelC"
+- !private "16MapboxDirections11DrivingSideO"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- !private "16MapboxNavigation16InstructionLabelC"
+- !private "16MapboxNavigation30InstructionPresenterDataSourceP"
+- "16MapboxNavigation22InstructionsBannerViewC"
+- "16MapboxNavigation30InstructionsBannerViewDelegateP"
+- !private "4Turf8JSONTypeP"
+- !private "So15LengthFormatterC"
+- !private "s25LosslessStringConvertibleP"
+- !private "16MapboxDirections17ManeuverDirectionO"
+- !private "16MapboxDirections12ManeuverTypeO"
+- !private "16MapboxNavigation12ManeuverViewC"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "16MapboxNavigation12PrimaryLabelC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "20MapboxCoreNavigation17RouteStepProgressC"
+- !private "16MapboxNavigation14SecondaryLabelC"
+- "s8SequenceP"
+- !private "16MapboxNavigation21StepListIndicatorViewC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "16MapboxNavigation13StylableLabelC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "SC24UIGestureRecognizerStateO"
+- !private "So7UILabelC"
+- !private "So22UIPanGestureRecognizerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "16MapboxDirections17VisualInstructionC"
+- !private "16MapboxDirections23VisualInstructionBannerC"
+- !private "16MapboxDirections26VisualInstructionComponentC"
+- !private "16MapboxDirections30VisualInstructionComponentTypeO"
+- "s14_ArrayProtocolP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "1177fb56bfb71d9faa3c3358d5e2c733"

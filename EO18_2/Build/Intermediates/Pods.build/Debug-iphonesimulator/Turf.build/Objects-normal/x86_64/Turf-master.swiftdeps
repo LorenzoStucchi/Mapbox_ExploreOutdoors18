@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "de65949b8b10bd9b0540e49a8548b258"
+build_time: [1535745647, 709757000]
+inputs:
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Codable.swift": [1535745283, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/CoreLocation.swift": [1535745283, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/GeoJSON/FeatureIdentifier.swift": [1535745283, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/GeoJSON/GeoJSON.swift": [1535745283, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/GeoJSON/Geometry.swift": [1535745283, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.swift": [1535745283, 0]

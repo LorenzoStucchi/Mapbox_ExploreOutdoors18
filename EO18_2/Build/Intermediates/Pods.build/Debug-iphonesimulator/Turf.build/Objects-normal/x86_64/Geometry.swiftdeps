@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GeometryType"
+- "Geometry"
+- "Polyline"
+- "Point"
+- "LineString"
+- "Polygon"
+- "MultiPoint"
+- "MultiLineString"
+- "MultiPolygon"
+provides-nominal:
+- "4Turf12GeometryTypeO"
+- "4Turf8GeometryV"
+- "4Turf5PointV"
+- "4Turf10LineStringV"
+- "4Turf7PolygonV"
+- "4Turf10MultiPointV"
+- "4Turf15MultiLineStringV"
+- "4Turf12MultiPolygonV"
+provides-member:
+- ["4Turf12GeometryTypeO", ""]
+- ["4Turf8GeometryV", ""]
+- ["4Turf5PointV", ""]
+- ["4Turf10LineStringV", ""]
+- ["4Turf7PolygonV", ""]
+- ["4Turf10MultiPointV", ""]
+- ["4Turf15MultiLineStringV", ""]
+- ["4Turf12MultiPolygonV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CLLocationCoordinate2D"
+- "Codable"
+- "Equatable"
+- "Geometry"
+- "GeometryType"
+- "LineString"
+- "MultiLineString"
+- "MultiPoint"
+- "MultiPolygon"
+- "Point"
+- "Polygon"
+- "Polyline"
+- "Ring"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "suffix"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "suffix"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["SC22CLLocationCoordinate2DV", "deinit"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "suffix"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "suffix"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "suffix"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "suffix"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "suffix"]
+- !private ["s9DecodableP", "Array"]
+- ["s9DecodableP", "GeometryType"]
+- !private ["s9DecodableP", "Ring"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "coordinates"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "suffix"]
+- !private ["s9DecodableP", "type"]
+- !private ["s7DecoderP", "container"]
+- !private ["s9EncodableP", "Array"]
+- ["s9EncodableP", "GeometryType"]
+- !private ["s9EncodableP", "Ring"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "coordinates"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "suffix"]
+- !private ["s9EncodableP", "type"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", "Array"]
+- ["s9EquatableP", "GeometryType"]
+- ["s9EquatableP", "LineString"]
+- ["s9EquatableP", "MultiLineString"]
+- ["s9EquatableP", "MultiPoint"]
+- ["s9EquatableP", "MultiPolygon"]
+- ["s9EquatableP", "Point"]
+- ["s9EquatableP", "Polygon"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "Ring"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "coordinates"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "encode"]
+- !private ["s9EquatableP", "first"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "suffix"]
+- !private ["s9EquatableP", "type"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "suffix"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["4Turf8GeometryV", "CodingKeys"]
+- ["4Turf8GeometryV", "GeometryType"]
+- ["4Turf8GeometryV", "String"]
+- ["4Turf8GeometryV", "deinit"]
+- ["4Turf8GeometryV", "encode"]
+- ["4Turf8GeometryV", "geometryType"]
+- ["4Turf8GeometryV", "init"]
+- ["4Turf8GeometryV", "type"]
+- ["4Turf12GeometryTypeO", "GeometryType"]
+- ["4Turf12GeometryTypeO", "LineString"]
+- ["4Turf12GeometryTypeO", "MultiLineString"]
+- ["4Turf12GeometryTypeO", "MultiPoint"]
+- ["4Turf12GeometryTypeO", "MultiPolygon"]
+- ["4Turf12GeometryTypeO", "Point"]
+- ["4Turf12GeometryTypeO", "Polygon"]
+- ["4Turf12GeometryTypeO", "RawValue"]
+- ["4Turf12GeometryTypeO", "_Default_RawValue"]
+- !private ["4Turf12GeometryTypeO", "_findStringSwitchCase"]
+- ["4Turf12GeometryTypeO", "allValues"]
+- ["4Turf12GeometryTypeO", "deinit"]
+- ["4Turf12GeometryTypeO", "hashValue"]
+- ["4Turf12GeometryTypeO", "init"]
+- ["4Turf12GeometryTypeO", "rawValue"]
+- ["s8HashableP", "LineString"]
+- ["s8HashableP", "MultiLineString"]
+- ["s8HashableP", "MultiPoint"]
+- ["s8HashableP", "MultiPolygon"]
+- ["s8HashableP", "Point"]
+- ["s8HashableP", "Polygon"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- ["4Turf8JSONTypeP", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["4Turf10LineStringV", "CLLocationCoordinate2D"]
+- !private ["4Turf10LineStringV", "CodingKeys"]
+- ["4Turf10LineStringV", "GeometryType"]
+- ["4Turf10LineStringV", "String"]
+- ["4Turf10LineStringV", "__derived_struct_equals"]
+- ["4Turf10LineStringV", "coordinates"]
+- ["4Turf10LineStringV", "deinit"]
+- ["4Turf10LineStringV", "encode"]
+- ["4Turf10LineStringV", "init"]
+- ["4Turf10LineStringV", "type"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["4Turf15MultiLineStringV", "CLLocationCoordinate2D"]
+- !private ["4Turf15MultiLineStringV", "CodingKeys"]
+- ["4Turf15MultiLineStringV", "GeometryType"]
+- ["4Turf15MultiLineStringV", "String"]
+- ["4Turf15MultiLineStringV", "__derived_struct_equals"]
+- ["4Turf15MultiLineStringV", "coordinates"]
+- ["4Turf15MultiLineStringV", "deinit"]
+- ["4Turf15MultiLineStringV", "encode"]
+- ["4Turf15MultiLineStringV", "init"]
+- ["4Turf15MultiLineStringV", "type"]
+- ["4Turf10MultiPointV", "CLLocationCoordinate2D"]
+- !private ["4Turf10MultiPointV", "CodingKeys"]
+- ["4Turf10MultiPointV", "GeometryType"]
+- ["4Turf10MultiPointV", "String"]
+- ["4Turf10MultiPointV", "__derived_struct_equals"]
+- ["4Turf10MultiPointV", "coordinates"]
+- ["4Turf10MultiPointV", "deinit"]
+- ["4Turf10MultiPointV", "encode"]
+- ["4Turf10MultiPointV", "init"]
+- ["4Turf10MultiPointV", "type"]
+- ["4Turf12MultiPolygonV", "CLLocationCoordinate2D"]
+- !private ["4Turf12MultiPolygonV", "CodingKeys"]
+- ["4Turf12MultiPolygonV", "GeometryType"]
+- ["4Turf12MultiPolygonV", "String"]
+- ["4Turf12MultiPolygonV", "__derived_struct_equals"]
+- ["4Turf12MultiPolygonV", "coordinates"]
+- ["4Turf12MultiPolygonV", "deinit"]
+- ["4Turf12MultiPolygonV", "encode"]
+- ["4Turf12MultiPolygonV", "init"]
+- ["4Turf12MultiPolygonV", "type"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "suffix"]
+- ["4Turf5PointV", "CLLocationCoordinate2D"]
+- !private ["4Turf5PointV", "CodingKeys"]
+- ["4Turf5PointV", "GeometryType"]
+- ["4Turf5PointV", "String"]
+- ["4Turf5PointV", "__derived_struct_equals"]
+- ["4Turf5PointV", "coordinates"]
+- ["4Turf5PointV", "deinit"]
+- ["4Turf5PointV", "encode"]
+- ["4Turf5PointV", "init"]
+- ["4Turf5PointV", "type"]
+- !private ["4Turf7PolygonV", "Array"]
+- ["4Turf7PolygonV", "CLLocationCoordinate2D"]
+- !private ["4Turf7PolygonV", "CodingKeys"]
+- ["4Turf7PolygonV", "GeometryType"]
+- ["4Turf7PolygonV", "Ring"]
+- ["4Turf7PolygonV", "String"]
+- ["4Turf7PolygonV", "__derived_struct_equals"]
+- ["4Turf7PolygonV", "coordinates"]
+- ["4Turf7PolygonV", "deinit"]
+- ["4Turf7PolygonV", "encode"]
+- ["4Turf7PolygonV", "init"]
+- ["4Turf7PolygonV", "innerRings"]
+- ["4Turf7PolygonV", "outerRing"]
+- ["4Turf7PolygonV", "type"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "suffix"]
+- ["s16RawRepresentableP", "LineString"]
+- ["s16RawRepresentableP", "MultiLineString"]
+- ["s16RawRepresentableP", "MultiPoint"]
+- ["s16RawRepresentableP", "MultiPolygon"]
+- ["s16RawRepresentableP", "Point"]
+- ["s16RawRepresentableP", "Polygon"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["4Turf4RingV", "deinit"]
+- !private ["4Turf4RingV", "init"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "suffix"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "suffix"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "suffix"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "suffix"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "SC22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Turf8GeometryV"
+- "4Turf12GeometryTypeO"
+- "s8HashableP"
+- "4Turf8JSONTypeP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "4Turf10LineStringV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "4Turf15MultiLineStringV"
+- "4Turf10MultiPointV"
+- "4Turf12MultiPolygonV"
+- !private "s17MutableCollectionP"
+- "4Turf5PointV"
+- "4Turf7PolygonV"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "4Turf4RingV"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "047adf3ae192334c34d643ea82a4f17a"

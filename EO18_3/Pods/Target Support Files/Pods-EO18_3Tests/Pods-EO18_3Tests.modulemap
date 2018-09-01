@@ -1,0 +1,6 @@
+framework module Pods_EO18_3Tests {
+  umbrella header "Pods-EO18_3Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

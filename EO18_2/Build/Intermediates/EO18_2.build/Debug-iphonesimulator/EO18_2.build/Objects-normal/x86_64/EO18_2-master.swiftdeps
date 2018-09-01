@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "8773e32d863d5794ea5df5f19934ffa6"
+build_time: [1535749038, 644822000]
+inputs:
+  "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/EO18_2/ViewController.swift": [1535745841, 0]
+  "/Users/Lorenzo/Desktop/Lorenzo/web page/Mapbox_ExploreOutdoors18/EO18_2/EO18_2/AppDelegate.swift": [1535744364, 0]

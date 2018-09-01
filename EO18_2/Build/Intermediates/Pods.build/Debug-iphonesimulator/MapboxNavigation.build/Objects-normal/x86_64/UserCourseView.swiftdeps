@@ -1,0 +1,1378 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PuckSize"
+- "ArrowSize"
+- "UserCourseView"
+- "UserPuckCourseView"
+- "UserPuckStyleKitView"
+provides-nominal:
+- "16MapboxNavigation14UserCourseViewP"
+- "16MapboxNavigation18UserPuckCourseViewC"
+- "16MapboxNavigation20UserPuckStyleKitViewC"
+provides-member:
+- ["16MapboxNavigation14UserCourseViewP", ""]
+- ["So6UIViewC", ""]
+- ["16MapboxNavigation18UserPuckCourseViewC", ""]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", ""]
+- ["So6UIViewC", "applyDefaultUserPuckTransformation"]
+provides-dynamic-lookup:
+- "direction"
+- "draw"
+- "fillColor"
+- "location"
+- "pitch"
+- "puckColor"
+- "shadowColor"
+- "update"
+depends-top-level:
+- "*"
+- !private "-"
+- !private "/"
+- !private "Array"
+- "ArrowSize"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CATransform3DIdentity"
+- !private "CATransform3DRotate"
+- !private "CATransform3DScale"
+- !private "CGAffineTransform"
+- "CGFloat"
+- !private "CGPoint"
+- "CGRect"
+- "CLLocation"
+- "CLLocationDegrees"
+- "FloatLiteralType"
+- "NSCoder"
+- "PuckSize"
+- "TernaryPrecedence"
+- !private "TimeInterval"
+- !private "UIBezierPath"
+- "UIColor"
+- "UIView"
+- "UserCourseView"
+- "UserPuckCourseView"
+- "UserPuckStyleKitView"
+- "_ColorLiteralType"
+depends-member:
+- !private ["16MapboxNavigation10AnchorableP", "CATransform3DIdentity"]
+- !private ["16MapboxNavigation10AnchorableP", "CATransform3DRotate"]
+- !private ["16MapboxNavigation10AnchorableP", "CATransform3DScale"]
+- !private ["16MapboxNavigation10AnchorableP", "CGAffineTransform"]
+- !private ["16MapboxNavigation10AnchorableP", "CGFloat"]
+- !private ["16MapboxNavigation10AnchorableP", "CGPoint"]
+- !private ["16MapboxNavigation10AnchorableP", "CGRect"]
+- !private ["16MapboxNavigation10AnchorableP", "CLLocationDegrees"]
+- !private ["16MapboxNavigation10AnchorableP", "UIBezierPath"]
+- ["16MapboxNavigation10AnchorableP", "UIColor"]
+- !private ["16MapboxNavigation10AnchorableP", "UIView"]
+- !private ["16MapboxNavigation10AnchorableP", "UserPuckStyleKitView"]
+- ["16MapboxNavigation10AnchorableP", ""]
+- !private ["16MapboxNavigation10AnchorableP", "addSubview"]
+- !private ["16MapboxNavigation10AnchorableP", "animate"]
+- !private ["16MapboxNavigation10AnchorableP", "backgroundColor"]
+- !private ["16MapboxNavigation10AnchorableP", "bounds"]
+- !private ["16MapboxNavigation10AnchorableP", "commonInit"]
+- ["16MapboxNavigation10AnchorableP", "direction"]
+- !private ["16MapboxNavigation10AnchorableP", "draw"]
+- !private ["16MapboxNavigation10AnchorableP", "drawNavigation_puck"]
+- !private ["16MapboxNavigation10AnchorableP", "fillColor"]
+- !private ["16MapboxNavigation10AnchorableP", "init"]
+- !private ["16MapboxNavigation10AnchorableP", "layer"]
+- ["16MapboxNavigation10AnchorableP", "location"]
+- ["16MapboxNavigation10AnchorableP", "pitch"]
+- !private ["16MapboxNavigation10AnchorableP", "puckColor"]
+- !private ["16MapboxNavigation10AnchorableP", "puckView"]
+- !private ["16MapboxNavigation10AnchorableP", "setNeedsDisplay"]
+- !private ["16MapboxNavigation10AnchorableP", "shadowColor"]
+- ["16MapboxNavigation10AnchorableP", "update"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s19BinaryFloatingPointP", "toRadians"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "setAffineTransform"]
+- !private ["So7CALayerC", "sublayerTransform"]
+- !private ["So15CALayerDelegateP", "CATransform3DIdentity"]
+- !private ["So15CALayerDelegateP", "CATransform3DRotate"]
+- !private ["So15CALayerDelegateP", "CATransform3DScale"]
+- !private ["So15CALayerDelegateP", "CGAffineTransform"]
+- !private ["So15CALayerDelegateP", "CGFloat"]
+- !private ["So15CALayerDelegateP", "CGPoint"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "CLLocationDegrees"]
+- !private ["So15CALayerDelegateP", "UIBezierPath"]
+- ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "UserPuckStyleKitView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "commonInit"]
+- ["So15CALayerDelegateP", "direction"]
+- !private ["So15CALayerDelegateP", "draw"]
+- !private ["So15CALayerDelegateP", "drawNavigation_puck"]
+- !private ["So15CALayerDelegateP", "fillColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "location"]
+- ["So15CALayerDelegateP", "pitch"]
+- !private ["So15CALayerDelegateP", "puckColor"]
+- !private ["So15CALayerDelegateP", "puckView"]
+- !private ["So15CALayerDelegateP", "setNeedsDisplay"]
+- !private ["So15CALayerDelegateP", "shadowColor"]
+- ["So15CALayerDelegateP", "update"]
+- !private ["So13CAMediaTimingP", "setAffineTransform"]
+- !private ["So13CAMediaTimingP", "sublayerTransform"]
+- !private ["SC13CATransform3DV", "m34"]
+- !private ["SC17CGAffineTransformV", "identity"]
+- !private ["SC17CGAffineTransformV", "rotated"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "init"]
+- !private ["So10CLLocationC", "course"]
+- !private ["s7CVarArgP", "CATransform3DIdentity"]
+- !private ["s7CVarArgP", "CATransform3DRotate"]
+- !private ["s7CVarArgP", "CATransform3DScale"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CLLocationDegrees"]
+- !private ["s7CVarArgP", "UIBezierPath"]
+- ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "UserPuckStyleKitView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addCurve"]
+- !private ["s7CVarArgP", "addLine"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "close"]
+- !private ["s7CVarArgP", "commonInit"]
+- !private ["s7CVarArgP", "course"]
+- ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "drawNavigation_puck"]
+- !private ["s7CVarArgP", "fill"]
+- !private ["s7CVarArgP", "fillColor"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "move"]
+- ["s7CVarArgP", "pitch"]
+- !private ["s7CVarArgP", "puckColor"]
+- !private ["s7CVarArgP", "puckView"]
+- !private ["s7CVarArgP", "setAffineTransform"]
+- !private ["s7CVarArgP", "setFill"]
+- !private ["s7CVarArgP", "setNeedsDisplay"]
+- !private ["s7CVarArgP", "shadowColor"]
+- !private ["s7CVarArgP", "sublayerTransform"]
+- !private ["s7CVarArgP", "toRadians"]
+- ["s7CVarArgP", "update"]
+- !private ["s7CVarArgP", "usesEvenOddFillRule"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "toRadians"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransform3DIdentity"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransform3DRotate"]
+- !private ["s28CustomDebugStringConvertibleP", "CATransform3DScale"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationDegrees"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBezierPath"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "UserPuckStyleKitView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addCurve"]
+- !private ["s28CustomDebugStringConvertibleP", "addLine"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "close"]
+- !private ["s28CustomDebugStringConvertibleP", "commonInit"]
+- !private ["s28CustomDebugStringConvertibleP", "course"]
+- ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "drawNavigation_puck"]
+- !private ["s28CustomDebugStringConvertibleP", "fill"]
+- !private ["s28CustomDebugStringConvertibleP", "fillColor"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "move"]
+- ["s28CustomDebugStringConvertibleP", "pitch"]
+- !private ["s28CustomDebugStringConvertibleP", "puckColor"]
+- !private ["s28CustomDebugStringConvertibleP", "puckView"]
+- !private ["s28CustomDebugStringConvertibleP", "setAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "setFill"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowColor"]
+- !private ["s28CustomDebugStringConvertibleP", "sublayerTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "toRadians"]
+- ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "usesEvenOddFillRule"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toRadians"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "toRadians"]
+- !private ["s23CustomStringConvertibleP", "CATransform3DIdentity"]
+- !private ["s23CustomStringConvertibleP", "CATransform3DRotate"]
+- !private ["s23CustomStringConvertibleP", "CATransform3DScale"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CLLocationDegrees"]
+- !private ["s23CustomStringConvertibleP", "UIBezierPath"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "UserPuckStyleKitView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addCurve"]
+- !private ["s23CustomStringConvertibleP", "addLine"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "commonInit"]
+- !private ["s23CustomStringConvertibleP", "course"]
+- ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "drawNavigation_puck"]
+- !private ["s23CustomStringConvertibleP", "fill"]
+- !private ["s23CustomStringConvertibleP", "fillColor"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "move"]
+- ["s23CustomStringConvertibleP", "pitch"]
+- !private ["s23CustomStringConvertibleP", "puckColor"]
+- !private ["s23CustomStringConvertibleP", "puckView"]
+- !private ["s23CustomStringConvertibleP", "setAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "setFill"]
+- !private ["s23CustomStringConvertibleP", "setNeedsDisplay"]
+- !private ["s23CustomStringConvertibleP", "shadowColor"]
+- !private ["s23CustomStringConvertibleP", "sublayerTransform"]
+- !private ["s23CustomStringConvertibleP", "toRadians"]
+- ["s23CustomStringConvertibleP", "update"]
+- !private ["s23CustomStringConvertibleP", "usesEvenOddFillRule"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "clear"]
+- !private ["s9DecodableP", "identity"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "rotated"]
+- !private ["s9DecodableP", "toRadians"]
+- !private ["Sd", "init"]
+- !private ["Sd", "toRadians"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "clear"]
+- !private ["s9EncodableP", "identity"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "rotated"]
+- !private ["s9EncodableP", "toRadians"]
+- !private ["s9EquatableP", "CATransform3DIdentity"]
+- !private ["s9EquatableP", "CATransform3DRotate"]
+- !private ["s9EquatableP", "CATransform3DScale"]
+- !private ["s9EquatableP", "CGAffineTransform"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "CLLocationDegrees"]
+- !private ["s9EquatableP", "UIBezierPath"]
+- ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "UserPuckStyleKitView"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addCurve"]
+- !private ["s9EquatableP", "addLine"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "beginFromCurrentState"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "close"]
+- !private ["s9EquatableP", "commonInit"]
+- !private ["s9EquatableP", "course"]
+- !private ["s9EquatableP", "curveLinear"]
+- ["s9EquatableP", "direction"]
+- !private ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "drawNavigation_puck"]
+- !private ["s9EquatableP", "fill"]
+- !private ["s9EquatableP", "fillColor"]
+- !private ["s9EquatableP", "identity"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "move"]
+- ["s9EquatableP", "pitch"]
+- !private ["s9EquatableP", "puckColor"]
+- !private ["s9EquatableP", "puckView"]
+- !private ["s9EquatableP", "rotated"]
+- !private ["s9EquatableP", "setAffineTransform"]
+- !private ["s9EquatableP", "setFill"]
+- !private ["s9EquatableP", "setNeedsDisplay"]
+- !private ["s9EquatableP", "shadowColor"]
+- !private ["s9EquatableP", "sublayerTransform"]
+- !private ["s9EquatableP", "toRadians"]
+- ["s9EquatableP", "update"]
+- !private ["s9EquatableP", "usesEvenOddFillRule"]
+- !private ["s25ExpressibleByArrayLiteralP", "beginFromCurrentState"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveLinear"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "toRadians"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "toRadians"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s23ExpressibleByNilLiteralP", "toRadians"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s13FloatingPointP", "toRadians"]
+- !private ["s8HashableP", "CATransform3DIdentity"]
+- !private ["s8HashableP", "CATransform3DRotate"]
+- !private ["s8HashableP", "CATransform3DScale"]
+- !private ["s8HashableP", "CGAffineTransform"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "CLLocationDegrees"]
+- !private ["s8HashableP", "UIBezierPath"]
+- ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "UserPuckStyleKitView"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addCurve"]
+- !private ["s8HashableP", "addLine"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "close"]
+- !private ["s8HashableP", "commonInit"]
+- !private ["s8HashableP", "course"]
+- ["s8HashableP", "direction"]
+- !private ["s8HashableP", "draw"]
+- !private ["s8HashableP", "drawNavigation_puck"]
+- !private ["s8HashableP", "fill"]
+- !private ["s8HashableP", "fillColor"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- ["s8HashableP", "location"]
+- !private ["s8HashableP", "move"]
+- ["s8HashableP", "pitch"]
+- !private ["s8HashableP", "puckColor"]
+- !private ["s8HashableP", "puckView"]
+- !private ["s8HashableP", "setAffineTransform"]
+- !private ["s8HashableP", "setFill"]
+- !private ["s8HashableP", "setNeedsDisplay"]
+- !private ["s8HashableP", "shadowColor"]
+- !private ["s8HashableP", "sublayerTransform"]
+- !private ["s8HashableP", "toRadians"]
+- ["s8HashableP", "update"]
+- !private ["s8HashableP", "usesEvenOddFillRule"]
+- !private ["4Turf8JSONTypeP", "_getBuiltinLogicValue"]
+- !private ["4Turf8JSONTypeP", "init"]
+- !private ["4Turf8JSONTypeP", "toRadians"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "toRadians"]
+- !private ["So8NSCodingP", "CATransform3DIdentity"]
+- !private ["So8NSCodingP", "CATransform3DRotate"]
+- !private ["So8NSCodingP", "CATransform3DScale"]
+- !private ["So8NSCodingP", "CGAffineTransform"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CLLocationDegrees"]
+- !private ["So8NSCodingP", "UIBezierPath"]
+- ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "UserPuckStyleKitView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addCurve"]
+- !private ["So8NSCodingP", "addLine"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "close"]
+- !private ["So8NSCodingP", "commonInit"]
+- !private ["So8NSCodingP", "course"]
+- ["So8NSCodingP", "direction"]
+- !private ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "drawNavigation_puck"]
+- !private ["So8NSCodingP", "fill"]
+- !private ["So8NSCodingP", "fillColor"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "location"]
+- !private ["So8NSCodingP", "move"]
+- ["So8NSCodingP", "pitch"]
+- !private ["So8NSCodingP", "puckColor"]
+- !private ["So8NSCodingP", "puckView"]
+- !private ["So8NSCodingP", "setAffineTransform"]
+- !private ["So8NSCodingP", "setFill"]
+- !private ["So8NSCodingP", "setNeedsDisplay"]
+- !private ["So8NSCodingP", "shadowColor"]
+- !private ["So8NSCodingP", "sublayerTransform"]
+- ["So8NSCodingP", "update"]
+- !private ["So8NSCodingP", "usesEvenOddFillRule"]
+- !private ["So9NSCopyingP", "addCurve"]
+- !private ["So9NSCopyingP", "addLine"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "close"]
+- !private ["So9NSCopyingP", "course"]
+- !private ["So9NSCopyingP", "fill"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "move"]
+- !private ["So9NSCopyingP", "setFill"]
+- !private ["So9NSCopyingP", "usesEvenOddFillRule"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "setFill"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "setFill"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CATransform3DIdentity"]
+- !private ["So8NSObjectC", "CATransform3DRotate"]
+- !private ["So8NSObjectC", "CATransform3DScale"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationDegrees"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "UIBezierPath"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UserPuckStyleKitView"]
+- !private ["So8NSObjectC", "addCurve"]
+- !private ["So8NSObjectC", "addLine"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "applyDefaultUserPuckTransformation"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "close"]
+- ["So8NSObjectC", "commonInit"]
+- !private ["So8NSObjectC", "course"]
+- ["So8NSObjectC", "direction"]
+- ["So8NSObjectC", "draw"]
+- ["So8NSObjectC", "drawNavigation_puck"]
+- !private ["So8NSObjectC", "fill"]
+- ["So8NSObjectC", "fillColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "move"]
+- ["So8NSObjectC", "pitch"]
+- ["So8NSObjectC", "puckColor"]
+- ["So8NSObjectC", "puckView"]
+- !private ["So8NSObjectC", "setAffineTransform"]
+- !private ["So8NSObjectC", "setFill"]
+- !private ["So8NSObjectC", "setNeedsDisplay"]
+- ["So8NSObjectC", "shadowColor"]
+- !private ["So8NSObjectC", "sublayerTransform"]
+- ["So8NSObjectC", "update"]
+- !private ["So8NSObjectC", "usesEvenOddFillRule"]
+- !private ["So16NSObjectProtocolP", "CATransform3DIdentity"]
+- !private ["So16NSObjectProtocolP", "CATransform3DRotate"]
+- !private ["So16NSObjectProtocolP", "CATransform3DScale"]
+- !private ["So16NSObjectProtocolP", "CGAffineTransform"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "CLLocationDegrees"]
+- !private ["So16NSObjectProtocolP", "UIBezierPath"]
+- ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "UserPuckStyleKitView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addCurve"]
+- !private ["So16NSObjectProtocolP", "addLine"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "close"]
+- !private ["So16NSObjectProtocolP", "commonInit"]
+- !private ["So16NSObjectProtocolP", "course"]
+- ["So16NSObjectProtocolP", "direction"]
+- !private ["So16NSObjectProtocolP", "draw"]
+- !private ["So16NSObjectProtocolP", "drawNavigation_puck"]
+- !private ["So16NSObjectProtocolP", "fill"]
+- !private ["So16NSObjectProtocolP", "fillColor"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "move"]
+- ["So16NSObjectProtocolP", "pitch"]
+- !private ["So16NSObjectProtocolP", "puckColor"]
+- !private ["So16NSObjectProtocolP", "puckView"]
+- !private ["So16NSObjectProtocolP", "setAffineTransform"]
+- !private ["So16NSObjectProtocolP", "setFill"]
+- !private ["So16NSObjectProtocolP", "setNeedsDisplay"]
+- !private ["So16NSObjectProtocolP", "shadowColor"]
+- !private ["So16NSObjectProtocolP", "sublayerTransform"]
+- ["So16NSObjectProtocolP", "update"]
+- !private ["So16NSObjectProtocolP", "usesEvenOddFillRule"]
+- !private ["So14NSSecureCodingP", "addCurve"]
+- !private ["So14NSSecureCodingP", "addLine"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "close"]
+- !private ["So14NSSecureCodingP", "course"]
+- !private ["So14NSSecureCodingP", "fill"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "move"]
+- !private ["So14NSSecureCodingP", "setAffineTransform"]
+- !private ["So14NSSecureCodingP", "setFill"]
+- !private ["So14NSSecureCodingP", "sublayerTransform"]
+- !private ["So14NSSecureCodingP", "usesEvenOddFillRule"]
+- !private ["s7NumericP", "init"]
+- !private ["s7NumericP", "toRadians"]
+- !private ["s9OptionSetP", "beginFromCurrentState"]
+- !private ["s9OptionSetP", "curveLinear"]
+- !private ["Sq", "clear"]
+- !private ["Sq", "toRadians"]
+- !private ["s16RawRepresentableP", "beginFromCurrentState"]
+- !private ["s16RawRepresentableP", "curveLinear"]
+- !private ["s10SetAlgebraP", "beginFromCurrentState"]
+- !private ["s10SetAlgebraP", "curveLinear"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "toRadians"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "toRadians"]
+- !private ["So29UIAccessibilityIdentificationP", "CATransform3DIdentity"]
+- !private ["So29UIAccessibilityIdentificationP", "CATransform3DRotate"]
+- !private ["So29UIAccessibilityIdentificationP", "CATransform3DScale"]
+- !private ["So29UIAccessibilityIdentificationP", "CGAffineTransform"]
+- !private ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- !private ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "CLLocationDegrees"]
+- !private ["So29UIAccessibilityIdentificationP", "UIBezierPath"]
+- ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "UserPuckStyleKitView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "commonInit"]
+- ["So29UIAccessibilityIdentificationP", "direction"]
+- !private ["So29UIAccessibilityIdentificationP", "draw"]
+- !private ["So29UIAccessibilityIdentificationP", "drawNavigation_puck"]
+- !private ["So29UIAccessibilityIdentificationP", "fillColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "location"]
+- ["So29UIAccessibilityIdentificationP", "pitch"]
+- !private ["So29UIAccessibilityIdentificationP", "puckColor"]
+- !private ["So29UIAccessibilityIdentificationP", "puckView"]
+- !private ["So29UIAccessibilityIdentificationP", "setNeedsDisplay"]
+- !private ["So29UIAccessibilityIdentificationP", "shadowColor"]
+- ["So29UIAccessibilityIdentificationP", "update"]
+- !private ["So12UIAppearanceP", "CATransform3DIdentity"]
+- !private ["So12UIAppearanceP", "CATransform3DRotate"]
+- !private ["So12UIAppearanceP", "CATransform3DScale"]
+- !private ["So12UIAppearanceP", "CGAffineTransform"]
+- !private ["So12UIAppearanceP", "CGFloat"]
+- !private ["So12UIAppearanceP", "CGPoint"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "CLLocationDegrees"]
+- !private ["So12UIAppearanceP", "UIBezierPath"]
+- ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "UserPuckStyleKitView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "commonInit"]
+- ["So12UIAppearanceP", "direction"]
+- !private ["So12UIAppearanceP", "draw"]
+- !private ["So12UIAppearanceP", "drawNavigation_puck"]
+- !private ["So12UIAppearanceP", "fillColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "location"]
+- ["So12UIAppearanceP", "pitch"]
+- !private ["So12UIAppearanceP", "puckColor"]
+- !private ["So12UIAppearanceP", "puckView"]
+- !private ["So12UIAppearanceP", "setNeedsDisplay"]
+- !private ["So12UIAppearanceP", "shadowColor"]
+- ["So12UIAppearanceP", "update"]
+- !private ["So21UIAppearanceContainerP", "CATransform3DIdentity"]
+- !private ["So21UIAppearanceContainerP", "CATransform3DRotate"]
+- !private ["So21UIAppearanceContainerP", "CATransform3DScale"]
+- !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "CLLocationDegrees"]
+- !private ["So21UIAppearanceContainerP", "UIBezierPath"]
+- ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "UserPuckStyleKitView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "commonInit"]
+- ["So21UIAppearanceContainerP", "direction"]
+- !private ["So21UIAppearanceContainerP", "draw"]
+- !private ["So21UIAppearanceContainerP", "drawNavigation_puck"]
+- !private ["So21UIAppearanceContainerP", "fillColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "location"]
+- ["So21UIAppearanceContainerP", "pitch"]
+- !private ["So21UIAppearanceContainerP", "puckColor"]
+- !private ["So21UIAppearanceContainerP", "puckView"]
+- !private ["So21UIAppearanceContainerP", "setNeedsDisplay"]
+- !private ["So21UIAppearanceContainerP", "shadowColor"]
+- ["So21UIAppearanceContainerP", "update"]
+- !private ["So12UIBezierPathC", "addCurve"]
+- !private ["So12UIBezierPathC", "addLine"]
+- !private ["So12UIBezierPathC", "close"]
+- !private ["So12UIBezierPathC", "fill"]
+- !private ["So12UIBezierPathC", "init"]
+- !private ["So12UIBezierPathC", "move"]
+- !private ["So12UIBezierPathC", "usesEvenOddFillRule"]
+- !private ["So7UIColorC", "clear"]
+- ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "setFill"]
+- !private ["So17UICoordinateSpaceP", "CATransform3DIdentity"]
+- !private ["So17UICoordinateSpaceP", "CATransform3DRotate"]
+- !private ["So17UICoordinateSpaceP", "CATransform3DScale"]
+- !private ["So17UICoordinateSpaceP", "CGAffineTransform"]
+- !private ["So17UICoordinateSpaceP", "CGFloat"]
+- !private ["So17UICoordinateSpaceP", "CGPoint"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "CLLocationDegrees"]
+- !private ["So17UICoordinateSpaceP", "UIBezierPath"]
+- ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "UserPuckStyleKitView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "commonInit"]
+- ["So17UICoordinateSpaceP", "direction"]
+- !private ["So17UICoordinateSpaceP", "draw"]
+- !private ["So17UICoordinateSpaceP", "drawNavigation_puck"]
+- !private ["So17UICoordinateSpaceP", "fillColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "location"]
+- ["So17UICoordinateSpaceP", "pitch"]
+- !private ["So17UICoordinateSpaceP", "puckColor"]
+- !private ["So17UICoordinateSpaceP", "puckView"]
+- !private ["So17UICoordinateSpaceP", "setNeedsDisplay"]
+- !private ["So17UICoordinateSpaceP", "shadowColor"]
+- ["So17UICoordinateSpaceP", "update"]
+- !private ["So13UIDynamicItemP", "CATransform3DIdentity"]
+- !private ["So13UIDynamicItemP", "CATransform3DRotate"]
+- !private ["So13UIDynamicItemP", "CATransform3DScale"]
+- !private ["So13UIDynamicItemP", "CGAffineTransform"]
+- !private ["So13UIDynamicItemP", "CGFloat"]
+- !private ["So13UIDynamicItemP", "CGPoint"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "CLLocationDegrees"]
+- !private ["So13UIDynamicItemP", "UIBezierPath"]
+- ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "UserPuckStyleKitView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "commonInit"]
+- ["So13UIDynamicItemP", "direction"]
+- !private ["So13UIDynamicItemP", "draw"]
+- !private ["So13UIDynamicItemP", "drawNavigation_puck"]
+- !private ["So13UIDynamicItemP", "fillColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "location"]
+- ["So13UIDynamicItemP", "pitch"]
+- !private ["So13UIDynamicItemP", "puckColor"]
+- !private ["So13UIDynamicItemP", "puckView"]
+- !private ["So13UIDynamicItemP", "setNeedsDisplay"]
+- !private ["So13UIDynamicItemP", "shadowColor"]
+- ["So13UIDynamicItemP", "update"]
+- !private ["So18UIFocusEnvironmentP", "CATransform3DIdentity"]
+- !private ["So18UIFocusEnvironmentP", "CATransform3DRotate"]
+- !private ["So18UIFocusEnvironmentP", "CATransform3DScale"]
+- !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationDegrees"]
+- !private ["So18UIFocusEnvironmentP", "UIBezierPath"]
+- ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "UserPuckStyleKitView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "commonInit"]
+- ["So18UIFocusEnvironmentP", "direction"]
+- !private ["So18UIFocusEnvironmentP", "draw"]
+- !private ["So18UIFocusEnvironmentP", "drawNavigation_puck"]
+- !private ["So18UIFocusEnvironmentP", "fillColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "location"]
+- ["So18UIFocusEnvironmentP", "pitch"]
+- !private ["So18UIFocusEnvironmentP", "puckColor"]
+- !private ["So18UIFocusEnvironmentP", "puckView"]
+- !private ["So18UIFocusEnvironmentP", "setNeedsDisplay"]
+- !private ["So18UIFocusEnvironmentP", "shadowColor"]
+- ["So18UIFocusEnvironmentP", "update"]
+- !private ["So11UIFocusItemP", "CATransform3DIdentity"]
+- !private ["So11UIFocusItemP", "CATransform3DRotate"]
+- !private ["So11UIFocusItemP", "CATransform3DScale"]
+- !private ["So11UIFocusItemP", "CGAffineTransform"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "CGPoint"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "CLLocationDegrees"]
+- !private ["So11UIFocusItemP", "UIBezierPath"]
+- ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "UserPuckStyleKitView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "commonInit"]
+- ["So11UIFocusItemP", "direction"]
+- !private ["So11UIFocusItemP", "draw"]
+- !private ["So11UIFocusItemP", "drawNavigation_puck"]
+- !private ["So11UIFocusItemP", "fillColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "location"]
+- ["So11UIFocusItemP", "pitch"]
+- !private ["So11UIFocusItemP", "puckColor"]
+- !private ["So11UIFocusItemP", "puckView"]
+- !private ["So11UIFocusItemP", "setNeedsDisplay"]
+- !private ["So11UIFocusItemP", "shadowColor"]
+- ["So11UIFocusItemP", "update"]
+- !private ["So30UIPasteConfigurationSupportingP", "CATransform3DIdentity"]
+- !private ["So30UIPasteConfigurationSupportingP", "CATransform3DRotate"]
+- !private ["So30UIPasteConfigurationSupportingP", "CATransform3DScale"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGAffineTransform"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationDegrees"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBezierPath"]
+- ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserPuckStyleKitView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "commonInit"]
+- ["So30UIPasteConfigurationSupportingP", "direction"]
+- !private ["So30UIPasteConfigurationSupportingP", "draw"]
+- !private ["So30UIPasteConfigurationSupportingP", "drawNavigation_puck"]
+- !private ["So30UIPasteConfigurationSupportingP", "fillColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "location"]
+- ["So30UIPasteConfigurationSupportingP", "pitch"]
+- !private ["So30UIPasteConfigurationSupportingP", "puckColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "puckView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNeedsDisplay"]
+- !private ["So30UIPasteConfigurationSupportingP", "shadowColor"]
+- ["So30UIPasteConfigurationSupportingP", "update"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CATransform3DIdentity"]
+- !private ["So11UIResponderC", "CATransform3DRotate"]
+- !private ["So11UIResponderC", "CATransform3DScale"]
+- !private ["So11UIResponderC", "CGAffineTransform"]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CLLocation"]
+- ["So11UIResponderC", "CLLocationDegrees"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "TimeInterval"]
+- !private ["So11UIResponderC", "UIBezierPath"]
+- ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "UserPuckStyleKitView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "applyDefaultUserPuckTransformation"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "bounds"]
+- ["So11UIResponderC", "commonInit"]
+- ["So11UIResponderC", "direction"]
+- ["So11UIResponderC", "draw"]
+- ["So11UIResponderC", "drawNavigation_puck"]
+- ["So11UIResponderC", "fillColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "location"]
+- ["So11UIResponderC", "pitch"]
+- ["So11UIResponderC", "puckColor"]
+- ["So11UIResponderC", "puckView"]
+- !private ["So11UIResponderC", "setNeedsDisplay"]
+- ["So11UIResponderC", "shadowColor"]
+- ["So11UIResponderC", "update"]
+- !private ["So30UIResponderStandardEditActionsP", "CATransform3DIdentity"]
+- !private ["So30UIResponderStandardEditActionsP", "CATransform3DRotate"]
+- !private ["So30UIResponderStandardEditActionsP", "CATransform3DScale"]
+- !private ["So30UIResponderStandardEditActionsP", "CGAffineTransform"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationDegrees"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBezierPath"]
+- ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "UserPuckStyleKitView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "commonInit"]
+- ["So30UIResponderStandardEditActionsP", "direction"]
+- !private ["So30UIResponderStandardEditActionsP", "draw"]
+- !private ["So30UIResponderStandardEditActionsP", "drawNavigation_puck"]
+- !private ["So30UIResponderStandardEditActionsP", "fillColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "location"]
+- ["So30UIResponderStandardEditActionsP", "pitch"]
+- !private ["So30UIResponderStandardEditActionsP", "puckColor"]
+- !private ["So30UIResponderStandardEditActionsP", "puckView"]
+- !private ["So30UIResponderStandardEditActionsP", "setNeedsDisplay"]
+- !private ["So30UIResponderStandardEditActionsP", "shadowColor"]
+- ["So30UIResponderStandardEditActionsP", "update"]
+- !private ["So18UITraitEnvironmentP", "CATransform3DIdentity"]
+- !private ["So18UITraitEnvironmentP", "CATransform3DRotate"]
+- !private ["So18UITraitEnvironmentP", "CATransform3DScale"]
+- !private ["So18UITraitEnvironmentP", "CGAffineTransform"]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "CLLocationDegrees"]
+- !private ["So18UITraitEnvironmentP", "UIBezierPath"]
+- ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "UserPuckStyleKitView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "commonInit"]
+- ["So18UITraitEnvironmentP", "direction"]
+- !private ["So18UITraitEnvironmentP", "draw"]
+- !private ["So18UITraitEnvironmentP", "drawNavigation_puck"]
+- !private ["So18UITraitEnvironmentP", "fillColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "location"]
+- ["So18UITraitEnvironmentP", "pitch"]
+- !private ["So18UITraitEnvironmentP", "puckColor"]
+- !private ["So18UITraitEnvironmentP", "puckView"]
+- !private ["So18UITraitEnvironmentP", "setNeedsDisplay"]
+- !private ["So18UITraitEnvironmentP", "shadowColor"]
+- ["So18UITraitEnvironmentP", "update"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "CATransform3DIdentity"]
+- !private ["So6UIViewC", "CATransform3DRotate"]
+- !private ["So6UIViewC", "CATransform3DScale"]
+- !private ["So6UIViewC", "CGAffineTransform"]
+- ["So6UIViewC", "CGFloat"]
+- !private ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CLLocation"]
+- ["So6UIViewC", "CLLocationDegrees"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "TimeInterval"]
+- !private ["So6UIViewC", "UIBezierPath"]
+- ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "UIView"]
+- ["So6UIViewC", "UserPuckStyleKitView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "animate"]
+- ["So6UIViewC", "applyDefaultUserPuckTransformation"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "bounds"]
+- ["So6UIViewC", "commonInit"]
+- ["So6UIViewC", "direction"]
+- ["So6UIViewC", "draw"]
+- ["So6UIViewC", "drawNavigation_puck"]
+- ["So6UIViewC", "fillColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "location"]
+- ["So6UIViewC", "pitch"]
+- ["So6UIViewC", "puckColor"]
+- ["So6UIViewC", "puckView"]
+- !private ["So6UIViewC", "setNeedsDisplay"]
+- ["So6UIViewC", "shadowColor"]
+- ["So6UIViewC", "update"]
+- !private ["SC22UIViewAnimationOptionsV", "beginFromCurrentState"]
+- !private ["SC22UIViewAnimationOptionsV", "curveLinear"]
+- ["16MapboxNavigation14UserCourseViewP", "Bool"]
+- !private ["16MapboxNavigation14UserCourseViewP", "CATransform3DIdentity"]
+- !private ["16MapboxNavigation14UserCourseViewP", "CATransform3DRotate"]
+- !private ["16MapboxNavigation14UserCourseViewP", "CATransform3DScale"]
+- !private ["16MapboxNavigation14UserCourseViewP", "CGAffineTransform"]
+- ["16MapboxNavigation14UserCourseViewP", "CGFloat"]
+- ["16MapboxNavigation14UserCourseViewP", "CLLocation"]
+- ["16MapboxNavigation14UserCourseViewP", "CLLocationDegrees"]
+- ["16MapboxNavigation14UserCourseViewP", "Self"]
+- ["16MapboxNavigation14UserCourseViewP", "UIView"]
+- !private ["16MapboxNavigation14UserCourseViewP", "UserPuckStyleKitView"]
+- ["16MapboxNavigation14UserCourseViewP", ""]
+- !private ["16MapboxNavigation14UserCourseViewP", "addSubview"]
+- !private ["16MapboxNavigation14UserCourseViewP", "backgroundColor"]
+- !private ["16MapboxNavigation14UserCourseViewP", "bounds"]
+- !private ["16MapboxNavigation14UserCourseViewP", "commonInit"]
+- ["16MapboxNavigation14UserCourseViewP", "direction"]
+- !private ["16MapboxNavigation14UserCourseViewP", "fillColor"]
+- !private ["16MapboxNavigation14UserCourseViewP", "layer"]
+- ["16MapboxNavigation14UserCourseViewP", "location"]
+- ["16MapboxNavigation14UserCourseViewP", "pitch"]
+- !private ["16MapboxNavigation14UserCourseViewP", "puckColor"]
+- !private ["16MapboxNavigation14UserCourseViewP", "puckView"]
+- !private ["16MapboxNavigation14UserCourseViewP", "shadowColor"]
+- ["16MapboxNavigation14UserCourseViewP", "update"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "Bool"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "CATransform3DIdentity"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "CATransform3DRotate"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "CATransform3DScale"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "CGAffineTransform"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "CGFloat"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "CGRect"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "CLLocation"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "CLLocationDegrees"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "NSCoder"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "TimeInterval"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "UIColor"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "UIView"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "UserPuckStyleKitView"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "addSubview"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "backgroundColor"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "bounds"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "commonInit"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "deinit"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "direction"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "fillColor"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "init"]
+- !private ["16MapboxNavigation18UserPuckCourseViewC", "layer"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "location"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "pitch"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "puckColor"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "puckView"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "shadowColor"]
+- ["16MapboxNavigation18UserPuckCourseViewC", "update"]
+- !private ["16MapboxNavigation20UserPuckStyleKitViewC", "CGPoint"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "CGRect"]
+- !private ["16MapboxNavigation20UserPuckStyleKitViewC", "UIBezierPath"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "UIColor"]
+- !private ["16MapboxNavigation20UserPuckStyleKitViewC", "backgroundColor"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "deinit"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "draw"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "drawNavigation_puck"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "fillColor"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "init"]
+- !private ["16MapboxNavigation20UserPuckStyleKitViewC", "layer"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "puckColor"]
+- !private ["16MapboxNavigation20UserPuckStyleKitViewC", "setNeedsDisplay"]
+- ["16MapboxNavigation20UserPuckStyleKitViewC", "shadowColor"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "toRadians"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "toRadians"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CATransform3DIdentity"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CATransform3DRotate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CATransform3DScale"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGAffineTransform"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CLLocationDegrees"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIBezierPath"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UserPuckStyleKitView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "commonInit"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "direction"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "draw"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "drawNavigation_puck"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fillColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "location"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "pitch"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "puckColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "puckView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsDisplay"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "shadowColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "update"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "toRadians"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "toRadians"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DIdentity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DRotate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CATransform3DScale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationDegrees"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBezierPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserPuckStyleKitView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCurve"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "close"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commonInit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "course"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawNavigation_puck"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "move"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pitch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "puckColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "puckView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sublayerTransform"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesEvenOddFillRule"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "identity"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "m34"]
+- !private ["s21_ObjectiveCBridgeableP", "rotated"]
+- !private ["s21_ObjectiveCBridgeableP", "toRadians"]
+depends-nominal:
+- "16MapboxNavigation10AnchorableP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC13CATransform3DV"
+- !private "SC17CGAffineTransformV"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "So10CLLocationC"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "4Turf8JSONTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "s16RawRepresentableP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBezierPathC"
+- "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "SC22UIViewAnimationOptionsV"
+- "16MapboxNavigation14UserCourseViewP"
+- "16MapboxNavigation18UserPuckCourseViewC"
+- "16MapboxNavigation20UserPuckStyleKitViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Modules/Polyline.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Modules/Turf.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Modules/MapboxSpeech.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Modules/MapboxCoreNavigation.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Modules/Solar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Modules/MapboxDirections.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/NSData+MMEGZIP.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Polyline/Polyline-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Turf/Turf-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxSpeech/MapboxSpeech-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxCoreNavigation/MapboxCoreNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxNavigation/MapboxNavigation-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/Solar/Solar-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxMobileEvents/MapboxMobileEvents-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Target Support Files/MapboxDirections.swift/MapboxDirections.swift-umbrella.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapCamera.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECommonEventData.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsService.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterDEMSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLImageSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorTileSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLComputedShapeSource.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationImage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineStorage.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKSPKIHashCache.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyle.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Polyline/Polyline/Polyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolyline.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShape.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFeature.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapViewDelegate.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator_Private.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBAttribute.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleValue.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Turf/Sources/Turf/Turf.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustKitConfig.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKLog.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxSpeech/MapboxSpeech/MapboxSpeech.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflinePack.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorCallback.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/TSKPublicKeyAlgorithm.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPolygon.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKTrustDecision.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBLaneIndication.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFoundation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUINavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MapboxCoreNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MapboxNavigation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsConfiguration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/parse_configuration.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointAnnotation.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLShapeCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLPointCollection.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCameraChangeReason.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAttributionInfo.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMECategoryLoader.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMELocationManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETimerManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventsManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAccountManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEDependencyManager.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogger.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Pinning/ssl_pin_verifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUniqueIdentifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/vendor_identifier.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MBRouteVoiceController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBRouteController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEventLogReportViewController.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSDateWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMENSURLSessionWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEUIApplicationWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETrustKitWrapper.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKReportsRateLimiter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKBackgroundReporter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLDistanceFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCoordinateFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLClockDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapSnapshotter.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLForegroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCircleStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLineStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLSymbolStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLRasterStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLVectorStyleLayer.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidator.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMETypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLTypes.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRoadClasses.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxCoreNavigation/MapboxCoreNavigation/MBNavigationSettings.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/reporting_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/configuration_utils.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MapboxDirections.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView+IBAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSValue+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/NSExpression+MGLAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxNavigation/MapboxNavigation/MGLMapView+MGLNavigationAdditions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxDirections.swift/MapboxDirections/MBRouteOptions.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEConstants.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MapboxMobileEvents.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Polyline/Polyline.framework/Headers/Polyline-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Turf/Turf.framework/Headers/Turf-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxSpeech/MapboxSpeech.framework/Headers/MapboxSpeech-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers/MapboxCoreNavigation-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/Solar/Solar.framework/Headers/Solar-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Products/Debug-iphonesimulator/MapboxDirections.swift/MapboxDirections.framework/Headers/MapboxDirections-Swift.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLLight.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TrustKit.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/TSKPinningValidatorResult.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEAPIClient.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/MMEEvent.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMultiPoint.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/vendor/TrustKit/Reporting/TSKPinFailureReport.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLMapView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLCalloutView.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/Mapbox.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLOverlay.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Headers/MGLGeometry.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/MapboxMobileEvents/MapboxMobileEvents/Reachability/MMEReachability.h"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxNavigation.build/unextended-module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Polyline.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Turf.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxSpeech.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxCoreNavigation.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Solar.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxMobileEvents.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Build/Intermediates/Pods.build/Debug-iphonesimulator/MapboxDirections.swift.build/module.modulemap"
+- "/Users/Lorenzo/Desktop/EO18_2/Pods/Mapbox-iOS-SDK/dynamic/Mapbox.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "e998c6149ad6bcb76d05711507c34df7"

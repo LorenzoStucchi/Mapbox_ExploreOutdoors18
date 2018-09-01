@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "dd4950af0346a6400fc248a6b1dffa3a"
+build_time: [1535745841, 580714000]
+inputs:
+  "/Users/Lorenzo/Desktop/EO18_2/EO18_2/ViewController.swift": [1535745841, 0]
+  "/Users/Lorenzo/Desktop/EO18_2/EO18_2/AppDelegate.swift": [1535744364, 0]
