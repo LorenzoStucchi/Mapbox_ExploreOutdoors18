@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet'/>
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="main.css" type="text/css">
@@ -28,103 +27,183 @@
 
 <body>
 
+<!-- Navigation bar -->
+<div class="nav-menu fixed-top">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <nav class="navbar navbar-dark navbar-expand-md">
+
+                    <a class="navbar-brand"></a>
+
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbar"
+                            aria-controls="navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#exp">My experience</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#first-week">First week</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#second-week">Second week</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#third-week">Third week</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#final">Final consideration</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
 <header class="header-bg">
 
     <div class="container header-content">
 
         <h1>My experience in ExploreOutdoors18 by Mapbox</h1>
         <div class="line-shape-heading"></div>
-
     </div>
 
 </header>
 
-<!-- Project description -->
 <div class="section-padding">
 
     <div class="container">
 
         <div class="text">
 
-            <div class="row">
+            <div class="row"  id="exp">
                 <div class="col-12">
                     <div class="section-heading first-heading text-center">
                         <h2>My experience</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
+
+
+                <p>
+                    +
+                </p>
             </div>
 
-            <p>
-                +
-            </p>
 
-
-            <div class="row">
+            <div class="row" id="first-week">
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <h2>First week: Build a map of your favorite hometown spots</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
+
+
+                <p>
+                    +
+                </p>
+                <div id='map'></div>
             </div>
 
-            <p>
-                +
-            </p>
-            <div id='map'></div>
 
-
-            <div class="row">
+            <div class="row" id="second-week">
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <h2>Second week: Help people navigate to your favorite spots</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
+
+                <p>
+                    +
+                </p>
+
+                <div class="py-5 text-center pattern">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 px-5 my-3">
+                                <div class="card my-1">
+                                    <img class="img-fluid d-block" src="imm/imm1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-5 my-3">
+                                <div class="card my-1">
+                                    <img class="img-fluid d-block" src="imm/imm2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <script src="https://gist.github.com/LorenzoStucchi/e7028097566d677fd03b71662d68110a.js"></script>
+                </div>
             </div>
 
-            <p>
-                +
-            </p>
-            <!--<a class="image fitleft" href="imm/imm1.png" ><img src="imm/imm1.png" alt /></a>
-            <a class="image fitright" href="imm/imm2.png" ><img src="imm/imm2.png" alt /></a> -->
-
-            <script id="gigi" src="https://gist.github.com/LorenzoStucchi/e7028097566d677fd03b71662d68110a.js"></script>
-
-
-            <div class="row">
+            <div class="row" id="third-week">
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <h2>Third week: Build a 3D visualization of your hometown map </h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
-            </div>
 
-            <p>
-                +
-            </p>
+                <p>
+                    +
+                </p>
 
-            <script id= "gigi" src="https://gist.github.com/LorenzoStucchi/6aa1d6f3444824800ab5b06fce9b7674.js"></script>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2>Final consideration </h2>
-                        <div class="line-shape"></div>
-                    </div>
+                <div>
+                    <script src="https://gist.github.com/LorenzoStucchi/6aa1d6f3444824800ab5b06fce9b7674.js"></script>
                 </div>
             </div>
 
-            <p>
-                As I told before I liked very much this challenges but I'm not American so I can't be part of this
-                contest so thanks very much Mapbox for this experience and good luck to all the other participants!
-            </p>
+            <div class="row" id="final">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Final consideration</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+
+                <p>
+                    As I told before I liked very much this challenges but I'm not American so I can't be part of this
+                    contest so thanks very much Mapbox for this experience and good luck to all the other participants!
+                </p>
+            </div>
         </div>
     </div>
 </div>
-
 
 
 <!-- jQuery 3.3.1 -->
@@ -153,37 +232,8 @@
     });
 </script>
 
+<script src="navbar.js" type="text/javascript"></script>
+
 </body>
 
 </html>
-
-<!--
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8' />
-    <title>Display a map</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
-</head>
-<body>
-
-<div id='map'></div>
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoibG9yZW56b3N0dWNjaGkiLCJhIjoiY2poOHkxbDV3MDZ6YjMwbzM2M2R1MjYxeiJ9._wsXJw4kbG-02Bhh9EXNQg';
-    const map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/lorenzostucchi/cjklalqeq2z9k2smshd5ntvlg',
-        center: [9.322747, 44.315954],
-        zoom: 15.0
-    });
-</script>
-
-</body>
-</html>
--->
