@@ -220,6 +220,7 @@ h1 {
 .nav-menu {
     padding: 1rem 0;
     transition: al 0.3s ease;
+    background: #161c5e;
 }
 
 .nav-menu.is-scrolling,
